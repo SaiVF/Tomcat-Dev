@@ -1,0 +1,521 @@
+13-Dec-2021 09:50:56.512 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 09:50:58.412 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 09:50:59.950 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 09:51:29.212 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 09:51:30.497 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 09:51:31.850 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 09:51:54.807 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 09:51:56.262 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 09:51:57.102 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 09:52:27.763 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 09:52:28.985 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 09:52:29.744 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 09:52:42.538 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 09:52:43.626 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 09:52:44.441 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 09:53:36.015 INFORMACIÓN [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 09:53:36.139 INFORMACIÓN [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 09:53:51.283 INFORMACIÓN [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 09:53:52.697 INFORMACIÓN [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 09:53:53.597 INFORMACIÓN [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 10:42:30.346 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 10:42:30.947 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 10:42:31.295 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 10:42:31.463 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 10:42:32.401 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 10:42:32.443 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 10:42:32.757 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 10:42:32.883 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 10:42:33.076 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 10:42:33.270 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 10:46:45.398 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 10:46:46.536 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 10:46:47.312 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 10:47:07.434 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 10:47:08.133 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 10:47:08.817 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 10:47:21.947 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 10:47:22.656 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 10:47:23.068 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 10:47:40.966 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 10:47:41.596 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 10:47:42.020 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 10:47:49.322 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 10:47:50.216 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 10:47:50.648 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 10:47:58.772 INFORMACIÓN [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 10:47:58.981 INFORMACIÓN [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 10:48:08.196 INFORMACIÓN [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 10:48:09.027 INFORMACIÓN [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 10:48:09.506 INFORMACIÓN [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 11:27:19.380 INFORMACIÓN [http-nio-8080-exec-38] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 11:27:19.938 INFORMACIÓN [http-nio-8080-exec-38] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 11:27:27.353 INFORMACIÓN [http-nio-8080-exec-40] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 11:27:27.995 INFORMACIÓN [http-nio-8080-exec-40] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 11:27:28.386 INFORMACIÓN [http-nio-8080-exec-40] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 11:27:32.655 INFORMACIÓN [http-nio-8080-exec-37] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 11:27:33.290 INFORMACIÓN [http-nio-8080-exec-37] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 11:27:40.247 INFORMACIÓN [http-nio-8080-exec-32] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 11:27:40.841 INFORMACIÓN [http-nio-8080-exec-32] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 11:27:41.204 INFORMACIÓN [http-nio-8080-exec-32] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:05:03.369 INFORMACIÓN [http-nio-8080-exec-49] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:05:04.210 INFORMACIÓN [http-nio-8080-exec-49] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 15:05:19.814 INFORMACIÓN [http-nio-8080-exec-49] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 15:05:20.766 INFORMACIÓN [http-nio-8080-exec-49] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 15:05:21.598 INFORMACIÓN [http-nio-8080-exec-49] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:05:56.424 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:05:56.536 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 15:05:56.639 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:05:56.650 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 15:05:57.012 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:06:00.873 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 15:06:01.002 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:06:02.355 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 15:06:02.470 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:06:02.519 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 15:11:03.672 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 15:11:04.654 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 15:11:05.450 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:11:30.981 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 15:11:31.664 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 15:11:32.094 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:11:45.587 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 15:11:46.508 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 15:11:46.927 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:12:05.501 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 15:12:06.114 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 15:12:06.521 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:12:13.240 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 15:12:13.846 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 15:12:14.312 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:12:22.945 INFORMACIÓN [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:12:23.140 INFORMACIÓN [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 15:12:31.367 INFORMACIÓN [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 15:12:32.143 INFORMACIÓN [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 15:12:32.623 INFORMACIÓN [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:15:38.480 INFORMACIÓN [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:15:39.592 INFORMACIÓN [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 15:15:52.853 INFORMACIÓN [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 15:15:53.707 INFORMACIÓN [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 15:15:54.689 INFORMACIÓN [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:15:59.321 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:15:59.641 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 15:15:59.669 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:15:59.726 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 15:15:59.812 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:15:59.924 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 15:15:59.946 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:16:00.007 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 15:16:47.303 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 15:16:48.365 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 15:16:49.160 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:17:09.151 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 15:17:09.904 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 15:17:10.613 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:17:23.131 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 15:17:23.936 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 15:17:24.447 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:17:41.138 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 15:17:41.708 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 15:17:42.139 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:17:49.594 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 15:17:50.219 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 15:17:50.726 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:17:58.270 INFORMACIÓN [http-nio-8080-exec-49] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:17:58.928 INFORMACIÓN [http-nio-8080-exec-49] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 15:18:15.948 INFORMACIÓN [http-nio-8080-exec-35] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 15:18:17.067 INFORMACIÓN [http-nio-8080-exec-35] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 15:18:18.069 INFORMACIÓN [http-nio-8080-exec-35] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:19:16.934 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:19:16.992 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 15:19:17.024 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:19:17.040 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 15:19:17.114 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:19:20.182 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 15:19:20.381 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:19:20.451 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 15:19:20.471 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:19:20.520 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 15:23:13.383 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 15:23:14.410 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 15:23:15.196 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:23:33.573 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 15:23:34.283 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 15:23:34.940 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:23:52.197 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 15:23:53.564 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 15:23:54.774 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:24:18.847 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 15:24:19.385 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 15:24:19.794 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:24:26.460 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 15:24:26.994 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 15:24:27.393 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:24:34.869 INFORMACIÓN [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 15:24:35.082 INFORMACIÓN [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 15:24:42.713 INFORMACIÓN [http-nio-8080-exec-28] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 15:24:43.484 INFORMACIÓN [http-nio-8080-exec-28] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 15:24:43.905 INFORMACIÓN [http-nio-8080-exec-28] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 16:04:54.116 GRAVE [http-nio-8080-exec-38] org.apache.catalina.core.ApplicationDispatcher.invoke El Servlet.service() para servlet jsp lanzó una excepción
+ java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'userInfo' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:141)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:179)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:165)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:128)
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:421)
+	at org.springframework.web.servlet.tags.form.HiddenInputTag.writeTagContent(HiddenInputTag.java:77)
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:103)
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:80)
+	at org.apache.jsp.WEB_002dINF.views.commons.login_jsp._jspx_meth_sf_005fhidden_005f0(login_jsp.java:460)
+	at org.apache.jsp.WEB_002dINF.views.commons.login_jsp._jspService(login_jsp.java:282)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:394)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:238)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:264)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1208)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:992)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:939)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:920)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:816)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:801)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+13-Dec-2021 16:04:54.117 GRAVE [http-nio-8080-exec-38] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [appServlet] en el contexto con ruta [/fielcorresponsal] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP /WEB-INF/views/commons/login.jsp en línea 64
+
+61:                                 <sf:errors path="password" cssClass="error"/>
+62:                             </div>
+63:                             <div>
+64:                                 <sf:hidden path="userName" class="form-control" name="userName" id="userName"/>
+65:                                 <sf:hidden path="fingerPrint" class="form-control" name="fingerprint" id="fingerprint"/>
+66:                                 <sf:hidden path="fingerPrintComponents" class="form-control" name="deviceInfo"
+67:                                            id="deviceInfo"/>
+
+
+Stacktrace:] con causa raíz
+ java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'userInfo' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:141)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:179)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:165)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:128)
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:421)
+	at org.springframework.web.servlet.tags.form.HiddenInputTag.writeTagContent(HiddenInputTag.java:77)
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:103)
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:80)
+	at org.apache.jsp.WEB_002dINF.views.commons.login_jsp._jspx_meth_sf_005fhidden_005f0(login_jsp.java:460)
+	at org.apache.jsp.WEB_002dINF.views.commons.login_jsp._jspService(login_jsp.java:282)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:394)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:238)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:264)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1208)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:992)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:939)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:920)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:816)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:801)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+13-Dec-2021 16:06:16.531 INFORMACIÓN [http-nio-8080-exec-36] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 16:06:17.185 INFORMACIÓN [http-nio-8080-exec-36] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 16:06:24.426 INFORMACIÓN [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 16:06:25.052 INFORMACIÓN [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 16:06:25.464 INFORMACIÓN [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 16:37:46.416 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 16:37:47.408 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 16:37:48.133 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 16:38:05.135 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 16:38:05.675 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 16:38:06.213 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 16:38:17.299 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 16:38:18.088 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 16:38:18.542 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 16:38:34.655 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 16:38:35.170 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 16:38:35.543 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 16:38:41.959 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 16:38:42.526 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 16:38:42.917 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 16:39:15.014 INFORMACIÓN [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 16:39:15.153 INFORMACIÓN [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 16:39:22.002 INFORMACIÓN [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 16:39:22.735 INFORMACIÓN [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 16:39:23.129 INFORMACIÓN [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 17:12:34.817 GRAVE [http-nio-8080-exec-37] org.apache.catalina.core.ApplicationDispatcher.invoke El Servlet.service() para servlet jsp lanzó una excepción
+ java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'userInfo' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:141)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:179)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:165)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:128)
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:421)
+	at org.springframework.web.servlet.tags.form.HiddenInputTag.writeTagContent(HiddenInputTag.java:77)
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:103)
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:80)
+	at org.apache.jsp.WEB_002dINF.views.commons.login_jsp._jspx_meth_sf_005fhidden_005f0(login_jsp.java:460)
+	at org.apache.jsp.WEB_002dINF.views.commons.login_jsp._jspService(login_jsp.java:282)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:394)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:238)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:264)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1208)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:992)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:939)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:920)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:816)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:801)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+13-Dec-2021 17:12:34.818 GRAVE [http-nio-8080-exec-37] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [appServlet] en el contexto con ruta [/fielcorresponsal] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP /WEB-INF/views/commons/login.jsp en línea 64
+
+61:                                 <sf:errors path="password" cssClass="error"/>
+62:                             </div>
+63:                             <div>
+64:                                 <sf:hidden path="userName" class="form-control" name="userName" id="userName"/>
+65:                                 <sf:hidden path="fingerPrint" class="form-control" name="fingerprint" id="fingerprint"/>
+66:                                 <sf:hidden path="fingerPrintComponents" class="form-control" name="deviceInfo"
+67:                                            id="deviceInfo"/>
+
+
+Stacktrace:] con causa raíz
+ java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'userInfo' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:141)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:179)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:165)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:128)
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:421)
+	at org.springframework.web.servlet.tags.form.HiddenInputTag.writeTagContent(HiddenInputTag.java:77)
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:103)
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:80)
+	at org.apache.jsp.WEB_002dINF.views.commons.login_jsp._jspx_meth_sf_005fhidden_005f0(login_jsp.java:460)
+	at org.apache.jsp.WEB_002dINF.views.commons.login_jsp._jspService(login_jsp.java:282)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:394)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:238)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:264)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1208)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:992)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:939)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:920)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:816)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:801)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+13-Dec-2021 17:44:34.281 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 17:44:35.471 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 17:44:35.504 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 17:44:35.638 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 17:44:35.870 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 17:44:35.887 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 17:44:35.971 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 17:44:39.092 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 17:44:39.130 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 17:44:39.213 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 17:44:50.914 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 17:44:51.567 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 17:44:52.275 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 17:45:10.060 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 17:45:10.579 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 17:45:10.977 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 17:45:22.558 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 17:45:23.081 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 17:45:23.480 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 17:45:39.074 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 17:45:39.640 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 17:45:41.709 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 17:45:49.052 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 17:45:49.813 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 17:45:50.163 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 17:46:21.330 INFORMACIÓN [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 17:46:21.339 INFORMACIÓN [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 17:46:23.758 INFORMACIÓN [http-nio-8080-exec-41] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 17:46:23.815 INFORMACIÓN [http-nio-8080-exec-41] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 17:46:25.832 INFORMACIÓN [http-nio-8080-exec-45] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 17:46:25.895 INFORMACIÓN [http-nio-8080-exec-45] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 17:46:27.742 INFORMACIÓN [http-nio-8080-exec-31] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 17:46:27.798 INFORMACIÓN [http-nio-8080-exec-31] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 17:46:33.161 INFORMACIÓN [http-nio-8080-exec-47] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 17:46:33.212 INFORMACIÓN [http-nio-8080-exec-47] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 17:49:34.716 INFORMACIÓN [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 17:49:35.658 INFORMACIÓN [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 17:49:36.368 INFORMACIÓN [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 17:50:25.807 INFORMACIÓN [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 17:50:26.515 INFORMACIÓN [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 17:50:27.186 INFORMACIÓN [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 17:51:29.982 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 17:51:30.579 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 17:51:30.977 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 17:52:38.176 INFORMACIÓN [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 17:52:38.762 INFORMACIÓN [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 17:52:39.183 INFORMACIÓN [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+13-Dec-2021 17:55:45.965 INFORMACIÓN [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+13-Dec-2021 17:55:45.992 INFORMACIÓN [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+13-Dec-2021 17:55:53.910 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Dec-2021 17:55:54.562 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Dec-2021 17:55:54.912 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'

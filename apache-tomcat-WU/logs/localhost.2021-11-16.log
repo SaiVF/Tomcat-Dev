@@ -1,0 +1,5 @@
+16-Nov-2021 09:05:41.031 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+16-Nov-2021 09:05:41.803 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+16-Nov-2021 09:05:42.270 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+16-Nov-2021 09:06:20.104 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+16-Nov-2021 09:06:20.139 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext

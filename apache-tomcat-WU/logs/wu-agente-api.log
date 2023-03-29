@@ -1,0 +1,56 @@
+ INFO 2022-02-07T11:00:51,713 [][][][][]com.roshka.michi.configuration.server.ServerStaticConfig - Configuraciones estaticas code: wu-agente-api version: 1.0.0 descripcion: API de WU para los Agentes
+ INFO 2022-02-07T11:00:51,732 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Obteniendo información del Enviroment
+ INFO 2022-02-07T11:00:51,733 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-agente-api_apikey : 2488175215e500dddb4c@d9d28141-65dc-4924-a74f-620ba9304d9a@8d94116e8e6e7c7f370a
+ INFO 2022-02-07T11:00:51,733 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-agente-api_deploypath : wu-agente-api
+DEBUG 2022-02-07T11:00:53,163 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bantotal cliente url: http://192.168.30.44:9613/findemes/servlet/com.dlya.bantotal.ax9996c1?wsdl
+DEBUG 2022-02-07T11:00:53,210 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bean de atenticación snbt usuario: testcnb@elcomercio.local pass: ****
+DEBUG 2022-02-07T11:00:53,327 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bean WebServiceTemplate
+ INFO 2022-02-07T11:01:06,239 [][][][][]com.roshka.michi.configuration.server.ServerStaticConfig - Configuraciones estaticas code: wu-agente-api version: 1.0.0 descripcion: API de WU para los Agentes
+ INFO 2022-02-07T11:01:06,259 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Obteniendo información del Enviroment
+ INFO 2022-02-07T11:01:06,260 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-agente-api_apikey : 2488175215e500dddb4c@d9d28141-65dc-4924-a74f-620ba9304d9a@8d94116e8e6e7c7f370a
+ INFO 2022-02-07T11:01:06,260 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-agente-api_deploypath : wu-agente-api
+DEBUG 2022-02-07T11:01:07,672 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bantotal cliente url: http://192.168.30.44:9613/findemes/servlet/com.dlya.bantotal.ax9996c1?wsdl
+DEBUG 2022-02-07T11:01:07,717 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bean de atenticación snbt usuario: testcnb@elcomercio.local pass: ****
+DEBUG 2022-02-07T11:01:07,821 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bean WebServiceTemplate
+ INFO 2022-02-07T11:47:37,833 [][][][][]com.roshka.michi.configuration.server.ServerStaticConfig - Configuraciones estaticas code: wu-agente-api version: 1.0.0 descripcion: API de WU para los Agentes
+ INFO 2022-02-07T11:47:37,857 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Obteniendo información del Enviroment
+ INFO 2022-02-07T11:47:37,858 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-agente-api_apikey : 2488175215e500dddb4c@d9d28141-65dc-4924-a74f-620ba9304d9a@8d94116e8e6e7c7f370a
+ INFO 2022-02-07T11:47:37,859 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-agente-api_deploypath : wu-agente-api
+DEBUG 2022-02-07T11:47:39,342 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bantotal cliente url: http://192.168.30.44:9613/findemes/servlet/com.dlya.bantotal.ax9996c1?wsdl
+DEBUG 2022-02-07T11:47:39,389 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bean de atenticación snbt usuario: testcnb@elcomercio.local pass: ****
+DEBUG 2022-02-07T11:47:39,514 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bean WebServiceTemplate
+ INFO 2022-02-07T11:48:24,298 [][][][][]com.roshka.michi.configuration.server.ServerStaticConfig - Configuraciones estaticas code: wu-agente-api version: 1.0.0 descripcion: API de WU para los Agentes
+ INFO 2022-02-07T11:48:24,327 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Obteniendo información del Enviroment
+ INFO 2022-02-07T11:48:24,327 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-agente-api_apikey : 2488175215e500dddb4c@d9d28141-65dc-4924-a74f-620ba9304d9a@8d94116e8e6e7c7f370a
+ INFO 2022-02-07T11:48:24,328 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-agente-api_deploypath : wu-agente-api
+DEBUG 2022-02-07T11:48:25,945 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bantotal cliente url: http://192.168.30.44:9613/findemes/servlet/com.dlya.bantotal.ax9996c1?wsdl
+DEBUG 2022-02-07T11:48:25,988 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bean de atenticación snbt usuario: testcnb@elcomercio.local pass: ****
+DEBUG 2022-02-07T11:48:26,095 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bean WebServiceTemplate
+ INFO 2022-02-07T11:48:41,884 [][][][][]com.roshka.michi.configuration.server.ServerStaticConfig - Configuraciones estaticas code: wu-agente-api version: 1.0.0 descripcion: API de WU para los Agentes
+ INFO 2022-02-07T11:48:41,901 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Obteniendo información del Enviroment
+ INFO 2022-02-07T11:48:41,902 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-agente-api_apikey : 2488175215e500dddb4c@d9d28141-65dc-4924-a74f-620ba9304d9a@8d94116e8e6e7c7f370a
+ INFO 2022-02-07T11:48:41,903 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-agente-api_deploypath : wu-agente-api
+DEBUG 2022-02-07T11:48:43,805 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bantotal cliente url: http://192.168.30.44:9613/findemes/servlet/com.dlya.bantotal.ax9996c1?wsdl
+DEBUG 2022-02-07T11:48:43,859 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bean de atenticación snbt usuario: testcnb@elcomercio.local pass: ****
+DEBUG 2022-02-07T11:48:43,990 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bean WebServiceTemplate
+ INFO 2022-02-07T11:54:32,882 [][][][][]com.roshka.michi.configuration.server.ServerStaticConfig - Configuraciones estaticas code: wu-agente-api version: 1.0.0 descripcion: API de WU para los Agentes
+ INFO 2022-02-07T11:54:32,904 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Obteniendo información del Enviroment
+ INFO 2022-02-07T11:54:32,905 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-agente-api_apikey : 2488175215e500dddb4c@d9d28141-65dc-4924-a74f-620ba9304d9a@8d94116e8e6e7c7f370a
+ INFO 2022-02-07T11:54:32,906 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-agente-api_deploypath : wu-agente-api
+DEBUG 2022-02-07T11:54:34,310 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bantotal cliente url: http://192.168.30.44:9613/findemes/servlet/com.dlya.bantotal.ax9996c1?wsdl
+DEBUG 2022-02-07T11:54:34,353 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bean de atenticación snbt usuario: testcnb@elcomercio.local pass: ****
+DEBUG 2022-02-07T11:54:34,477 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bean WebServiceTemplate
+ INFO 2022-02-07T11:55:18,099 [][][][][]com.roshka.michi.configuration.server.ServerStaticConfig - Configuraciones estaticas code: wu-agente-api version: 1.0.0 descripcion: API de WU para los Agentes
+ INFO 2022-02-07T11:55:18,113 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Obteniendo información del Enviroment
+ INFO 2022-02-07T11:55:18,114 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-agente-api_apikey : 2488175215e500dddb4c@d9d28141-65dc-4924-a74f-620ba9304d9a@8d94116e8e6e7c7f370a
+ INFO 2022-02-07T11:55:18,114 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-agente-api_deploypath : wu-agente-api
+DEBUG 2022-02-07T11:55:19,480 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bantotal cliente url: http://192.168.30.44:9613/findemes/servlet/com.dlya.bantotal.ax9996c1?wsdl
+DEBUG 2022-02-07T11:55:19,521 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bean de atenticación snbt usuario: testcnb@elcomercio.local pass: ****
+DEBUG 2022-02-07T11:55:19,638 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bean WebServiceTemplate
+ INFO 2022-02-07T11:55:34,329 [][][][][]com.roshka.michi.configuration.server.ServerStaticConfig - Configuraciones estaticas code: wu-agente-api version: 1.0.0 descripcion: API de WU para los Agentes
+ INFO 2022-02-07T11:55:34,346 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Obteniendo información del Enviroment
+ INFO 2022-02-07T11:55:34,347 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-agente-api_apikey : 2488175215e500dddb4c@d9d28141-65dc-4924-a74f-620ba9304d9a@8d94116e8e6e7c7f370a
+ INFO 2022-02-07T11:55:34,348 [][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-agente-api_deploypath : wu-agente-api
+DEBUG 2022-02-07T11:55:35,755 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bantotal cliente url: http://192.168.30.44:9613/findemes/servlet/com.dlya.bantotal.ax9996c1?wsdl
+DEBUG 2022-02-07T11:55:35,793 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bean de atenticación snbt usuario: testcnb@elcomercio.local pass: ****
+DEBUG 2022-02-07T11:55:35,913 [][][][][]py.com.fielco.bantotal.config.Configuracion - Creando bean WebServiceTemplate

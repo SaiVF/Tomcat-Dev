@@ -1,0 +1,17 @@
+#!/bin/bash
+
+usuario=oem
+shopt -s expand_aliases
+source /home/$usuario/.bashrc
+
+cp_war_discovery
+cp_war_acl
+cp_war_device
+cp_war_logging
+cp_war_auth_fielcorresponsal
+cp_war_datos_fielcorresponsal
+cp_war_clientes_fielcorresponsal
+cp_war_seguros_fielcorresponsal
+cp_war_transacciones_fielcorresponsal
+cp_war_fielcorresponsal
+

@@ -1,0 +1,1715 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGBUS (0x7) at pc=0x00007f0aa03b7a32, pid=3679, tid=0x00007f09a70f8700
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_111-b14) (build 1.8.0_111-b14)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.111-b14 mixed mode linux-amd64 compressed oops)
+# Problematic frame:
+# C  [libzip.so+0x11a32]  newEntry+0x62
+#
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007f0a5c1cc800):  JavaThread "http-nio-8080-exec-66" daemon [_thread_in_native, id=15042, stack(0x00007f09a6ff8000,0x00007f09a70f9000)]
+
+siginfo: si_signo: 7 (SIGBUS), si_code: 2 (BUS_ADRERR), si_addr: 0x00007f0a1529c33a
+
+Registers:
+RAX=0x00007f0a49fcda20, RBX=0x00007f0a48b60960, RCX=0x00007f0a48000020, RDX=0x00007f0a49fcda20
+RSP=0x00007f09a70f5140, RBP=0x00007f09a70f5190, RSI=0x00007f0a48000038, RDI=0x0000000000000003
+R8 =0x0000000000000000, R9 =0x000000000000000b, R10=0x00007f0a8d01fc78, R11=0x00007f0aa2954a70
+R12=0x00007f0a1529c31d, R13=0x00007f0a49fcda20, R14=0x00007f09a70f5248, R15=0x00007f0a483d5cf0
+RIP=0x00007f0aa03b7a32, EFLAGS=0x0000000000010206, CSGSFS=0x0000000000000033, ERR=0x0000000000000004
+  TRAPNO=0x000000000000000e
+
+Top of Stack: (sp=0x00007f09a70f5140)
+0x00007f09a70f5140:   00007f0a8d0055d0 00007f0a00000001
+0x00007f09a70f5150:   00007f09a70f5218 00007f0aa2870b4e
+0x00007f09a70f5160:   00007f0a49fcda20 0000000000000ce5
+0x00007f09a70f5170:   00007f0a483d5cf0 00007f0a858bf0d8
+0x00007f09a70f5180:   00007f09a70f5248 00007f0a5c1cc800
+0x00007f09a70f5190:   00007f09a70f51b0 00007f0aa03b8083
+0x00007f09a70f51a0:   00007f0a858bf0d8 0000000000000000
+0x00007f09a70f51b0:   00007f09a70f5218 00007f0a8d01fca4
+0x00007f09a70f51c0:   00007f09a70f5218 00007f0a8d01f8bb
+0x00007f09a70f51d0:   00007f0a8d01f879 00007f09a70f51d8
+0x00007f09a70f51e0:   00007f0a858bf0d8 00007f09a70f5248
+0x00007f09a70f51f0:   00007f0a858c0a48 0000000000000000
+0x00007f09a70f5200:   00007f0a858bf0d8 0000000000000000
+0x00007f09a70f5210:   00007f09a70f5238 00007f09a70f5290
+0x00007f09a70f5220:   00007f0a8d007e50 00000007060012e8
+0x00007f09a70f5230:   00007f0a8d016477 0000000000000ce5
+0x00007f09a70f5240:   00007f0a483d5cf0 00007f0a8d018d9e
+0x00007f09a70f5250:   00007f09a70f5250 00007f0a858c01aa
+0x00007f09a70f5260:   00007f09a70f52b0 00007f0a858c0a48
+0x00007f09a70f5270:   00007f0a659f6b60 00007f0a858c01b8
+0x00007f09a70f5280:   00007f09a70f5238 00007f09a70f52a0
+0x00007f09a70f5290:   00007f09a70f5308 00007f0a8d007e50
+0x00007f09a70f52a0:   0000000000000ce5 00007f0a483d5cf0
+0x00007f09a70f52b0:   00000007b98a58a0 0000000000000009
+0x00007f09a70f52c0:   00000007b98a58a0 00007f09a70f52b8
+0x00007f09a70f52d0:   00007f0a659f229e 00007f09a70f5340
+0x00007f09a70f52e0:   00007f0a659f2540 00007f0a659f66f0
+0x00007f09a70f52f0:   00007f0a659f2368 00007f09a70f52a0
+0x00007f09a70f5300:   00007f09a70f5340 00007f09a70f5388
+0x00007f09a70f5310:   00007f0a8d0080c0 0000000000000000
+0x00007f09a70f5320:   0000000000000000 0000000000000000
+0x00007f09a70f5330:   0000000000000000 00000007b98a58a0 
+
+Instructions: (pc=0x00007f0aa03b7a32)
+0x00007f0aa03b7a12:   00 48 c7 40 28 00 00 00 00 41 80 7f 30 00 0f 84
+0x00007f0aa03b7a22:   8a 02 00 00 4c 8b 63 08 4d 2b 67 28 4d 03 67 18
+0x00007f0aa03b7a32:   41 0f b6 5c 24 1d 41 0f b6 44 24 1c c1 e3 08 09
+0x00007f0aa03b7a42:   c3 41 0f b6 44 24 1e 88 45 bd 41 0f b6 54 24 20 
+
+Register to memory mapping:
+
+RAX=0x00007f0a49fcda20 is an unknown value
+RBX=0x00007f0a48b60960 is an unknown value
+RCX=0x00007f0a48000020 is an unknown value
+RDX=0x00007f0a49fcda20 is an unknown value
+RSP=0x00007f09a70f5140 is pointing into the stack for thread: 0x00007f0a5c1cc800
+RBP=0x00007f09a70f5190 is pointing into the stack for thread: 0x00007f0a5c1cc800
+RSI=0x00007f0a48000038 is an unknown value
+RDI=0x0000000000000003 is an unknown value
+R8 =0x0000000000000000 is an unknown value
+R9 =0x000000000000000b is an unknown value
+R10=0x00007f0a8d01fc78 is at code_begin+1528 in an Interpreter codelet
+method entry point (kind = native)  [0x00007f0a8d01f680, 0x00007f0a8d0205c0]  3904 bytes
+R11=0x00007f0aa2954a70: <offset 0x9c2a70> in /usr/lib/jvm/java-8-oracle/jre/lib/amd64/server/libjvm.so at 0x00007f0aa1f92000
+R12=0x00007f0a1529c31d is an unknown value
+R13=0x00007f0a49fcda20 is an unknown value
+R14=0x00007f09a70f5248 is pointing into the stack for thread: 0x00007f0a5c1cc800
+R15=0x00007f0a483d5cf0 is an unknown value
+
+
+Stack: [0x00007f09a6ff8000,0x00007f09a70f9000],  sp=0x00007f09a70f5140,  free space=1012k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [libzip.so+0x11a32]  newEntry+0x62
+C  [libzip.so+0x12083]  ZIP_GetNextEntry+0x53
+j  java.util.zip.ZipFile.getNextEntry(JI)J+0
+j  java.util.zip.ZipFile.access$500(JI)J+2
+j  java.util.zip.ZipFile$ZipEntryIterator.next()Ljava/util/zip/ZipEntry;+54
+j  java.util.zip.ZipFile$ZipEntryIterator.nextElement()Ljava/util/zip/ZipEntry;+1
+j  java.util.zip.ZipFile$ZipEntryIterator.nextElement()Ljava/lang/Object;+1
+j  java.util.jar.JarFile$JarEntryIterator.next()Ljava/util/jar/JarEntry;+4
+j  java.util.jar.JarFile$JarEntryIterator.nextElement()Ljava/util/jar/JarEntry;+1
+j  java.util.jar.JarFile$JarEntryIterator.nextElement()Ljava/lang/Object;+1
+j  org.apache.tomcat.util.scan.JarFileUrlJar.nextEntry()V+35
+j  org.apache.catalina.startup.ContextConfig.processAnnotationsJar(Ljava/net/URL;Lorg/apache/tomcat/util/descriptor/web/WebXml;ZLjava/util/Map;)V+262
+j  org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(Ljava/net/URL;Lorg/apache/tomcat/util/descriptor/web/WebXml;ZLjava/util/Map;)V+37
+j  org.apache.catalina.startup.ContextConfig.processAnnotations(Ljava/util/Set;ZLjava/util/Map;)V+87
+j  org.apache.catalina.startup.ContextConfig.webConfig()V+259
+j  org.apache.catalina.startup.ContextConfig.configureStart()V+101
+j  org.apache.catalina.startup.ContextConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V+57
+j  org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V+47
+j  org.apache.catalina.core.StandardContext.startInternal()V+535
+j  org.apache.catalina.util.LifecycleBase.start()V+210
+j  org.apache.catalina.core.ContainerBase.addChildInternal(Lorg/apache/catalina/Container;)V+170
+j  org.apache.catalina.core.ContainerBase.addChild(Lorg/apache/catalina/Container;)V+26
+j  org.apache.catalina.core.StandardHost.addChild(Lorg/apache/catalina/Container;)V+40
+j  org.apache.catalina.startup.HostConfig.deployDescriptor(Lorg/apache/catalina/util/ContextName;Ljava/io/File;)V+513
+j  org.apache.catalina.startup.HostConfig.deployApps(Ljava/lang/String;)V+94
+j  org.apache.catalina.startup.HostConfig.check(Ljava/lang/String;)V+26
+v  ~StubRoutines::call_stub
+V  [libjvm.so+0x690206]  JavaCalls::call_helper(JavaValue*, methodHandle*, JavaCallArguments*, Thread*)+0x1056
+V  [libjvm.so+0x99af17]  Reflection::invoke(instanceKlassHandle, methodHandle, Handle, bool, objArrayHandle, BasicType, objArrayHandle, bool, Thread*)+0x5d7
+V  [libjvm.so+0x99e627]  Reflection::invoke_method(oopDesc*, Handle, objArrayHandle, Thread*)+0x147
+V  [libjvm.so+0x71b2ab]  JVM_InvokeMethod+0x26b
+j  sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+0
+j  sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+100
+j  sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+6
+j  java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+56
+j  org.apache.tomcat.util.modeler.BaseModelMBean.invoke(Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;+151
+j  com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(Ljavax/management/ObjectName;Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;+28
+j  com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(Ljavax/management/ObjectName;Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;+13
+j  org.apache.catalina.manager.ManagerServlet.check(Ljava/lang/String;)V+32
+j  org.apache.catalina.manager.ManagerServlet.deploy(Ljava/io/PrintWriter;Ljava/lang/String;Lorg/apache/catalina/util/ContextName;Ljava/lang/String;ZLorg/apache/tomcat/util/res/StringManager;)V+643
+j  org.apache.catalina.manager.ManagerServlet.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V+232
+j  javax.servlet.http.HttpServlet.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V+35
+j  javax.servlet.http.HttpServlet.service(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+30
+j  org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+304
+j  org.apache.catalina.core.ApplicationFilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+101
+j  org.apache.tomcat.websocket.server.WsFilter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V+21
+j  org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+135
+j  org.apache.catalina.core.ApplicationFilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+101
+j  org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V+39
+j  org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+135
+j  org.apache.catalina.core.ApplicationFilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+101
+j  org.apache.catalina.core.StandardWrapperValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+688
+j  org.apache.catalina.core.StandardContextValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+166
+j  org.apache.catalina.authenticator.AuthenticatorBase.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+803
+j  org.apache.catalina.valves.RequestFilterValve.process(Ljava/lang/String;Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+14
+j  org.apache.catalina.valves.RemoteAddrValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+62
+j  org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+135
+j  org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+6
+j  org.apache.catalina.valves.AbstractAccessLogValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+6
+j  org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+71
+j  org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V+199
+j  org.apache.coyote.http11.Http11Processor.service(Lorg/apache/tomcat/util/net/SocketWrapperBase;)Lorg/apache/tomcat/util/net/AbstractEndpoint$Handler$SocketState;+806
+j  org.apache.coyote.AbstractProcessorLight.process(Lorg/apache/tomcat/util/net/SocketWrapperBase;Lorg/apache/tomcat/util/net/SocketEvent;)Lorg/apache/tomcat/util/net/AbstractEndpoint$Handler$SocketState;+106
+j  org.apache.coyote.AbstractProtocol$ConnectionHandler.process(Lorg/apache/tomcat/util/net/SocketWrapperBase;Lorg/apache/tomcat/util/net/SocketEvent;)Lorg/apache/tomcat/util/net/AbstractEndpoint$Handler$SocketState;+295
+j  org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun()V+191
+j  org.apache.tomcat.util.net.SocketProcessorBase.run()V+21
+j  java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V+95
+j  java.util.concurrent.ThreadPoolExecutor$Worker.run()V+5
+j  org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run()V+4
+j  java.lang.Thread.run()V+11
+v  ~StubRoutines::call_stub
+V  [libjvm.so+0x690206]  JavaCalls::call_helper(JavaValue*, methodHandle*, JavaCallArguments*, Thread*)+0x1056
+V  [libjvm.so+0x690711]  JavaCalls::call_virtual(JavaValue*, KlassHandle, Symbol*, Symbol*, JavaCallArguments*, Thread*)+0x321
+V  [libjvm.so+0x690bb7]  JavaCalls::call_virtual(JavaValue*, Handle, KlassHandle, Symbol*, Symbol*, Thread*)+0x47
+V  [libjvm.so+0x7278f0]  thread_entry(JavaThread*, Thread*)+0xa0
+V  [libjvm.so+0xa742b3]  JavaThread::thread_main_inner()+0x103
+V  [libjvm.so+0xa743fc]  JavaThread::run()+0x11c
+V  [libjvm.so+0x924ea8]  java_start(Thread*)+0x108
+C  [libpthread.so.0+0x76ba]  start_thread+0xca
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  java.util.zip.ZipFile.getNextEntry(JI)J+0
+j  java.util.zip.ZipFile.access$500(JI)J+2
+j  java.util.zip.ZipFile$ZipEntryIterator.next()Ljava/util/zip/ZipEntry;+54
+j  java.util.zip.ZipFile$ZipEntryIterator.nextElement()Ljava/util/zip/ZipEntry;+1
+j  java.util.zip.ZipFile$ZipEntryIterator.nextElement()Ljava/lang/Object;+1
+j  java.util.jar.JarFile$JarEntryIterator.next()Ljava/util/jar/JarEntry;+4
+j  java.util.jar.JarFile$JarEntryIterator.nextElement()Ljava/util/jar/JarEntry;+1
+j  java.util.jar.JarFile$JarEntryIterator.nextElement()Ljava/lang/Object;+1
+j  org.apache.tomcat.util.scan.JarFileUrlJar.nextEntry()V+35
+j  org.apache.catalina.startup.ContextConfig.processAnnotationsJar(Ljava/net/URL;Lorg/apache/tomcat/util/descriptor/web/WebXml;ZLjava/util/Map;)V+262
+j  org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(Ljava/net/URL;Lorg/apache/tomcat/util/descriptor/web/WebXml;ZLjava/util/Map;)V+37
+j  org.apache.catalina.startup.ContextConfig.processAnnotations(Ljava/util/Set;ZLjava/util/Map;)V+87
+j  org.apache.catalina.startup.ContextConfig.webConfig()V+259
+j  org.apache.catalina.startup.ContextConfig.configureStart()V+101
+j  org.apache.catalina.startup.ContextConfig.lifecycleEvent(Lorg/apache/catalina/LifecycleEvent;)V+57
+j  org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(Ljava/lang/String;Ljava/lang/Object;)V+47
+j  org.apache.catalina.core.StandardContext.startInternal()V+535
+j  org.apache.catalina.util.LifecycleBase.start()V+210
+j  org.apache.catalina.core.ContainerBase.addChildInternal(Lorg/apache/catalina/Container;)V+170
+j  org.apache.catalina.core.ContainerBase.addChild(Lorg/apache/catalina/Container;)V+26
+j  org.apache.catalina.core.StandardHost.addChild(Lorg/apache/catalina/Container;)V+40
+j  org.apache.catalina.startup.HostConfig.deployDescriptor(Lorg/apache/catalina/util/ContextName;Ljava/io/File;)V+513
+j  org.apache.catalina.startup.HostConfig.deployApps(Ljava/lang/String;)V+94
+j  org.apache.catalina.startup.HostConfig.check(Ljava/lang/String;)V+26
+v  ~StubRoutines::call_stub
+j  sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+0
+j  sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+100
+j  sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+6
+j  java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+56
+j  org.apache.tomcat.util.modeler.BaseModelMBean.invoke(Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;+151
+j  com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(Ljavax/management/ObjectName;Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;+28
+j  com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(Ljavax/management/ObjectName;Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;+13
+j  org.apache.catalina.manager.ManagerServlet.check(Ljava/lang/String;)V+32
+j  org.apache.catalina.manager.ManagerServlet.deploy(Ljava/io/PrintWriter;Ljava/lang/String;Lorg/apache/catalina/util/ContextName;Ljava/lang/String;ZLorg/apache/tomcat/util/res/StringManager;)V+643
+j  org.apache.catalina.manager.ManagerServlet.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V+232
+j  javax.servlet.http.HttpServlet.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V+35
+j  javax.servlet.http.HttpServlet.service(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+30
+j  org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+304
+j  org.apache.catalina.core.ApplicationFilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+101
+j  org.apache.tomcat.websocket.server.WsFilter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V+21
+j  org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+135
+j  org.apache.catalina.core.ApplicationFilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+101
+j  org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V+39
+j  org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+135
+j  org.apache.catalina.core.ApplicationFilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V+101
+j  org.apache.catalina.core.StandardWrapperValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+688
+j  org.apache.catalina.core.StandardContextValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+166
+j  org.apache.catalina.authenticator.AuthenticatorBase.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+803
+j  org.apache.catalina.valves.RequestFilterValve.process(Ljava/lang/String;Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+14
+j  org.apache.catalina.valves.RemoteAddrValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+62
+j  org.apache.catalina.core.StandardHostValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+135
+j  org.apache.catalina.valves.ErrorReportValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+6
+j  org.apache.catalina.valves.AbstractAccessLogValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+6
+j  org.apache.catalina.core.StandardEngineValve.invoke(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)V+71
+j  org.apache.catalina.connector.CoyoteAdapter.service(Lorg/apache/coyote/Request;Lorg/apache/coyote/Response;)V+199
+j  org.apache.coyote.http11.Http11Processor.service(Lorg/apache/tomcat/util/net/SocketWrapperBase;)Lorg/apache/tomcat/util/net/AbstractEndpoint$Handler$SocketState;+806
+j  org.apache.coyote.AbstractProcessorLight.process(Lorg/apache/tomcat/util/net/SocketWrapperBase;Lorg/apache/tomcat/util/net/SocketEvent;)Lorg/apache/tomcat/util/net/AbstractEndpoint$Handler$SocketState;+106
+j  org.apache.coyote.AbstractProtocol$ConnectionHandler.process(Lorg/apache/tomcat/util/net/SocketWrapperBase;Lorg/apache/tomcat/util/net/SocketEvent;)Lorg/apache/tomcat/util/net/AbstractEndpoint$Handler$SocketState;+295
+j  org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun()V+191
+j  org.apache.tomcat.util.net.SocketProcessorBase.run()V+21
+j  java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V+95
+j  java.util.concurrent.ThreadPoolExecutor$Worker.run()V+5
+j  org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run()V+4
+j  java.lang.Thread.run()V+11
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x00007f09e01f8000 JavaThread "http-nio-8080-exec-86" daemon [_thread_blocked, id=15523, stack(0x00007f09b55ad000,0x00007f09b56ae000)]
+  0x00007f0a5c09e000 JavaThread "http-nio-8080-exec-85" daemon [_thread_blocked, id=15511, stack(0x00007f09b5cb4000,0x00007f09b5db5000)]
+  0x00007f0a2801a800 JavaThread "http-nio-8080-exec-84" daemon [_thread_blocked, id=15499, stack(0x00007f0a65e5f000,0x00007f0a65f60000)]
+  0x00007f0a4412f800 JavaThread "http-nio-8080-exec-83" daemon [_thread_blocked, id=15487, stack(0x00007f09ac15c000,0x00007f09ac25d000)]
+  0x00007f0a340c1800 JavaThread "http-nio-8080-exec-82" daemon [_thread_blocked, id=15465, stack(0x00007f09b61b9000,0x00007f09b62ba000)]
+  0x00007f0a30108800 JavaThread "http-nio-8080-exec-81" daemon [_thread_blocked, id=15425, stack(0x00007f09b67bf000,0x00007f09b68c0000)]
+  0x00007f0a6011d800 JavaThread "http-nio-8080-exec-79" daemon [_thread_blocked, id=15369, stack(0x00007f09ace69000,0x00007f09acf6a000)]
+  0x00007f09e404d800 JavaThread "JDWP Command Reader" daemon [_thread_in_native, id=15326, stack(0x00007f099e6ff000,0x00007f099e800000)]
+  0x00007f0980d9b000 JavaThread "AsyncAppender-RollingFileAsync" daemon [_thread_blocked, id=15218, stack(0x00007f09a7cfd000,0x00007f09a7dfe000)]
+  0x00007f0980dc4000 JavaThread "Log4j2-TF-3-Scheduled-1" daemon [_thread_blocked, id=15217, stack(0x00007f09a6614000,0x00007f09a6715000)]
+  0x00007f0a4c523000 JavaThread "http-nio-8080-exec-74" daemon [_thread_blocked, id=15211, stack(0x00007f0a65d5e000,0x00007f0a65e5f000)]
+  0x00007f0a6c127000 JavaThread "JDWP Transport Listener: dt_socket" daemon [_thread_blocked, id=15208, stack(0x00007f09b75cd000,0x00007f09b76ce000)]
+  0x00007f0a9c0e2800 JavaThread "AsyncAppender-RollingFileAsync" daemon [_thread_blocked, id=15149, stack(0x00007f099cac9000,0x00007f099cbca000)]
+  0x00007f0a9c0e1800 JavaThread "Log4j2-TF-5-Scheduled-3" daemon [_thread_blocked, id=15148, stack(0x00007f099e2fd000,0x00007f099e3fe000)]
+  0x00007f0a4a216800 JavaThread "http-nio-8080-exec-68" daemon [_thread_blocked, id=15047, stack(0x00007f09a77fa000,0x00007f09a78fb000)]
+=>0x00007f0a5c1cc800 JavaThread "http-nio-8080-exec-66" daemon [_thread_in_native, id=15042, stack(0x00007f09a6ff8000,0x00007f09a70f9000)]
+  0x00007f0a30149800 JavaThread "AS400 Read Daemon [system:192.168.30.112;job:699916/QUSER/QZDASOINIT]" daemon [_thread_in_native, id=14247, stack(0x00007f09b53ab000,0x00007f09b54ac000)]
+  0x00007f0a504a1800 JavaThread "AS400 Read Daemon [system:192.168.30.112;job:700326/QUSER/QZDASOINIT]" daemon [_thread_in_native, id=14242, stack(0x00007f099e5fe000,0x00007f099e6ff000)]
+  0x00007f09f290c000 JavaThread "AsyncAppender-RollingFileAsync" daemon [_thread_blocked, id=13975, stack(0x00007f09a6715000,0x00007f09a6816000)]
+  0x00007f09f304b800 JavaThread "Log4j2-TF-3-Scheduled-1" daemon [_thread_blocked, id=13974, stack(0x00007f09b57af000,0x00007f09b58b0000)]
+  0x00007f0a5112e000 JavaThread "AsyncAppender-RollingFileAsync" daemon [_thread_blocked, id=13876, stack(0x00007f09a6cf7000,0x00007f09a6df8000)]
+  0x00007f09cb98f000 JavaThread "Log4j2-TF-3-Scheduled-1" daemon [_thread_blocked, id=13875, stack(0x00007f09b5bb3000,0x00007f09b5cb4000)]
+  0x00007f0a400ed000 JavaThread "AS400 Read Daemon [system:192.168.30.112;job:699695/QUSER/QZDASOINIT]" daemon [_thread_in_native, id=5105, stack(0x00007f09ad66f000,0x00007f09ad770000)]
+  0x00007f0a4918e800 JavaThread "ThreadPoolTaskScheduler50" [_thread_blocked, id=4716, stack(0x00007f09ae475000,0x00007f09ae576000)]
+  0x00007f09e0004800 JavaThread "ThreadPoolTaskScheduler49" [_thread_blocked, id=4682, stack(0x00007f09ae576000,0x00007f09ae677000)]
+  0x00007f0a00007000 JavaThread "ThreadPoolTaskScheduler48" [_thread_blocked, id=4674, stack(0x00007f09ae677000,0x00007f09ae778000)]
+  0x00007f0a44015000 JavaThread "ThreadPoolTaskScheduler47" [_thread_blocked, id=4653, stack(0x00007f09ae879000,0x00007f09ae97a000)]
+  0x00007f0a4c017000 JavaThread "ThreadPoolTaskScheduler46" [_thread_blocked, id=4647, stack(0x00007f09ae97a000,0x00007f09aea7b000)]
+  0x0000000000b27000 JavaThread "ThreadPoolTaskScheduler45" [_thread_blocked, id=4624, stack(0x00007f09aea7b000,0x00007f09aeb7c000)]
+  0x00007f0a3000e800 JavaThread "ThreadPoolTaskScheduler44" [_thread_blocked, id=4611, stack(0x00007f09aed7c000,0x00007f09aee7d000)]
+  0x00007f0a1c00a800 JavaThread "ThreadPoolTaskScheduler43" [_thread_blocked, id=4592, stack(0x00007f09aee7d000,0x00007f09aef7e000)]
+  0x00007f09b1e87000 JavaThread "AsyncAppender-RollingFileAsync" daemon [_thread_blocked, id=4587, stack(0x00007f09af07f000,0x00007f09af180000)]
+  0x00007f09b2dfa800 JavaThread "Log4j2-TF-3-Scheduled-1" daemon [_thread_blocked, id=4586, stack(0x00007f09af2f9000,0x00007f09af3fa000)]
+  0x00007f0a28017800 JavaThread "ThreadPoolTaskScheduler42" [_thread_blocked, id=4582, stack(0x00007f09af3fa000,0x00007f09af4fb000)]
+  0x00007f0a1b33d800 JavaThread "ThreadPoolTaskScheduler41" [_thread_blocked, id=4563, stack(0x00007f09af6fb000,0x00007f09af7fc000)]
+  0x00007f0a74024800 JavaThread "ThreadPoolTaskScheduler40" [_thread_blocked, id=4544, stack(0x00007f09af180000,0x00007f09af281000)]
+  0x00007f0a78036800 JavaThread "ThreadPoolTaskScheduler39" [_thread_blocked, id=4519, stack(0x00007f09afbfe000,0x00007f09afcff000)]
+  0x00007f0a5a2e7000 JavaThread "ThreadPoolTaskScheduler38" [_thread_blocked, id=4484, stack(0x00007f09af9fc000,0x00007f09afafd000)]
+  0x00007f0a5c041800 JavaThread "ThreadPoolTaskScheduler37" [_thread_blocked, id=4399, stack(0x00007f09afeff000,0x00007f09b0000000)]
+  0x00007f0a70040000 JavaThread "ThreadPoolTaskScheduler36" [_thread_blocked, id=4392, stack(0x00007f09b40a0000,0x00007f09b41a1000)]
+  0x00007f0a7003e000 JavaThread "ThreadPoolTaskScheduler35" [_thread_blocked, id=4370, stack(0x00007f09b41a1000,0x00007f09b42a2000)]
+  0x00007f0a3000e000 JavaThread "ThreadPoolTaskScheduler34" [_thread_blocked, id=4364, stack(0x00007f09cd476000,0x00007f09cd577000)]
+  0x00007f0a400db800 JavaThread "ThreadPoolTaskScheduler33" [_thread_blocked, id=4341, stack(0x00007f09b42a2000,0x00007f09b43a3000)]
+  0x00007f0a3d1ed800 JavaThread "ThreadPoolTaskScheduler32" [_thread_blocked, id=4332, stack(0x00007f09b46a4000,0x00007f09b47a5000)]
+  0x00007f0a3d1ee000 JavaThread "ThreadPoolTaskScheduler31" [_thread_blocked, id=4309, stack(0x00007f09b47a5000,0x00007f09b48a6000)]
+  0x0000000000b25000 JavaThread "ThreadPoolTaskScheduler30" [_thread_blocked, id=4296, stack(0x00007f0a65f60000,0x00007f0a66061000)]
+  0x0000000000b23800 JavaThread "ThreadPoolTaskScheduler29" [_thread_blocked, id=4279, stack(0x00007f09b69c1000,0x00007f09b6ac2000)]
+  0x00007f0a28014800 JavaThread "ThreadPoolTaskScheduler28" [_thread_blocked, id=4268, stack(0x00007f09b50a8000,0x00007f09b51a9000)]
+  0x00007f09be280000 JavaThread "ThreadPoolTaskScheduler27" [_thread_blocked, id=4250, stack(0x00007f09b5fb7000,0x00007f09b60b8000)]
+  0x00007f0a78035800 JavaThread "ThreadPoolTaskScheduler26" [_thread_blocked, id=4243, stack(0x00007f09b5eb6000,0x00007f09b5fb7000)]
+  0x00007f0a44014000 JavaThread "ThreadPoolTaskScheduler25" [_thread_blocked, id=4219, stack(0x00007f09b51a9000,0x00007f09b52aa000)]
+  0x00007f0a245b9000 JavaThread "ThreadPoolTaskScheduler24" [_thread_blocked, id=4213, stack(0x00007f09b6bc3000,0x00007f09b6cc4000)]
+  0x00007f0a70035000 JavaThread "ThreadPoolTaskScheduler23" [_thread_blocked, id=4193, stack(0x00007f09b6fc7000,0x00007f09b70c8000)]
+  0x00007f0a00004800 JavaThread "ThreadPoolTaskScheduler22" [_thread_blocked, id=4181, stack(0x00007f09b73cb000,0x00007f09b74cc000)]
+  0x00007f0a4c006800 JavaThread "ThreadPoolTaskScheduler21" [_thread_blocked, id=4164, stack(0x00007f09b72ca000,0x00007f09b73cb000)]
+  0x00007f0a245b8800 JavaThread "ThreadPoolTaskScheduler20" [_thread_blocked, id=4152, stack(0x00007f09b58b0000,0x00007f09b59b1000)]
+  0x00007f0a245d0000 JavaThread "ThreadPoolTaskScheduler19" [_thread_blocked, id=4145, stack(0x00007f09b6ec6000,0x00007f09b6fc7000)]
+  0x00007f0a21727000 JavaThread "ThreadPoolTaskScheduler18" [_thread_blocked, id=4108, stack(0x00007f09b52aa000,0x00007f09b53ab000)]
+  0x00007f0a5c01c800 JavaThread "ThreadPoolTaskScheduler17" [_thread_blocked, id=4086, stack(0x00007f09b71c9000,0x00007f09b72ca000)]
+  0x00007f0a245cf800 JavaThread "ThreadPoolTaskScheduler16" [_thread_blocked, id=4076, stack(0x00007f09b64bc000,0x00007f09b65bd000)]
+  0x00007f0a74023000 JavaThread "ThreadPoolTaskScheduler15" [_thread_blocked, id=4049, stack(0x00007f09b6dc5000,0x00007f09b6ec6000)]
+  0x00007f0a4c015800 JavaThread "ThreadPoolTaskScheduler14" [_thread_blocked, id=4040, stack(0x00007f09b74cc000,0x00007f09b75cd000)]
+  0x00007f0a28013000 JavaThread "ThreadPoolTaskScheduler13" [_thread_blocked, id=4020, stack(0x00007f09b76ce000,0x00007f09b77cf000)]
+  0x00007f09bf725000 JavaThread "ThreadPoolTaskScheduler12" [_thread_blocked, id=4002, stack(0x00007f09b66be000,0x00007f09b67bf000)]
+  0x00007f0a3000c000 JavaThread "ThreadPoolTaskScheduler11" [_thread_blocked, id=3984, stack(0x00007f09b68c0000,0x00007f09b69c1000)]
+  0x00007f0a00003800 JavaThread "ThreadPoolTaskScheduler10" [_thread_blocked, id=3968, stack(0x00007f09b56ae000,0x00007f09b57af000)]
+  0x00007f0a25373000 JavaThread "ThreadPoolTaskScheduler9" [_thread_blocked, id=3934, stack(0x00007f09b5db5000,0x00007f09b5eb6000)]
+  0x00007f0a24917000 JavaThread "ThreadPoolTaskScheduler8" [_thread_blocked, id=3924, stack(0x00007f09b4fa7000,0x00007f09b50a8000)]
+  0x00007f0a1c009000 JavaThread "ThreadPoolTaskScheduler7" [_thread_blocked, id=3899, stack(0x00007f09b63bb000,0x00007f09b64bc000)]
+  0x00007f0a1bf00000 JavaThread "ThreadPoolTaskScheduler6" [_thread_blocked, id=3892, stack(0x00007f09b6cc4000,0x00007f09b6dc5000)]
+  0x00007f0a22f6c800 JavaThread "ThreadPoolTaskScheduler5" [_thread_blocked, id=3859, stack(0x00007f09b6ac2000,0x00007f09b6bc3000)]
+  0x00007f0a24c31800 JavaThread "ThreadPoolTaskScheduler4" [_thread_blocked, id=3833, stack(0x00007f09b62ba000,0x00007f09b63bb000)]
+  0x00007f0a9c0ec000 JavaThread "ajp-nio-8009-AsyncTimeout" daemon [_thread_blocked, id=3777, stack(0x00007f09b77cf000,0x00007f09b78d0000)]
+  0x00007f0a9c0ea800 JavaThread "ajp-nio-8009-Acceptor-0" daemon [_thread_in_native, id=3776, stack(0x00007f09b78d0000,0x00007f09b79d1000)]
+  0x00007f0a9c0e9000 JavaThread "ajp-nio-8009-ClientPoller-1" daemon [_thread_in_native, id=3775, stack(0x00007f09b79d1000,0x00007f09b7ad2000)]
+  0x00007f0a9c0e7000 JavaThread "ajp-nio-8009-ClientPoller-0" daemon [_thread_in_native, id=3774, stack(0x00007f09b7ad2000,0x00007f09b7bd3000)]
+  0x00007f0a9c0e5800 JavaThread "http-nio-8080-AsyncTimeout" daemon [_thread_blocked, id=3773, stack(0x00007f09b7bd3000,0x00007f09b7cd4000)]
+  0x00007f0a9c1a3800 JavaThread "http-nio-8080-Acceptor-0" daemon [_thread_in_native, id=3772, stack(0x00007f09b7cd4000,0x00007f09b7dd5000)]
+  0x00007f0a9c1a2000 JavaThread "http-nio-8080-ClientPoller-1" daemon [_thread_in_native, id=3771, stack(0x00007f09b7dd5000,0x00007f09b7ed6000)]
+  0x00007f0a9c1a1800 JavaThread "http-nio-8080-ClientPoller-0" daemon [_thread_in_native, id=3770, stack(0x00007f09b7ed6000,0x00007f09b7fd7000)]
+  0x00007f0a9c19e800 JavaThread "ContainerBackgroundProcessor[StandardEngine[Catalina]]" daemon [_thread_blocked, id=3769, stack(0x00007f09b7fd7000,0x00007f09b80d8000)]
+  0x00007f09e8689000 JavaThread "AsyncAppender-RollingFileAsync" daemon [_thread_blocked, id=3768, stack(0x00007f09b8cd8000,0x00007f09b8dd9000)]
+  0x00007f0a0c45e800 JavaThread "Log4j2-TF-4-Scheduled-1" daemon [_thread_blocked, id=3767, stack(0x00007f09cc072000,0x00007f09cc173000)]
+  0x00007f09be1c1000 JavaThread "AsyncAppender-RollingFileAsync" daemon [_thread_blocked, id=3765, stack(0x00007f09b9dd9000,0x00007f09b9eda000)]
+  0x00007f0a21cb9800 JavaThread "Log4j2-TF-3-Scheduled-1" daemon [_thread_blocked, id=3764, stack(0x00007f09ba8da000,0x00007f09ba9db000)]
+  0x00007f09f325f000 JavaThread "AsyncAppender-RollingFileAsync" daemon [_thread_blocked, id=3759, stack(0x00007f09ceb91000,0x00007f09cec92000)]
+  0x00007f09bfb9f000 JavaThread "AsyncAppender-RollingFileAsync" daemon [_thread_blocked, id=3742, stack(0x00007f09ceefd000,0x00007f09ceffe000)]
+  0x00007f0a1c001800 JavaThread "ThreadPoolTaskScheduler3" [_thread_blocked, id=3741, stack(0x00007f09cd173000,0x00007f09cd274000)]
+  0x00007f09beb21000 JavaThread "ThreadPoolTaskScheduler2" [_thread_blocked, id=3740, stack(0x00007f09cd274000,0x00007f09cd375000)]
+  0x00007f09beb02800 JavaThread "ThreadPoolTaskScheduler1" [_thread_blocked, id=3739, stack(0x00007f09cd375000,0x00007f09cd476000)]
+  0x00007f0a11e7b800 JavaThread "AsyncAppender-RollingFileAsyncLiq" daemon [_thread_blocked, id=3737, stack(0x00007f09ce577000,0x00007f09ce678000)]
+  0x00007f09d4681800 JavaThread "AsyncAppender-RollingFileAsync" daemon [_thread_blocked, id=3736, stack(0x00007f09ce678000,0x00007f09ce779000)]
+  0x00007f0a2e900000 JavaThread "AsyncAppender-RollingFileAsync" daemon [_thread_blocked, id=3733, stack(0x00007f0a04421000,0x00007f0a04522000)]
+  0x00007f09fc8ce000 JavaThread "AsyncAppender-RollingFileAsync" daemon [_thread_blocked, id=3730, stack(0x00007f0a05522000,0x00007f0a05623000)]
+  0x00007f0a0cc52000 JavaThread "Log4j2-TF-3-Scheduled-1" daemon [_thread_blocked, id=3729, stack(0x00007f0a06023000,0x00007f0a06124000)]
+  0x00007f0a2e103000 JavaThread "AsyncAppender-RollingFileAsync" daemon [_thread_blocked, id=3726, stack(0x00007f0a1403c000,0x00007f0a1413d000)]
+  0x00007f0a1a757000 JavaThread "Log4j2-TF-3-Scheduled-1" daemon [_thread_blocked, id=3725, stack(0x00007f0a65bbf000,0x00007f0a65cc0000)]
+  0x00007f0a2f6b8000 JavaThread "AsyncAppender-RollingFileAsync" daemon [_thread_blocked, id=3724, stack(0x00007f0a14d3d000,0x00007f0a14e3e000)]
+  0x00007f0a0d749800 JavaThread "AS400 Read Daemon [system:192.168.30.112;job:699606/QUSER/QZDASOINIT]" daemon [_thread_in_native, id=3717, stack(0x00007f0a15ca7000,0x00007f0a15da8000)]
+  0x00007f0a22f60000 JavaThread "AsyncAppender-RollingFileAsync" daemon [_thread_blocked, id=3715, stack(0x00007f0a169a8000,0x00007f0a16aa9000)]
+  0x00007f0a237a9000 JavaThread "AsyncAppender-RollingFileAsync" daemon [_thread_blocked, id=3714, stack(0x00007f0a64270000,0x00007f0a64371000)]
+  0x00007f0a23780800 JavaThread "Log4j2-TF-3-Scheduled-1" daemon [_thread_blocked, id=3713, stack(0x00007f0a65422000,0x00007f0a65523000)]
+  0x00007f0a9c5ad800 JavaThread "Tomcat JDBC Pool Cleaner[3447021:1620271366103]" daemon [_thread_blocked, id=3707, stack(0x00007f0a66061000,0x00007f0a66162000)]
+  0x00007f0a9c59c000 JavaThread "NioBlockingSelector.BlockPoller-2" daemon [_thread_in_native, id=3706, stack(0x00007f0a66162000,0x00007f0a66263000)]
+  0x00007f0a9c581800 JavaThread "NioBlockingSelector.BlockPoller-1" daemon [_thread_in_native, id=3705, stack(0x00007f0a66263000,0x00007f0a66364000)]
+  0x00007f0a9c4d9000 JavaThread "GC Daemon" daemon [_thread_blocked, id=3704, stack(0x00007f0a669c1000,0x00007f0a66ac2000)]
+  0x00007f0a9c14b000 JavaThread "AsyncFileHandlerWriter-1749186397" daemon [_thread_blocked, id=3703, stack(0x00007f0a675f4000,0x00007f0a676f5000)]
+  0x00007f0a9c0d4000 JavaThread "Service Thread" daemon [_thread_blocked, id=3701, stack(0x00007f0a677f6000,0x00007f0a678f7000)]
+  0x00007f0a9c0d0800 JavaThread "C1 CompilerThread2" daemon [_thread_blocked, id=3700, stack(0x00007f0a678f7000,0x00007f0a679f8000)]
+  0x00007f0a9c0cf000 JavaThread "C2 CompilerThread1" daemon [_thread_blocked, id=3699, stack(0x00007f0a679f8000,0x00007f0a67af9000)]
+  0x00007f0a9c0cc000 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=3698, stack(0x00007f0a67af9000,0x00007f0a67bfa000)]
+  0x00007f0a9c0ca000 JavaThread "JDWP Event Helper Thread" daemon [_thread_blocked, id=3697, stack(0x00007f0a67bfa000,0x00007f0a67cfb000)]
+  0x00007f0a9c0b9000 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=3695, stack(0x00007f0a84100000,0x00007f0a84201000)]
+  0x00007f0a9c087000 JavaThread "Finalizer" daemon [_thread_blocked, id=3692, stack(0x00007f0a84201000,0x00007f0a84302000)]
+  0x00007f0a9c082800 JavaThread "Reference Handler" daemon [_thread_blocked, id=3691, stack(0x00007f0a84302000,0x00007f0a84403000)]
+  0x00007f0a9c00d000 JavaThread "main" [_thread_in_native, id=3683, stack(0x00007f0aa3a78000,0x00007f0aa3b79000)]
+
+Other Threads:
+  0x00007f0a9c07a800 VMThread [stack: 0x00007f0a84403000,0x00007f0a84504000] [id=3689]
+  0x00007f0a9c0d7800 WatcherThread [stack: 0x00007f0a676f5000,0x00007f0a677f6000] [id=3702]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 898560K, used 57488K [0x0000000782000000, 0x00000007bf680000, 0x00000007c0000000)
+  eden space 793088K, 1% used [0x0000000782000000,0x00000007829c3758,0x00000007b2680000)
+  from space 105472K, 45% used [0x00000007b8f80000,0x00000007bbde09d0,0x00000007bf680000)
+  to   space 106496K, 0% used [0x00000007b2680000,0x00000007b2680000,0x00000007b8e80000)
+ ParOldGen       total 511488K, used 327397K [0x0000000706000000, 0x0000000725380000, 0x0000000782000000)
+  object space 511488K, 64% used [0x0000000706000000,0x0000000719fb9590,0x0000000725380000)
+ Metaspace       used 489572K, capacity 495372K, committed 497368K, reserved 1480704K
+  class space    used 65317K, capacity 66434K, committed 66776K, reserved 1048576K
+
+Card table byte_map: [0x00007f0a8c66f000,0x00007f0a8cc40000] byte_map_base: 0x00007f0a88e3f000
+
+Marking Bits: (ParMarkBitMap*) 0x00007f0aa2f55220
+ Begin Bits: [0x00007f0a8648e000, 0x00007f0a8930e000)
+ End Bits:   [0x00007f0a8930e000, 0x00007f0a8c18e000)
+
+Polling page: 0x00007f0aa3ba5000
+
+CodeCache: size=245760Kb used=149864Kb max_used=151007Kb free=95895Kb
+ bounds [0x00007f0a8d000000, 0x00007f0a96460000, 0x00007f0a9c000000]
+ total_blobs=38097 nmethods=37440 adapters=576
+ compilation: enabled
+
+Compilation events (10 events):
+Event: 34541,895 Thread 0x00007f0a9c0d0800 47288   !   3       org.apache.catalina.connector.OutputBuffer::doFlush (123 bytes)
+Event: 34541,898 Thread 0x00007f0a9c0d0800 nmethod 47288 0x00007f0a90a4bc50 code [0x00007f0a90a4be60, 0x00007f0a90a4cb28]
+Event: 34541,902 Thread 0x00007f0a9c0d0800 47289   !   3       org.apache.tomcat.util.net.SocketProcessorBase::run (35 bytes)
+Event: 34541,902 Thread 0x00007f0a9c0d0800 nmethod 47289 0x00007f0a8ecf2990 code [0x00007f0a8ecf2b20, 0x00007f0a8ecf3058]
+Event: 34545,369 Thread 0x00007f0a9c0d0800 47290       3       sun.nio.ch.SocketOptionRegistry$RegistryKey::equals (48 bytes)
+Event: 34545,369 Thread 0x00007f0a9c0d0800 nmethod 47290 0x00007f0a94cb1810 code [0x00007f0a94cb19a0, 0x00007f0a94cb1e10]
+Event: 34545,374 Thread 0x00007f0a9c0d0800 47292       3       org.apache.tomcat.util.net.SocketWrapperBase::setWriteTimeout (22 bytes)
+Event: 34545,375 Thread 0x00007f0a9c0d0800 nmethod 47292 0x00007f0a95279510 code [0x00007f0a95279680, 0x00007f0a95279870]
+Event: 34554,371 Thread 0x00007f0a9c0cc000 47293       4       sun.nio.ch.SelectorImpl::select (34 bytes)
+Event: 34554,373 Thread 0x00007f0a9c0cc000 nmethod 47293 0x00007f0a8f6f1ed0 code [0x00007f0a8f6f2020, 0x00007f0a8f6f2108]
+
+GC Heap History (10 events):
+Event: 34517,931 GC heap before
+{Heap before GC invocations=104 (full 7):
+ PSYoungGen      total 901120K, used 820859K [0x0000000782000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 780288K, 100% used [0x0000000782000000,0x00000007b1a00000,0x00000007b1a00000)
+  from space 120832K, 33% used [0x00000007b8a00000,0x00000007bb19ee28,0x00000007c0000000)
+  to   space 114688K, 0% used [0x00000007b1a00000,0x00000007b1a00000,0x00000007b8a00000)
+ ParOldGen       total 468992K, used 439304K [0x0000000706000000, 0x0000000722a00000, 0x0000000782000000)
+  object space 468992K, 93% used [0x0000000706000000,0x0000000720d02390,0x0000000722a00000)
+ Metaspace       used 478363K, capacity 484718K, committed 484952K, reserved 1468416K
+  class space    used 63866K, capacity 65068K, committed 65112K, reserved 1048576K
+Event: 34518,071 GC heap after
+Heap after GC invocations=104 (full 7):
+ PSYoungGen      total 795648K, used 15114K [0x0000000782000000, 0x00000007bf800000, 0x00000007c0000000)
+  eden space 780288K, 0% used [0x0000000782000000,0x0000000782000000,0x00000007b1a00000)
+  from space 15360K, 98% used [0x00000007b1a00000,0x00000007b28c29b8,0x00000007b2900000)
+  to   space 113664K, 0% used [0x00000007b8900000,0x00000007b8900000,0x00000007bf800000)
+ ParOldGen       total 468992K, used 452663K [0x0000000706000000, 0x0000000722a00000, 0x0000000782000000)
+  object space 468992K, 96% used [0x0000000706000000,0x0000000721a0dc90,0x0000000722a00000)
+ Metaspace       used 478363K, capacity 484718K, committed 484952K, reserved 1468416K
+  class space    used 63866K, capacity 65068K, committed 65112K, reserved 1048576K
+}
+Event: 34518,071 GC heap before
+{Heap before GC invocations=105 (full 8):
+ PSYoungGen      total 795648K, used 15114K [0x0000000782000000, 0x00000007bf800000, 0x00000007c0000000)
+  eden space 780288K, 0% used [0x0000000782000000,0x0000000782000000,0x00000007b1a00000)
+  from space 15360K, 98% used [0x00000007b1a00000,0x00000007b28c29b8,0x00000007b2900000)
+  to   space 113664K, 0% used [0x00000007b8900000,0x00000007b8900000,0x00000007bf800000)
+ ParOldGen       total 468992K, used 452663K [0x0000000706000000, 0x0000000722a00000, 0x0000000782000000)
+  object space 468992K, 96% used [0x0000000706000000,0x0000000721a0dc90,0x0000000722a00000)
+ Metaspace       used 478363K, capacity 484718K, committed 484952K, reserved 1468416K
+  class space    used 63866K, capacity 65068K, committed 65112K, reserved 1048576K
+Event: 34518,744 GC heap after
+Heap after GC invocations=105 (full 8):
+ PSYoungGen      total 795648K, used 0K [0x0000000782000000, 0x00000007bf800000, 0x00000007c0000000)
+  eden space 780288K, 0% used [0x0000000782000000,0x0000000782000000,0x00000007b1a00000)
+  from space 15360K, 0% used [0x00000007b1a00000,0x00000007b1a00000,0x00000007b2900000)
+  to   space 113664K, 0% used [0x00000007b8900000,0x00000007b8900000,0x00000007bf800000)
+ ParOldGen       total 511488K, used 313852K [0x0000000706000000, 0x0000000725380000, 0x0000000782000000)
+  object space 511488K, 61% used [0x0000000706000000,0x000000071927f120,0x0000000725380000)
+ Metaspace       used 477034K, capacity 482538K, committed 484952K, reserved 1468416K
+  class space    used 63664K, capacity 64704K, committed 65112K, reserved 1048576K
+}
+Event: 34521,945 GC heap before
+{Heap before GC invocations=106 (full 8):
+ PSYoungGen      total 795648K, used 780288K [0x0000000782000000, 0x00000007bf800000, 0x00000007c0000000)
+  eden space 780288K, 100% used [0x0000000782000000,0x00000007b1a00000,0x00000007b1a00000)
+  from space 15360K, 0% used [0x00000007b1a00000,0x00000007b1a00000,0x00000007b2900000)
+  to   space 113664K, 0% used [0x00000007b8900000,0x00000007b8900000,0x00000007bf800000)
+ ParOldGen       total 511488K, used 313852K [0x0000000706000000, 0x0000000725380000, 0x0000000782000000)
+  object space 511488K, 61% used [0x0000000706000000,0x000000071927f120,0x0000000725380000)
+ Metaspace       used 482800K, capacity 488488K, committed 490584K, reserved 1474560K
+  class space    used 64402K, capacity 65525K, committed 65880K, reserved 1048576K
+Event: 34521,969 GC heap after
+Heap after GC invocations=106 (full 8):
+ PSYoungGen      total 895488K, used 13341K [0x0000000782000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 781824K, 0% used [0x0000000782000000,0x0000000782000000,0x00000007b1b80000)
+  from space 113664K, 11% used [0x00000007b8900000,0x00000007b9607760,0x00000007bf800000)
+  to   space 112128K, 0% used [0x00000007b1b80000,0x00000007b1b80000,0x00000007b8900000)
+ ParOldGen       total 511488K, used 313852K [0x0000000706000000, 0x0000000725380000, 0x0000000782000000)
+  object space 511488K, 61% used [0x0000000706000000,0x000000071927f120,0x0000000725380000)
+ Metaspace       used 482800K, capacity 488488K, committed 490584K, reserved 1474560K
+  class space    used 64402K, capacity 65525K, committed 65880K, reserved 1048576K
+}
+Event: 34524,897 GC heap before
+{Heap before GC invocations=107 (full 8):
+ PSYoungGen      total 895488K, used 795165K [0x0000000782000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 781824K, 100% used [0x0000000782000000,0x00000007b1b80000,0x00000007b1b80000)
+  from space 113664K, 11% used [0x00000007b8900000,0x00000007b9607760,0x00000007bf800000)
+  to   space 112128K, 0% used [0x00000007b1b80000,0x00000007b1b80000,0x00000007b8900000)
+ ParOldGen       total 511488K, used 313852K [0x0000000706000000, 0x0000000725380000, 0x0000000782000000)
+  object space 511488K, 61% used [0x0000000706000000,0x000000071927f120,0x0000000725380000)
+ Metaspace       used 485628K, capacity 491426K, committed 493528K, reserved 1476608K
+  class space    used 64797K, capacity 65930K, committed 66264K, reserved 1048576K
+Event: 34524,918 GC heap after
+Heap after GC invocations=107 (full 8):
+ PSYoungGen      total 893952K, used 9714K [0x0000000782000000, 0x00000007bfb80000, 0x00000007c0000000)
+  eden space 781824K, 0% used [0x0000000782000000,0x0000000782000000,0x00000007b1b80000)
+  from space 112128K, 8% used [0x00000007b1b80000,0x00000007b24fca40,0x00000007b8900000)
+  to   space 110592K, 0% used [0x00000007b8f80000,0x00000007b8f80000,0x00000007bfb80000)
+ ParOldGen       total 511488K, used 326021K [0x0000000706000000, 0x0000000725380000, 0x0000000782000000)
+  object space 511488K, 63% used [0x0000000706000000,0x0000000719e61590,0x0000000725380000)
+ Metaspace       used 485628K, capacity 491426K, committed 493528K, reserved 1476608K
+  class space    used 64797K, capacity 65930K, committed 66264K, reserved 1048576K
+}
+Event: 34952,206 GC heap before
+{Heap before GC invocations=108 (full 8):
+ PSYoungGen      total 893952K, used 791538K [0x0000000782000000, 0x00000007bfb80000, 0x00000007c0000000)
+  eden space 781824K, 100% used [0x0000000782000000,0x00000007b1b80000,0x00000007b1b80000)
+  from space 112128K, 8% used [0x00000007b1b80000,0x00000007b24fca40,0x00000007b8900000)
+  to   space 110592K, 0% used [0x00000007b8f80000,0x00000007b8f80000,0x00000007bfb80000)
+ ParOldGen       total 511488K, used 326021K [0x0000000706000000, 0x0000000725380000, 0x0000000782000000)
+  object space 511488K, 63% used [0x0000000706000000,0x0000000719e61590,0x0000000725380000)
+ Metaspace       used 489572K, capacity 495372K, committed 497368K, reserved 1480704K
+  class space    used 65317K, capacity 66434K, committed 66776K, reserved 1048576K
+Event: 34952,239 GC heap after
+Heap after GC invocations=108 (full 8):
+ PSYoungGen      total 898560K, used 47490K [0x0000000782000000, 0x00000007bf680000, 0x00000007c0000000)
+  eden space 793088K, 0% used [0x0000000782000000,0x0000000782000000,0x00000007b2680000)
+  from space 105472K, 45% used [0x00000007b8f80000,0x00000007bbde09d0,0x00000007bf680000)
+  to   space 106496K, 0% used [0x00000007b2680000,0x00000007b2680000,0x00000007b8e80000)
+ ParOldGen       total 511488K, used 327397K [0x0000000706000000, 0x0000000725380000, 0x0000000782000000)
+  object space 511488K, 64% used [0x0000000706000000,0x0000000719fb9590,0x0000000725380000)
+ Metaspace       used 489572K, capacity 495372K, committed 497368K, reserved 1480704K
+  class space    used 65317K, capacity 66434K, committed 66776K, reserved 1048576K
+}
+
+Deoptimization events (10 events):
+Event: 34523,425 Thread 0x00007f0a5420b800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007f0a961f072c method=org.springframework.util.ReflectionUtils.doWithMethods(Ljava/lang/Class;Lorg/springframework/util/ReflectionUtils$MethodCallback;Lorg/springframework/util/ReflectionUtil
+Event: 34523,427 Thread 0x00007f0a5420b800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007f0a961f072c method=org.springframework.util.ReflectionUtils.doWithMethods(Ljava/lang/Class;Lorg/springframework/util/ReflectionUtils$MethodCallback;Lorg/springframework/util/ReflectionUtil
+Event: 34523,427 Thread 0x00007f0a5420b800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007f0a961f072c method=org.springframework.util.ReflectionUtils.doWithMethods(Ljava/lang/Class;Lorg/springframework/util/ReflectionUtils$MethodCallback;Lorg/springframework/util/ReflectionUtil
+Event: 34523,427 Thread 0x00007f0a5420b800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007f0a961f072c method=org.springframework.util.ReflectionUtils.doWithMethods(Ljava/lang/Class;Lorg/springframework/util/ReflectionUtils$MethodCallback;Lorg/springframework/util/ReflectionUtil
+Event: 34523,704 Thread 0x00007f0a5420b800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f0a95deb37c method=org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(Ljava/lang/String;)Z @ 27
+Event: 34524,337 Thread 0x00007f0a5420b800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f0a954a7774 method=org.springframework.core.ResolvableType.resolveType()Lorg/springframework/core/ResolvableType; @ 37
+Event: 34525,729 Thread 0x00007f0a5420b800 Uncommon trap: reason=null_check action=make_not_entrant pc=0x00007f0a9611b45c method=org.springframework.core.annotation.AnnotationUtils.isSynthesizable(Ljava/lang/Class;)Z @ 84
+Event: 34525,930 Thread 0x00007f0a5420b800 Uncommon trap: reason=null_check action=make_not_entrant pc=0x00007f0a9565f1c8 method=org.springframework.core.annotation.AnnotationUtils.isSynthesizable(Ljava/lang/Class;)Z @ 119
+Event: 34526,613 Thread 0x00007f0a5420b800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f0a9219313c method=org.springframework.core.annotation.AnnotationUtils.adaptValue(Ljava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object; @ 80
+Event: 34528,457 Thread 0x00007f0a5420b800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f0a933cacb4 method=org.springframework.util.ConcurrentReferenceHashMap$Segment.clear()V @ 4
+
+Internal exceptions (10 events):
+Event: 34524,773 Thread 0x00007f0a5420b800 Exception <a 'java/lang/ClassNotFoundException': java/lang/ObjectCustomizer> (0x00000007b0092a78) thrown at [/HUDSON3/workspace/8-2-build-linux-amd64/jdk8u111/7883/hotspot/src/share/vm/classfile/systemDictionary.cpp, line 210]
+Event: 34524,774 Thread 0x00007f0a5420b800 Exception <a 'java/lang/ClassNotFoundException': org/springframework/ws/server/endpoint/AbstractEndpointExceptionResolverCustomizer> (0x00000007b017f8e8) thrown at [/HUDSON3/workspace/8-2-build-linux-amd64/jdk8u111/7883/hotspot/src/share/vm/classfile/syst
+Event: 34524,775 Thread 0x00007f0a5420b800 Exception <a 'java/lang/ClassNotFoundException': org/springframework/ws/soap/server/endpoint/SimpleSoapExceptionResolverCustomizer> (0x00000007b026a680) thrown at [/HUDSON3/workspace/8-2-build-linux-amd64/jdk8u111/7883/hotspot/src/share/vm/classfile/syste
+Event: 34524,776 Thread 0x00007f0a5420b800 Exception <a 'java/lang/ClassNotFoundException': org/springframework/ws/server/EndpointExceptionResolverCustomizer> (0x00000007b0333fe8) thrown at [/HUDSON3/workspace/8-2-build-linux-amd64/jdk8u111/7883/hotspot/src/share/vm/classfile/systemDictionary.cpp,
+Event: 34524,777 Thread 0x00007f0a5420b800 Exception <a 'java/lang/ClassNotFoundException': org/springframework/core/OrderedCustomizer> (0x00000007b03c8c98) thrown at [/HUDSON3/workspace/8-2-build-linux-amd64/jdk8u111/7883/hotspot/src/share/vm/classfile/systemDictionary.cpp, line 210]
+Event: 34524,779 Thread 0x00007f0a5420b800 Exception <a 'java/lang/ClassNotFoundException': java/lang/ObjectCustomizer> (0x00000007b042c558) thrown at [/HUDSON3/workspace/8-2-build-linux-amd64/jdk8u111/7883/hotspot/src/share/vm/classfile/systemDictionary.cpp, line 210]
+Event: 34524,780 Thread 0x00007f0a5420b800 Exception <a 'java/lang/ClassNotFoundException': org/springframework/boot/autoconfigure/webservices/WebServicesAutoConfiguration$WsConfigurationCustomizer> (0x00000007b0547d40) thrown at [/HUDSON3/workspace/8-2-build-linux-amd64/jdk8u111/7883/hotspot/src/
+Event: 34524,781 Thread 0x00007f0a5420b800 Exception <a 'java/lang/ClassNotFoundException': org/springframework/boot/autoconfigure/webservices/WebServicesAutoConfiguration$WsConfiguration$$EnhancerBySpringCGLIB$$f51331c0Customizer> (0x00000007b06aa658) thrown at [/HUDSON3/workspace/8-2-build-linux
+Event: 34524,782 Thread 0x00007f0a5420b800 Exception <a 'java/lang/ClassNotFoundException': org/springframework/context/annotation/ConfigurationClassEnhancer$EnhancedConfigurationCustomizer> (0x00000007b07b6fa0) thrown at [/HUDSON3/workspace/8-2-build-linux-amd64/jdk8u111/7883/hotspot/src/share/vm
+Event: 34528,470 Thread 0x00007f0a5420b800 Exception <a 'java/io/FileNotFoundException'> (0x00000007950408e8) thrown at [/HUDSON3/workspace/8-2-build-linux-amd64/jdk8u111/7883/hotspot/src/share/vm/prims/jni.cpp, line 709]
+
+Events (10 events):
+Event: 34952,205 Executing VM operation: ParallelGCFailedAllocation
+Event: 34952,239 Executing VM operation: ParallelGCFailedAllocation done
+Event: 34952,239 Thread 0x00007f0a9c082800 DEOPT PACKING pc=0x00007f0a9593ae0c sp=0x00007f0a844018e0
+Event: 34952,239 Thread 0x00007f0a9c082800 DEOPT UNPACKING pc=0x00007f0a8d047633 sp=0x00007f0a844015c0 mode 0
+Event: 34952,239 Thread 0x00007f0a9c082800 DEOPT PACKING pc=0x00007f0a918223ac sp=0x00007f0a84401940
+Event: 34952,239 Thread 0x00007f0a9c082800 DEOPT UNPACKING pc=0x00007f0a8d047633 sp=0x00007f0a84401670 mode 0
+Event: 34953,085 Thread 0x00007f0a9c087000 DEOPT PACKING pc=0x00007f0a8f88f9c0 sp=0x00007f0a84300940
+Event: 34953,085 Thread 0x00007f0a9c087000 DEOPT UNPACKING pc=0x00007f0a8d047633 sp=0x00007f0a843005d8 mode 0
+Event: 34959,074 Executing VM operation: RevokeBias
+Event: 34959,074 Executing VM operation: RevokeBias done
+
+
+Dynamic libraries:
+00400000-00401000 r-xp 00000000 08:01 24781401                           /usr/lib/jvm/java-8-oracle/bin/java
+00600000-00601000 rw-p 00000000 08:01 24781401                           /usr/lib/jvm/java-8-oracle/bin/java
+00b21000-00f04000 rw-p 00000000 00:00 0                                  [heap]
+706000000-725380000 rw-p 00000000 00:00 0 
+725380000-782000000 ---p 00000000 00:00 0 
+782000000-7bf680000 rw-p 00000000 00:00 0 
+7bf680000-7c0000000 ---p 00000000 00:00 0 
+7c0000000-7c4136000 rw-p 00000000 00:00 0 
+7c4136000-800000000 ---p 00000000 00:00 0 
+7f0980000000-7f0982b57000 rw-p 00000000 00:00 0 
+7f0982b57000-7f0984000000 ---p 00000000 00:00 0 
+7f0984000000-7f0984af0000 rw-p 00000000 00:00 0 
+7f0984af0000-7f0988000000 ---p 00000000 00:00 0 
+7f0988000000-7f098bffc000 rw-p 00000000 00:00 0 
+7f098bffc000-7f098c000000 ---p 00000000 00:00 0 
+7f098c000000-7f098fff9000 rw-p 00000000 00:00 0 
+7f098fff9000-7f0990000000 ---p 00000000 00:00 0 
+7f0992600000-7f0992680000 rw-p 00000000 00:00 0 
+7f0992680000-7f0992800000 ---p 00000000 00:00 0 
+7f0992800000-7f0992a00000 rw-p 00000000 00:00 0 
+7f0992a00000-7f0992c00000 rw-p 00000000 00:00 0 
+7f0992c00000-7f0992e00000 rw-p 00000000 00:00 0 
+7f0992e00000-7f0993000000 rw-p 00000000 00:00 0 
+7f0993000000-7f0993200000 rw-p 00000000 00:00 0 
+7f0993200000-7f0993400000 rw-p 00000000 00:00 0 
+7f0993400000-7f0993600000 rw-p 00000000 00:00 0 
+7f0993600000-7f0993800000 rw-p 00000000 00:00 0 
+7f0993800000-7f0993a00000 rw-p 00000000 00:00 0 
+7f0993a00000-7f0993c00000 rw-p 00000000 00:00 0 
+7f0993c00000-7f0993e00000 rw-p 00000000 00:00 0 
+7f0993e00000-7f0994000000 rw-p 00000000 00:00 0 
+7f0994000000-7f0997ffd000 rw-p 00000000 00:00 0 
+7f0997ffd000-7f0998000000 ---p 00000000 00:00 0 
+7f0998000000-7f0998a6f000 rw-p 00000000 00:00 0 
+7f0998a6f000-7f099c000000 ---p 00000000 00:00 0 
+7f099c0c9000-7f099c2c9000 rw-p 00000000 00:00 0 
+7f099c2c9000-7f099c4c9000 rw-p 00000000 00:00 0 
+7f099c4c9000-7f099c6c9000 rw-p 00000000 00:00 0 
+7f099c6c9000-7f099c8c9000 rw-p 00000000 00:00 0 
+7f099c8c9000-7f099cac9000 rw-p 00000000 00:00 0 
+7f099cac9000-7f099cacc000 ---p 00000000 00:00 0 
+7f099cacc000-7f099cdca000 rw-p 00000000 00:00 0 
+7f099cdca000-7f099cfca000 rw-p 00000000 00:00 0 
+7f099cfca000-7f099d1ca000 rw-p 00000000 00:00 0 
+7f099d1ca000-7f099d3ca000 rw-p 00000000 00:00 0 
+7f099d3ca000-7f099d5ca000 rw-p 00000000 00:00 0 
+7f099d5ca000-7f099d7ca000 rw-p 00000000 00:00 0 
+7f099d7ca000-7f099d9ca000 rw-p 00000000 00:00 0 
+7f099d9ca000-7f099dbca000 rw-p 00000000 00:00 0 
+7f099dbca000-7f099ddca000 rw-p 00000000 00:00 0 
+7f099ddca000-7f099ddcd000 ---p 00000000 00:00 0 
+7f099ddcd000-7f099e0cb000 rw-p 00000000 00:00 0 
+7f099e0fd000-7f099e2fd000 rw-p 00000000 00:00 0 
+7f099e2fd000-7f099e300000 ---p 00000000 00:00 0 
+7f099e300000-7f099e5fe000 rw-p 00000000 00:00 0 
+7f099e5fe000-7f099e601000 ---p 00000000 00:00 0 
+7f099e601000-7f099e6ff000 rw-p 00000000 00:00 0 
+7f099e6ff000-7f099e702000 ---p 00000000 00:00 0 
+7f099e702000-7f099ea00000 rw-p 00000000 00:00 0 
+7f099ea00000-7f099ec00000 rw-p 00000000 00:00 0 
+7f099ec00000-7f099ee00000 rw-p 00000000 00:00 0 
+7f099ee00000-7f099f000000 rw-p 00000000 00:00 0 
+7f099f000000-7f099f200000 rw-p 00000000 00:00 0 
+7f099f200000-7f099f400000 rw-p 00000000 00:00 0 
+7f099f400000-7f099f600000 rw-p 00000000 00:00 0 
+7f099f600000-7f099f800000 rw-p 00000000 00:00 0 
+7f099f800000-7f099fa00000 rw-p 00000000 00:00 0 
+7f099fa00000-7f099fc00000 rw-p 00000000 00:00 0 
+7f099fc00000-7f099fe00000 rw-p 00000000 00:00 0 
+7f099fe00000-7f09a0000000 rw-p 00000000 00:00 0 
+7f09a0000000-7f09a3ffb000 rw-p 00000000 00:00 0 
+7f09a3ffb000-7f09a4000000 ---p 00000000 00:00 0 
+7f09a4014000-7f09a4214000 rw-p 00000000 00:00 0 
+7f09a4214000-7f09a4414000 rw-p 00000000 00:00 0 
+7f09a4414000-7f09a4614000 rw-p 00000000 00:00 0 
+7f09a4614000-7f09a4814000 rw-p 00000000 00:00 0 
+7f09a4814000-7f09a4a14000 rw-p 00000000 00:00 0 
+7f09a4a14000-7f09a4c14000 rw-p 00000000 00:00 0 
+7f09a4c14000-7f09a4e14000 rw-p 00000000 00:00 0 
+7f09a4e14000-7f09a5014000 rw-p 00000000 00:00 0 
+7f09a5014000-7f09a5214000 rw-p 00000000 00:00 0 
+7f09a5214000-7f09a5414000 rw-p 00000000 00:00 0 
+7f09a5414000-7f09a5614000 rw-p 00000000 00:00 0 
+7f09a5614000-7f09a5814000 rw-p 00000000 00:00 0 
+7f09a5814000-7f09a5a14000 rw-p 00000000 00:00 0 
+7f09a5a14000-7f09a5c14000 rw-p 00000000 00:00 0 
+7f09a5c14000-7f09a5e14000 rw-p 00000000 00:00 0 
+7f09a5e14000-7f09a6014000 rw-p 00000000 00:00 0 
+7f09a6014000-7f09a6214000 rw-p 00000000 00:00 0 
+7f09a6214000-7f09a6414000 rw-p 00000000 00:00 0 
+7f09a6414000-7f09a6614000 rw-p 00000000 00:00 0 
+7f09a6614000-7f09a6617000 ---p 00000000 00:00 0 
+7f09a6617000-7f09a6715000 rw-p 00000000 00:00 0 
+7f09a6715000-7f09a6718000 ---p 00000000 00:00 0 
+7f09a6718000-7f09a6a16000 rw-p 00000000 00:00 0 
+7f09a6af7000-7f09a6cf7000 rw-p 00000000 00:00 0 
+7f09a6cf7000-7f09a6cfa000 ---p 00000000 00:00 0 
+7f09a6cfa000-7f09a6ff8000 rw-p 00000000 00:00 0 
+7f09a6ff8000-7f09a6ffb000 ---p 00000000 00:00 0 
+7f09a6ffb000-7f09a72f9000 rw-p 00000000 00:00 0 
+7f09a72f9000-7f09a74f9000 rw-p 00000000 00:00 0 
+7f09a75fa000-7f09a77fa000 rw-p 00000000 00:00 0 
+7f09a77fa000-7f09a77fd000 ---p 00000000 00:00 0 
+7f09a77fd000-7f09a7afb000 rw-p 00000000 00:00 0 
+7f09a7afb000-7f09a7afe000 ---p 00000000 00:00 0 
+7f09a7afe000-7f09a7bfc000 rw-p 00000000 00:00 0 
+7f09a7bfc000-7f09a7bff000 ---p 00000000 00:00 0 
+7f09a7bff000-7f09a7cfd000 rw-p 00000000 00:00 0 
+7f09a7cfd000-7f09a7d00000 ---p 00000000 00:00 0 
+7f09a7d00000-7f09a7dfe000 rw-p 00000000 00:00 0 
+7f09a7dfe000-7f09a7e01000 ---p 00000000 00:00 0 
+7f09a7e01000-7f09a7eff000 rw-p 00000000 00:00 0 
+7f09a7eff000-7f09a7f02000 ---p 00000000 00:00 0 
+7f09a7f02000-7f09a8000000 rw-p 00000000 00:00 0 
+7f09a8000000-7f09aa27a000 rw-p 00000000 00:00 0 
+7f09aa27a000-7f09ac000000 ---p 00000000 00:00 0 
+7f09ac05b000-7f09ac05e000 ---p 00000000 00:00 0 
+7f09ac05e000-7f09ac15c000 rw-p 00000000 00:00 0 
+7f09ac15c000-7f09ac15f000 ---p 00000000 00:00 0 
+7f09ac15f000-7f09ac25d000 rw-p 00000000 00:00 0 
+7f09ac25d000-7f09ac260000 ---p 00000000 00:00 0 
+7f09ac260000-7f09ac35e000 rw-p 00000000 00:00 0 
+7f09ac45f000-7f09ac462000 ---p 00000000 00:00 0 
+7f09ac462000-7f09ac560000 rw-p 00000000 00:00 0 
+7f09ac560000-7f09ac563000 ---p 00000000 00:00 0 
+7f09ac563000-7f09ac661000 rw-p 00000000 00:00 0 
+7f09ac661000-7f09ac664000 ---p 00000000 00:00 0 
+7f09ac664000-7f09ac762000 rw-p 00000000 00:00 0 
+7f09ac762000-7f09ac765000 ---p 00000000 00:00 0 
+7f09ac765000-7f09ac863000 rw-p 00000000 00:00 0 
+7f09ac863000-7f09ac866000 ---p 00000000 00:00 0 
+7f09ac866000-7f09ac964000 rw-p 00000000 00:00 0 
+7f09ac964000-7f09ac967000 ---p 00000000 00:00 0 
+7f09ac967000-7f09aca65000 rw-p 00000000 00:00 0 
+7f09aca65000-7f09aca68000 ---p 00000000 00:00 0 
+7f09aca68000-7f09acb66000 rw-p 00000000 00:00 0 
+7f09acb66000-7f09acb69000 ---p 00000000 00:00 0 
+7f09acb69000-7f09acc67000 rw-p 00000000 00:00 0 
+7f09acc67000-7f09acc6a000 ---p 00000000 00:00 0 
+7f09acc6a000-7f09acd68000 rw-p 00000000 00:00 0 
+7f09acd68000-7f09acd6b000 ---p 00000000 00:00 0 
+7f09acd6b000-7f09ace69000 rw-p 00000000 00:00 0 
+7f09ace69000-7f09ace6c000 ---p 00000000 00:00 0 
+7f09ace6c000-7f09acf6a000 rw-p 00000000 00:00 0 
+7f09acf6a000-7f09acf6d000 ---p 00000000 00:00 0 
+7f09acf6d000-7f09ad06b000 rw-p 00000000 00:00 0 
+7f09ad06b000-7f09ad06e000 ---p 00000000 00:00 0 
+7f09ad06e000-7f09ad16c000 rw-p 00000000 00:00 0 
+7f09ad16c000-7f09ad16f000 ---p 00000000 00:00 0 
+7f09ad16f000-7f09ad26d000 rw-p 00000000 00:00 0 
+7f09ad26d000-7f09ad270000 ---p 00000000 00:00 0 
+7f09ad270000-7f09ad36e000 rw-p 00000000 00:00 0 
+7f09ad36e000-7f09ad371000 ---p 00000000 00:00 0 
+7f09ad371000-7f09ad66f000 rw-p 00000000 00:00 0 
+7f09ad66f000-7f09ad672000 ---p 00000000 00:00 0 
+7f09ad672000-7f09ad770000 rw-p 00000000 00:00 0 
+7f09ad770000-7f09ad773000 ---p 00000000 00:00 0 
+7f09ad773000-7f09ada71000 rw-p 00000000 00:00 0 
+7f09ada71000-7f09ada74000 ---p 00000000 00:00 0 
+7f09ada74000-7f09adb72000 rw-p 00000000 00:00 0 
+7f09adb72000-7f09adb75000 ---p 00000000 00:00 0 
+7f09adb75000-7f09ade73000 rw-p 00000000 00:00 0 
+7f09ade73000-7f09ade76000 ---p 00000000 00:00 0 
+7f09ade76000-7f09ae174000 rw-p 00000000 00:00 0 
+7f09ae174000-7f09ae177000 ---p 00000000 00:00 0 
+7f09ae177000-7f09ae475000 rw-p 00000000 00:00 0 
+7f09ae475000-7f09ae478000 ---p 00000000 00:00 0 
+7f09ae478000-7f09ae576000 rw-p 00000000 00:00 0 
+7f09ae576000-7f09ae579000 ---p 00000000 00:00 0 
+7f09ae579000-7f09ae677000 rw-p 00000000 00:00 0 
+7f09ae677000-7f09ae67a000 ---p 00000000 00:00 0 
+7f09ae67a000-7f09ae778000 rw-p 00000000 00:00 0 
+7f09ae778000-7f09ae77b000 ---p 00000000 00:00 0 
+7f09ae77b000-7f09ae879000 rw-p 00000000 00:00 0 
+7f09ae879000-7f09ae87c000 ---p 00000000 00:00 0 
+7f09ae87c000-7f09ae97a000 rw-p 00000000 00:00 0 
+7f09ae97a000-7f09ae97d000 ---p 00000000 00:00 0 
+7f09ae97d000-7f09aea7b000 rw-p 00000000 00:00 0 
+7f09aea7b000-7f09aea7e000 ---p 00000000 00:00 0 
+7f09aea7e000-7f09aed7c000 rw-p 00000000 00:00 0 
+7f09aed7c000-7f09aed7f000 ---p 00000000 00:00 0 
+7f09aed7f000-7f09aee7d000 rw-p 00000000 00:00 0 
+7f09aee7d000-7f09aee80000 ---p 00000000 00:00 0 
+7f09aee80000-7f09aef7e000 rw-p 00000000 00:00 0 
+7f09aef7e000-7f09aef81000 ---p 00000000 00:00 0 
+7f09aef81000-7f09af07f000 rw-p 00000000 00:00 0 
+7f09af07f000-7f09af082000 ---p 00000000 00:00 0 
+7f09af082000-7f09af180000 rw-p 00000000 00:00 0 
+7f09af180000-7f09af183000 ---p 00000000 00:00 0 
+7f09af183000-7f09af281000 rw-p 00000000 00:00 0 
+7f09af2f9000-7f09af2fc000 ---p 00000000 00:00 0 
+7f09af2fc000-7f09af3fa000 rw-p 00000000 00:00 0 
+7f09af3fa000-7f09af3fd000 ---p 00000000 00:00 0 
+7f09af3fd000-7f09af6fb000 rw-p 00000000 00:00 0 
+7f09af6fb000-7f09af6fe000 ---p 00000000 00:00 0 
+7f09af6fe000-7f09af9fc000 rw-p 00000000 00:00 0 
+7f09af9fc000-7f09af9ff000 ---p 00000000 00:00 0 
+7f09af9ff000-7f09afafd000 rw-p 00000000 00:00 0 
+7f09afafd000-7f09afb00000 ---p 00000000 00:00 0 
+7f09afb00000-7f09afbfe000 rw-p 00000000 00:00 0 
+7f09afbfe000-7f09afc01000 ---p 00000000 00:00 0 
+7f09afc01000-7f09afeff000 rw-p 00000000 00:00 0 
+7f09afeff000-7f09aff02000 ---p 00000000 00:00 0 
+7f09aff02000-7f09b0000000 rw-p 00000000 00:00 0 
+7f09b0000000-7f09b3ffb000 rw-p 00000000 00:00 0 
+7f09b3ffb000-7f09b4000000 ---p 00000000 00:00 0 
+7f09b40a0000-7f09b40a3000 ---p 00000000 00:00 0 
+7f09b40a3000-7f09b41a1000 rw-p 00000000 00:00 0 
+7f09b41a1000-7f09b41a4000 ---p 00000000 00:00 0 
+7f09b41a4000-7f09b42a2000 rw-p 00000000 00:00 0 
+7f09b42a2000-7f09b42a5000 ---p 00000000 00:00 0 
+7f09b42a5000-7f09b43a3000 rw-p 00000000 00:00 0 
+7f09b44a4000-7f09b46a4000 rw-p 00000000 00:00 0 
+7f09b46a4000-7f09b46a7000 ---p 00000000 00:00 0 
+7f09b46a7000-7f09b47a5000 rw-p 00000000 00:00 0 
+7f09b47a5000-7f09b47a8000 ---p 00000000 00:00 0 
+7f09b47a8000-7f09b4aa6000 rw-p 00000000 00:00 0 
+7f09b4aa6000-7f09b4ca6000 rw-p 00000000 00:00 0 
+7f09b4da7000-7f09b4fa7000 rw-p 00000000 00:00 0 
+7f09b4fa7000-7f09b4faa000 ---p 00000000 00:00 0 
+7f09b4faa000-7f09b50a8000 rw-p 00000000 00:00 0 
+7f09b50a8000-7f09b50ab000 ---p 00000000 00:00 0 
+7f09b50ab000-7f09b51a9000 rw-p 00000000 00:00 0 
+7f09b51a9000-7f09b51ac000 ---p 00000000 00:00 0 
+7f09b51ac000-7f09b52aa000 rw-p 00000000 00:00 0 
+7f09b52aa000-7f09b52ad000 ---p 00000000 00:00 0 
+7f09b52ad000-7f09b53ab000 rw-p 00000000 00:00 0 
+7f09b53ab000-7f09b53ae000 ---p 00000000 00:00 0 
+7f09b53ae000-7f09b54ac000 rw-p 00000000 00:00 0 
+7f09b54ac000-7f09b54af000 ---p 00000000 00:00 0 
+7f09b54af000-7f09b55ad000 rw-p 00000000 00:00 0 
+7f09b55ad000-7f09b55b0000 ---p 00000000 00:00 0 
+7f09b55b0000-7f09b56ae000 rw-p 00000000 00:00 0 
+7f09b56ae000-7f09b56b1000 ---p 00000000 00:00 0 
+7f09b56b1000-7f09b57af000 rw-p 00000000 00:00 0 
+7f09b57af000-7f09b57b2000 ---p 00000000 00:00 0 
+7f09b57b2000-7f09b58b0000 rw-p 00000000 00:00 0 
+7f09b58b0000-7f09b58b3000 ---p 00000000 00:00 0 
+7f09b58b3000-7f09b59b1000 rw-p 00000000 00:00 0 
+7f09b59b1000-7f09b59b4000 ---p 00000000 00:00 0 
+7f09b59b4000-7f09b5ab2000 rw-p 00000000 00:00 0 
+7f09b5bb3000-7f09b5bb6000 ---p 00000000 00:00 0 
+7f09b5bb6000-7f09b5cb4000 rw-p 00000000 00:00 0 
+7f09b5cb4000-7f09b5cb7000 ---p 00000000 00:00 0 
+7f09b5cb7000-7f09b5db5000 rw-p 00000000 00:00 0 
+7f09b5db5000-7f09b5db8000 ---p 00000000 00:00 0 
+7f09b5db8000-7f09b5eb6000 rw-p 00000000 00:00 0 
+7f09b5eb6000-7f09b5eb9000 ---p 00000000 00:00 0 
+7f09b5eb9000-7f09b5fb7000 rw-p 00000000 00:00 0 
+7f09b5fb7000-7f09b5fba000 ---p 00000000 00:00 0 
+7f09b5fba000-7f09b60b8000 rw-p 00000000 00:00 0 
+7f09b60b8000-7f09b60bb000 ---p 00000000 00:00 0 
+7f09b60bb000-7f09b61b9000 rw-p 00000000 00:00 0 
+7f09b61b9000-7f09b61bc000 ---p 00000000 00:00 0 
+7f09b61bc000-7f09b62ba000 rw-p 00000000 00:00 0 
+7f09b62ba000-7f09b62bd000 ---p 00000000 00:00 0 
+7f09b62bd000-7f09b63bb000 rw-p 00000000 00:00 0 
+7f09b63bb000-7f09b63be000 ---p 00000000 00:00 0 
+7f09b63be000-7f09b64bc000 rw-p 00000000 00:00 0 
+7f09b64bc000-7f09b64bf000 ---p 00000000 00:00 0 
+7f09b64bf000-7f09b65bd000 rw-p 00000000 00:00 0 
+7f09b65bd000-7f09b65c0000 ---p 00000000 00:00 0 
+7f09b65c0000-7f09b66be000 rw-p 00000000 00:00 0 
+7f09b66be000-7f09b66c1000 ---p 00000000 00:00 0 
+7f09b66c1000-7f09b67bf000 rw-p 00000000 00:00 0 
+7f09b67bf000-7f09b67c2000 ---p 00000000 00:00 0 
+7f09b67c2000-7f09b68c0000 rw-p 00000000 00:00 0 
+7f09b68c0000-7f09b68c3000 ---p 00000000 00:00 0 
+7f09b68c3000-7f09b69c1000 rw-p 00000000 00:00 0 
+7f09b69c1000-7f09b69c4000 ---p 00000000 00:00 0 
+7f09b69c4000-7f09b6ac2000 rw-p 00000000 00:00 0 
+7f09b6ac2000-7f09b6ac5000 ---p 00000000 00:00 0 
+7f09b6ac5000-7f09b6bc3000 rw-p 00000000 00:00 0 
+7f09b6bc3000-7f09b6bc6000 ---p 00000000 00:00 0 
+7f09b6bc6000-7f09b6cc4000 rw-p 00000000 00:00 0 
+7f09b6cc4000-7f09b6cc7000 ---p 00000000 00:00 0 
+7f09b6cc7000-7f09b6dc5000 rw-p 00000000 00:00 0 
+7f09b6dc5000-7f09b6dc8000 ---p 00000000 00:00 0 
+7f09b6dc8000-7f09b6ec6000 rw-p 00000000 00:00 0 
+7f09b6ec6000-7f09b6ec9000 ---p 00000000 00:00 0 
+7f09b6ec9000-7f09b6fc7000 rw-p 00000000 00:00 0 
+7f09b6fc7000-7f09b6fca000 ---p 00000000 00:00 0 
+7f09b6fca000-7f09b70c8000 rw-p 00000000 00:00 0 
+7f09b70c8000-7f09b70cb000 ---p 00000000 00:00 0 
+7f09b70cb000-7f09b71c9000 rw-p 00000000 00:00 0 
+7f09b71c9000-7f09b71cc000 ---p 00000000 00:00 0 
+7f09b71cc000-7f09b72ca000 rw-p 00000000 00:00 0 
+7f09b72ca000-7f09b72cd000 ---p 00000000 00:00 0 
+7f09b72cd000-7f09b73cb000 rw-p 00000000 00:00 0 
+7f09b73cb000-7f09b73ce000 ---p 00000000 00:00 0 
+7f09b73ce000-7f09b74cc000 rw-p 00000000 00:00 0 
+7f09b74cc000-7f09b74cf000 ---p 00000000 00:00 0 
+7f09b74cf000-7f09b75cd000 rw-p 00000000 00:00 0 
+7f09b75cd000-7f09b75d0000 ---p 00000000 00:00 0 
+7f09b75d0000-7f09b76ce000 rw-p 00000000 00:00 0 
+7f09b76ce000-7f09b76d1000 ---p 00000000 00:00 0 
+7f09b76d1000-7f09b77cf000 rw-p 00000000 00:00 0 
+7f09b77cf000-7f09b77d2000 ---p 00000000 00:00 0 
+7f09b77d2000-7f09b78d0000 rw-p 00000000 00:00 0 
+7f09b78d0000-7f09b78d3000 ---p 00000000 00:00 0 
+7f09b78d3000-7f09b79d1000 rw-p 00000000 00:00 0 
+7f09b79d1000-7f09b79d4000 ---p 00000000 00:00 0 
+7f09b79d4000-7f09b7ad2000 rw-p 00000000 00:00 0 
+7f09b7ad2000-7f09b7ad5000 ---p 00000000 00:00 0 
+7f09b7ad5000-7f09b7bd3000 rw-p 00000000 00:00 0 
+7f09b7bd3000-7f09b7bd6000 ---p 00000000 00:00 0 
+7f09b7bd6000-7f09b7cd4000 rw-p 00000000 00:00 0 
+7f09b7cd4000-7f09b7cd7000 ---p 00000000 00:00 0 
+7f09b7cd7000-7f09b7dd5000 rw-p 00000000 00:00 0 
+7f09b7dd5000-7f09b7dd8000 ---p 00000000 00:00 0 
+7f09b7dd8000-7f09b7ed6000 rw-p 00000000 00:00 0 
+7f09b7ed6000-7f09b7ed9000 ---p 00000000 00:00 0 
+7f09b7ed9000-7f09b7fd7000 rw-p 00000000 00:00 0 
+7f09b7fd7000-7f09b7fda000 ---p 00000000 00:00 0 
+7f09b7fda000-7f09b82d8000 rw-p 00000000 00:00 0 
+7f09b82d8000-7f09b84d8000 rw-p 00000000 00:00 0 
+7f09b84d8000-7f09b86d8000 rw-p 00000000 00:00 0 
+7f09b86d8000-7f09b88d8000 rw-p 00000000 00:00 0 
+7f09b88d8000-7f09b8ad8000 rw-p 00000000 00:00 0 
+7f09b8ad8000-7f09b8cd8000 rw-p 00000000 00:00 0 
+7f09b8cd8000-7f09b8cdb000 ---p 00000000 00:00 0 
+7f09b8cdb000-7f09b8fd9000 rw-p 00000000 00:00 0 
+7f09b8fd9000-7f09b91d9000 rw-p 00000000 00:00 0 
+7f09b91d9000-7f09b93d9000 rw-p 00000000 00:00 0 
+7f09b93d9000-7f09b95d9000 rw-p 00000000 00:00 0 
+7f09b95d9000-7f09b97d9000 rw-p 00000000 00:00 0 
+7f09b97d9000-7f09b99d9000 rw-p 00000000 00:00 0 
+7f09b99d9000-7f09b9bd9000 rw-p 00000000 00:00 0 
+7f09b9bd9000-7f09b9dd9000 rw-p 00000000 00:00 0 
+7f09b9dd9000-7f09b9ddc000 ---p 00000000 00:00 0 
+7f09b9ddc000-7f09ba0da000 rw-p 00000000 00:00 0 
+7f09ba0da000-7f09ba2da000 rw-p 00000000 00:00 0 
+7f09ba2da000-7f09ba4da000 rw-p 00000000 00:00 0 
+7f09ba4da000-7f09ba6da000 rw-p 00000000 00:00 0 
+7f09ba6da000-7f09ba8da000 rw-p 00000000 00:00 0 
+7f09ba8da000-7f09ba8dd000 ---p 00000000 00:00 0 
+7f09ba8dd000-7f09babdb000 rw-p 00000000 00:00 0 
+7f09babdb000-7f09baddb000 rw-p 00000000 00:00 0 
+7f09baddb000-7f09bafdb000 rw-p 00000000 00:00 0 
+7f09bafdb000-7f09bb1db000 rw-p 00000000 00:00 0 
+7f09bb1db000-7f09bb3db000 rw-p 00000000 00:00 0 
+7f09bb3db000-7f09bb5db000 rw-p 00000000 00:00 0 
+7f09bb5db000-7f09bb5f2000 r-xp 00000000 08:01 7344920                    /lib/x86_64-linux-gnu/libresolv-2.23.so
+7f09bb5f2000-7f09bb7f2000 ---p 00017000 08:01 7344920                    /lib/x86_64-linux-gnu/libresolv-2.23.so
+7f09bb7f2000-7f09bb7f3000 r--p 00017000 08:01 7344920                    /lib/x86_64-linux-gnu/libresolv-2.23.so
+7f09bb7f3000-7f09bb7f4000 rw-p 00018000 08:01 7344920                    /lib/x86_64-linux-gnu/libresolv-2.23.so
+7f09bb7f4000-7f09bb7f6000 rw-p 00000000 00:00 0 
+7f09bb7f6000-7f09bb7fb000 r-xp 00000000 08:01 7344905                    /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+7f09bb7fb000-7f09bb9fb000 ---p 00005000 08:01 7344905                    /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+7f09bb9fb000-7f09bb9fc000 r--p 00005000 08:01 7344905                    /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+7f09bb9fc000-7f09bb9fd000 rw-p 00006000 08:01 7344905                    /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+7f09bb9fd000-7f09bb9ff000 r-xp 00000000 08:01 7344644                    /lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+7f09bb9ff000-7f09bbbfe000 ---p 00002000 08:01 7344644                    /lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+7f09bbbfe000-7f09bbbff000 r--p 00001000 08:01 7344644                    /lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+7f09bbbff000-7f09bbc00000 rw-p 00002000 08:01 7344644                    /lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+7f09bbc00000-7f09bbe00000 rw-p 00000000 00:00 0 
+7f09bbe00000-7f09bc000000 rw-p 00000000 00:00 0 
+7f09bc000000-7f09bfffa000 rw-p 00000000 00:00 0 
+7f09bfffa000-7f09c0000000 ---p 00000000 00:00 0 
+7f09c0000000-7f09c2b25000 rw-p 00000000 00:00 0 
+7f09c2b25000-7f09c4000000 ---p 00000000 00:00 0 
+7f09c4000000-7f09c7ffa000 rw-p 00000000 00:00 0 
+7f09c7ffa000-7f09c8000000 ---p 00000000 00:00 0 
+7f09c8000000-7f09cbf9e000 rw-p 00000000 00:00 0 
+7f09cbf9e000-7f09cc000000 ---p 00000000 00:00 0 
+7f09cc072000-7f09cc075000 ---p 00000000 00:00 0 
+7f09cc075000-7f09cc373000 rw-p 00000000 00:00 0 
+7f09cc373000-7f09cc573000 rw-p 00000000 00:00 0 
+7f09cc573000-7f09cc773000 rw-p 00000000 00:00 0 
+7f09cc773000-7f09cc973000 rw-p 00000000 00:00 0 
+7f09cc973000-7f09ccb73000 rw-p 00000000 00:00 0 
+7f09ccb73000-7f09ccd73000 rw-p 00000000 00:00 0 
+7f09ccd73000-7f09ccf73000 rw-p 00000000 00:00 0 
+7f09ccf73000-7f09cd173000 rw-p 00000000 00:00 0 
+7f09cd173000-7f09cd176000 ---p 00000000 00:00 0 
+7f09cd176000-7f09cd274000 rw-p 00000000 00:00 0 
+7f09cd274000-7f09cd277000 ---p 00000000 00:00 0 
+7f09cd277000-7f09cd375000 rw-p 00000000 00:00 0 
+7f09cd375000-7f09cd378000 ---p 00000000 00:00 0 
+7f09cd378000-7f09cd476000 rw-p 00000000 00:00 0 
+7f09cd476000-7f09cd479000 ---p 00000000 00:00 0 
+7f09cd479000-7f09cd777000 rw-p 00000000 00:00 0 
+7f09cd777000-7f09cd977000 rw-p 00000000 00:00 0 
+7f09cd977000-7f09cdb77000 rw-p 00000000 00:00 0 
+7f09cdb77000-7f09cdd77000 rw-p 00000000 00:00 0 
+7f09cdd77000-7f09cdf77000 rw-p 00000000 00:00 0 
+7f09cdf77000-7f09ce177000 rw-p 00000000 00:00 0 
+7f09ce177000-7f09ce377000 rw-p 00000000 00:00 0 
+7f09ce377000-7f09ce577000 rw-p 00000000 00:00 0 
+7f09ce577000-7f09ce57a000 ---p 00000000 00:00 0 
+7f09ce57a000-7f09ce678000 rw-p 00000000 00:00 0 
+7f09ce678000-7f09ce67b000 ---p 00000000 00:00 0 
+7f09ce67b000-7f09ce979000 rw-p 00000000 00:00 0 
+7f09ce979000-7f09ceb79000 rw-p 00000000 00:00 0 
+7f09ceb91000-7f09ceb94000 ---p 00000000 00:00 0 
+7f09ceb94000-7f09cec92000 rw-p 00000000 00:00 0 
+7f09cecfd000-7f09ceefd000 rw-p 00000000 00:00 0 
+7f09ceefd000-7f09cef00000 ---p 00000000 00:00 0 
+7f09cef00000-7f09cf1fe000 rw-p 00000000 00:00 0 
+7f09cf1fe000-7f09cf201000 ---p 00000000 00:00 0 
+7f09cf201000-7f09cf2ff000 rw-p 00000000 00:00 0 
+7f09cf400000-7f09cf600000 rw-p 00000000 00:00 0 
+7f09cf600000-7f09cf800000 rw-p 00000000 00:00 0 
+7f09cf800000-7f09cfa00000 rw-p 00000000 00:00 0 
+7f09cfa00000-7f09cfc00000 rw-p 00000000 00:00 0 
+7f09cfc00000-7f09cfe00000 rw-p 00000000 00:00 0 
+7f09cfe00000-7f09d0000000 rw-p 00000000 00:00 0 
+7f09d0000000-7f09d1771000 rw-p 00000000 00:00 0 
+7f09d1771000-7f09d4000000 ---p 00000000 00:00 0 
+7f09d4000000-7f09d7ffc000 rw-p 00000000 00:00 0 
+7f09d7ffc000-7f09d8000000 ---p 00000000 00:00 0 
+7f09d8000000-7f09dbffd000 rw-p 00000000 00:00 0 
+7f09dbffd000-7f09dc000000 ---p 00000000 00:00 0 
+7f09dc000000-7f09dffff000 rw-p 00000000 00:00 0 
+7f09dffff000-7f09e0000000 ---p 00000000 00:00 0 
+7f09e0000000-7f09e034e000 rw-p 00000000 00:00 0 
+7f09e034e000-7f09e4000000 ---p 00000000 00:00 0 
+7f09e4000000-7f09e54cd000 rw-p 00000000 00:00 0 
+7f09e54cd000-7f09e8000000 ---p 00000000 00:00 0 
+7f09e8000000-7f09ebffc000 rw-p 00000000 00:00 0 
+7f09ebffc000-7f09ec000000 ---p 00000000 00:00 0 
+7f09ec000000-7f09ec202000 rw-p 00000000 00:00 0 
+7f09ec202000-7f09f0000000 ---p 00000000 00:00 0 
+7f09f0000000-7f09f3ffb000 rw-p 00000000 00:00 0 
+7f09f3ffb000-7f09f4000000 ---p 00000000 00:00 0 
+7f09f4000000-7f09f7ff9000 rw-p 00000000 00:00 0 
+7f09f7ff9000-7f09f8000000 ---p 00000000 00:00 0 
+7f09f8000000-7f09fbffc000 rw-p 00000000 00:00 0 
+7f09fbffc000-7f09fc000000 ---p 00000000 00:00 0 
+7f09fc000000-7f0a00000000 rw-p 00000000 00:00 0 
+7f0a00000000-7f0a015d1000 rw-p 00000000 00:00 0 
+7f0a015d1000-7f0a04000000 ---p 00000000 00:00 0 
+7f0a04021000-7f0a04221000 rw-p 00000000 00:00 0 
+7f0a04221000-7f0a04421000 rw-p 00000000 00:00 0 
+7f0a04421000-7f0a04424000 ---p 00000000 00:00 0 
+7f0a04424000-7f0a04722000 rw-p 00000000 00:00 0 
+7f0a04722000-7f0a04922000 rw-p 00000000 00:00 0 
+7f0a04922000-7f0a04b22000 rw-p 00000000 00:00 0 
+7f0a04b22000-7f0a04d22000 rw-p 00000000 00:00 0 
+7f0a04d22000-7f0a04f22000 rw-p 00000000 00:00 0 
+7f0a04f22000-7f0a05122000 rw-p 00000000 00:00 0 
+7f0a05122000-7f0a05322000 rw-p 00000000 00:00 0 
+7f0a05322000-7f0a05522000 rw-p 00000000 00:00 0 
+7f0a05522000-7f0a05525000 ---p 00000000 00:00 0 
+7f0a05525000-7f0a05823000 rw-p 00000000 00:00 0 
+7f0a05823000-7f0a05a23000 rw-p 00000000 00:00 0 
+7f0a05a23000-7f0a05c23000 rw-p 00000000 00:00 0 
+7f0a05c23000-7f0a05e23000 rw-p 00000000 00:00 0 
+7f0a05e23000-7f0a06023000 rw-p 00000000 00:00 0 
+7f0a06023000-7f0a06026000 ---p 00000000 00:00 0 
+7f0a06026000-7f0a06324000 rw-p 00000000 00:00 0 
+7f0a06324000-7f0a06524000 rw-p 00000000 00:00 0 
+7f0a0653b000-7f0a0653c000 r--s 00001000 08:01 22198618                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/michi-common-bean-2.8.1.jar
+7f0a0653c000-7f0a06540000 r--s 0001b000 08:01 22197056                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/metrics-spring-3.1.3.jar
+7f0a06540000-7f0a06542000 r--s 0000d000 08:01 22197736                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/commons-logging-1.1.1.jar
+7f0a06542000-7f0a06545000 r--s 0000e000 08:01 22198518                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jboss-logging-3.3.1.Final.jar
+7f0a06545000-7f0a0654d000 r--s 00087000 08:01 22198361                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jetty-server-9.4.8.v20171121.jar
+7f0a0654d000-7f0a06551000 r--s 00024000 08:01 22198183                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/stax2-api-3.1.4.jar
+7f0a06551000-7f0a06554000 r--s 0001e000 08:01 22198270                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/cxf-rt-databinding-jaxb-2.7.18.jar
+7f0a06554000-7f0a06556000 r--s 00002000 08:01 22198918                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/fielco-common-bean-2.20.5.jar
+7f0a06556000-7f0a0655d000 r--s 0003f000 08:01 22198699                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/commons-codec-1.10.jar
+7f0a0655d000-7f0a06562000 r--s 00030000 08:01 22198319                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/cxf-rt-ws-policy-2.7.18.jar
+7f0a06562000-7f0a0658d000 r--s 001fc000 08:01 22197303                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/guava-18.0.jar
+7f0a0658d000-7f0a0659e000 r--s 0008a000 08:01 22198079                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/joda-time-2.9.9.jar
+7f0a0659e000-7f0a065a1000 r--s 00065000 08:01 22197484                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/springfox-swagger-ui-2.7.0.jar
+7f0a065a1000-7f0a065a9000 r--s 00065000 08:01 22198031                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/olap4j-0.9.7.309-JS-3.jar
+7f0a065a9000-7f0a065ca000 r--s 0015a000 08:01 22197543                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/bcprov-jdk14-1.38.jar
+7f0a065ca000-7f0a065d1000 r--s 00037000 08:01 22198104                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/fielcorresponsal-common-ws-2.9.29-RELEASE.jar
+7f0a065d1000-7f0a065d4000 r--s 0000f000 08:01 22198292                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/cxf-rt-frontend-simple-2.7.18.jar
+7f0a065d4000-7f0a065d8000 r--s 00012000 08:01 22198719                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/fielcorresponsal-common-bean-2.9.29-RELEASE.jar
+7f0a065d8000-7f0a065dd000 r--s 00041000 08:01 22197852                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/commons-lang-2.6.jar
+7f0a065dd000-7f0a065e0000 r--s 00010000 08:01 22197167                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/springfox-schema-2.7.0.jar
+7f0a065e0000-7f0a06600000 r--s 000e6000 08:01 22199131                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-boot-autoconfigure-1.5.10.RELEASE.jar
+7f0a06600000-7f0a06800000 rw-p 00000000 00:00 0 
+7f0a06800000-7f0a06a00000 rw-p 00000000 00:00 0 
+7f0a06a00000-7f0a06c00000 rw-p 00000000 00:00 0 
+7f0a06c00000-7f0a06e00000 rw-p 00000000 00:00 0 
+7f0a06e00000-7f0a07000000 rw-p 00000000 00:00 0 
+7f0a07000000-7f0a07200000 rw-p 00000000 00:00 0 
+7f0a07200000-7f0a07400000 rw-p 00000000 00:00 0 
+7f0a07400000-7f0a07600000 rw-p 00000000 00:00 0 
+7f0a07600000-7f0a07800000 rw-p 00000000 00:00 0 
+7f0a07800000-7f0a07a00000 rw-p 00000000 00:00 0 
+7f0a07a00000-7f0a07c00000 rw-p 00000000 00:00 0 
+7f0a07c00000-7f0a07e00000 rw-p 00000000 00:00 0 
+7f0a07e00000-7f0a08000000 rw-p 00000000 00:00 0 
+7f0a08000000-7f0a0b775000 rw-p 00000000 00:00 0 
+7f0a0b775000-7f0a0c000000 ---p 00000000 00:00 0 
+7f0a0c000000-7f0a10000000 rw-p 00000000 00:00 0 
+7f0a10000000-7f0a13ffb000 rw-p 00000000 00:00 0 
+7f0a13ffb000-7f0a14000000 ---p 00000000 00:00 0 
+7f0a14000000-7f0a14001000 r--s 00000000 08:01 22199271                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-boot-starter-aop-1.5.10.RELEASE.jar
+7f0a14001000-7f0a14002000 r--s 00005000 08:01 22196755                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/michi-common-client-2.8.1.jar
+7f0a14002000-7f0a14006000 r--s 0000c000 08:01 22198496                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/validation-api-1.1.0.Final.jar
+7f0a14006000-7f0a14008000 r--s 00004000 08:01 22198093                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/tickets-fielcorresponsal-client-2.9.29-RELEASE.jar
+7f0a14008000-7f0a1400a000 r--s 00006000 08:01 22198768                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/transacciones-fielcorresponsal-client-2.9.29-RELEASE.jar
+7f0a1400a000-7f0a14011000 r--s 00049000 08:01 22197053                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/httpcore-4.4.9.jar
+7f0a14011000-7f0a14013000 r--s 00004000 08:01 22198788                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/clientes-fielcorresponsal-client-2.9.29-RELEASE.jar
+7f0a14013000-7f0a14016000 r--s 00013000 08:01 22197185                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/springfox-swagger-common-2.7.0.jar
+7f0a14016000-7f0a1401b000 r--s 0002f000 08:01 22198261                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/cxf-rt-bindings-soap-2.7.18.jar
+7f0a1401b000-7f0a1401e000 r--s 00013000 08:01 22199004                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jaxb-api-2.1.jar
+7f0a1401e000-7f0a14021000 r--s 0000a000 08:01 22197826                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/castor-core-1.3.3.jar
+7f0a14021000-7f0a14024000 r--s 00019000 08:01 22198609                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jjwt-0.9.1.jar
+7f0a14024000-7f0a14034000 r--s 00095000 08:01 22199120                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-boot-1.5.10.RELEASE.jar
+7f0a14034000-7f0a1403c000 r--s 0003a000 08:01 22196935                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-tx-4.3.14.RELEASE.jar
+7f0a1403c000-7f0a1403f000 ---p 00000000 00:00 0 
+7f0a1403f000-7f0a1433d000 rw-p 00000000 00:00 0 
+7f0a1433d000-7f0a1453d000 rw-p 00000000 00:00 0 
+7f0a1453d000-7f0a1473d000 rw-p 00000000 00:00 0 
+7f0a1473d000-7f0a1493d000 rw-p 00000000 00:00 0 
+7f0a1493d000-7f0a14b3d000 rw-p 00000000 00:00 0 
+7f0a14b3d000-7f0a14d3d000 rw-p 00000000 00:00 0 
+7f0a14d3d000-7f0a14d40000 ---p 00000000 00:00 0 
+7f0a14d40000-7f0a1503e000 rw-p 00000000 00:00 0 
+7f0a1503e000-7f0a1523e000 rw-p 00000000 00:00 0 
+7f0a1523e000-7f0a1523f000 r--s 00006000 08:01 22198907                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/promociones-client-2.20.5.jar
+7f0a1523f000-7f0a15241000 r--s 00004000 08:01 22197902                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/stax-api-1.0-2.jar
+7f0a15241000-7f0a15245000 r--s 0001a000 08:01 22197063                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/metrics-core-3.1.5.jar
+7f0a15245000-7f0a152a7000 r--s 004e5000 08:01 22197662                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jasperreports-6.3.1.jar
+7f0a152a7000-7f0a154a7000 rw-p 00000000 00:00 0 
+7f0a154a7000-7f0a156a7000 rw-p 00000000 00:00 0 
+7f0a156a7000-7f0a158a7000 rw-p 00000000 00:00 0 
+7f0a158a7000-7f0a15aa7000 rw-p 00000000 00:00 0 
+7f0a15aa7000-7f0a15ca7000 rw-p 00000000 00:00 0 
+7f0a15ca7000-7f0a15caa000 ---p 00000000 00:00 0 
+7f0a15caa000-7f0a15fa8000 rw-p 00000000 00:00 0 
+7f0a15fa8000-7f0a161a8000 rw-p 00000000 00:00 0 
+7f0a161a8000-7f0a163a8000 rw-p 00000000 00:00 0 
+7f0a163a8000-7f0a165a8000 rw-p 00000000 00:00 0 
+7f0a165a8000-7f0a167a8000 rw-p 00000000 00:00 0 
+7f0a167a8000-7f0a169a8000 rw-p 00000000 00:00 0 
+7f0a169a8000-7f0a169ab000 ---p 00000000 00:00 0 
+7f0a169ab000-7f0a16ca9000 rw-p 00000000 00:00 0 
+7f0a16ca9000-7f0a16caa000 r--s 00000000 08:01 22199214                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-boot-starter-tomcat-1.5.10.RELEASE.jar
+7f0a16caa000-7f0a16cab000 r--s 00000000 08:01 22199142                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-boot-starter-logging-1.5.10.RELEASE.jar
+7f0a16cab000-7f0a16cae000 r--s 0001d000 08:01 22197216                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/reflections-0.9.10.jar
+7f0a16cae000-7f0a16cb0000 r--s 0000a000 08:01 22197992                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/lucene-sandbox-4.5.1.jar
+7f0a16cb0000-7f0a16cb2000 r--s 0000e000 08:01 22197335                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/classmate-1.3.4.jar
+7f0a16cb2000-7f0a16cb4000 r--s 00000000 08:01 22199183                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jul-to-slf4j-1.7.25.jar
+7f0a16cb4000-7f0a16cb7000 r--s 0000e000 08:01 22198527                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/common-2.8.1.jar
+7f0a16cb7000-7f0a16cd8000 r--s 0015a000 08:01 22197766                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/bcprov-jdk14-138.jar
+7f0a16cd8000-7f0a16cd9000 r--s 00002000 08:01 22199323                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jsonevent-layout-1.7.jar
+7f0a16cd9000-7f0a16ceb000 r--s 000b8000 08:01 22198886                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-web-4.3.14.RELEASE.jar
+7f0a16ceb000-7f0a16ced000 r--s 0000c000 08:01 22198756                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/girisimo-fielcorresponsal-client-2.9.29-RELEASE.jar
+7f0a16ced000-7f0a16cef000 r--s 00004000 08:01 22197111                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/swagger-annotations-1.5.13.jar
+7f0a16cef000-7f0a16cf0000 r--s 00005000 08:01 22198875                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/wu-external-api-client-1.0.39.jar
+7f0a16cf0000-7f0a16cf1000 r--s 00000000 08:01 22197864                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/javax.inject-1.jar
+7f0a16cf1000-7f0a16d0a000 r--s 001bf000 08:01 22198598                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/aspectjweaver-1.8.13.jar
+7f0a16d0a000-7f0a16d15000 r--s 00088000 08:01 22197622                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jai-imageio-core-1.3.1.jar
+7f0a16d15000-7f0a16d1f000 r--s 0005f000 08:01 22196883                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-jdbc-4.3.14.RELEASE.jar
+7f0a16d1f000-7f0a16d38000 r--s 000fe000 08:01 22196947                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-context-4.3.14.RELEASE.jar
+7f0a16d38000-7f0a16d40000 r--s 0006e000 08:01 22198399                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jetty-util-9.4.8.v20171121.jar
+7f0a16d40000-7f0a16d42000 r--s 00001000 08:01 22199072                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/wu-common-1.0.39.jar
+7f0a16d42000-7f0a16d45000 r--s 00021000 08:01 22198935                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/fielco-cbapi-client-2.1.7.jar
+7f0a16d45000-7f0a16d4b000 r--s 0005c000 08:01 22198817                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/okhttp-3.8.0.jar
+7f0a16d4b000-7f0a16d5f000 r--s 000fc000 08:01 22198163                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/cxf-api-2.7.18.jar
+7f0a16d5f000-7f0a16d88000 r--s 002ce000 08:01 22199231                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/tomcat-embed-core-8.5.27.jar
+7f0a16d88000-7f0a16f88000 rw-p 00000000 00:00 0 
+7f0a16f88000-7f0a17188000 rw-p 00000000 00:00 0 
+7f0a17188000-7f0a17388000 rw-p 00000000 00:00 0 
+7f0a17388000-7f0a17588000 rw-p 00000000 00:00 0 
+7f0a17588000-7f0a17788000 rw-p 00000000 00:00 0 
+7f0a17788000-7f0a17988000 rw-p 00000000 00:00 0 
+7f0a17988000-7f0a17b88000 rw-p 00000000 00:00 0 
+7f0a17b88000-7f0a17b89000 r--s 00013000 08:01 22198826                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/okio-1.13.0.jar
+7f0a17b89000-7f0a17b8a000 r--s 00004000 08:01 22197431                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-plugin-core-1.2.0.RELEASE.jar
+7f0a17b8a000-7f0a17b8b000 r--s 00006000 08:01 22198576                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jdbcmetrics-2.0.1.jar
+7f0a17b8b000-7f0a17b91000 r--s 0005a000 08:01 22198125                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/cxf-rt-frontend-jaxws-2.7.18.jar
+7f0a17b91000-7f0a17b96000 r--s 00038000 08:01 22197672                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/commons-beanutils-1.9.3.jar
+7f0a17b96000-7f0a17b9b000 r--s 00024000 08:01 22198201                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/xmlschema-core-2.1.0.jar
+7f0a17b9b000-7f0a17b9d000 r--s 00000000 08:01 22199081                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/michi-discovery-client-2.8.1.jar
+7f0a17b9d000-7f0a17ba3000 r--s 0002b000 08:01 22197706                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/commons-digester-2.1.jar
+7f0a17ba3000-7f0a17ba5000 r--s 00005000 08:01 22198779                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/datos-generales-fielcorresponsal-client-2.9.29-RELEASE.jar
+7f0a17ba5000-7f0a17baa000 r--s 00034000 08:01 22198849                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/gson-2.8.2.jar
+7f0a17baa000-7f0a17bac000 r--s 00005000 08:01 22198681                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/auth-fielcorresponsal-client-2.9.29-RELEASE.jar
+7f0a17bac000-7f0a17bb2000 r--s 0003d000 08:01 22199203                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/snakeyaml-1.17.jar
+7f0a17bb2000-7f0a17bb5000 r--s 00015000 08:01 22198379                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/javax.servlet-api-3.1.0.jar
+7f0a17bb5000-7f0a17bb6000 r--s 00001000 08:01 22197085                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/metrics-annotation-3.1.5.jar
+7f0a17bb6000-7f0a17bb7000 r--s 00000000 08:01 22199092                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-boot-starter-web-1.5.10.RELEASE.jar
+7f0a17bb7000-7f0a17bca000 r--s 000c4000 08:01 22198243                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jaxb-impl-2.1.13.jar
+7f0a17bca000-7f0a17bcf000 r--s 00036000 08:01 22199312                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/log4j-api-2.9.1.jar
+7f0a17bcf000-7f0a17be1000 r--s 0011e000 08:01 22197923                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jackson-databind-2.8.10.jar
+7f0a17be1000-7f0a17be3000 r--s 0000e000 08:01 22199013                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/activation-1.1.jar
+7f0a17be3000-7f0a17bed000 r--s 000aa000 08:01 22197228                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/javassist-3.21.0-GA.jar
+7f0a17bed000-7f0a17bfb000 r--s 000ae000 08:01 22197042                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/httpclient-4.5.5.jar
+7f0a17bfb000-7f0a17c00000 r--s 0003a000 08:01 22199260                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/tomcat-embed-websocket-8.5.27.jar
+7f0a17c00000-7f0a17e00000 rw-p 00000000 00:00 0 
+7f0a17e00000-7f0a18000000 rw-p 00000000 00:00 0 
+7f0a18000000-7f0a1bffb000 rw-p 00000000 00:00 0 
+7f0a1bffb000-7f0a1c000000 ---p 00000000 00:00 0 
+7f0a1c000000-7f0a1c3ac000 rw-p 00000000 00:00 0 
+7f0a1c3ac000-7f0a20000000 ---p 00000000 00:00 0 
+7f0a20000000-7f0a23ffd000 rw-p 00000000 00:00 0 
+7f0a23ffd000-7f0a24000000 ---p 00000000 00:00 0 
+7f0a24000000-7f0a2549f000 rw-p 00000000 00:00 0 
+7f0a2549f000-7f0a28000000 ---p 00000000 00:00 0 
+7f0a28000000-7f0a28403000 rw-p 00000000 00:00 0 
+7f0a28403000-7f0a2c000000 ---p 00000000 00:00 0 
+7f0a2c000000-7f0a2fffa000 rw-p 00000000 00:00 0 
+7f0a2fffa000-7f0a30000000 ---p 00000000 00:00 0 
+7f0a30000000-7f0a301fe000 rw-p 00000000 00:00 0 
+7f0a301fe000-7f0a34000000 ---p 00000000 00:00 0 
+7f0a34000000-7f0a34293000 rw-p 00000000 00:00 0 
+7f0a34293000-7f0a38000000 ---p 00000000 00:00 0 
+7f0a38000000-7f0a39696000 rw-p 00000000 00:00 0 
+7f0a39696000-7f0a3c000000 ---p 00000000 00:00 0 
+7f0a3c000000-7f0a3d6e9000 rw-p 00000000 00:00 0 
+7f0a3d6e9000-7f0a40000000 ---p 00000000 00:00 0 
+7f0a40000000-7f0a406b2000 rw-p 00000000 00:00 0 
+7f0a406b2000-7f0a44000000 ---p 00000000 00:00 0 
+7f0a44000000-7f0a44223000 rw-p 00000000 00:00 0 
+7f0a44223000-7f0a48000000 ---p 00000000 00:00 0 
+7f0a48000000-7f0a4bfff000 rw-p 00000000 00:00 0 
+7f0a4bfff000-7f0a4c000000 ---p 00000000 00:00 0 
+7f0a4c000000-7f0a4c7ec000 rw-p 00000000 00:00 0 
+7f0a4c7ec000-7f0a50000000 ---p 00000000 00:00 0 
+7f0a50000000-7f0a53ff9000 rw-p 00000000 00:00 0 
+7f0a53ff9000-7f0a54000000 ---p 00000000 00:00 0 
+7f0a54000000-7f0a57ffb000 rw-p 00000000 00:00 0 
+7f0a57ffb000-7f0a58000000 ---p 00000000 00:00 0 
+7f0a58000000-7f0a5bfff000 rw-p 00000000 00:00 0 
+7f0a5bfff000-7f0a5c000000 ---p 00000000 00:00 0 
+7f0a5c000000-7f0a5c2f2000 rw-p 00000000 00:00 0 
+7f0a5c2f2000-7f0a60000000 ---p 00000000 00:00 0 
+7f0a60000000-7f0a6044d000 rw-p 00000000 00:00 0 
+7f0a6044d000-7f0a64000000 ---p 00000000 00:00 0 
+7f0a64000000-7f0a64002000 r--s 00000000 08:01 22197442                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-plugin-metadata-1.2.0.RELEASE.jar
+7f0a64002000-7f0a64004000 r--s 00003000 08:01 22197481                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/mapstruct-1.1.0.Final.jar
+7f0a64004000-7f0a64008000 r--s 0002b000 08:01 22197756                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/bcmail-jdk14-138.jar
+7f0a64008000-7f0a6400e000 r--s 0004b000 08:01 22197783                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jcommon-1.0.23.jar
+7f0a6400e000-7f0a6401f000 r--s 000a1000 08:01 22198507                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/hibernate-validator-5.3.6.Final.jar
+7f0a6401f000-7f0a6403e000 r--s 0015c000 08:01 22197005                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/log4j-core-2.9.1.jar
+7f0a6403e000-7f0a64046000 r--s 00072000 08:01 22199303                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/commons-lang3-3.7.jar
+7f0a64046000-7f0a64060000 r--s 00173000 08:01 22197634                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/mybatis-3.4.5.jar
+7f0a64060000-7f0a64070000 r--s 00174000 08:01 22197963                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/lucene-analyzers-common-4.5.1.jar
+7f0a64070000-7f0a64270000 rw-p 00000000 00:00 0 
+7f0a64270000-7f0a64273000 ---p 00000000 00:00 0 
+7f0a64273000-7f0a64571000 rw-p 00000000 00:00 0 
+7f0a64571000-7f0a64771000 rw-p 00000000 00:00 0 
+7f0a64771000-7f0a6478c000 r--s 001d2000 08:01 25167192                   /usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar
+7f0a6478c000-7f0a6498c000 rw-p 00000000 00:00 0 
+7f0a6498c000-7f0a64b8c000 rw-p 00000000 00:00 0 
+7f0a64b8c000-7f0a64d8c000 rw-p 00000000 00:00 0 
+7f0a64d8c000-7f0a64f8c000 rw-p 00000000 00:00 0 
+7f0a64f8c000-7f0a65022000 r--s 01103000 08:01 25167189                   /usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar
+7f0a65022000-7f0a65222000 rw-p 00000000 00:00 0 
+7f0a65222000-7f0a65422000 rw-p 00000000 00:00 0 
+7f0a65422000-7f0a65425000 ---p 00000000 00:00 0 
+7f0a65425000-7f0a65723000 rw-p 00000000 00:00 0 
+7f0a65723000-7f0a65923000 rw-p 00000000 00:00 0 
+7f0a65923000-7f0a65928000 r--s 002f9000 08:01 24781428                   /usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar
+7f0a65928000-7f0a65b28000 rw-p 00000000 00:00 0 
+7f0a65b28000-7f0a65b3b000 r--s 00345000 08:01 24781453                   /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar
+7f0a65b3b000-7f0a65b3c000 r--s 00001000 08:01 22198565                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/metrics-servlet-3.1.5.jar
+7f0a65b3c000-7f0a65b3f000 r--s 00016000 08:01 22198350                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/cxf-rt-transports-http-jetty-2.7.18.jar
+7f0a65b3f000-7f0a65b41000 r--s 00013000 08:01 22198142                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/xml-resolver-1.2.jar
+7f0a65b41000-7f0a65b45000 r--s 00017000 08:01 22197147                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/springfox-core-2.7.0.jar
+7f0a65b45000-7f0a65b46000 r--s 00006000 08:01 22198020                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jakarta-regexp-1.4.jar
+7f0a65b46000-7f0a65b4f000 r--s 0006f000 08:01 22199061                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/log4j-1.2.17.jar
+7f0a65b4f000-7f0a65b50000 r--s 00002000 08:01 22197074                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/metrics-healthchecks-3.1.5.jar
+7f0a65b50000-7f0a65b51000 r--s 0000a000 08:01 22198153                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/asm-3.3.1.jar
+7f0a65b51000-7f0a65b55000 r--s 0000f000 08:01 22197245                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/annotations-2.0.1.jar
+7f0a65b55000-7f0a65b5e000 r--s 00055000 08:01 22197972                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/lucene-queryparser-4.5.1.jar
+7f0a65b5e000-7f0a65b65000 r--s 0005f000 08:01 22198232                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/cxf-rt-core-2.7.18.jar
+7f0a65b65000-7f0a65b68000 r--s 0000d000 08:01 22197108                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/springfox-swagger2-2.7.0.jar
+7f0a65b68000-7f0a65b6a000 r--s 00003000 08:01 22198941                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/fielcocbapibean-2.14.8.jar
+7f0a65b6a000-7f0a65b6c000 r--s 00004000 08:01 22198538                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/metrics-graphite-3.1.5.jar
+7f0a65b6c000-7f0a65b6e000 r--s 0000e000 08:01 22197612                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jcommander-1.48.jar
+7f0a65b6e000-7f0a65b73000 r--s 0003c000 08:01 22196956                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-expression-4.3.14.RELEASE.jar
+7f0a65b73000-7f0a65b76000 r--s 00029000 08:01 22197875                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/stax-1.2.0.jar
+7f0a65b76000-7f0a65b79000 r--s 0000f000 08:01 22198450                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/administrativo-fielcorresponsal-client-2.9.29-RELEASE.jar
+7f0a65b79000-7f0a65b88000 r--s 0017b000 08:01 22197506                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/itextpdf-5.0.6.jar
+7f0a65b88000-7f0a65b8c000 r--s 00042000 08:01 22197913                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jackson-core-2.8.10.jar
+7f0a65b8c000-7f0a65b99000 r--s 00071000 08:01 22196967                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-ws-core-2.4.0.RELEASE.jar
+7f0a65b99000-7f0a65bbf000 r--s 0020b000 08:01 22197945                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/lucene-core-4.5.1.jar
+7f0a65bbf000-7f0a65bc2000 ---p 00000000 00:00 0 
+7f0a65bc2000-7f0a65cc0000 rw-p 00000000 00:00 0 
+7f0a65cc0000-7f0a65cc2000 r--s 00003000 08:01 22198114                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar
+7f0a65cc2000-7f0a65cc5000 r--s 00014000 08:01 22198800                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/retrofit-2.3.0.jar
+7f0a65cc5000-7f0a65cdb000 r--s 000fe000 08:01 22196920                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-core-4.3.14.RELEASE.jar
+7f0a65cdb000-7f0a65ce1000 r--s 00071000 08:01 22198174                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/woodstox-core-asl-4.4.1.jar
+7f0a65ce1000-7f0a65ce3000 r--s 0025c000 08:01 22198051                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jasperreports-fonts-6.0.0.jar
+7f0a65ce3000-7f0a65ce5000 r--s 0000c000 08:01 22197645                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/mybatis-spring-1.3.2.jar
+7f0a65ce5000-7f0a65ceb000 r--s 0002d000 08:01 22197983                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/lucene-queries-4.5.1.jar
+7f0a65ceb000-7f0a65ced000 r--s 00002000 08:01 22198556                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/metrics-httpclient-3.1.2.jar
+7f0a65ced000-7f0a65cef000 r--s 00002000 08:01 22199240                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/tomcat-annotations-api-8.5.27.jar
+7f0a65cef000-7f0a65cf6000 r--s 00045000 08:01 22199155                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/logback-classic-1.1.11.jar
+7f0a65cf6000-7f0a65cf7000 r--s 00005000 08:01 22197552                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/bctsp-jdk14-1.38.jar
+7f0a65cf7000-7f0a65cfb000 r--s 00037000 08:01 22199251                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/tomcat-embed-el-8.5.27.jar
+7f0a65cfb000-7f0a65cfc000 r--s 00001000 08:01 22198837                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/converter-gson-2.3.0.jar
+7f0a65cfc000-7f0a65cff000 r--s 0001d000 08:01 22198409                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jetty-io-9.4.8.v20171121.jar
+7f0a65cff000-7f0a65d01000 r--s 00005000 08:01 22197898                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/stax-api-1.0.1.jar
+7f0a65d01000-7f0a65d03000 r--s 00015000 08:01 22198421                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jetty-security-9.4.8.v20171121.jar
+7f0a65d03000-7f0a65d14000 r--s 000c5000 08:01 22197814                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/castor-xml-1.3.3.jar
+7f0a65d14000-7f0a65d26000 r--s 000cf000 08:01 22198459                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-webmvc-4.3.14.RELEASE.jar
+7f0a65d26000-7f0a65d28000 r--s 00004000 08:01 22199192                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/log4j-over-slf4j-1.7.25.jar
+7f0a65d28000-7f0a65d2a000 r--s 00013000 08:01 22196994                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-oxm-4.3.14.RELEASE.jar
+7f0a65d2a000-7f0a65d38000 r--s 000ad000 08:01 22196894                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-beans-4.3.14.RELEASE.jar
+7f0a65d38000-7f0a65d3b000 r--s 00020000 08:01 22197126                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/swagger-models-1.5.13.jar
+7f0a65d3b000-7f0a65d3c000 r--s 00001000 08:01 22198646                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/michi-acl-client-2.8.1.jar
+7f0a65d3c000-7f0a65d46000 r--s 00048000 08:01 22196823                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/bantotal-cliente-1.6.36.jar
+7f0a65d46000-7f0a65d48000 r--s 00002000 08:01 22198976                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/cnb-bean-common-1.0.0.jar
+7f0a65d48000-7f0a65d4b000 r--s 00012000 08:01 22198587                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/metrics-core-3.0.1.jar
+7f0a65d4b000-7f0a65d4f000 r--s 0001c000 08:01 22199274                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-retry-1.2.2.RELEASE.jar
+7f0a65d4f000-7f0a65d5e000 r--s 001b0000 08:01 22197805                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/ecj-4.3.1.jar
+7f0a65d5e000-7f0a65d61000 ---p 00000000 00:00 0 
+7f0a65d61000-7f0a65e5f000 rw-p 00000000 00:00 0 
+7f0a65e5f000-7f0a65e62000 ---p 00000000 00:00 0 
+7f0a65e62000-7f0a65f60000 rw-p 00000000 00:00 0 
+7f0a65f60000-7f0a65f63000 ---p 00000000 00:00 0 
+7f0a65f63000-7f0a66061000 rw-p 00000000 00:00 0 
+7f0a66061000-7f0a66064000 ---p 00000000 00:00 0 
+7f0a66064000-7f0a66162000 rw-p 00000000 00:00 0 
+7f0a66162000-7f0a66165000 ---p 00000000 00:00 0 
+7f0a66165000-7f0a66263000 rw-p 00000000 00:00 0 
+7f0a66263000-7f0a66266000 ---p 00000000 00:00 0 
+7f0a66266000-7f0a66564000 rw-p 00000000 00:00 0 
+7f0a66564000-7f0a6657a000 r-xp 00000000 08:01 7344577                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f0a6657a000-7f0a66779000 ---p 00016000 08:01 7344577                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f0a66779000-7f0a6677a000 rw-p 00015000 08:01 7344577                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f0a6677a000-7f0a667ac000 r-xp 00000000 08:01 25167127                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libsunec.so
+7f0a667ac000-7f0a669ab000 ---p 00032000 08:01 25167127                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libsunec.so
+7f0a669ab000-7f0a669b1000 rw-p 00031000 08:01 25167127                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libsunec.so
+7f0a669b1000-7f0a669c1000 rw-p 00000000 00:00 0 
+7f0a669c1000-7f0a669c4000 ---p 00000000 00:00 0 
+7f0a669c4000-7f0a66cc2000 rw-p 00000000 00:00 0 
+7f0a66cc2000-7f0a66cd3000 r-xp 00000000 08:01 25167144                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnio.so
+7f0a66cd3000-7f0a66ed2000 ---p 00011000 08:01 25167144                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnio.so
+7f0a66ed2000-7f0a66ed3000 rw-p 00010000 08:01 25167144                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnio.so
+7f0a66ed3000-7f0a671d4000 rw-p 00000000 00:00 0 
+7f0a671d4000-7f0a671ea000 r-xp 00000000 08:01 25167119                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnet.so
+7f0a671ea000-7f0a673ea000 ---p 00016000 08:01 25167119                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnet.so
+7f0a673ea000-7f0a673eb000 rw-p 00016000 08:01 25167119                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnet.so
+7f0a673eb000-7f0a673f4000 r-xp 00000000 08:01 25167155                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libmanagement.so
+7f0a673f4000-7f0a675f3000 ---p 00009000 08:01 25167155                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libmanagement.so
+7f0a675f3000-7f0a675f4000 rw-p 00008000 08:01 25167155                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libmanagement.so
+7f0a675f4000-7f0a675f7000 ---p 00000000 00:00 0 
+7f0a675f7000-7f0a676f5000 rw-p 00000000 00:00 0 
+7f0a676f5000-7f0a676f6000 ---p 00000000 00:00 0 
+7f0a676f6000-7f0a677f6000 rw-p 00000000 00:00 0 
+7f0a677f6000-7f0a677f9000 ---p 00000000 00:00 0 
+7f0a677f9000-7f0a678f7000 rw-p 00000000 00:00 0 
+7f0a678f7000-7f0a678fa000 ---p 00000000 00:00 0 
+7f0a678fa000-7f0a679f8000 rw-p 00000000 00:00 0 
+7f0a679f8000-7f0a679fb000 ---p 00000000 00:00 0 
+7f0a679fb000-7f0a67af9000 rw-p 00000000 00:00 0 
+7f0a67af9000-7f0a67afc000 ---p 00000000 00:00 0 
+7f0a67afc000-7f0a67bfa000 rw-p 00000000 00:00 0 
+7f0a67bfa000-7f0a67bfd000 ---p 00000000 00:00 0 
+7f0a67bfd000-7f0a67cfb000 rw-p 00000000 00:00 0 
+7f0a67cfb000-7f0a67cfd000 r--s 00009000 08:01 22197361                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/slf4j-api-1.7.25.jar
+7f0a67cfd000-7f0a67cff000 r--s 00009000 08:01 22197563                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/javase-3.3.0.jar
+7f0a67cff000-7f0a67d02000 r--s 0000e000 08:01 22196985                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-xml-2.4.0.RELEASE.jar
+7f0a67d02000-7f0a67d05000 r--s 00013000 08:01 22196764                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/commons-io-1.3.2.jar
+7f0a67d05000-7f0a67d0d000 r--s 0007d000 08:01 22197574                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/core-3.3.0.jar
+7f0a67d0d000-7f0a67d12000 r--s 00032000 08:01 22198212                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/geronimo-javamail_1.4_spec-1.7.1.jar
+7f0a67d12000-7f0a67d16000 r--s 00029000 08:01 22199292                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/commons-text-1.3.jar
+7f0a67d16000-7f0a67d17000 r--s 00001000 08:01 22198956                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/fielcoauthapibean-2.14.8.jar
+7f0a67d17000-7f0a67d1c000 r--s 00026000 08:01 22197196                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/springfox-spring-web-2.7.0.jar
+7f0a67d1c000-7f0a67d1e000 r--s 0000a000 08:01 22199024                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/aclcore-0.0.10.jar
+7f0a67d1e000-7f0a67d20000 r--s 00001000 08:01 22198858                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/logging-interceptor-3.8.0.jar
+7f0a67d20000-7f0a67d29000 r--s 00054000 08:01 22198470                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-aop-4.3.14.RELEASE.jar
+7f0a67d29000-7f0a67d36000 r--s 00083000 08:01 22197683                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/commons-collections-3.2.2.jar
+7f0a67d36000-7f0a67d39000 r--s 0000b000 08:01 22197934                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jackson-annotations-2.8.0.jar
+7f0a67d39000-7f0a67d3b000 r--s 0000b000 08:01 22199334                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/json-smart-1.1.1.jar
+7f0a67d3b000-7f0a67d40000 r--s 00029000 08:01 22197097                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-context-support-4.3.14.RELEASE.jar
+7f0a67d40000-7f0a67d41000 r--s 00007000 08:01 22198060                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jasperreports-functions-6.3.1.jar
+7f0a67d41000-7f0a67d47000 r--s 0006c000 08:01 22199033                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jconn3-3.jar
+7f0a67d47000-7f0a67d4a000 r--s 00026000 08:01 22198388                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jetty-http-9.4.8.v20171121.jar
+7f0a67d4a000-7f0a67d50000 r--s 0004b000 08:01 22198339                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/cxf-rt-transports-http-2.7.18.jar
+7f0a67d50000-7f0a67d52000 r--s 00000000 08:01 22196775                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/michi-discovery-bean-2.8.1.jar
+7f0a67d52000-7f0a67d55000 r--s 0000d000 08:01 22196744                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/wu-api-client-1.0.39.jar
+7f0a67d55000-7f0a67d56000 r--s 00000000 08:01 22198965                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/cnb-util-1.0.1.jar
+7f0a67d56000-7f0a67d58000 r--s 00000000 08:01 22198635                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/michi-logging-client-2.8.1.jar
+7f0a67d58000-7f0a67d5a000 r--s 00012000 08:01 22198301                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/cxf-rt-ws-addr-2.7.18.jar
+7f0a67d5a000-7f0a67d5e000 r--s 0002a000 08:01 22198222                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/wsdl4j-1.6.3.jar
+7f0a67d5e000-7f0a67d99000 r--s 00270000 08:01 22197158                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/byte-buddy-1.6.14.jar
+7f0a67d99000-7f0a67dfc000 r--s 00a62000 08:01 22198040                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/icu4j-57.1.jar
+7f0a67dfc000-7f0a67e00000 r-xp 00000000 08:01 25167160                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libdt_socket.so
+7f0a67e00000-7f0a67fff000 ---p 00004000 08:01 25167160                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libdt_socket.so
+7f0a67fff000-7f0a68000000 rw-p 00003000 08:01 25167160                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libdt_socket.so
+7f0a68000000-7f0a69750000 rw-p 00000000 00:00 0 
+7f0a69750000-7f0a6c000000 ---p 00000000 00:00 0 
+7f0a6c000000-7f0a6c2f4000 rw-p 00000000 00:00 0 
+7f0a6c2f4000-7f0a70000000 ---p 00000000 00:00 0 
+7f0a70000000-7f0a70254000 rw-p 00000000 00:00 0 
+7f0a70254000-7f0a74000000 ---p 00000000 00:00 0 
+7f0a74000000-7f0a74f78000 rw-p 00000000 00:00 0 
+7f0a74f78000-7f0a78000000 ---p 00000000 00:00 0 
+7f0a78000000-7f0a78098000 rw-p 00000000 00:00 0 
+7f0a78098000-7f0a7c000000 ---p 00000000 00:00 0 
+7f0a7c000000-7f0a7c2cb000 rw-p 00000000 00:00 0 
+7f0a7c2cb000-7f0a80000000 ---p 00000000 00:00 0 
+7f0a80000000-7f0a8008c000 rw-p 00000000 00:00 0 
+7f0a8008c000-7f0a84000000 ---p 00000000 00:00 0 
+7f0a84000000-7f0a84001000 r--s 00001000 08:01 22198678                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/michi-device-client-2.8.1.jar
+7f0a84001000-7f0a84005000 r--s 0002b000 08:01 22197526                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/bcmail-jdk14-1.38.jar
+7f0a84005000-7f0a84009000 r--s 0003c000 08:01 22198084                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jcifs-1.2.6.jar
+7f0a84009000-7f0a8400b000 r--s 00003000 08:01 22199050                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/fielco-notifapi-client-1.0.0.jar
+7f0a8400b000-7f0a8401c000 r--s 0016e000 08:01 22197794                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/jfreechart-1.0.19.jar
+7f0a8401c000-7f0a8401f000 r--s 0000a000 08:01 22197136                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/springfox-spi-2.7.0.jar
+7f0a8401f000-7f0a84022000 r--s 00015000 08:01 22198438                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/geronimo-servlet_3.0_spec-1.0.jar
+7f0a84022000-7f0a84027000 r--s 0001e000 08:01 22198945                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/cbapibean-2.14.8.jar
+7f0a84027000-7f0a84028000 r--s 00000000 08:01 22199109                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/spring-boot-starter-1.5.10.RELEASE.jar
+7f0a84028000-7f0a8402a000 r--s 00008000 08:01 22198281                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/cxf-rt-bindings-xml-2.7.18.jar
+7f0a8402a000-7f0a84037000 r--s 00108000 08:01 22197745                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/itext-2.1.7.js5.jar
+7f0a84037000-7f0a84039000 r--s 00010000 08:01 22198330                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/neethi-3.0.3.jar
+7f0a84039000-7f0a84041000 r--s 00039000 08:01 22198993                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/wu-beans-1.6.8.jar
+7f0a84041000-7f0a8404c000 r--s 0006a000 08:01 22199172                   /home/oem/git-fielco/fielcorresponsal/wu-reingenieria-backend/wu-agente-api/target/wu-agente-api-1.0.39/WEB-INF/lib/logback-core-1.1.11.jar
+7f0a8404c000-7f0a84052000 r--s 0003f000 08:01 25167191                   /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar
+7f0a84052000-7f0a84054000 r--s 00009000 08:01 25167190                   /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar
+7f0a84054000-7f0a84057000 r--s 0001a000 08:01 24781457                   /usr/lib/jvm/java-8-oracle/jre/lib/jce.jar
+7f0a84057000-7f0a8405b000 r--s 00097000 08:01 24781427                   /usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar
+7f0a8405b000-7f0a84077000 r--s 00393000 08:01 25167196                   /usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar
+7f0a84077000-7f0a84081000 r--s 00116000 08:01 25167193                   /usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar
+7f0a84081000-7f0a84083000 r--s 00007000 08:01 20608972                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/websocket-api.jar
+7f0a84083000-7f0a84086000 r--s 00020000 08:01 20608933                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/tomcat-jdbc.jar
+7f0a84086000-7f0a840bf000 r--s 004ca000 08:01 20608848                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/jt400-20110405.jar
+7f0a840bf000-7f0a840c4000 r--s 0003d000 08:01 20608855                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/catalina-tribes.jar
+7f0a840c4000-7f0a840cb000 r--s 0008a000 08:01 20608974                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/jconn4.jar
+7f0a840cb000-7f0a840cd000 r--s 0001b000 08:01 20608852                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/catalina-ha.jar
+7f0a840cd000-7f0a840d2000 r--s 0002e000 08:01 20608967                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/tomcat-util-scan.jar
+7f0a840d2000-7f0a840d6000 r--s 00038000 08:01 20608872                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/servlet-api.jar
+7f0a840d6000-7f0a840e9000 r--s 00173000 08:01 20608973                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/catalina.jar
+7f0a840e9000-7f0a840ec000 r--s 0001d000 08:01 20608969                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/tomcat-util.jar
+7f0a840ec000-7f0a840ee000 r--s 00011000 08:01 20608853                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/catalina-storeconfig.jar
+7f0a840ee000-7f0a840f1000 r--s 0000e000 08:01 20608924                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/tomcat-i18n-es.jar
+7f0a840f1000-7f0a840f3000 r--s 00003000 08:01 20608850                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/annotations-api.jar
+7f0a840f3000-7f0a840f6000 r--s 0001f000 08:01 20608847                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/HikariCP-2.5.1.jar
+7f0a840f6000-7f0a840f8000 r--s 00012000 08:01 20608859                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/el-api.jar
+7f0a840f8000-7f0a840fb000 r--s 00025000 08:01 20608860                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/jasper-el.jar
+7f0a840fb000-7f0a84100000 r--s 0002f000 08:01 20608970                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/tomcat-websocket.jar
+7f0a84100000-7f0a84103000 ---p 00000000 00:00 0 
+7f0a84103000-7f0a84201000 rw-p 00000000 00:00 0 
+7f0a84201000-7f0a84204000 ---p 00000000 00:00 0 
+7f0a84204000-7f0a84302000 rw-p 00000000 00:00 0 
+7f0a84302000-7f0a84305000 ---p 00000000 00:00 0 
+7f0a84305000-7f0a84403000 rw-p 00000000 00:00 0 
+7f0a84403000-7f0a84404000 ---p 00000000 00:00 0 
+7f0a84404000-7f0a854e6000 rw-p 00000000 00:00 0 
+7f0a854e6000-7f0a856be000 r--s 03d2a000 08:01 24781434                   /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+7f0a856be000-7f0a8c18e000 rw-p 00000000 00:00 0 
+7f0a8c18e000-7f0a8c18f000 ---p 00000000 00:00 0 
+7f0a8c18f000-7f0a8c389000 rw-p 00000000 00:00 0 
+7f0a8c389000-7f0a8c66f000 ---p 00000000 00:00 0 
+7f0a8c66f000-7f0a8c769000 rw-p 00000000 00:00 0 
+7f0a8c769000-7f0a8ca4f000 ---p 00000000 00:00 0 
+7f0a8ca4f000-7f0a8cc3b000 rw-p 00000000 00:00 0 
+7f0a8cc3b000-7f0a8cc3f000 ---p 00000000 00:00 0 
+7f0a8cc3f000-7f0a8ce92000 rw-p 00000000 00:00 0 
+7f0a8ce92000-7f0a8d000000 ---p 00000000 00:00 0 
+7f0a8d000000-7f0a96460000 rwxp 00000000 00:00 0 
+7f0a96460000-7f0a9c000000 ---p 00000000 00:00 0 
+7f0a9c000000-7f0a9c634000 rw-p 00000000 00:00 0 
+7f0a9c634000-7f0aa0000000 ---p 00000000 00:00 0 
+7f0aa0000000-7f0aa0002000 r--s 00009000 08:01 20608928                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/tomcat-i18n-ja.jar
+7f0aa0002000-7f0aa0005000 r--s 0000d000 08:01 20608871                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/jsp-api.jar
+7f0aa0005000-7f0aa000c000 r--s 00088000 08:01 20608861                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/jasper.jar
+7f0aa000c000-7f0aa00a3000 rw-p 00000000 00:00 0 
+7f0aa00a3000-7f0aa00a4000 ---p 00000000 00:00 0 
+7f0aa00a4000-7f0aa01a4000 rw-p 00000000 00:00 0 
+7f0aa01a4000-7f0aa01a5000 ---p 00000000 00:00 0 
+7f0aa01a5000-7f0aa02a5000 rw-p 00000000 00:00 0 
+7f0aa02a5000-7f0aa02a6000 ---p 00000000 00:00 0 
+7f0aa02a6000-7f0aa03a6000 rw-p 00000000 00:00 0 
+7f0aa03a6000-7f0aa03c0000 r-xp 00000000 08:01 25167142                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libzip.so
+7f0aa03c0000-7f0aa05c0000 ---p 0001a000 08:01 25167142                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libzip.so
+7f0aa05c0000-7f0aa05c1000 rw-p 0001a000 08:01 25167142                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libzip.so
+7f0aa05c1000-7f0aa05cc000 r-xp 00000000 08:01 7344909                    /lib/x86_64-linux-gnu/libnss_files-2.23.so
+7f0aa05cc000-7f0aa07cb000 ---p 0000b000 08:01 7344909                    /lib/x86_64-linux-gnu/libnss_files-2.23.so
+7f0aa07cb000-7f0aa07cc000 r--p 0000a000 08:01 7344909                    /lib/x86_64-linux-gnu/libnss_files-2.23.so
+7f0aa07cc000-7f0aa07cd000 rw-p 0000b000 08:01 7344909                    /lib/x86_64-linux-gnu/libnss_files-2.23.so
+7f0aa07cd000-7f0aa07d3000 rw-p 00000000 00:00 0 
+7f0aa07d3000-7f0aa07de000 r-xp 00000000 08:01 7344912                    /lib/x86_64-linux-gnu/libnss_nis-2.23.so
+7f0aa07de000-7f0aa09dd000 ---p 0000b000 08:01 7344912                    /lib/x86_64-linux-gnu/libnss_nis-2.23.so
+7f0aa09dd000-7f0aa09de000 r--p 0000a000 08:01 7344912                    /lib/x86_64-linux-gnu/libnss_nis-2.23.so
+7f0aa09de000-7f0aa09df000 rw-p 0000b000 08:01 7344912                    /lib/x86_64-linux-gnu/libnss_nis-2.23.so
+7f0aa09df000-7f0aa09f5000 r-xp 00000000 08:01 7344903                    /lib/x86_64-linux-gnu/libnsl-2.23.so
+7f0aa09f5000-7f0aa0bf4000 ---p 00016000 08:01 7344903                    /lib/x86_64-linux-gnu/libnsl-2.23.so
+7f0aa0bf4000-7f0aa0bf5000 r--p 00015000 08:01 7344903                    /lib/x86_64-linux-gnu/libnsl-2.23.so
+7f0aa0bf5000-7f0aa0bf6000 rw-p 00016000 08:01 7344903                    /lib/x86_64-linux-gnu/libnsl-2.23.so
+7f0aa0bf6000-7f0aa0bf8000 rw-p 00000000 00:00 0 
+7f0aa0bf8000-7f0aa0c00000 r-xp 00000000 08:01 7344918                    /lib/x86_64-linux-gnu/libnss_compat-2.23.so
+7f0aa0c00000-7f0aa0dff000 ---p 00008000 08:01 7344918                    /lib/x86_64-linux-gnu/libnss_compat-2.23.so
+7f0aa0dff000-7f0aa0e00000 r--p 00007000 08:01 7344918                    /lib/x86_64-linux-gnu/libnss_compat-2.23.so
+7f0aa0e00000-7f0aa0e01000 rw-p 00008000 08:01 7344918                    /lib/x86_64-linux-gnu/libnss_compat-2.23.so
+7f0aa0e01000-7f0aa120a000 r--p 00000000 08:01 23206620                   /usr/lib/locale/locale-archive
+7f0aa120a000-7f0aa120c000 r-xp 00000000 08:01 25167150                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnpt.so
+7f0aa120c000-7f0aa140c000 ---p 00002000 08:01 25167150                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnpt.so
+7f0aa140c000-7f0aa140d000 rw-p 00002000 08:01 25167150                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnpt.so
+7f0aa140d000-7f0aa1446000 r-xp 00000000 08:01 25167116                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libjdwp.so
+7f0aa1446000-7f0aa1645000 ---p 00039000 08:01 25167116                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libjdwp.so
+7f0aa1645000-7f0aa1647000 rw-p 00038000 08:01 25167116                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libjdwp.so
+7f0aa1647000-7f0aa1672000 r-xp 00000000 08:01 25167169                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libjava.so
+7f0aa1672000-7f0aa1871000 ---p 0002b000 08:01 25167169                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libjava.so
+7f0aa1871000-7f0aa1873000 rw-p 0002a000 08:01 25167169                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libjava.so
+7f0aa1873000-7f0aa1880000 r-xp 00000000 08:01 25167120                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libverify.so
+7f0aa1880000-7f0aa1a7f000 ---p 0000d000 08:01 25167120                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libverify.so
+7f0aa1a7f000-7f0aa1a81000 rw-p 0000c000 08:01 25167120                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libverify.so
+7f0aa1a81000-7f0aa1a88000 r-xp 00000000 08:01 7344914                    /lib/x86_64-linux-gnu/librt-2.23.so
+7f0aa1a88000-7f0aa1c87000 ---p 00007000 08:01 7344914                    /lib/x86_64-linux-gnu/librt-2.23.so
+7f0aa1c87000-7f0aa1c88000 r--p 00006000 08:01 7344914                    /lib/x86_64-linux-gnu/librt-2.23.so
+7f0aa1c88000-7f0aa1c89000 rw-p 00007000 08:01 7344914                    /lib/x86_64-linux-gnu/librt-2.23.so
+7f0aa1c89000-7f0aa1d91000 r-xp 00000000 08:01 7344923                    /lib/x86_64-linux-gnu/libm-2.23.so
+7f0aa1d91000-7f0aa1f90000 ---p 00108000 08:01 7344923                    /lib/x86_64-linux-gnu/libm-2.23.so
+7f0aa1f90000-7f0aa1f91000 r--p 00107000 08:01 7344923                    /lib/x86_64-linux-gnu/libm-2.23.so
+7f0aa1f91000-7f0aa1f92000 rw-p 00108000 08:01 7344923                    /lib/x86_64-linux-gnu/libm-2.23.so
+7f0aa1f92000-7f0aa2c5f000 r-xp 00000000 08:01 25167173                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/server/libjvm.so
+7f0aa2c5f000-7f0aa2e5e000 ---p 00ccd000 08:01 25167173                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/server/libjvm.so
+7f0aa2e5e000-7f0aa2f37000 rw-p 00ccc000 08:01 25167173                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/server/libjvm.so
+7f0aa2f37000-7f0aa2f82000 rw-p 00000000 00:00 0 
+7f0aa2f82000-7f0aa3142000 r-xp 00000000 08:01 7344961                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f0aa3142000-7f0aa3342000 ---p 001c0000 08:01 7344961                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f0aa3342000-7f0aa3346000 r--p 001c0000 08:01 7344961                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f0aa3346000-7f0aa3348000 rw-p 001c4000 08:01 7344961                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f0aa3348000-7f0aa334c000 rw-p 00000000 00:00 0 
+7f0aa334c000-7f0aa334f000 r-xp 00000000 08:01 7344917                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f0aa334f000-7f0aa354e000 ---p 00003000 08:01 7344917                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f0aa354e000-7f0aa354f000 r--p 00002000 08:01 7344917                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f0aa354f000-7f0aa3550000 rw-p 00003000 08:01 7344917                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f0aa3550000-7f0aa3565000 r-xp 00000000 08:01 23991878                   /usr/lib/jvm/java-8-oracle/lib/amd64/jli/libjli.so
+7f0aa3565000-7f0aa3765000 ---p 00015000 08:01 23991878                   /usr/lib/jvm/java-8-oracle/lib/amd64/jli/libjli.so
+7f0aa3765000-7f0aa3766000 rw-p 00015000 08:01 23991878                   /usr/lib/jvm/java-8-oracle/lib/amd64/jli/libjli.so
+7f0aa3766000-7f0aa377e000 r-xp 00000000 08:01 7344911                    /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f0aa377e000-7f0aa397d000 ---p 00018000 08:01 7344911                    /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f0aa397d000-7f0aa397e000 r--p 00017000 08:01 7344911                    /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f0aa397e000-7f0aa397f000 rw-p 00018000 08:01 7344911                    /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f0aa397f000-7f0aa3983000 rw-p 00000000 00:00 0 
+7f0aa3983000-7f0aa39a9000 r-xp 00000000 08:01 7344904                    /lib/x86_64-linux-gnu/ld-2.23.so
+7f0aa39a9000-7f0aa39aa000 r--s 00002000 08:01 20608882                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/tomcat-api.jar
+7f0aa39aa000-7f0aa39ab000 r--s 0000c000 08:01 20608851                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/catalina-ant.jar
+7f0aa39ab000-7f0aa39b6000 r--s 000ac000 08:01 20608922                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/tomcat-coyote.jar
+7f0aa39b6000-7f0aa39ba000 r--s 0003a000 08:01 20608923                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/tomcat-dbcp.jar
+7f0aa39ba000-7f0aa3a78000 rw-p 00000000 00:00 0 
+7f0aa3a78000-7f0aa3a7b000 ---p 00000000 00:00 0 
+7f0aa3a7b000-7f0aa3b7d000 rw-p 00000000 00:00 0 
+7f0aa3b7d000-7f0aa3b7f000 r--s 00005000 08:01 20608866                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/jaspic-api.jar
+7f0aa3b7f000-7f0aa3b81000 r--s 00007000 08:01 20608936                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/tomcat-jni.jar
+7f0aa3b81000-7f0aa3b83000 r--s 00009000 08:01 20608849                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/slf4j-api-1.7.21.jar
+7f0aa3b83000-7f0aa3b96000 r--s 00236000 08:01 20608858                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/ecj-4.5.1.jar
+7f0aa3b96000-7f0aa3b98000 r--s 00008000 08:01 20608925                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/lib/tomcat-i18n-fr.jar
+7f0aa3b98000-7f0aa3b9a000 r--s 00009000 08:01 20607122                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/bin/tomcat-juli.jar
+7f0aa3b9a000-7f0aa3b9b000 r--s 00005000 08:01 20606669                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/bin/commons-daemon.jar
+7f0aa3b9b000-7f0aa3b9c000 r--s 00007000 08:01 20606591                   /home/oem/Programas/apache-tomcat-RAA_DESA_WU/bin/bootstrap.jar
+7f0aa3b9c000-7f0aa3ba4000 rw-s 00000000 08:01 9586562                    /tmp/hsperfdata_oem/3679
+7f0aa3ba4000-7f0aa3ba5000 rw-p 00000000 00:00 0 
+7f0aa3ba5000-7f0aa3ba6000 r--p 00000000 00:00 0 
+7f0aa3ba6000-7f0aa3ba8000 rw-p 00000000 00:00 0 
+7f0aa3ba8000-7f0aa3ba9000 r--p 00025000 08:01 7344904                    /lib/x86_64-linux-gnu/ld-2.23.so
+7f0aa3ba9000-7f0aa3baa000 rw-p 00026000 08:01 7344904                    /lib/x86_64-linux-gnu/ld-2.23.so
+7f0aa3baa000-7f0aa3bab000 rw-p 00000000 00:00 0 
+7ffe754ef000-7ffe75510000 rw-p 00000000 00:00 0                          [stack]
+7ffe7551d000-7ffe7551f000 r--p 00000000 00:00 0                          [vvar]
+7ffe7551f000-7ffe75521000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+VM Arguments:
+jvm_args: -Djava.util.logging.config.file=/home/oem/Programas/apache-tomcat-RAA_DESA_WU/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dhttp.nonProxyHosts=localhost|127.0.0.1|cpu61-003202 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dcom.sun.xml.internal.ws.transport.http.HttpAdapter.dumpTreshold=1000000 -agentlib:jdwp=transport=dt_socket,address=11550,server=y,suspend=n -Ddbfilename=fielcoDB.properties -DKETTLE_PLUGIN_BASE_FOLDERS=/opt/pentaho/plugins -Dcatalina.base=/home/oem/Programas/apache-tomcat-RAA_DESA_WU -Dcatalina.home=/home/oem/Programas/apache-tomcat-RAA_DESA_WU -Djava.io.tmpdir=/home/oem/Programas/apache-tomcat-RAA_DESA_WU/temp 
+java_command: org.apache.catalina.startup.Bootstrap start
+java_class_path (initial): /home/oem/Programas/apache-tomcat-RAA_DESA_WU/bin/bootstrap.jar:/home/oem/Programas/apache-tomcat-RAA_DESA_WU/bin/tomcat-juli.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=/usr/lib/jvm/java-8-oracle
+JRE_HOME=/usr/lib/jvm/java-8-oracle
+PATH=/home/oem/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+USERNAME=oem
+SHELL=/bin/bash
+DISPLAY=:0
+
+Signal Handlers:
+SIGSEGV: [libjvm.so+0xac64b0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGBUS: [libjvm.so+0xac64b0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGFPE: [libjvm.so+0x91f950], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGPIPE: [libjvm.so+0x91f950], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGXFSZ: [libjvm.so+0x91f950], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGILL: [libjvm.so+0x91f950], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGUSR1: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGUSR2: [libjvm.so+0x920f80], sa_mask[0]=00100000000000000000000000000000, sa_flags=SA_RESTART|SA_SIGINFO
+SIGHUP: [libjvm.so+0x922380], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGINT: SIG_IGN, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGTERM: [libjvm.so+0x922380], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGQUIT: [libjvm.so+0x922380], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+
+
+---------------  S Y S T E M  ---------------
+
+OS:DISTRIB_ID=LinuxMint
+DISTRIB_RELEASE=18
+DISTRIB_CODENAME=sarah
+DISTRIB_DESCRIPTION="Linux Mint 18 Sarah"
+
+uname:Linux 4.4.0-21-generic #37-Ubuntu SMP Mon Apr 18 18:33:37 UTC 2016 x86_64
+libc:glibc 2.23 NPTL 2.23 
+rlimit: STACK 8192k, CORE 0k, NPROC 47448, NOFILE 65536, AS infinity
+load average:2,62 1,97 1,66
+
+/proc/meminfo:
+MemTotal:       12188088 kB
+MemFree:           87840 kB
+MemAvailable:    1458416 kB
+Buffers:          144672 kB
+Cached:          1054328 kB
+SwapCached:        89336 kB
+Active:          9451692 kB
+Inactive:        1802088 kB
+Active(anon):    9022092 kB
+Inactive(anon):  1407796 kB
+Active(file):     429600 kB
+Inactive(file):   394292 kB
+Unevictable:          80 kB
+Mlocked:              80 kB
+SwapTotal:       4075516 kB
+SwapFree:        2451916 kB
+Dirty:              3660 kB
+Writeback:           292 kB
+AnonPages:      10036152 kB
+Mapped:           374468 kB
+Shmem:            374304 kB
+Slab:             671084 kB
+SReclaimable:     598788 kB
+SUnreclaim:        72296 kB
+KernelStack:       14304 kB
+PageTables:        89376 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    10169560 kB
+Committed_AS:   17458144 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:   2918400 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:     1598304 kB
+DirectMap2M:    10868736 kB
+
+
+CPU:total 4 (4 cores per cpu, 1 threads per core) family 6 model 58 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, clmul, erms, tsc, tscinvbit, tscinv
+
+/proc/cpuinfo:
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 58
+model name	: Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+stepping	: 9
+microcode	: 0x1c
+cpu MHz		: 3399.875
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 6385.04
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 58
+model name	: Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+stepping	: 9
+microcode	: 0x1c
+cpu MHz		: 3400.000
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 4
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 6385.04
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 58
+model name	: Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+stepping	: 9
+microcode	: 0x1c
+cpu MHz		: 3400.000
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 4
+core id		: 2
+cpu cores	: 4
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 6385.04
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 58
+model name	: Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+stepping	: 9
+microcode	: 0x1c
+cpu MHz		: 3400.000
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 4
+core id		: 3
+cpu cores	: 4
+apicid		: 6
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 6385.04
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+
+
+Memory: 4k page, physical 12188088k(87840k free), swap 4075516k(2451916k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.111-b14) for linux-amd64 JRE (1.8.0_111-b14), built on Sep 22 2016 16:14:03 by "java_re" with gcc 4.3.0 20080428 (Red Hat 4.3.0-8)
+
+time: Thu May  6 09:05:27 2021
+elapsed time: 34962 seconds (0d 9h 42m 42s)
+

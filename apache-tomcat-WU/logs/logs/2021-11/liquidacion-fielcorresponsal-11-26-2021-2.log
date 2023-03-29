@@ -1,0 +1,2 @@
+ INFO 2021-11-27T06:00:23,381 [ThreadPoolTaskScheduler5][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - [TAREA_PROGRAMADA]:Obtener lista de monedas
+ INFO 2021-11-27T06:00:23,381 [ThreadPoolTaskScheduler5][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - [TAREA_PROGRAMADA]:Obtener lista de agencias

@@ -1,0 +1,40 @@
+ INFO 2022-03-03T16:28:34,970 [] com.roshka.michi.configuration.server.ServerStaticConfig - Configuraciones estaticas code: th-api version: 1.0.0 descripcion: API de FielColaborador
+ INFO 2022-03-03T16:28:35,005 [] com.roshka.michi.configuration.server.ServerConfig - Obteniendo información del Enviroment
+ INFO 2022-03-03T16:28:35,005 [] com.roshka.michi.configuration.server.ServerConfig - Env th-api_apikey : 7f3ba22b9a47f08b1f50@4568eef5-058d-4b3b-9f16-655c00cafdad@03fb5abdec67249b4399
+ INFO 2022-03-03T16:28:35,005 [] com.roshka.michi.configuration.server.ServerConfig - Env th-api_deploypath : th-api
+ INFO 2022-03-03T16:29:03,231 [] com.roshka.michi.configuration.server.ServerStaticConfig - Configuraciones estaticas code: th-api version: 1.0.0 descripcion: API de FielColaborador
+ INFO 2022-03-03T16:29:03,251 [] com.roshka.michi.configuration.server.ServerConfig - Obteniendo información del Enviroment
+ INFO 2022-03-03T16:29:03,251 [] com.roshka.michi.configuration.server.ServerConfig - Env th-api_apikey : 7f3ba22b9a47f08b1f50@4568eef5-058d-4b3b-9f16-655c00cafdad@03fb5abdec67249b4399
+ INFO 2022-03-03T16:29:03,251 [] com.roshka.michi.configuration.server.ServerConfig - Env th-api_deploypath : th-api
+ INFO 2022-03-03T16:29:19,216 [] com.roshka.michi.configuration.server.ServerStaticConfig - Configuraciones estaticas code: th-api version: 1.0.0 descripcion: API de FielColaborador
+ INFO 2022-03-03T16:29:19,241 [] com.roshka.michi.configuration.server.ServerConfig - Obteniendo información del Enviroment
+ INFO 2022-03-03T16:29:19,241 [] com.roshka.michi.configuration.server.ServerConfig - Env th-api_apikey : 7f3ba22b9a47f08b1f50@4568eef5-058d-4b3b-9f16-655c00cafdad@03fb5abdec67249b4399
+ INFO 2022-03-03T16:29:19,241 [] com.roshka.michi.configuration.server.ServerConfig - Env th-api_deploypath : th-api
+ INFO 2022-03-03T16:30:29,674 [] com.roshka.michi.configuration.server.ServerStaticConfig - Configuraciones estaticas code: th-api version: 1.0.0 descripcion: API de FielColaborador
+ INFO 2022-03-03T16:30:29,703 [] com.roshka.michi.configuration.server.ServerConfig - Obteniendo información del Enviroment
+ INFO 2022-03-03T16:30:29,704 [] com.roshka.michi.configuration.server.ServerConfig - Env th-api_apikey : 7f3ba22b9a47f08b1f50@4568eef5-058d-4b3b-9f16-655c00cafdad@03fb5abdec67249b4399
+ INFO 2022-03-03T16:30:29,704 [] com.roshka.michi.configuration.server.ServerConfig - Env th-api_deploypath : th-api
+ INFO 2022-03-03T16:31:00,802 [] com.roshka.michi.configuration.server.ServerStaticConfig - Configuraciones estaticas code: th-api version: 1.0.0 descripcion: API de FielColaborador
+ INFO 2022-03-03T16:31:00,823 [] com.roshka.michi.configuration.server.ServerConfig - Obteniendo información del Enviroment
+ INFO 2022-03-03T16:31:00,824 [] com.roshka.michi.configuration.server.ServerConfig - Env th-api_apikey : 7f3ba22b9a47f08b1f50@4568eef5-058d-4b3b-9f16-655c00cafdad@03fb5abdec67249b4399
+ INFO 2022-03-03T16:31:00,824 [] com.roshka.michi.configuration.server.ServerConfig - Env th-api_deploypath : th-api
+ INFO 2022-03-03T16:31:16,446 [] com.roshka.michi.configuration.server.ServerStaticConfig - Configuraciones estaticas code: th-api version: 1.0.0 descripcion: API de FielColaborador
+ INFO 2022-03-03T16:31:16,468 [] com.roshka.michi.configuration.server.ServerConfig - Obteniendo información del Enviroment
+ INFO 2022-03-03T16:31:16,469 [] com.roshka.michi.configuration.server.ServerConfig - Env th-api_apikey : 7f3ba22b9a47f08b1f50@4568eef5-058d-4b3b-9f16-655c00cafdad@03fb5abdec67249b4399
+ INFO 2022-03-03T16:31:16,469 [] com.roshka.michi.configuration.server.ServerConfig - Env th-api_deploypath : th-api
+ INFO 2022-03-03T16:34:00,862 [] com.roshka.michi.configuration.server.ServerStaticConfig - Configuraciones estaticas code: th-api version: 1.0.0 descripcion: API de FielColaborador
+ INFO 2022-03-03T16:34:00,882 [] com.roshka.michi.configuration.server.ServerConfig - Obteniendo información del Enviroment
+ INFO 2022-03-03T16:34:00,882 [] com.roshka.michi.configuration.server.ServerConfig - Env th-api_apikey : 7f3ba22b9a47f08b1f50@4568eef5-058d-4b3b-9f16-655c00cafdad@03fb5abdec67249b4399
+ INFO 2022-03-03T16:34:00,882 [] com.roshka.michi.configuration.server.ServerConfig - Env th-api_deploypath : th-api
+ INFO 2022-03-03T16:34:21,442 [] com.roshka.michi.configuration.server.ServerStaticConfig - Configuraciones estaticas code: th-api version: 1.0.0 descripcion: API de FielColaborador
+ INFO 2022-03-03T16:34:21,460 [] com.roshka.michi.configuration.server.ServerConfig - Obteniendo información del Enviroment
+ INFO 2022-03-03T16:34:21,462 [] com.roshka.michi.configuration.server.ServerConfig - Env th-api_apikey : 7f3ba22b9a47f08b1f50@4568eef5-058d-4b3b-9f16-655c00cafdad@03fb5abdec67249b4399
+ INFO 2022-03-03T16:34:21,462 [] com.roshka.michi.configuration.server.ServerConfig - Env th-api_deploypath : th-api
+ INFO 2022-03-03T16:34:32,682 [] com.roshka.michi.configuration.server.ServerStaticConfig - Configuraciones estaticas code: th-api version: 1.0.0 descripcion: API de FielColaborador
+ INFO 2022-03-03T16:34:32,692 [] com.roshka.michi.configuration.server.ServerConfig - Obteniendo información del Enviroment
+ INFO 2022-03-03T16:34:32,692 [] com.roshka.michi.configuration.server.ServerConfig - Env th-api_apikey : 7f3ba22b9a47f08b1f50@4568eef5-058d-4b3b-9f16-655c00cafdad@03fb5abdec67249b4399
+ INFO 2022-03-03T16:34:32,692 [] com.roshka.michi.configuration.server.ServerConfig - Env th-api_deploypath : th-api
+ INFO 2022-03-03T16:34:47,177 [] com.roshka.michi.configuration.server.ServerStaticConfig - Configuraciones estaticas code: th-api version: 1.0.0 descripcion: API de FielColaborador
+ INFO 2022-03-03T16:34:47,192 [] com.roshka.michi.configuration.server.ServerConfig - Obteniendo información del Enviroment
+ INFO 2022-03-03T16:34:47,192 [] com.roshka.michi.configuration.server.ServerConfig - Env th-api_apikey : 7f3ba22b9a47f08b1f50@4568eef5-058d-4b3b-9f16-655c00cafdad@03fb5abdec67249b4399
+ INFO 2022-03-03T16:34:47,192 [] com.roshka.michi.configuration.server.ServerConfig - Env th-api_deploypath : th-api

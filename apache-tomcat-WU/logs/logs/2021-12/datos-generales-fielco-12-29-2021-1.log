@@ -1,0 +1,444 @@
+ INFO 2021-12-29T11:22:19,048 [http-nio-8080-exec-43][[]][][][][][] com.roshka.michi.interceptor.MichiInterceptor - executing preHandle : /datos-generales-fielco/tipos/documento
+ INFO 2021-12-29T11:22:19,048 [http-nio-8080-exec-44][[]][][][][][] com.roshka.michi.interceptor.MichiInterceptor - executing preHandle : /datos-generales-fielco/origen/documento
+DEBUG 2021-12-29T11:22:19,057 [http-nio-8080-exec-43][[]][][][][][] com.roshka.michi.util.MichiContextHelper - Tratando de recuperar Header X-Caller-Api-Key
+DEBUG 2021-12-29T11:22:19,057 [http-nio-8080-exec-43][[]][][][][][] com.roshka.michi.util.MichiContextHelper - Se intenta recuperar el header X-Caller-Api-Code
+DEBUG 2021-12-29T11:22:19,057 [http-nio-8080-exec-44][[]][][][][][] com.roshka.michi.util.MichiContextHelper - Tratando de recuperar Header X-Caller-Api-Key
+DEBUG 2021-12-29T11:22:19,057 [http-nio-8080-exec-44][[]][][][][][] com.roshka.michi.util.MichiContextHelper - Se intenta recuperar el header X-Caller-Api-Code
+DEBUG 2021-12-29T11:22:19,075 [SimpleAsyncTaskExecutor-26][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Se utilizara el discovery del serverInfo : http://192.168.30.64:8080/michi-discovery/
+DEBUG 2021-12-29T11:22:19,075 [SimpleAsyncTaskExecutor-25][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Se utilizara el discovery del serverInfo : http://192.168.30.64:8080/michi-discovery/
+DEBUG 2021-12-29T11:22:19,076 [SimpleAsyncTaskExecutor-26][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: GETP | http://192.168.30.64:8080/michi-discovery//query 
+DEBUG 2021-12-29T11:22:19,076 [SimpleAsyncTaskExecutor-25][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: GETP | http://192.168.30.64:8080/michi-discovery//query 
+ INFO 2021-12-29T11:22:19,076 [http-nio-8080-exec-43][[]][][][][][] com.roshka.michi.bean.ACLResolve - recuperando informacion del acl [be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4] -> [fc7efb25e404f41d68ea@07e0c02e-cf54-416d-b424-fe89c017f835@ae262f7e0db550f18cce] atWed Dec 29 11:22:19 PYST 2021
+ INFO 2021-12-29T11:22:19,076 [http-nio-8080-exec-44][[]][][][][][] com.roshka.michi.bean.ACLResolve - recuperando informacion del acl [be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4] -> [fc7efb25e404f41d68ea@07e0c02e-cf54-416d-b424-fe89c017f835@ae262f7e0db550f18cce] atWed Dec 29 11:22:19 PYST 2021
+DEBUG 2021-12-29T11:22:19,076 [http-nio-8080-exec-43][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Se utilizara el discovery del serverInfo : http://192.168.30.64:8080/michi-discovery/
+DEBUG 2021-12-29T11:22:19,076 [http-nio-8080-exec-44][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Se utilizara el discovery del serverInfo : http://192.168.30.64:8080/michi-discovery/
+DEBUG 2021-12-29T11:22:19,076 [http-nio-8080-exec-43][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: GETP | http://192.168.30.64:8080/michi-discovery//query 
+DEBUG 2021-12-29T11:22:19,076 [http-nio-8080-exec-44][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: GETP | http://192.168.30.64:8080/michi-discovery//query 
+DEBUG 2021-12-29T11:22:19,219 [SimpleAsyncTaskExecutor-26][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T11:22:19,219 [SimpleAsyncTaskExecutor-26][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : [{"serverId":"michi-logging","instanceId":"FielcoTest","apiCode":"michi-logging","apiVersion":"2.8.2","urlService":"http://192.168.30.64:8080/michi-logging/","status":null},{"serverId":"michi-logging","instanceId":"test-migra","apiCode":"michi-logging","apiVersion":"2.8.2","urlService":"http://192.168.30.64:8300/michi-logging/","status":null},{"serverId":"michi-logging","instanceId":"wutdocker","apiCode":"michi-logging","apiVersion":"2.8.1","urlService":"http://192.168.36.72:9300/michi-logging/","status":null}]
+DEBUG 2021-12-29T11:22:19,225 [http-nio-8080-exec-44][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T11:22:19,225 [http-nio-8080-exec-44][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : [{"serverId":"michi-acl","instanceId":"FielcoTest","apiCode":"michi-acl","apiVersion":"2.8.2","urlService":"http://192.168.30.64:8080/michi-acl/","status":null},{"serverId":"michi-acl","instanceId":"test-migra","apiCode":"michi-acl","apiVersion":"2.8.2","urlService":"http://192.168.30.64:8300/michi-acl/","status":null},{"serverId":"michi-acl","instanceId":"wutdocker","apiCode":"michi-acl","apiVersion":"2.8.1","urlService":"http://192.168.36.72:9300/michi-acl/","status":null}]
+DEBUG 2021-12-29T11:22:19,228 [SimpleAsyncTaskExecutor-26][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Se encontro 3 apis de michi-logging para llamar
+DEBUG 2021-12-29T11:22:19,228 [http-nio-8080-exec-44][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Se encontro 3 apis de michi-acl para llamar
+DEBUG 2021-12-29T11:22:19,228 [SimpleAsyncTaskExecutor-26][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Pasamos a discrimar cual api usar
+DEBUG 2021-12-29T11:22:19,228 [http-nio-8080-exec-44][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Pasamos a discrimar cual api usar
+DEBUG 2021-12-29T11:22:19,228 [http-nio-8080-exec-44][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Existe trackingInfo, verificamos si esta seteado el enviroment. TI: TrackingInfo [callerId=null, callId=486d49f8-54bd-49ca-be8f-8b30adb8091f, trackingNo=2ff0a03c-5884-4875-8958-800408273ad5, sessionId=null, userId=null, deviceId=null, customID01=null, customID02=null, customID03=null, apiKey=fc7efb25e404f41d68ea@07e0c02e-cf54-416d-b424-fe89c017f835@ae262f7e0db550f18cce, serverId=fielco-datos, environment=Santi_Dev, discoveryEndpoint=http://192.168.30.64:8080/michi-discovery/,callerApiKey=be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4]
+DEBUG 2021-12-29T11:22:19,228 [SimpleAsyncTaskExecutor-26][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Existe trackingInfo, verificamos si esta seteado el enviroment. TI: TrackingInfo [callerId=null, callId=486d49f8-54bd-49ca-be8f-8b30adb8091f, trackingNo=2ff0a03c-5884-4875-8958-800408273ad5, sessionId=null, userId=null, deviceId=null, customID01=null, customID02=null, customID03=null, apiKey=fc7efb25e404f41d68ea@07e0c02e-cf54-416d-b424-fe89c017f835@ae262f7e0db550f18cce, serverId=fielco-datos, environment=Santi_Dev, discoveryEndpoint=http://192.168.30.64:8080/michi-discovery/,callerApiKey=be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4]
+DEBUG 2021-12-29T11:22:19,228 [http-nio-8080-exec-44][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Esta seteado el enviroment en el trackingInfo y su valor es : Santi_Dev
+DEBUG 2021-12-29T11:22:19,228 [SimpleAsyncTaskExecutor-26][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Esta seteado el enviroment en el trackingInfo y su valor es : Santi_Dev
+DEBUG 2021-12-29T11:22:19,228 [http-nio-8080-exec-44][[]][][][][][] com.roshka.michi.client.MichiBaseClient - No se pudo discriminar de ninguna forma, se usara el primero que llego
+DEBUG 2021-12-29T11:22:19,228 [SimpleAsyncTaskExecutor-26][[]][][][][][] com.roshka.michi.client.MichiBaseClient - No se pudo discriminar de ninguna forma, se usara el primero que llego
+DEBUG 2021-12-29T11:22:19,228 [http-nio-8080-exec-44][[]][][][][][] com.roshka.michi.client.MichiBaseClient - El api de michi-acl a utilizar es michi-acl del env FielcoTest 
+DEBUG 2021-12-29T11:22:19,228 [SimpleAsyncTaskExecutor-26][[]][][][][][] com.roshka.michi.client.MichiBaseClient - El api de michi-logging a utilizar es michi-logging del env FielcoTest 
+DEBUG 2021-12-29T11:22:19,228 [http-nio-8080-exec-44][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: GETP | http://192.168.30.64:8080/michi-acl/permits 
+DEBUG 2021-12-29T11:22:19,231 [http-nio-8080-exec-44][[]][][][][][] com.roshka.michi.communication.HttpCommunication - QueryString : ?caller=be680de3871ca8e263ad%4080794a57-e0c1-4a2b-b351-7b95bf2e706b%409fc77f64c26c30b4eff4
+DEBUG 2021-12-29T11:22:19,231 [SimpleAsyncTaskExecutor-26][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: POSTP | http://192.168.30.64:8080/michi-logging//logging/request-start 
+DEBUG 2021-12-29T11:22:19,255 [SimpleAsyncTaskExecutor-26][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T11:22:19,257 [SimpleAsyncTaskExecutor-26][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : {"callId":"486d49f8-54bd-49ca-be8f-8b30adb8091f"}
+DEBUG 2021-12-29T11:22:19,261 [http-nio-8080-exec-44][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T11:22:19,264 [http-nio-8080-exec-44][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : {"caller":{"apiKey":"be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4","apiCode":"app_miempresa"},"callee":{"apiKey":"fc7efb25e404f41d68ea@07e0c02e-cf54-416d-b424-fe89c017f835@ae262f7e0db550f18cce","apiCode":"fielco-datos-generales"},"actions":{"obtener-bancos":{"name":"obtener-bancos","code":"obtener-bancos","config":{}},"obtener-origen-doc":{"name":"obtener-origen-doc","code":"obtener-origen-doc","config":{}},"enviar-comentarios":{"name":"enviar-comentarios","code":"enviar-comentarios","config":{}},"public":{"name":"public","code":"public","config":{}},"obtener-conceptos-transferencias":{"name":"obtener-conceptos-transferencias","code":"obtener-conceptos-transferencias","config":{}},"listar-ubicaciones":{"name":"listar-ubicaciones","code":"listar-ubicaciones","config":{}},"obtener-tipos-documento":{"name":"obtener-tipos-documento","code":"obtener-tipos-documento","config":{}},"parametros-generales":{"name":"parametros-generales","code":"parametros-generales","config":{}},"obtener-deptos":{"name":"obtener-deptos","code":"obtener-deptos","config":{}},"obtener-cotizacion":{"name":"obtener-cotizacion","code":"obtener-cotizacion","config":{}}},"defaultAction":null}
+ INFO 2021-12-29T11:22:19,272 [http-nio-8080-exec-44][[]][][][][][] com.roshka.michi.bean.ACLResolve - 
+	obtener-cotizacion
+
+DEBUG 2021-12-29T11:22:19,293 [http-nio-8080-exec-44][[]][486d49f8-54bd-49ca-be8f-8b30adb8091f][2ff0a03c-5884-4875-8958-800408273ad5][][][] com.roshka.michi.util.ContextConfiguracion - creando bean de contexto a partir del request
+ERROR 2021-12-29T11:22:19,315 [http-nio-8080-exec-44][[]][486d49f8-54bd-49ca-be8f-8b30adb8091f][2ff0a03c-5884-4875-8958-800408273ad5][][][] com.roshka.michi.application.GlobalDefaultExceptionHandler - Handling error
+java.lang.IllegalStateException: Not a JSON Object: null
+	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:90) ~[gson-2.5.jar:?]
+	at com.roshka.fielco.comm.HttpCommunication.apiExceptionFromError(HttpCommunication.java:547) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at com.roshka.fielco.comm.HttpCommunication.doGet(HttpCommunication.java:140) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at com.roshka.fielco.comm.HttpCommunication.perform(HttpCommunication.java:65) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at com.roshka.fielco.cbapi.client.FielcoCBAPIClient.obtenerListaOrigenDocumento(FielcoCBAPIClient.java:1120) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at com.roshka.fielco.cbapi.client.FielcoCBAPIClient$$FastClassBySpringCGLIB$$7531749f.invoke(<generated>) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:133) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:121) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at com.roshka.fielco.cbapi.client.FielcoCBAPIClient$$EnhancerBySpringCGLIB$$aad8f850.obtenerListaOrigenDocumento(<generated>) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at py.com.fielco.datos.service.DatosServicesImpl.getPaisesDocumento(DatosServicesImpl.java:129) ~[classes/:?]
+	at py.com.fielco.datos.controller.DatosAPI.getListaOrigenDocumento(DatosAPI.java:157) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:222) ~[spring-web-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) [spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) [spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968) [spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:859) [spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622) [servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844) [spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at com.soulgalore.jdbcmetrics.filter.JDBCMetricsFilter.doFilter(JDBCMetricsFilter.java:112) [jdbcmetrics-2.0.1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at com.codahale.metrics.servlet.AbstractInstrumentedFilter.doFilter(AbstractInstrumentedFilter.java:111) [metrics-servlet-3.2.5.jar:3.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121) [spring-web-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [catalina.jar:8.5.6]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.6]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.6]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.6]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+DEBUG 2021-12-29T11:22:19,329 [SimpleAsyncTaskExecutor-27][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: POSTP | http://192.168.30.64:8080/michi-logging//logging/486d49f8-54bd-49ca-be8f-8b30adb8091f/request-end 
+DEBUG 2021-12-29T11:22:19,330 [http-nio-8080-exec-44][[]][486d49f8-54bd-49ca-be8f-8b30adb8091f][2ff0a03c-5884-4875-8958-800408273ad5][][][] com.roshka.michi.communication.HttpCommunication - URL: POSTP | http://192.168.30.64:8080/michi-logging//logging/486d49f8-54bd-49ca-be8f-8b30adb8091f/attach 
+DEBUG 2021-12-29T11:22:19,333 [SimpleAsyncTaskExecutor-28][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: POSTP | http://192.168.30.64:8080/michi-logging//logging/486d49f8-54bd-49ca-be8f-8b30adb8091f/attach 
+DEBUG 2021-12-29T11:22:19,347 [http-nio-8080-exec-44][[]][486d49f8-54bd-49ca-be8f-8b30adb8091f][2ff0a03c-5884-4875-8958-800408273ad5][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T11:22:19,349 [SimpleAsyncTaskExecutor-27][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T11:22:19,353 [http-nio-8080-exec-44][[]][486d49f8-54bd-49ca-be8f-8b30adb8091f][2ff0a03c-5884-4875-8958-800408273ad5][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : {"callId":"486d49f8-54bd-49ca-be8f-8b30adb8091f"}
+DEBUG 2021-12-29T11:22:19,354 [SimpleAsyncTaskExecutor-28][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T11:22:19,354 [SimpleAsyncTaskExecutor-28][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : {"callId":"486d49f8-54bd-49ca-be8f-8b30adb8091f"}
+DEBUG 2021-12-29T11:22:19,354 [SimpleAsyncTaskExecutor-27][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : {"callId":"486d49f8-54bd-49ca-be8f-8b30adb8091f"}
+DEBUG 2021-12-29T11:22:19,526 [SimpleAsyncTaskExecutor-25][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T11:22:19,534 [SimpleAsyncTaskExecutor-25][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : [{"serverId":"michi-logging","instanceId":"FielcoTest","apiCode":"michi-logging","apiVersion":"2.8.2","urlService":"http://192.168.30.64:8080/michi-logging/","status":null},{"serverId":"michi-logging","instanceId":"test-migra","apiCode":"michi-logging","apiVersion":"2.8.2","urlService":"http://192.168.30.64:8300/michi-logging/","status":null},{"serverId":"michi-logging","instanceId":"wutdocker","apiCode":"michi-logging","apiVersion":"2.8.1","urlService":"http://192.168.36.72:9300/michi-logging/","status":null}]
+DEBUG 2021-12-29T11:22:19,535 [SimpleAsyncTaskExecutor-25][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Se encontro 3 apis de michi-logging para llamar
+DEBUG 2021-12-29T11:22:19,535 [SimpleAsyncTaskExecutor-25][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Pasamos a discrimar cual api usar
+DEBUG 2021-12-29T11:22:19,535 [SimpleAsyncTaskExecutor-25][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Existe trackingInfo, verificamos si esta seteado el enviroment. TI: TrackingInfo [callerId=null, callId=261d50f9-d0d4-4c91-bdcf-a8146147f0cf, trackingNo=54db2b62-1136-40ad-8f87-b30ace096d43, sessionId=null, userId=null, deviceId=null, customID01=null, customID02=null, customID03=null, apiKey=fc7efb25e404f41d68ea@07e0c02e-cf54-416d-b424-fe89c017f835@ae262f7e0db550f18cce, serverId=fielco-datos, environment=Santi_Dev, discoveryEndpoint=http://192.168.30.64:8080/michi-discovery/,callerApiKey=be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4]
+DEBUG 2021-12-29T11:22:19,535 [SimpleAsyncTaskExecutor-25][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Esta seteado el enviroment en el trackingInfo y su valor es : Santi_Dev
+DEBUG 2021-12-29T11:22:19,535 [SimpleAsyncTaskExecutor-25][[]][][][][][] com.roshka.michi.client.MichiBaseClient - No se pudo discriminar de ninguna forma, se usara el primero que llego
+DEBUG 2021-12-29T11:22:19,535 [SimpleAsyncTaskExecutor-25][[]][][][][][] com.roshka.michi.client.MichiBaseClient - El api de michi-logging a utilizar es michi-logging del env FielcoTest 
+DEBUG 2021-12-29T11:22:19,536 [SimpleAsyncTaskExecutor-25][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: POSTP | http://192.168.30.64:8080/michi-logging//logging/request-start 
+DEBUG 2021-12-29T11:22:19,565 [SimpleAsyncTaskExecutor-25][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T11:22:19,565 [SimpleAsyncTaskExecutor-25][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : {"callId":"261d50f9-d0d4-4c91-bdcf-a8146147f0cf"}
+DEBUG 2021-12-29T11:22:19,747 [http-nio-8080-exec-43][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T11:22:19,749 [http-nio-8080-exec-43][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : [{"serverId":"michi-acl","instanceId":"FielcoTest","apiCode":"michi-acl","apiVersion":"2.8.2","urlService":"http://192.168.30.64:8080/michi-acl/","status":null},{"serverId":"michi-acl","instanceId":"test-migra","apiCode":"michi-acl","apiVersion":"2.8.2","urlService":"http://192.168.30.64:8300/michi-acl/","status":null},{"serverId":"michi-acl","instanceId":"wutdocker","apiCode":"michi-acl","apiVersion":"2.8.1","urlService":"http://192.168.36.72:9300/michi-acl/","status":null}]
+DEBUG 2021-12-29T11:22:19,750 [http-nio-8080-exec-43][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Se encontro 3 apis de michi-acl para llamar
+DEBUG 2021-12-29T11:22:19,750 [http-nio-8080-exec-43][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Pasamos a discrimar cual api usar
+DEBUG 2021-12-29T11:22:19,750 [http-nio-8080-exec-43][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Existe trackingInfo, verificamos si esta seteado el enviroment. TI: TrackingInfo [callerId=null, callId=261d50f9-d0d4-4c91-bdcf-a8146147f0cf, trackingNo=54db2b62-1136-40ad-8f87-b30ace096d43, sessionId=null, userId=null, deviceId=null, customID01=null, customID02=null, customID03=null, apiKey=fc7efb25e404f41d68ea@07e0c02e-cf54-416d-b424-fe89c017f835@ae262f7e0db550f18cce, serverId=fielco-datos, environment=Santi_Dev, discoveryEndpoint=http://192.168.30.64:8080/michi-discovery/,callerApiKey=be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4]
+DEBUG 2021-12-29T11:22:19,750 [http-nio-8080-exec-43][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Esta seteado el enviroment en el trackingInfo y su valor es : Santi_Dev
+DEBUG 2021-12-29T11:22:19,750 [http-nio-8080-exec-43][[]][][][][][] com.roshka.michi.client.MichiBaseClient - No se pudo discriminar de ninguna forma, se usara el primero que llego
+DEBUG 2021-12-29T11:22:19,750 [http-nio-8080-exec-43][[]][][][][][] com.roshka.michi.client.MichiBaseClient - El api de michi-acl a utilizar es michi-acl del env FielcoTest 
+DEBUG 2021-12-29T11:22:19,750 [http-nio-8080-exec-43][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: GETP | http://192.168.30.64:8080/michi-acl/permits 
+DEBUG 2021-12-29T11:22:19,752 [http-nio-8080-exec-43][[]][][][][][] com.roshka.michi.communication.HttpCommunication - QueryString : ?caller=be680de3871ca8e263ad%4080794a57-e0c1-4a2b-b351-7b95bf2e706b%409fc77f64c26c30b4eff4
+DEBUG 2021-12-29T11:22:19,779 [http-nio-8080-exec-43][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T11:22:19,781 [http-nio-8080-exec-43][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : {"caller":{"apiKey":"be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4","apiCode":"app_miempresa"},"callee":{"apiKey":"fc7efb25e404f41d68ea@07e0c02e-cf54-416d-b424-fe89c017f835@ae262f7e0db550f18cce","apiCode":"fielco-datos-generales"},"actions":{"obtener-bancos":{"name":"obtener-bancos","code":"obtener-bancos","config":{}},"obtener-origen-doc":{"name":"obtener-origen-doc","code":"obtener-origen-doc","config":{}},"enviar-comentarios":{"name":"enviar-comentarios","code":"enviar-comentarios","config":{}},"public":{"name":"public","code":"public","config":{}},"obtener-conceptos-transferencias":{"name":"obtener-conceptos-transferencias","code":"obtener-conceptos-transferencias","config":{}},"listar-ubicaciones":{"name":"listar-ubicaciones","code":"listar-ubicaciones","config":{}},"obtener-tipos-documento":{"name":"obtener-tipos-documento","code":"obtener-tipos-documento","config":{}},"parametros-generales":{"name":"parametros-generales","code":"parametros-generales","config":{}},"obtener-deptos":{"name":"obtener-deptos","code":"obtener-deptos","config":{}},"obtener-cotizacion":{"name":"obtener-cotizacion","code":"obtener-cotizacion","config":{}}},"defaultAction":null}
+ INFO 2021-12-29T11:22:19,784 [http-nio-8080-exec-43][[]][][][][][] com.roshka.michi.bean.ACLResolve - 
+	obtener-cotizacion
+
+DEBUG 2021-12-29T11:22:19,788 [http-nio-8080-exec-43][[]][261d50f9-d0d4-4c91-bdcf-a8146147f0cf][54db2b62-1136-40ad-8f87-b30ace096d43][][][] com.roshka.michi.util.ContextConfiguracion - creando bean de contexto a partir del request
+ERROR 2021-12-29T11:22:19,795 [http-nio-8080-exec-43][[]][261d50f9-d0d4-4c91-bdcf-a8146147f0cf][54db2b62-1136-40ad-8f87-b30ace096d43][][][] com.roshka.michi.application.GlobalDefaultExceptionHandler - Handling error
+java.lang.IllegalStateException: Not a JSON Object: null
+	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:90) ~[gson-2.5.jar:?]
+	at com.roshka.fielco.comm.HttpCommunication.apiExceptionFromError(HttpCommunication.java:547) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at com.roshka.fielco.comm.HttpCommunication.doGet(HttpCommunication.java:140) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at com.roshka.fielco.comm.HttpCommunication.perform(HttpCommunication.java:65) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at com.roshka.fielco.cbapi.client.FielcoCBAPIClient.obtenerTiposDocumento(FielcoCBAPIClient.java:1105) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at com.roshka.fielco.cbapi.client.FielcoCBAPIClient$$FastClassBySpringCGLIB$$7531749f.invoke(<generated>) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:133) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:121) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at com.roshka.fielco.cbapi.client.FielcoCBAPIClient$$EnhancerBySpringCGLIB$$aad8f850.obtenerTiposDocumento(<generated>) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at py.com.fielco.datos.service.DatosServicesImpl.getTiposDocumento(DatosServicesImpl.java:115) ~[classes/:?]
+	at py.com.fielco.datos.controller.DatosAPI.getTiposDocumento(DatosAPI.java:142) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:222) ~[spring-web-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) [spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) [spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968) [spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:859) [spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622) [servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844) [spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at com.soulgalore.jdbcmetrics.filter.JDBCMetricsFilter.doFilter(JDBCMetricsFilter.java:112) [jdbcmetrics-2.0.1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at com.codahale.metrics.servlet.AbstractInstrumentedFilter.doFilter(AbstractInstrumentedFilter.java:111) [metrics-servlet-3.2.5.jar:3.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121) [spring-web-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [catalina.jar:8.5.6]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.6]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.6]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.6]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+DEBUG 2021-12-29T11:22:19,802 [SimpleAsyncTaskExecutor-29][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: POSTP | http://192.168.30.64:8080/michi-logging//logging/261d50f9-d0d4-4c91-bdcf-a8146147f0cf/request-end 
+DEBUG 2021-12-29T11:22:19,803 [http-nio-8080-exec-43][[]][261d50f9-d0d4-4c91-bdcf-a8146147f0cf][54db2b62-1136-40ad-8f87-b30ace096d43][][][] com.roshka.michi.communication.HttpCommunication - URL: POSTP | http://192.168.30.64:8080/michi-logging//logging/261d50f9-d0d4-4c91-bdcf-a8146147f0cf/attach 
+DEBUG 2021-12-29T11:22:19,806 [SimpleAsyncTaskExecutor-30][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: POSTP | http://192.168.30.64:8080/michi-logging//logging/261d50f9-d0d4-4c91-bdcf-a8146147f0cf/attach 
+DEBUG 2021-12-29T11:22:19,843 [SimpleAsyncTaskExecutor-29][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T11:22:19,843 [SimpleAsyncTaskExecutor-30][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T11:22:19,843 [SimpleAsyncTaskExecutor-30][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : {"callId":"261d50f9-d0d4-4c91-bdcf-a8146147f0cf"}
+DEBUG 2021-12-29T11:22:19,843 [SimpleAsyncTaskExecutor-29][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : {"callId":"261d50f9-d0d4-4c91-bdcf-a8146147f0cf"}
+DEBUG 2021-12-29T11:22:19,843 [http-nio-8080-exec-43][[]][261d50f9-d0d4-4c91-bdcf-a8146147f0cf][54db2b62-1136-40ad-8f87-b30ace096d43][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T11:22:19,844 [http-nio-8080-exec-43][[]][261d50f9-d0d4-4c91-bdcf-a8146147f0cf][54db2b62-1136-40ad-8f87-b30ace096d43][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : {"callId":"261d50f9-d0d4-4c91-bdcf-a8146147f0cf"}
+ INFO 2021-12-29T15:33:48,163 [http-nio-8080-exec-38][[]][][][][][] com.roshka.michi.interceptor.MichiInterceptor - executing preHandle : /datos-generales-fielco/origen/documento
+ INFO 2021-12-29T15:33:48,163 [http-nio-8080-exec-39][[]][][][][][] com.roshka.michi.interceptor.MichiInterceptor - executing preHandle : /datos-generales-fielco/tipos/documento
+DEBUG 2021-12-29T15:33:48,171 [http-nio-8080-exec-38][[]][][][][][] com.roshka.michi.util.MichiContextHelper - Tratando de recuperar Header X-Caller-Api-Key
+DEBUG 2021-12-29T15:33:48,171 [http-nio-8080-exec-38][[]][][][][][] com.roshka.michi.util.MichiContextHelper - Se intenta recuperar el header X-Caller-Api-Code
+DEBUG 2021-12-29T15:33:48,171 [http-nio-8080-exec-39][[]][][][][][] com.roshka.michi.util.MichiContextHelper - Tratando de recuperar Header X-Caller-Api-Key
+DEBUG 2021-12-29T15:33:48,171 [http-nio-8080-exec-39][[]][][][][][] com.roshka.michi.util.MichiContextHelper - Se intenta recuperar el header X-Caller-Api-Code
+DEBUG 2021-12-29T15:33:48,186 [SimpleAsyncTaskExecutor-32][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Se utilizara el discovery del serverInfo : http://192.168.30.64:8080/michi-discovery/
+DEBUG 2021-12-29T15:33:48,186 [SimpleAsyncTaskExecutor-31][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Se utilizara el discovery del serverInfo : http://192.168.30.64:8080/michi-discovery/
+ INFO 2021-12-29T15:33:48,186 [http-nio-8080-exec-38][[]][][][][][] com.roshka.michi.bean.ACLResolve - recuperando informacion del acl [be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4] -> [fc7efb25e404f41d68ea@07e0c02e-cf54-416d-b424-fe89c017f835@ae262f7e0db550f18cce] atWed Dec 29 15:33:48 PYST 2021
+ INFO 2021-12-29T15:33:48,186 [http-nio-8080-exec-39][[]][][][][][] com.roshka.michi.bean.ACLResolve - recuperando informacion del acl [be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4] -> [fc7efb25e404f41d68ea@07e0c02e-cf54-416d-b424-fe89c017f835@ae262f7e0db550f18cce] atWed Dec 29 15:33:48 PYST 2021
+DEBUG 2021-12-29T15:33:48,186 [http-nio-8080-exec-38][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Se utilizara el discovery del serverInfo : http://192.168.30.64:8080/michi-discovery/
+DEBUG 2021-12-29T15:33:48,186 [http-nio-8080-exec-39][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Se utilizara el discovery del serverInfo : http://192.168.30.64:8080/michi-discovery/
+DEBUG 2021-12-29T15:33:48,186 [SimpleAsyncTaskExecutor-32][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: GETP | http://192.168.30.64:8080/michi-discovery//query 
+DEBUG 2021-12-29T15:33:48,186 [http-nio-8080-exec-38][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: GETP | http://192.168.30.64:8080/michi-discovery//query 
+DEBUG 2021-12-29T15:33:48,186 [http-nio-8080-exec-39][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: GETP | http://192.168.30.64:8080/michi-discovery//query 
+DEBUG 2021-12-29T15:33:48,186 [SimpleAsyncTaskExecutor-31][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: GETP | http://192.168.30.64:8080/michi-discovery//query 
+DEBUG 2021-12-29T15:33:48,313 [SimpleAsyncTaskExecutor-32][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T15:33:48,314 [SimpleAsyncTaskExecutor-32][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : [{"serverId":"michi-logging","instanceId":"FielcoTest","apiCode":"michi-logging","apiVersion":"2.8.2","urlService":"http://192.168.30.64:8080/michi-logging/","status":null},{"serverId":"michi-logging","instanceId":"test-migra","apiCode":"michi-logging","apiVersion":"2.8.2","urlService":"http://192.168.30.64:8300/michi-logging/","status":null},{"serverId":"michi-logging","instanceId":"wutdocker","apiCode":"michi-logging","apiVersion":"2.8.1","urlService":"http://192.168.36.72:9300/michi-logging/","status":null}]
+DEBUG 2021-12-29T15:33:48,325 [SimpleAsyncTaskExecutor-32][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Se encontro 3 apis de michi-logging para llamar
+DEBUG 2021-12-29T15:33:48,325 [SimpleAsyncTaskExecutor-32][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Pasamos a discrimar cual api usar
+DEBUG 2021-12-29T15:33:48,325 [SimpleAsyncTaskExecutor-32][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Existe trackingInfo, verificamos si esta seteado el enviroment. TI: TrackingInfo [callerId=null, callId=e5989aa4-5447-430a-ad7e-3954f22c10f1, trackingNo=9b94ec0e-eb1e-425e-aca1-186e4a812aaa, sessionId=null, userId=null, deviceId=null, customID01=null, customID02=null, customID03=null, apiKey=fc7efb25e404f41d68ea@07e0c02e-cf54-416d-b424-fe89c017f835@ae262f7e0db550f18cce, serverId=fielco-datos, environment=Santi_Dev, discoveryEndpoint=http://192.168.30.64:8080/michi-discovery/,callerApiKey=be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4]
+DEBUG 2021-12-29T15:33:48,325 [SimpleAsyncTaskExecutor-32][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Esta seteado el enviroment en el trackingInfo y su valor es : Santi_Dev
+DEBUG 2021-12-29T15:33:48,326 [SimpleAsyncTaskExecutor-32][[]][][][][][] com.roshka.michi.client.MichiBaseClient - No se pudo discriminar de ninguna forma, se usara el primero que llego
+DEBUG 2021-12-29T15:33:48,326 [SimpleAsyncTaskExecutor-32][[]][][][][][] com.roshka.michi.client.MichiBaseClient - El api de michi-logging a utilizar es michi-logging del env FielcoTest 
+DEBUG 2021-12-29T15:33:48,327 [SimpleAsyncTaskExecutor-32][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: POSTP | http://192.168.30.64:8080/michi-logging//logging/request-start 
+DEBUG 2021-12-29T15:33:48,356 [SimpleAsyncTaskExecutor-32][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T15:33:48,356 [SimpleAsyncTaskExecutor-32][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : {"callId":"e5989aa4-5447-430a-ad7e-3954f22c10f1"}
+DEBUG 2021-12-29T15:33:48,774 [SimpleAsyncTaskExecutor-31][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T15:33:48,775 [SimpleAsyncTaskExecutor-31][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : [{"serverId":"michi-logging","instanceId":"FielcoTest","apiCode":"michi-logging","apiVersion":"2.8.2","urlService":"http://192.168.30.64:8080/michi-logging/","status":null},{"serverId":"michi-logging","instanceId":"test-migra","apiCode":"michi-logging","apiVersion":"2.8.2","urlService":"http://192.168.30.64:8300/michi-logging/","status":null},{"serverId":"michi-logging","instanceId":"wutdocker","apiCode":"michi-logging","apiVersion":"2.8.1","urlService":"http://192.168.36.72:9300/michi-logging/","status":null}]
+DEBUG 2021-12-29T15:33:48,776 [SimpleAsyncTaskExecutor-31][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Se encontro 3 apis de michi-logging para llamar
+DEBUG 2021-12-29T15:33:48,776 [SimpleAsyncTaskExecutor-31][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Pasamos a discrimar cual api usar
+DEBUG 2021-12-29T15:33:48,776 [SimpleAsyncTaskExecutor-31][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Existe trackingInfo, verificamos si esta seteado el enviroment. TI: TrackingInfo [callerId=null, callId=1778025a-486e-4607-9f4b-47a31db6f6c2, trackingNo=2e112db2-0103-45e1-8186-b252bdc58f07, sessionId=null, userId=null, deviceId=null, customID01=null, customID02=null, customID03=null, apiKey=fc7efb25e404f41d68ea@07e0c02e-cf54-416d-b424-fe89c017f835@ae262f7e0db550f18cce, serverId=fielco-datos, environment=Santi_Dev, discoveryEndpoint=http://192.168.30.64:8080/michi-discovery/,callerApiKey=be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4]
+DEBUG 2021-12-29T15:33:48,776 [SimpleAsyncTaskExecutor-31][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Esta seteado el enviroment en el trackingInfo y su valor es : Santi_Dev
+DEBUG 2021-12-29T15:33:48,776 [SimpleAsyncTaskExecutor-31][[]][][][][][] com.roshka.michi.client.MichiBaseClient - No se pudo discriminar de ninguna forma, se usara el primero que llego
+DEBUG 2021-12-29T15:33:48,776 [SimpleAsyncTaskExecutor-31][[]][][][][][] com.roshka.michi.client.MichiBaseClient - El api de michi-logging a utilizar es michi-logging del env FielcoTest 
+DEBUG 2021-12-29T15:33:48,776 [SimpleAsyncTaskExecutor-31][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: POSTP | http://192.168.30.64:8080/michi-logging//logging/request-start 
+DEBUG 2021-12-29T15:33:48,863 [http-nio-8080-exec-38][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T15:33:48,873 [http-nio-8080-exec-38][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : [{"serverId":"michi-acl","instanceId":"FielcoTest","apiCode":"michi-acl","apiVersion":"2.8.2","urlService":"http://192.168.30.64:8080/michi-acl/","status":null},{"serverId":"michi-acl","instanceId":"test-migra","apiCode":"michi-acl","apiVersion":"2.8.2","urlService":"http://192.168.30.64:8300/michi-acl/","status":null},{"serverId":"michi-acl","instanceId":"wutdocker","apiCode":"michi-acl","apiVersion":"2.8.1","urlService":"http://192.168.36.72:9300/michi-acl/","status":null}]
+DEBUG 2021-12-29T15:33:48,873 [SimpleAsyncTaskExecutor-31][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T15:33:48,873 [SimpleAsyncTaskExecutor-31][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : {"callId":"1778025a-486e-4607-9f4b-47a31db6f6c2"}
+DEBUG 2021-12-29T15:33:48,875 [http-nio-8080-exec-38][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Se encontro 3 apis de michi-acl para llamar
+DEBUG 2021-12-29T15:33:48,875 [http-nio-8080-exec-38][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Pasamos a discrimar cual api usar
+DEBUG 2021-12-29T15:33:48,875 [http-nio-8080-exec-38][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Existe trackingInfo, verificamos si esta seteado el enviroment. TI: TrackingInfo [callerId=null, callId=1778025a-486e-4607-9f4b-47a31db6f6c2, trackingNo=2e112db2-0103-45e1-8186-b252bdc58f07, sessionId=null, userId=null, deviceId=null, customID01=null, customID02=null, customID03=null, apiKey=fc7efb25e404f41d68ea@07e0c02e-cf54-416d-b424-fe89c017f835@ae262f7e0db550f18cce, serverId=fielco-datos, environment=Santi_Dev, discoveryEndpoint=http://192.168.30.64:8080/michi-discovery/,callerApiKey=be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4]
+DEBUG 2021-12-29T15:33:48,875 [http-nio-8080-exec-38][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Esta seteado el enviroment en el trackingInfo y su valor es : Santi_Dev
+DEBUG 2021-12-29T15:33:48,875 [http-nio-8080-exec-38][[]][][][][][] com.roshka.michi.client.MichiBaseClient - No se pudo discriminar de ninguna forma, se usara el primero que llego
+DEBUG 2021-12-29T15:33:48,875 [http-nio-8080-exec-38][[]][][][][][] com.roshka.michi.client.MichiBaseClient - El api de michi-acl a utilizar es michi-acl del env FielcoTest 
+DEBUG 2021-12-29T15:33:48,875 [http-nio-8080-exec-38][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: GETP | http://192.168.30.64:8080/michi-acl/permits 
+DEBUG 2021-12-29T15:33:48,876 [http-nio-8080-exec-38][[]][][][][][] com.roshka.michi.communication.HttpCommunication - QueryString : ?caller=be680de3871ca8e263ad%4080794a57-e0c1-4a2b-b351-7b95bf2e706b%409fc77f64c26c30b4eff4
+DEBUG 2021-12-29T15:33:48,952 [http-nio-8080-exec-39][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T15:33:48,952 [http-nio-8080-exec-39][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : [{"serverId":"michi-acl","instanceId":"FielcoTest","apiCode":"michi-acl","apiVersion":"2.8.2","urlService":"http://192.168.30.64:8080/michi-acl/","status":null},{"serverId":"michi-acl","instanceId":"test-migra","apiCode":"michi-acl","apiVersion":"2.8.2","urlService":"http://192.168.30.64:8300/michi-acl/","status":null},{"serverId":"michi-acl","instanceId":"wutdocker","apiCode":"michi-acl","apiVersion":"2.8.1","urlService":"http://192.168.36.72:9300/michi-acl/","status":null}]
+DEBUG 2021-12-29T15:33:48,953 [http-nio-8080-exec-39][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Se encontro 3 apis de michi-acl para llamar
+DEBUG 2021-12-29T15:33:48,953 [http-nio-8080-exec-39][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Pasamos a discrimar cual api usar
+DEBUG 2021-12-29T15:33:48,953 [http-nio-8080-exec-39][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Existe trackingInfo, verificamos si esta seteado el enviroment. TI: TrackingInfo [callerId=null, callId=e5989aa4-5447-430a-ad7e-3954f22c10f1, trackingNo=9b94ec0e-eb1e-425e-aca1-186e4a812aaa, sessionId=null, userId=null, deviceId=null, customID01=null, customID02=null, customID03=null, apiKey=fc7efb25e404f41d68ea@07e0c02e-cf54-416d-b424-fe89c017f835@ae262f7e0db550f18cce, serverId=fielco-datos, environment=Santi_Dev, discoveryEndpoint=http://192.168.30.64:8080/michi-discovery/,callerApiKey=be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4]
+DEBUG 2021-12-29T15:33:48,953 [http-nio-8080-exec-39][[]][][][][][] com.roshka.michi.client.MichiBaseClient - Esta seteado el enviroment en el trackingInfo y su valor es : Santi_Dev
+DEBUG 2021-12-29T15:33:48,953 [http-nio-8080-exec-39][[]][][][][][] com.roshka.michi.client.MichiBaseClient - No se pudo discriminar de ninguna forma, se usara el primero que llego
+DEBUG 2021-12-29T15:33:48,953 [http-nio-8080-exec-39][[]][][][][][] com.roshka.michi.client.MichiBaseClient - El api de michi-acl a utilizar es michi-acl del env FielcoTest 
+DEBUG 2021-12-29T15:33:48,953 [http-nio-8080-exec-39][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: GETP | http://192.168.30.64:8080/michi-acl/permits 
+DEBUG 2021-12-29T15:33:48,954 [http-nio-8080-exec-39][[]][][][][][] com.roshka.michi.communication.HttpCommunication - QueryString : ?caller=be680de3871ca8e263ad%4080794a57-e0c1-4a2b-b351-7b95bf2e706b%409fc77f64c26c30b4eff4
+DEBUG 2021-12-29T15:33:49,293 [http-nio-8080-exec-39][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T15:33:49,296 [http-nio-8080-exec-39][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : {"caller":{"apiKey":"be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4","apiCode":"app_miempresa"},"callee":{"apiKey":"fc7efb25e404f41d68ea@07e0c02e-cf54-416d-b424-fe89c017f835@ae262f7e0db550f18cce","apiCode":"fielco-datos-generales"},"actions":{"obtener-bancos":{"name":"obtener-bancos","code":"obtener-bancos","config":{}},"obtener-origen-doc":{"name":"obtener-origen-doc","code":"obtener-origen-doc","config":{}},"enviar-comentarios":{"name":"enviar-comentarios","code":"enviar-comentarios","config":{}},"public":{"name":"public","code":"public","config":{}},"obtener-conceptos-transferencias":{"name":"obtener-conceptos-transferencias","code":"obtener-conceptos-transferencias","config":{}},"listar-ubicaciones":{"name":"listar-ubicaciones","code":"listar-ubicaciones","config":{}},"obtener-tipos-documento":{"name":"obtener-tipos-documento","code":"obtener-tipos-documento","config":{}},"parametros-generales":{"name":"parametros-generales","code":"parametros-generales","config":{}},"obtener-deptos":{"name":"obtener-deptos","code":"obtener-deptos","config":{}},"obtener-cotizacion":{"name":"obtener-cotizacion","code":"obtener-cotizacion","config":{}}},"defaultAction":null}
+ INFO 2021-12-29T15:33:49,299 [http-nio-8080-exec-39][[]][][][][][] com.roshka.michi.bean.ACLResolve - 
+	obtener-cotizacion
+
+DEBUG 2021-12-29T15:33:49,308 [http-nio-8080-exec-39][[]][e5989aa4-5447-430a-ad7e-3954f22c10f1][9b94ec0e-eb1e-425e-aca1-186e4a812aaa][][][] com.roshka.michi.util.ContextConfiguracion - creando bean de contexto a partir del request
+ERROR 2021-12-29T15:33:49,316 [http-nio-8080-exec-39][[]][e5989aa4-5447-430a-ad7e-3954f22c10f1][9b94ec0e-eb1e-425e-aca1-186e4a812aaa][][][] com.roshka.michi.application.GlobalDefaultExceptionHandler - Handling error
+java.lang.IllegalStateException: Not a JSON Object: null
+	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:90) ~[gson-2.5.jar:?]
+	at com.roshka.fielco.comm.HttpCommunication.apiExceptionFromError(HttpCommunication.java:547) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at com.roshka.fielco.comm.HttpCommunication.doGet(HttpCommunication.java:140) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at com.roshka.fielco.comm.HttpCommunication.perform(HttpCommunication.java:65) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at com.roshka.fielco.cbapi.client.FielcoCBAPIClient.obtenerTiposDocumento(FielcoCBAPIClient.java:1105) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at com.roshka.fielco.cbapi.client.FielcoCBAPIClient$$FastClassBySpringCGLIB$$7531749f.invoke(<generated>) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:133) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:121) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at com.roshka.fielco.cbapi.client.FielcoCBAPIClient$$EnhancerBySpringCGLIB$$aad8f850.obtenerTiposDocumento(<generated>) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at py.com.fielco.datos.service.DatosServicesImpl.getTiposDocumento(DatosServicesImpl.java:115) ~[classes/:?]
+	at py.com.fielco.datos.controller.DatosAPI.getTiposDocumento(DatosAPI.java:142) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:222) ~[spring-web-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) [spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) [spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968) [spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:859) [spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622) [servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844) [spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at com.soulgalore.jdbcmetrics.filter.JDBCMetricsFilter.doFilter(JDBCMetricsFilter.java:112) [jdbcmetrics-2.0.1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at com.codahale.metrics.servlet.AbstractInstrumentedFilter.doFilter(AbstractInstrumentedFilter.java:111) [metrics-servlet-3.2.5.jar:3.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121) [spring-web-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [catalina.jar:8.5.6]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.6]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.6]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.6]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+DEBUG 2021-12-29T15:33:49,329 [SimpleAsyncTaskExecutor-33][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: POSTP | http://192.168.30.64:8080/michi-logging//logging/e5989aa4-5447-430a-ad7e-3954f22c10f1/request-end 
+DEBUG 2021-12-29T15:33:49,331 [http-nio-8080-exec-39][[]][e5989aa4-5447-430a-ad7e-3954f22c10f1][9b94ec0e-eb1e-425e-aca1-186e4a812aaa][][][] com.roshka.michi.communication.HttpCommunication - URL: POSTP | http://192.168.30.64:8080/michi-logging//logging/e5989aa4-5447-430a-ad7e-3954f22c10f1/attach 
+DEBUG 2021-12-29T15:33:49,333 [SimpleAsyncTaskExecutor-34][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: POSTP | http://192.168.30.64:8080/michi-logging//logging/e5989aa4-5447-430a-ad7e-3954f22c10f1/attach 
+DEBUG 2021-12-29T15:33:49,360 [http-nio-8080-exec-39][[]][e5989aa4-5447-430a-ad7e-3954f22c10f1][9b94ec0e-eb1e-425e-aca1-186e4a812aaa][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T15:33:49,360 [SimpleAsyncTaskExecutor-33][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T15:33:49,360 [SimpleAsyncTaskExecutor-33][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : {"callId":"e5989aa4-5447-430a-ad7e-3954f22c10f1"}
+DEBUG 2021-12-29T15:33:49,362 [http-nio-8080-exec-39][[]][e5989aa4-5447-430a-ad7e-3954f22c10f1][9b94ec0e-eb1e-425e-aca1-186e4a812aaa][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : {"callId":"e5989aa4-5447-430a-ad7e-3954f22c10f1"}
+DEBUG 2021-12-29T15:33:49,362 [SimpleAsyncTaskExecutor-34][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T15:33:49,362 [SimpleAsyncTaskExecutor-34][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : {"callId":"e5989aa4-5447-430a-ad7e-3954f22c10f1"}
+DEBUG 2021-12-29T15:33:49,613 [http-nio-8080-exec-38][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T15:33:49,616 [http-nio-8080-exec-38][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : {"caller":{"apiKey":"be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4","apiCode":"app_miempresa"},"callee":{"apiKey":"fc7efb25e404f41d68ea@07e0c02e-cf54-416d-b424-fe89c017f835@ae262f7e0db550f18cce","apiCode":"fielco-datos-generales"},"actions":{"obtener-bancos":{"name":"obtener-bancos","code":"obtener-bancos","config":{}},"obtener-origen-doc":{"name":"obtener-origen-doc","code":"obtener-origen-doc","config":{}},"enviar-comentarios":{"name":"enviar-comentarios","code":"enviar-comentarios","config":{}},"public":{"name":"public","code":"public","config":{}},"obtener-conceptos-transferencias":{"name":"obtener-conceptos-transferencias","code":"obtener-conceptos-transferencias","config":{}},"listar-ubicaciones":{"name":"listar-ubicaciones","code":"listar-ubicaciones","config":{}},"obtener-tipos-documento":{"name":"obtener-tipos-documento","code":"obtener-tipos-documento","config":{}},"parametros-generales":{"name":"parametros-generales","code":"parametros-generales","config":{}},"obtener-deptos":{"name":"obtener-deptos","code":"obtener-deptos","config":{}},"obtener-cotizacion":{"name":"obtener-cotizacion","code":"obtener-cotizacion","config":{}}},"defaultAction":null}
+ INFO 2021-12-29T15:33:49,619 [http-nio-8080-exec-38][[]][][][][][] com.roshka.michi.bean.ACLResolve - 
+	obtener-cotizacion
+
+DEBUG 2021-12-29T15:33:49,622 [http-nio-8080-exec-38][[]][1778025a-486e-4607-9f4b-47a31db6f6c2][2e112db2-0103-45e1-8186-b252bdc58f07][][][] com.roshka.michi.util.ContextConfiguracion - creando bean de contexto a partir del request
+ERROR 2021-12-29T15:33:49,627 [http-nio-8080-exec-38][[]][1778025a-486e-4607-9f4b-47a31db6f6c2][2e112db2-0103-45e1-8186-b252bdc58f07][][][] com.roshka.michi.application.GlobalDefaultExceptionHandler - Handling error
+java.lang.IllegalStateException: Not a JSON Object: null
+	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:90) ~[gson-2.5.jar:?]
+	at com.roshka.fielco.comm.HttpCommunication.apiExceptionFromError(HttpCommunication.java:547) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at com.roshka.fielco.comm.HttpCommunication.doGet(HttpCommunication.java:140) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at com.roshka.fielco.comm.HttpCommunication.perform(HttpCommunication.java:65) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at com.roshka.fielco.cbapi.client.FielcoCBAPIClient.obtenerListaOrigenDocumento(FielcoCBAPIClient.java:1120) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at com.roshka.fielco.cbapi.client.FielcoCBAPIClient$$FastClassBySpringCGLIB$$7531749f.invoke(<generated>) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:133) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:121) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at com.roshka.fielco.cbapi.client.FielcoCBAPIClient$$EnhancerBySpringCGLIB$$aad8f850.obtenerListaOrigenDocumento(<generated>) ~[fielco-cbapi-client-2.2.1.jar:?]
+	at py.com.fielco.datos.service.DatosServicesImpl.getPaisesDocumento(DatosServicesImpl.java:129) ~[classes/:?]
+	at py.com.fielco.datos.controller.DatosAPI.getListaOrigenDocumento(DatosAPI.java:157) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:222) ~[spring-web-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) [spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) [spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968) [spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:859) [spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622) [servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844) [spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at com.soulgalore.jdbcmetrics.filter.JDBCMetricsFilter.doFilter(JDBCMetricsFilter.java:112) [jdbcmetrics-2.0.1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at com.codahale.metrics.servlet.AbstractInstrumentedFilter.doFilter(AbstractInstrumentedFilter.java:111) [metrics-servlet-3.2.5.jar:3.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121) [spring-web-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [catalina.jar:8.5.6]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.6]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.6]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.6]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+DEBUG 2021-12-29T15:33:49,633 [SimpleAsyncTaskExecutor-35][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: POSTP | http://192.168.30.64:8080/michi-logging//logging/1778025a-486e-4607-9f4b-47a31db6f6c2/request-end 
+DEBUG 2021-12-29T15:33:49,633 [http-nio-8080-exec-38][[]][1778025a-486e-4607-9f4b-47a31db6f6c2][2e112db2-0103-45e1-8186-b252bdc58f07][][][] com.roshka.michi.communication.HttpCommunication - URL: POSTP | http://192.168.30.64:8080/michi-logging//logging/1778025a-486e-4607-9f4b-47a31db6f6c2/attach 
+DEBUG 2021-12-29T15:33:49,637 [SimpleAsyncTaskExecutor-36][[]][][][][][] com.roshka.michi.communication.HttpCommunication - URL: POSTP | http://192.168.30.64:8080/michi-logging//logging/1778025a-486e-4607-9f4b-47a31db6f6c2/attach 
+DEBUG 2021-12-29T15:33:49,668 [http-nio-8080-exec-38][[]][1778025a-486e-4607-9f4b-47a31db6f6c2][2e112db2-0103-45e1-8186-b252bdc58f07][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T15:33:49,669 [http-nio-8080-exec-38][[]][1778025a-486e-4607-9f4b-47a31db6f6c2][2e112db2-0103-45e1-8186-b252bdc58f07][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : {"callId":"1778025a-486e-4607-9f4b-47a31db6f6c2"}
+DEBUG 2021-12-29T15:33:49,669 [SimpleAsyncTaskExecutor-35][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T15:33:49,669 [SimpleAsyncTaskExecutor-36][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-29T15:33:49,669 [SimpleAsyncTaskExecutor-35][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : {"callId":"1778025a-486e-4607-9f4b-47a31db6f6c2"}
+DEBUG 2021-12-29T15:33:49,669 [SimpleAsyncTaskExecutor-36][[]][][][][][] com.roshka.michi.communication.HttpCommunication - RESPONSE    : {"callId":"1778025a-486e-4607-9f4b-47a31db6f6c2"}

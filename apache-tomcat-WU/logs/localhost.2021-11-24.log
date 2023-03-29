@@ -1,0 +1,111 @@
+24-Nov-2021 15:17:39.871 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 15:17:53.984 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 15:17:54.573 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 15:17:55.047 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 15:22:26.011 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+24-Nov-2021 15:22:26.024 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+24-Nov-2021 15:22:57.163 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 15:23:10.714 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 15:23:11.257 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 15:23:11.678 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 15:26:24.719 INFORMACIÓN [http-nio-8090-exec-8] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 15:26:25.550 INFORMACIÓN [http-nio-8090-exec-8] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 15:26:26.319 INFORMACIÓN [http-nio-8090-exec-8] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 15:26:52.903 INFORMACIÓN [http-nio-8090-exec-3] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 15:26:53.537 INFORMACIÓN [http-nio-8090-exec-3] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 15:26:53.919 INFORMACIÓN [http-nio-8090-exec-3] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 15:47:59.923 INFORMACIÓN [http-nio-8090-exec-10] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 15:48:00.530 INFORMACIÓN [http-nio-8090-exec-10] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 15:48:00.957 INFORMACIÓN [http-nio-8090-exec-10] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:07:53.483 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:07:54.462 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:07:55.302 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:08:14.019 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:08:14.680 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:08:15.396 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:08:27.437 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:08:28.174 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:08:28.616 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:08:43.127 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:08:57.074 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:08:57.663 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:08:58.074 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:09:09.549 INFORMACIÓN [http-nio-8080-exec-23] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:09:10.012 INFORMACIÓN [http-nio-8080-exec-23] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+24-Nov-2021 16:09:15.697 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:09:16.031 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+24-Nov-2021 16:09:24.725 INFORMACIÓN [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:09:25.725 INFORMACIÓN [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:09:26.641 INFORMACIÓN [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:09:31.043 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:09:32.891 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:09:33.903 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:10:03.123 INFORMACIÓN [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:10:03.257 INFORMACIÓN [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+24-Nov-2021 16:10:07.251 INFORMACIÓN [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:10:07.704 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:10:07.770 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+24-Nov-2021 16:10:07.864 INFORMACIÓN [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:10:08.297 INFORMACIÓN [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:10:11.607 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:10:12.311 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:10:12.816 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:10:33.734 INFORMACIÓN [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:10:33.828 INFORMACIÓN [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+24-Nov-2021 16:10:38.525 INFORMACIÓN [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:10:39.983 INFORMACIÓN [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:10:40.482 INFORMACIÓN [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:10:43.537 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:10:43.640 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+24-Nov-2021 16:10:48.922 INFORMACIÓN [localhost-startStop-4] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:10:49.769 INFORMACIÓN [localhost-startStop-4] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:10:50.437 INFORMACIÓN [localhost-startStop-4] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:15:19.717 INFORMACIÓN [http-nio-8080-exec-55] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:15:20.376 INFORMACIÓN [http-nio-8080-exec-55] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:15:20.882 INFORMACIÓN [http-nio-8080-exec-55] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:15:25.085 INFORMACIÓN [localhost-startStop-5] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:15:25.772 INFORMACIÓN [localhost-startStop-5] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:15:26.384 INFORMACIÓN [localhost-startStop-5] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:16:11.507 INFORMACIÓN [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:16:12.271 INFORMACIÓN [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:16:12.546 INFORMACIÓN [localhost-startStop-6] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:16:12.792 INFORMACIÓN [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:16:13.245 INFORMACIÓN [localhost-startStop-6] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:16:13.906 INFORMACIÓN [localhost-startStop-6] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:16:27.415 INFORMACIÓN [http-nio-8080-exec-50] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:16:27.587 INFORMACIÓN [http-nio-8080-exec-50] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+24-Nov-2021 16:16:32.083 INFORMACIÓN [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:16:32.778 INFORMACIÓN [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:16:33.285 INFORMACIÓN [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:16:37.408 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:16:37.503 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+24-Nov-2021 16:16:45.578 INFORMACIÓN [localhost-startStop-7] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:16:47.249 INFORMACIÓN [localhost-startStop-7] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:16:48.443 INFORMACIÓN [localhost-startStop-7] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:17:11.943 INFORMACIÓN [http-nio-8080-exec-60] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:17:13.548 INFORMACIÓN [http-nio-8080-exec-60] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:17:14.077 INFORMACIÓN [http-nio-8080-exec-60] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:17:18.682 INFORMACIÓN [localhost-startStop-8] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:17:19.569 INFORMACIÓN [localhost-startStop-8] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:17:20.137 INFORMACIÓN [localhost-startStop-8] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:17:25.917 INFORMACIÓN [http-nio-8080-exec-56] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:17:26.013 INFORMACIÓN [http-nio-8080-exec-56] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+24-Nov-2021 16:17:31.994 INFORMACIÓN [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:17:32.680 INFORMACIÓN [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:17:33.154 INFORMACIÓN [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:17:42.030 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:17:42.146 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+24-Nov-2021 16:17:51.594 INFORMACIÓN [localhost-startStop-9] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:17:52.415 INFORMACIÓN [localhost-startStop-9] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:17:53.107 INFORMACIÓN [localhost-startStop-9] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:17:58.463 INFORMACIÓN [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:17:59.315 INFORMACIÓN [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:18:00.058 INFORMACIÓN [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:18:08.194 INFORMACIÓN [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:18:08.336 INFORMACIÓN [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+24-Nov-2021 16:18:11.486 INFORMACIÓN [http-nio-8080-exec-59] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:18:12.051 INFORMACIÓN [http-nio-8080-exec-59] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:18:12.455 INFORMACIÓN [http-nio-8080-exec-59] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+24-Nov-2021 16:18:18.760 INFORMACIÓN [localhost-startStop-10] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Nov-2021 16:18:19.770 INFORMACIÓN [localhost-startStop-10] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+24-Nov-2021 16:18:20.258 INFORMACIÓN [localhost-startStop-10] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'

@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [01/Dec/2021:09:53:05 -0300] "GET / HTTP/1.1" 200 9739
+127.0.0.1 - - [01/Dec/2021:10:39:18 -0300] "GET /logout HTTP/1.1" 500 4388
+127.0.0.1 - - [01/Dec/2021:10:39:19 -0300] "GET /resources/js/locale/bootstrap-datepicker.es.min.js HTTP/1.1" 200 513
+127.0.0.1 - - [01/Dec/2021:10:39:20 -0300] "GET /favicon.ico HTTP/1.1" 404 4388

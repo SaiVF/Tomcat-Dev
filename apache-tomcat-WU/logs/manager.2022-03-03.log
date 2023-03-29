@@ -1,0 +1,123 @@
+03-Mar-2022 16:28:17.955 INFORMACIÓN [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+03-Mar-2022 16:28:17.955 INFORMACIÓN [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+03-Mar-2022 16:28:18.014 INFORMACIÓN [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:28:18.568 INFORMACIÓN [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:28:18.588 INFORMACIÓN [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/User/AppData/Local/Temp/context9027958825501113101.xml'
+03-Mar-2022 16:28:49.090 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:28:49.150 INFORMACIÓN [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/'
+03-Mar-2022 16:28:49.721 INFORMACIÓN [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/User/AppData/Local/Temp/context8213140466905011143.xml'
+03-Mar-2022 16:29:04.921 INFORMACIÓN [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:29:04.966 INFORMACIÓN [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/'
+03-Mar-2022 16:29:05.540 INFORMACIÓN [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/User/AppData/Local/Temp/context5342841140976656226.xml'
+03-Mar-2022 16:29:18.980 INFORMACIÓN [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:29:18.991 INFORMACIÓN [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:29:25.371 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/administrativo-fielcorresponsal'
+03-Mar-2022 16:29:25.891 INFORMACIÓN [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:29:25.891 INFORMACIÓN [http-nio-8080-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:29:27.721 INFORMACIÓN [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/auth-fielcorresponsal'
+03-Mar-2022 16:29:28.246 INFORMACIÓN [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:29:28.251 INFORMACIÓN [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:29:30.349 INFORMACIÓN [http-nio-8080-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/datos-generales-fielcorresponsal'
+03-Mar-2022 16:29:30.871 INFORMACIÓN [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:29:30.871 INFORMACIÓN [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:29:33.171 INFORMACIÓN [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/fielcorresponsal'
+03-Mar-2022 16:29:34.011 INFORMACIÓN [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:29:34.011 INFORMACIÓN [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:30:13.882 INFORMACIÓN [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:30:13.911 INFORMACIÓN [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:30:13.921 INFORMACIÓN [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/User/AppData/Local/Temp/context6975141876799146619.xml'
+03-Mar-2022 16:30:46.486 INFORMACIÓN [http-nio-8080-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:30:46.561 INFORMACIÓN [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/th-api'
+03-Mar-2022 16:30:47.101 INFORMACIÓN [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/User/AppData/Local/Temp/context1229740074884285033.xml'
+03-Mar-2022 16:31:02.633 INFORMACIÓN [http-nio-8080-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:31:02.676 INFORMACIÓN [http-nio-8080-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/th-api'
+03-Mar-2022 16:31:03.215 INFORMACIÓN [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/User/AppData/Local/Temp/context2005870380345793453.xml'
+03-Mar-2022 16:33:49.553 INFORMACIÓN [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:33:49.602 INFORMACIÓN [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/th-api'
+03-Mar-2022 16:33:50.162 INFORMACIÓN [http-nio-8080-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/User/AppData/Local/Temp/context4939835629318727086.xml'
+03-Mar-2022 16:34:10.992 INFORMACIÓN [http-nio-8080-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:34:11.032 INFORMACIÓN [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/th-api'
+03-Mar-2022 16:34:11.642 INFORMACIÓN [http-nio-8080-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/User/AppData/Local/Temp/context435754577411960810.xml'
+03-Mar-2022 16:34:19.127 INFORMACIÓN [http-nio-8080-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:34:19.132 INFORMACIÓN [http-nio-8080-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:34:22.582 INFORMACIÓN [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/th-api'
+03-Mar-2022 16:34:22.822 INFORMACIÓN [http-nio-8080-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+03-Mar-2022 16:34:33.692 GRAVE [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log FALLO - No se pudo arrancar la aplicación en trayectoria de contexto /th-api
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/th-api]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1307)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:358)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:589)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:319)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:88)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'THProperties': Invocation of init method failed; nested exception is java.lang.RuntimeException: org.apache.commons.configuration.ConfigurationException: Cannot locate configuration source C:\Users\User\Documents\Tomcat\apache-tomcat-WU/conf/th-api.properties
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:137)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:154)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:134)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:87)
+	at py.com.elcomercio.th.boot.ApplicationBoot.onStartup(ApplicationBoot.java:35)
+	at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:169)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5178)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 31 more
+Caused by: java.lang.RuntimeException: org.apache.commons.configuration.ConfigurationException: Cannot locate configuration source C:\Users\User\Documents\Tomcat\apache-tomcat-WU/conf/th-api.properties
+	at py.com.elcomercio.th.config.THProperties.init(THProperties.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:134)
+	... 53 more
+Caused by: org.apache.commons.configuration.ConfigurationException: Cannot locate configuration source C:\Users\User\Documents\Tomcat\apache-tomcat-WU/conf/th-api.properties
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:259)
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:238)
+	at org.apache.commons.configuration.AbstractFileConfiguration.<init>(AbstractFileConfiguration.java:158)
+	at org.apache.commons.configuration.PropertiesConfiguration.<init>(PropertiesConfiguration.java:252)
+	at py.com.elcomercio.th.config.THProperties.init(THProperties.java:24)
+	... 60 more
+
+03-Mar-2022 16:34:35.814 INFORMACIÓN [http-nio-8080-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/th-api'
+03-Mar-2022 16:34:36.377 INFORMACIÓN [http-nio-8080-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/User/AppData/Local/Temp/context6320730309897993610.xml'

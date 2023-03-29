@@ -1,0 +1,170 @@
+#Variables de entornos para proyectos que usan framework michi
+#Configuraciones comunes para todos los servicios
+host=localhost
+port=8080
+protocol=http
+environment=Santi_Dev
+discovery_url=http://192.168.40.82:9300/michi-discovery/
+#discovery_url=http://192.168.30.64:8080/michi-discovery/
+#discovery_url=http://192.168.30.64:8300/michi-discovery/
+
+
+# Configuración comun para los que usan el cliente bantotal
+#bantotal.ws.url=http://192.168.30.44:9236/desa-py/servlet/com.dlya.bantotal.ax9996c1?wsdl
+#bantotal.ws.url=http://192.168.30.44:9613/findemes/servlet/com.dlya.bantotal.ax9996c1?wsdl
+bantotal.ws.url=http://192.168.60.44:9613/findemes/servlet/com.dlya.bantotal.ax9996c1?wsdl
+#bantotal.ws.url=http://localhost:9613/findemes/servlet/com.dlya.bantotal.ax9996c1?wsdl
+#bantotal.ws.url=http://localhost:96133/findemes/servlet/com.dlya.bantotal.ax9996c1?wsdl
+bantotal.ws.user= testcnb@elcomercio.local
+bantotal.ws.password= F!elc@2017
+bantotal.activo=false
+
+# Configuración BantotalDriver
+#bantotal.endpoint = http://192.168.30.44:9236/desa-py/servlet/com.dlya.bantotal.ax9996c1?wsdl
+#bantotal.endpoint = http://192.168.30.44:9613/findemes/servlet/com.dlya.bantotal.ax9996c1?wsdl
+bantotal.endpoint = http://localhost:9613/findemes/servlet/com.dlya.bantotal.ax9996c1?wsdl
+bantotal.user=testcnb@elcomercio.local
+bantotal.pass=F!elc@2017
+
+
+#DESEMBOLSOS
+#numero de celular (formato 09xxXxxXxx) donde va a enviar si enviarsmscliente = false
+#celular de Pedro Navarro
+desembolsos.numerocelular = 0982619651
+#en produccion debe ser true, para que envie al cliente.
+desembolsos.enviarsmscliente = false
+
+#EXTRACCIONES
+extracciones.numerocelular = 0971358318
+extracciones.enviarsmscliente = false
+
+#True, si se debe comunicar y obtener datos desde el Sybase.
+#False, una vez que el administrativo quede fuera de servicio.
+administrativo.sybaseactivo = false
+
+wuonline.sybaseactivo = false
+
+bima.wsdl = http://10.122.20.195/bima-service-ws-test/CustomerProvision?wsdl
+bima.endpoint = http://10.122.20.195/bima-service-ws-test/CustomerProvision
+bima.user = bimauser
+bima.pass = bimauserpass
+
+mail.host=192.168.36.110
+mail.port=25
+mail.from=fielcorresponsal@elcomercio.com.py
+mail.username=
+mail.password=
+
+ticket.downloaduri=ticket/version/FielcoTicketImpl.PI-045.dll
+ticket.version=PI-045
+ticket.download=fielcoAPI,fielcoImpl
+ticket.classname=com.roshka.FielcoTicketImpl.FielcoEntryPortImpl
+
+canaldigital.code=FIELCORRESPONSAL
+
+bancard.ws.url=https://sbc-desa.bancardnet.dom/accesotst
+bancard.ws.user=E107PRUEBA
+bancard.ws.passwd=E107PRUEBA
+bancard.ws.pool.size=2
+
+fielcocbapi.url = http://localhost:8080/fielcocbapi-app/
+fielcoauthapi.url = http://localhost:8080/fielcoauthapi/api/
+
+# Configuración utilizada en datos generales para comunicación con tigo
+tigo.ws.user=fielco_web
+tigo.ws.pass=web_2017
+tigo.ws.url=http://10.255.98.56:8780/custservice/servlet/com.tgbfcustservice.agetcustomerdata?wsdl
+
+miempresa.url=http://localhost:4200/
+
+wu-agente-api_samba-user=fielcorres
+wu-agente-api_samba-pass=F!elco2017
+
+
+dominio.usuario=fielcorres
+dominio.password=F!elco2017
+fielcoweb-url=http://localhost:8080/fielcoweb
+wu-file-eod-path=/home/
+wu-server-transfer-eod=/home/
+wu-server-port-transfer-eod=8080
+wu-path-remote-file-eod=asd
+wu-server-user-transfer-eod=asd
+wu-server-pass-transfer-eod=asd
+
+wu-api_id=Santi_Dev-wu-api
+wu-agente-api_id=Santi_Dev-wu-agente-api
+fielcorresponsal-extracciones_id=Santi_Dev-extracciones-fielcorresponsal
+fielcorresponsal-depositos_id=Santi_Dev-wu-depositos-fielcorresponsal
+fielcorresponsal-datos-generales_id=Santi_Dev-datos-generales-fielcorresponsal
+fielcorresponsal-creditos-cobro_id=Santi_Dev-creditos-cobro-fielcorresponsal
+fielcorresponsal-clientes_id=Santi_Dev-clientes-fielcorresponsal
+fielcorresponsal-auth_id=Santi_Dev-auth-fielcorresponsal
+fielcorresponsal-administrativo_id=Santi_Dev-administrativo-fielcorresponsal
+ps-procesador_id=Santi_Dev-ps-procesador
+fielcorresponsal-tickets_id=Santi_Dev-tickets-fielcorresponsal
+fielcorresponsal-transacciones_id=Santi_Dev-transacciones-fielcorresponsal
+fielcorresponsal-tarjetas_id=Santi_Dev-tarjetas-fielcorresponsal
+fielco-usuarios_id=Santi_Dev-fielco-usuarios
+fielco-cuentas_id=Santi_Dev-fielco-cuentas
+fielco-cda_id=Santi_Dev-fielco-cda
+fielco-auth_id=Santi_Dev-auth-fielco
+fielco-prestamos_id=Santi_Dev-prestamos-fielco
+#fielco-prestamo_id=Santi_Dev-fielco-prestamos
+fielco-transacciones_id=Santi_Dev-fielco-transacciones
+fielco-notificaciones_id=Santi_Dev-fielco-notificaciones
+mw-bancard_id=Santi_Dev-bancard
+fielco-pagoservicios_id=Santi_Dev-pagoservicios-fielco
+th-api_id=Santi_Dev-th-api
+security-api_id=Santi_Dev-security-api
+#fielco-tarjetas_id=Santi_Dev-tarjetas-fielco
+fielco-auth_id=Santi_Dev-auth-fielco
+
+fielco-usuarios_id=Santi_Dev-usuarios-fielco
+fielco-cuentas_id=Santi_Dev-cuentas-fielco
+#fielco-prestamos_id=Santi_Dev-prestamos-fielco
+#fielco-cda_id=Santi_Dev-cda-fielco
+fielco-datos-generales_id=Santi_Dev-datos-generales-fielco
+fielco-tarjetas_id=Santi_Dev-tarjetas-fielco
+#fielco-clientes_id=Santi_Dev-clientes-fielco
+#fielco-transacciones_id=Santi_Dev-transacciones-fielco
+#fielco-transferencias_id=Santi_Dev-transferencias-fielco
+#fielco-pagoservicios_id=Santi_Dev-pagoservicios-fielco
+fielco-auth_id=Santi_Dev-auth-fielco
+miempresa-transacciones_id=Santi_Dev-miempresa-transacciones
+miempresa-auth_id=Santi_Dev-miempresa-auth
+miempresa-cuentas_id=Santi_Dev-miempresa-cuentas
+miempresa-acciones_id=Santi_Dev-miempresa-acciones
+miempresa-empresas_id=Santi_Dev-miempresa-empresas
+miempresa-transferencias_id=Santi_Dev-miempresa-transferencias
+
+#mensajeria
+mensajeria.api.key=qqBKKjGK3fuhUALXlck4yZDj1uvNApg4RI2lj5rI2iOrJf1C4n9Rzh6pElnm3yMumSr0gkofVCRTOgEC77kQzcNENICLaBNOgJYTrwF6x2k9I8LWMCBMbuOQOlcL6xpm
+mensajeria.base.url=https://api.tellin.co/
+mensajeria.sms.mensaje=El pin generado para extracción es
+
+# Auth Mi Empresa
+client.api.key=b8a67ba914232790b83f@180ff2de-4834-4490-ad59-925adcabc915@54df79b2b9771e84a2b2
+api.client.authType=WEB
+api.client.authVersion=1.0.0
+api.client.clientType=WEB
+api.client.clientVersion=1.0.0
+api.client.sharedSecret=cccuXikZitIsv_FRt2AtMDcYuUHdB7EbDXZ11oeuAiTtS9oMMEpeOqmTSsUvJqHmWo9I1LzkEb5ZvID8Ia5bJhz1ltTJzo7mvLElNmAwQmhzytPc0Tafh3uztB2j5A==
+
+
+#alfa.ms.transfer.history.url=http://fo-sandbox02-srv.lnx.elcomercio.local:3084/transfers/
+#alfa.ms.transfer.history.url=http://fo-sandbox02-srv.lnx.elcomercio.local:4051/transfers/
+alfa.ms.transfer.history.url=http://fo-sandbox02-srv.lnx.elcomercio.local:4153/transfers/
+##alfa.ms.transfer.history.url=http://localhost:8084/transfers/
+ms-business-employees-url=http://fo-sandbox02-srv.lnx.elcomercio.local:3087/business-employees/
+
+#envio sms en prestamos pre aprobados
+api.envio-sms-new=http://172.20.20.204:3078/
+api.envio-sms-new-command=notifications/SMS
+api.envio-sms-new-habilitado=true
+
+
+#ms-authentication.url=http://localhost:8355/authentication
+ms-authentication.url=http://fo-sandbox02-srv.lnx.elcomercio.local:5540/authentication
+
+
+

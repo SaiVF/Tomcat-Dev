@@ -1,0 +1,640 @@
+07-Feb-2022 09:00:56.259 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:00:57.381 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 09:00:57.390 GRAVE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.listenerStop Excepción enviando evento de contexto destruído a instancia de escuchador de clase com.roshka.michi.listener.MichiContextLoaderListener
+ java.lang.IllegalStateException: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\desembolsos-fielcorresponsal\target\desembolsos-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:280)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:215)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:224)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1254)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:117)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:815)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1136)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1372)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1376)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\desembolsos-fielcorresponsal\target\desembolsos-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 24 more
+
+07-Feb-2022 09:00:58.070 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:00:58.311 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 09:00:58.311 GRAVE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.listenerStop Excepción enviando evento de contexto destruído a instancia de escuchador de clase com.roshka.michi.listener.MichiContextLoaderListener
+ java.lang.IllegalStateException: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\auth-fielcorresponsal\target\auth-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:280)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:215)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:224)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1254)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:117)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:815)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1136)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1372)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1376)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\auth-fielcorresponsal\target\auth-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 24 more
+
+07-Feb-2022 09:00:58.881 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:00:59.181 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 09:00:59.181 GRAVE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.listenerStop Excepción enviando evento de contexto destruído a instancia de escuchador de clase com.roshka.michi.listener.MichiContextLoaderListener
+ java.lang.IllegalStateException: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\facturadoras-fielcorresponsal\target\facturadoras-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:280)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:215)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:224)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1254)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:117)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:815)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1136)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1372)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1376)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\facturadoras-fielcorresponsal\target\facturadoras-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 24 more
+
+07-Feb-2022 09:00:59.760 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:01:00.088 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 09:01:00.088 GRAVE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.listenerStop Excepción enviando evento de contexto destruído a instancia de escuchador de clase com.roshka.michi.listener.MichiContextLoaderListener
+ java.lang.IllegalStateException: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\seguros-fielcorresponsal\target\seguros-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:280)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:215)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:224)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1254)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:117)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:815)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1136)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1372)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1376)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\seguros-fielcorresponsal\target\seguros-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 24 more
+
+07-Feb-2022 09:01:00.672 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:01:00.920 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 09:01:00.928 GRAVE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.listenerStop Excepción enviando evento de contexto destruído a instancia de escuchador de clase com.roshka.michi.listener.MichiContextLoaderListener
+ java.lang.IllegalStateException: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\extracciones-fielcorresponsal\target\extracciones-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:280)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:215)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:224)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1254)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:117)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:815)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1136)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1372)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1376)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\extracciones-fielcorresponsal\target\extracciones-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 24 more
+
+07-Feb-2022 09:01:01.472 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:01:01.736 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 09:01:01.736 GRAVE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.listenerStop Excepción enviando evento de contexto destruído a instancia de escuchador de clase com.roshka.michi.listener.MichiContextLoaderListener
+ java.lang.IllegalStateException: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\creditos-cobro-fielcorresponsal\target\creditos-cobro-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:280)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:215)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:224)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1254)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:117)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:815)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1136)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1372)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1376)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\creditos-cobro-fielcorresponsal\target\creditos-cobro-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 24 more
+
+07-Feb-2022 09:01:02.294 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:01:02.486 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 09:01:02.486 GRAVE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.listenerStop Excepción enviando evento de contexto destruído a instancia de escuchador de clase com.roshka.michi.listener.MichiContextLoaderListener
+ java.lang.IllegalStateException: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\tarjetas-fielcorresponsal\target\tarjetas-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:280)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:215)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:224)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1254)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:117)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:815)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1136)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1372)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1376)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\tarjetas-fielcorresponsal\target\tarjetas-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 24 more
+
+07-Feb-2022 09:01:03.006 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:01:03.174 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 09:01:03.174 GRAVE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.listenerStop Excepción enviando evento de contexto destruído a instancia de escuchador de clase com.roshka.michi.listener.MichiContextLoaderListener
+ java.lang.IllegalStateException: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\transacciones-fielcorresponsal\target\transacciones-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:280)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:215)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:224)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1254)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:117)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:815)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1136)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1372)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1376)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\transacciones-fielcorresponsal\target\transacciones-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 24 more
+
+07-Feb-2022 09:01:03.695 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:01:03.967 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 09:01:03.967 GRAVE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.listenerStop Excepción enviando evento de contexto destruído a instancia de escuchador de clase com.roshka.michi.listener.MichiContextLoaderListener
+ java.lang.IllegalStateException: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\datos-generales-fielcorresponsal\target\datos-generales-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:280)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:215)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:224)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1254)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:117)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:815)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1136)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1372)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1376)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\datos-generales-fielcorresponsal\target\datos-generales-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 24 more
+
+07-Feb-2022 09:01:04.503 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:01:04.743 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 09:01:04.743 GRAVE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.listenerStop Excepción enviando evento de contexto destruído a instancia de escuchador de clase com.roshka.michi.listener.MichiContextLoaderListener
+ java.lang.IllegalStateException: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\clientes-fielcorresponsal\target\clientes-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:280)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:215)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:224)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1254)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:117)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:815)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1136)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1372)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1376)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\clientes-fielcorresponsal\target\clientes-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 24 more
+
+07-Feb-2022 09:01:05.268 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:01:05.532 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 09:01:05.532 GRAVE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.listenerStop Excepción enviando evento de contexto destruído a instancia de escuchador de clase com.roshka.michi.listener.MichiContextLoaderListener
+ java.lang.IllegalStateException: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\creditos-fielcorresponsal\target\creditos-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:280)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:215)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:224)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1254)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:117)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:815)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1136)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1372)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1376)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\creditos-fielcorresponsal\target\creditos-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 24 more
+
+07-Feb-2022 09:20:49.963 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 09:20:50.931 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 09:20:51.540 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:21:07.676 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 09:21:08.332 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 09:21:08.582 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:21:48.116 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 09:21:49.030 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 09:21:49.767 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:22:17.222 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 09:22:18.287 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 09:22:18.812 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:22:38.977 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 09:22:39.634 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 09:22:40.040 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:23:11.441 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 09:23:12.786 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 09:23:13.185 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:23:31.956 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 09:23:32.696 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 09:23:33.084 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:23:50.858 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 09:23:51.649 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 09:23:51.997 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:24:07.537 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 09:24:08.253 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 09:24:08.722 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:24:29.160 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 09:24:29.863 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 09:24:30.317 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:24:51.114 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 09:24:51.891 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 09:24:52.282 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 09:33:51.370 INFORMACIÓN [http-nio-8080-exec-74] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Feb-2022 09:33:57.665 INFORMACIÓN [http-nio-8080-exec-74] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Feb-2022 09:35:13.843 INFORMACIÓN [http-nio-8080-exec-81] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Feb-2022 09:35:18.938 INFORMACIÓN [http-nio-8080-exec-81] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Feb-2022 10:04:32.975 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:04:33.068 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 10:04:33.099 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:04:33.152 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 10:04:33.175 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:04:33.236 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 10:04:33.306 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:04:33.358 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 10:04:33.409 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:04:33.464 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 10:04:33.493 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:04:33.546 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 10:04:33.579 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:04:33.631 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 10:04:33.664 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:04:33.726 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 10:04:33.765 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:04:33.815 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 10:04:33.851 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:04:34.946 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 10:04:35.000 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:04:35.064 INFORMACIÓN [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 10:04:45.565 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:04:46.161 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:04:46.647 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:05:04.158 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:05:04.863 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:05:05.353 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:05:16.935 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:05:17.369 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:05:17.708 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:05:29.097 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:05:29.507 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:05:29.812 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:05:43.183 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:05:43.624 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:05:43.938 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:05:55.085 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:05:55.530 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:05:55.873 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:06:06.421 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:06:07.032 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:06:07.466 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:06:27.937 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:06:28.641 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:06:29.290 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:06:42.287 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Feb-2022 10:06:48.567 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Feb-2022 10:08:06.058 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:08:06.610 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:08:07.016 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:08:18.957 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:08:19.441 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:08:19.800 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:08:30.437 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:08:30.921 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:08:31.218 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:09:02.825 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:09:03.861 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:09:04.374 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:09:26.688 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:09:27.520 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:09:27.973 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:09:47.461 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:09:48.031 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:09:48.401 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:10:00.202 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:10:00.617 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:10:00.927 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:10:14.268 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:10:14.705 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:10:15.023 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:10:26.363 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:10:26.801 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:10:27.148 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:10:35.984 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:10:36.437 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:10:36.840 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:10:54.226 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:10:54.808 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:10:55.393 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:11:06.217 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Feb-2022 10:11:10.841 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Feb-2022 10:12:23.813 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:12:24.385 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:12:24.898 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:12:37.030 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:12:37.455 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:12:37.802 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:12:51.528 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:12:52.194 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:12:52.596 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:13:12.119 INFORMACIÓN [http-nio-8080-exec-40] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Feb-2022 10:13:16.893 INFORMACIÓN [http-nio-8080-exec-40] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Feb-2022 10:15:29.303 INFORMACIÓN [http-nio-8080-exec-43] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Feb-2022 10:15:33.758 INFORMACIÓN [http-nio-8080-exec-43] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Feb-2022 10:16:58.671 INFORMACIÓN [http-nio-8080-exec-15] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Feb-2022 10:17:05.318 INFORMACIÓN [http-nio-8080-exec-28] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Feb-2022 10:41:11.242 INFORMACIÓN [http-nio-8080-exec-80] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Feb-2022 10:41:31.216 INFORMACIÓN [http-nio-8080-exec-82] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Feb-2022 10:41:38.466 INFORMACIÓN [http-nio-8080-exec-86] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Feb-2022 10:57:29.712 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:57:30.353 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:57:30.696 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:57:43.531 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:57:44.108 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:57:44.515 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:57:55.443 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:57:55.859 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:57:56.189 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:58:07.330 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:58:07.738 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:58:08.034 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:58:21.187 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:58:21.650 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:58:21.965 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:58:35.229 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:58:35.714 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:58:36.025 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:58:45.390 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:58:45.863 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:58:46.247 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:59:03.787 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:59:04.428 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:59:05.068 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:59:17.742 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:59:18.195 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:59:18.542 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:59:29.312 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:59:30.655 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:59:30.967 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:59:41.804 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Feb-2022 10:59:42.226 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Feb-2022 10:59:42.585 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+07-Feb-2022 10:59:50.675 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Feb-2022 11:00:45.887 INFORMACIÓN [http-nio-8080-exec-47] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Feb-2022 11:00:51.949 INFORMACIÓN [http-nio-8080-exec-47] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Feb-2022 11:01:00.849 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Feb-2022 11:01:06.448 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Feb-2022 11:03:21.677 INFORMACIÓN [http-nio-8080-exec-56] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Feb-2022 11:47:31.422 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Feb-2022 11:47:38.057 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Feb-2022 11:48:17.929 INFORMACIÓN [http-nio-8080-exec-61] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Feb-2022 11:48:24.515 INFORMACIÓN [http-nio-8080-exec-61] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Feb-2022 11:48:34.552 INFORMACIÓN [http-nio-8080-exec-72] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Feb-2022 11:48:42.081 INFORMACIÓN [http-nio-8080-exec-72] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Feb-2022 11:54:26.631 INFORMACIÓN [http-nio-8080-exec-79] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Feb-2022 11:54:33.076 INFORMACIÓN [http-nio-8080-exec-79] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Feb-2022 11:55:12.301 INFORMACIÓN [http-nio-8080-exec-85] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Feb-2022 11:55:18.286 INFORMACIÓN [http-nio-8080-exec-85] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Feb-2022 11:55:27.824 INFORMACIÓN [http-nio-8080-exec-82] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+07-Feb-2022 11:55:34.531 INFORMACIÓN [http-nio-8080-exec-82] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+07-Feb-2022 14:50:04.686 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 14:50:04.800 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 14:50:06.842 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 14:50:06.969 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 14:50:08.478 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 14:50:08.569 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 14:50:13.840 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 14:50:13.943 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 14:50:17.180 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 14:50:17.889 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 14:50:20.363 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 14:50:20.850 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 14:50:22.822 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 14:50:22.940 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 14:50:24.723 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 14:50:24.817 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 14:50:26.432 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 14:50:26.546 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 14:50:28.085 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 14:50:28.177 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Feb-2022 14:50:29.887 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+07-Feb-2022 14:50:29.990 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext

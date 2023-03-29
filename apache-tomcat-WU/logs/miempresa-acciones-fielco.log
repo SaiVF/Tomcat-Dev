@@ -1,0 +1,24 @@
+ INFO 2021-12-30T11:58:29,686
+                    [http-nio-8080-exec-39][[]][][][][][][][][]
+                    org.springframework.web.context.support.XmlWebApplicationContext - Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Mon Dec 27 17:25:56 PYST 2021]; parent: Root WebApplicationContext
+ INFO 2021-12-30T11:58:29,765
+                    [http-nio-8080-exec-39][[]][][][][][][][][]
+                    com.roshka.michi.application.MichiShutdown - Application SHUTDOWN
+DEBUG 2021-12-30T11:58:29,779
+                    [http-nio-8080-exec-39][[]][][][][][][][][]
+                    com.roshka.michi.service.RegisterService - Deregistrando la aplicación...
+DEBUG 2021-12-30T11:58:29,782
+                    [http-nio-8080-exec-39][[]][][][][][][][][]
+                    com.roshka.michi.communication.HttpCommunication - URL: POSTP | http://192.168.30.64:8080/michi-discovery/unregister 
+DEBUG 2021-12-30T11:58:29,928
+                    [http-nio-8080-exec-39][[]][][][][][][][][]
+                    com.roshka.michi.communication.HttpCommunication - RESP STATUS : HTTP/1.1 200 OK
+DEBUG 2021-12-30T11:58:29,928
+                    [http-nio-8080-exec-39][[]][][][][][][][][]
+                    com.roshka.michi.communication.HttpCommunication - RESPONSE    : {"registrationBean":{"serverId":"miempresa-acciones","instanceId":"Santi_Dev","apiCode":"miempresa-acciones","apiVersion":"1.3.6","urlService":"http://localhost:8080/miempresa-acciones/","status":null}}
+DEBUG 2021-12-30T11:58:29,928
+                    [http-nio-8080-exec-39][[]][][][][][][][][]
+                    com.roshka.michi.service.RegisterService - Aplicación deregistrada!
+ INFO 2021-12-30T11:58:30,085
+                    [http-nio-8080-exec-39][[]][][][][][][][][]
+                    org.springframework.web.context.support.XmlWebApplicationContext - Closing Root WebApplicationContext: startup date [Mon Dec 27 17:25:55 PYST 2021]; root of context hierarchy

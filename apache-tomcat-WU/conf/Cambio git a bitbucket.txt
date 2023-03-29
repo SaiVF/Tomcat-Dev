@@ -1,0 +1,23 @@
+Sobre el proyecto en el que esten trabajando, aplicar lo siguiente.
+/* para saber la direccion del repositorio remoto*/
+git remote -v 
+
+/* Renombramos el remoto de gitlab*/
+git remote rename origin gitlab
+
+/* agregamos el repositorio del bitbucket con el mismo nombre*/
+git remote add origin [--PEGAR ACA URL O SSH DEL REPO DE BITBUCKET--]
+
+/* Estiramos todos los cambios de todos los remotos */
+git pull --all 
+
+/* Pusheamos todas las ramas al bitbucket */
+git push origin --all
+
+(Si hay un reject a la hora de pushear, mudarse a la rama que indica que tiene problemas y hacer pull de ambos remotos y pushear en la misma rama, luego volver a intentar el paso anterior)
+
+/* Pusheamos todos los tags al bitbucket */
+git push origin --tags 
+
+/* Si existen cambios en el bitbucket que aun no existan en el gitlab, con este comando va a actualizar dicho repo*/
+git push gitlab --all && git push gitlab --tags

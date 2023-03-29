@@ -1,0 +1,446 @@
+04-Feb-2022 11:49:19.602 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:49:20.487 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:49:20.966 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 11:49:44.262 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:49:45.045 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:49:45.637 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 11:50:08.924 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:50:09.973 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:50:10.420 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 11:50:31.264 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:50:32.030 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:50:32.407 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 11:50:54.855 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:50:55.605 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:50:56.028 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 11:51:17.504 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:51:18.253 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:51:18.632 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 11:51:36.935 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:51:37.872 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:51:38.524 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 11:52:22.693 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:52:23.774 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:52:24.597 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 11:52:52.246 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:52:53.336 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:52:53.817 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 11:53:13.384 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:53:14.898 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:53:15.464 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 11:53:37.221 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:53:38.113 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:53:38.564 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 11:55:11.871 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:55:12.623 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:55:13.063 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 11:55:30.844 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:55:31.549 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:55:32.139 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 11:55:47.338 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:55:47.900 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:55:48.356 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 11:56:07.101 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:56:07.722 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:56:08.185 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 11:56:27.293 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:56:27.972 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:56:28.477 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 11:56:46.432 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:56:47.104 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:56:47.526 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 11:57:02.172 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:57:03.661 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:57:04.526 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 11:57:29.140 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:57:30.142 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:57:31.058 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 11:57:49.200 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:57:49.808 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:57:50.348 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 11:58:06.816 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:58:08.100 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:58:08.600 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 11:58:21.209 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 11:58:21.665 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 11:58:22.175 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 12:23:35.069 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 12:23:35.920 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 12:23:36.460 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 12:23:57.249 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 12:23:58.092 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 12:23:58.688 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 12:24:14.946 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 12:24:15.545 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 12:24:16.024 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 12:24:33.554 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 12:24:34.179 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 12:24:34.648 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 12:24:53.464 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 12:24:54.181 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 12:24:54.701 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 12:25:13.962 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 12:25:14.669 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 12:25:15.283 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 12:25:30.516 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 12:25:31.255 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 12:25:32.127 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 12:26:04.958 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 12:26:05.913 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 12:26:06.651 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 12:26:30.160 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 12:26:30.886 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 12:26:31.383 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 12:26:48.744 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 12:26:50.526 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 12:26:51.040 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 12:27:04.741 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 12:27:05.195 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 12:27:05.612 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:08:01.148 INFORMACIÓN [http-nio-8080-exec-48] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:08:01.525 INFORMACIÓN [http-nio-8080-exec-48] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:08:21.776 INFORMACIÓN [http-nio-8080-exec-48] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:08:23.276 INFORMACIÓN [http-nio-8080-exec-48] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:08:23.916 INFORMACIÓN [http-nio-8080-exec-48] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:08:38.984 INFORMACIÓN [http-nio-8080-exec-28] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:08:41.831 INFORMACIÓN [http-nio-8080-exec-28] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:08:52.054 INFORMACIÓN [http-nio-8080-exec-28] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:08:52.839 INFORMACIÓN [http-nio-8080-exec-28] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:08:53.344 INFORMACIÓN [http-nio-8080-exec-28] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:09:10.844 INFORMACIÓN [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:09:14.174 INFORMACIÓN [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:09:28.273 INFORMACIÓN [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:09:29.989 INFORMACIÓN [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:09:30.784 INFORMACIÓN [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:09:47.769 INFORMACIÓN [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:09:48.234 INFORMACIÓN [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:10:02.157 INFORMACIÓN [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:10:03.766 INFORMACIÓN [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:10:04.757 INFORMACIÓN [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:10:26.675 INFORMACIÓN [http-nio-8080-exec-52] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:10:30.214 INFORMACIÓN [http-nio-8080-exec-52] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:10:38.204 INFORMACIÓN [http-nio-8080-exec-52] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:10:38.974 INFORMACIÓN [http-nio-8080-exec-52] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:10:39.417 INFORMACIÓN [http-nio-8080-exec-52] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:10:54.625 INFORMACIÓN [http-nio-8080-exec-46] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:11:02.035 INFORMACIÓN [http-nio-8080-exec-46] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:11:33.205 INFORMACIÓN [http-nio-8080-exec-46] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:11:34.538 INFORMACIÓN [http-nio-8080-exec-46] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:11:35.708 INFORMACIÓN [http-nio-8080-exec-46] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:11:50.145 INFORMACIÓN [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:11:52.455 INFORMACIÓN [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:12:00.165 INFORMACIÓN [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:12:00.725 INFORMACIÓN [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:12:01.040 INFORMACIÓN [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:12:10.615 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:12:12.191 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:12:21.295 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:12:23.336 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:12:23.656 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:12:33.515 INFORMACIÓN [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:12:33.845 INFORMACIÓN [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:12:50.000 INFORMACIÓN [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:12:50.925 INFORMACIÓN [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:12:51.347 INFORMACIÓN [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:13:02.057 INFORMACIÓN [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:13:04.170 INFORMACIÓN [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:13:10.365 INFORMACIÓN [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:13:10.914 INFORMACIÓN [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:13:11.222 INFORMACIÓN [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:13:21.928 INFORMACIÓN [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:13:22.214 INFORMACIÓN [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:13:24.730 INFORMACIÓN [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:13:25.152 INFORMACIÓN [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:13:25.488 INFORMACIÓN [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:13:37.345 INFORMACIÓN [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:13:37.671 INFORMACIÓN [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:13:40.131 INFORMACIÓN [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:13:40.547 INFORMACIÓN [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:13:40.851 INFORMACIÓN [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:13:53.186 INFORMACIÓN [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:13:53.491 INFORMACIÓN [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:13:56.016 INFORMACIÓN [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:13:56.763 INFORMACIÓN [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:13:57.538 INFORMACIÓN [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:14:12.991 INFORMACIÓN [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:14:13.285 INFORMACIÓN [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:14:23.492 INFORMACIÓN [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:14:24.198 INFORMACIÓN [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:14:24.932 INFORMACIÓN [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:14:48.232 INFORMACIÓN [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:14:48.562 INFORMACIÓN [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:14:51.022 INFORMACIÓN [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:14:51.440 INFORMACIÓN [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:14:51.760 INFORMACIÓN [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:15:01.217 INFORMACIÓN [http-nio-8080-exec-75] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:15:01.538 INFORMACIÓN [http-nio-8080-exec-75] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:15:05.621 INFORMACIÓN [http-nio-8080-exec-75] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:15:06.138 INFORMACIÓN [http-nio-8080-exec-75] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:15:06.524 INFORMACIÓN [http-nio-8080-exec-75] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:15:19.362 INFORMACIÓN [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:15:20.476 INFORMACIÓN [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:15:26.994 INFORMACIÓN [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:15:27.680 INFORMACIÓN [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:15:27.988 INFORMACIÓN [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:15:38.860 INFORMACIÓN [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:15:39.139 INFORMACIÓN [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:15:45.568 INFORMACIÓN [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:15:46.441 INFORMACIÓN [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:15:46.772 INFORMACIÓN [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:15:56.663 INFORMACIÓN [http-nio-8080-exec-80] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:15:56.951 INFORMACIÓN [http-nio-8080-exec-80] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:16:04.472 INFORMACIÓN [http-nio-8080-exec-80] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:16:05.431 INFORMACIÓN [http-nio-8080-exec-80] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:16:05.844 INFORMACIÓN [http-nio-8080-exec-80] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:16:18.637 INFORMACIÓN [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:16:18.927 INFORMACIÓN [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:16:21.607 INFORMACIÓN [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:16:22.092 INFORMACIÓN [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:16:22.436 INFORMACIÓN [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:40:33.985 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:40:34.293 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:40:36.110 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:40:36.427 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:40:37.820 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:40:38.134 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:40:42.627 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:40:42.952 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:40:45.832 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:40:46.149 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:40:47.834 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:40:48.141 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:40:50.125 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:40:50.443 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:40:51.987 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:40:52.283 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:40:53.654 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:40:53.959 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:40:55.223 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:40:55.548 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:40:57.282 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:40:57.611 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 16:41:14.021 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:41:14.769 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:41:15.222 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:41:31.142 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:41:31.792 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:41:32.132 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:41:48.916 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:41:49.615 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:41:49.991 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:42:05.613 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:42:06.177 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:42:06.475 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:42:35.834 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:42:36.366 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:42:36.666 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:42:52.705 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:42:53.294 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:42:53.644 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:43:04.178 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:43:04.763 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:43:05.111 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:43:30.945 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:43:31.740 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:43:32.271 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:43:49.470 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:43:50.336 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:43:50.644 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:44:02.941 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:44:04.027 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:44:04.368 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 16:44:17.070 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 16:44:17.715 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 16:44:18.008 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:04:58.376 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:04:59.156 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 17:04:59.156 GRAVE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.listenerStop Excepción enviando evento de contexto destruído a instancia de escuchador de clase com.roshka.michi.listener.MichiContextLoaderListener
+ java.lang.IllegalStateException: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\desembolsos-fielcorresponsal\target\desembolsos-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:280)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:215)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:224)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1254)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:117)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:815)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1136)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1372)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1376)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\desembolsos-fielcorresponsal\target\desembolsos-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 24 more
+
+04-Feb-2022 17:04:59.688 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:05:00.007 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 17:05:00.008 GRAVE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.listenerStop Excepción enviando evento de contexto destruído a instancia de escuchador de clase com.roshka.michi.listener.MichiContextLoaderListener
+ java.lang.IllegalStateException: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\auth-fielcorresponsal\target\auth-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:280)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:215)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:224)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1254)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:117)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:815)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1136)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1372)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1376)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\auth-fielcorresponsal\target\auth-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 24 more
+
+04-Feb-2022 17:05:00.535 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:05:00.855 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2022 17:05:00.855 GRAVE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.listenerStop Excepción enviando evento de contexto destruído a instancia de escuchador de clase com.roshka.michi.listener.MichiContextLoaderListener
+ java.lang.IllegalStateException: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\facturadoras-fielcorresponsal\target\facturadoras-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:280)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:215)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:224)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1254)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:117)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:815)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1136)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1372)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1376)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: E:\Proyectos - Desa\DA-4525-FIELCORRESPONSAL - Rebranding Fielcorresponsal\michi\facturadoras-fielcorresponsal\target\facturadoras-fielcorresponsal##2.11.16-RELEASE\WEB-INF\lib\activation-1.1.jar (El sistema no puede encontrar la ruta especificada)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 24 more
+
+04-Feb-2022 17:05:22.390 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:05:23.236 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:05:23.499 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:05:41.603 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:05:42.405 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:05:42.715 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:06:09.589 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:06:10.547 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:06:11.146 INFORMACIÓN [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:29:06.059 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:29:06.658 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:29:06.982 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:29:26.424 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:29:27.513 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:29:27.901 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:29:47.247 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:29:48.020 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:29:48.364 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:30:08.151 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:30:08.943 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:30:09.228 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:30:31.237 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:30:31.945 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:30:32.266 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:30:47.032 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:30:47.423 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:30:47.727 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:31:04.939 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:31:05.598 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:31:05.915 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:31:25.907 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:31:26.484 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:31:27.059 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:31:51.601 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:31:52.334 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:31:52.684 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:32:10.432 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:32:12.346 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:32:12.671 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:32:28.426 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:32:29.043 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:32:29.337 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:34:44.749 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:34:45.587 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:34:46.155 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:35:16.699 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:35:18.106 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:35:19.213 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:35:31.848 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:35:32.276 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:35:32.612 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:35:45.660 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:35:46.086 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:35:46.403 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:36:00.783 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:36:01.321 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:36:01.656 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:36:14.272 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:36:14.701 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:36:15.051 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:36:26.166 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:36:26.582 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:36:26.915 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:36:46.458 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:36:47.148 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:36:47.759 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:37:03.888 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:37:04.833 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:37:05.545 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:37:17.914 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:37:19.536 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:37:19.900 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+04-Feb-2022 17:37:31.118 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2022 17:37:31.535 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2022 17:37:31.878 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'

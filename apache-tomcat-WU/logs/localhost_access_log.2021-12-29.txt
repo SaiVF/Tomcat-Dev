@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [29/Dec/2021:10:02:58 -0300] "GET /fielcorresponsal/login HTTP/1.1" 404 -
+127.0.0.1 - - [29/Dec/2021:11:22:19 -0300] "GET /fielcocbapi-app/origen-documentos?apikey=be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4 HTTP/1.1" 404 -
+127.0.0.1 - - [29/Dec/2021:11:22:19 -0300] "GET /datos-generales-fielco/origen/documento HTTP/1.1" 500 107
+127.0.0.1 - - [29/Dec/2021:11:22:19 -0300] "GET /fielcocbapi-app/tipo-documentos?apikey=be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4 HTTP/1.1" 404 -
+127.0.0.1 - - [29/Dec/2021:11:22:19 -0300] "GET /datos-generales-fielco/tipos/documento HTTP/1.1" 500 107
+127.0.0.1 - - [29/Dec/2021:15:33:49 -0300] "GET /fielcocbapi-app/tipo-documentos?apikey=be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4 HTTP/1.1" 404 -
+127.0.0.1 - - [29/Dec/2021:15:33:49 -0300] "GET /datos-generales-fielco/tipos/documento HTTP/1.1" 500 107
+127.0.0.1 - - [29/Dec/2021:15:33:49 -0300] "GET /fielcocbapi-app/origen-documentos?apikey=be680de3871ca8e263ad@80794a57-e0c1-4a2b-b351-7b95bf2e706b@9fc77f64c26c30b4eff4 HTTP/1.1" 404 -
+127.0.0.1 - - [29/Dec/2021:15:33:49 -0300] "GET /datos-generales-fielco/origen/documento HTTP/1.1" 500 107

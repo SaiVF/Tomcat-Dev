@@ -1,0 +1,27 @@
+ INFO 25 09:13:20 [][][][][][]ServerStaticConfig - Configuraciones estaticas code: ps-procesador version: 1.1.12 descripcion: Fielco Middleware 
+ INFO 25 09:13:20 [][][][][][]ServerConfig - Obteniendo información del Enviroment
+ INFO 25 09:13:20 [][][][][][]ServerConfig - Env ps-procesador_apikey : 60fb72554d9dbe07092b@44ba7330-890d-4dad-8a60-712e13360c57@ffce99cdab313c1cf4ef
+ INFO 25 09:13:20 [][][][][][]ServerConfig - Env ps-procesador_deploypath : ps-procesador
+ INFO 25 09:13:24 [][][][][][]MichiStartup - Application STARTED
+ INFO 25 09:13:25 [][][][][][]MichiStartup - Registrado correctamente
+ INFO 25 16:56:59 [][][][][][]MichiShutdown - Application SHUTDOWN
+ INFO 25 16:57:18 [][][][][][]ServerStaticConfig - Configuraciones estaticas code: ps-procesador version: 1.1.12 descripcion: Fielco Middleware 
+ INFO 25 16:57:18 [][][][][][]ServerConfig - Obteniendo información del Enviroment
+ INFO 25 16:57:18 [][][][][][]ServerConfig - Env ps-procesador_apikey : 60fb72554d9dbe07092b@44ba7330-890d-4dad-8a60-712e13360c57@ffce99cdab313c1cf4ef
+ INFO 25 16:57:18 [][][][][][]ServerConfig - Env ps-procesador_deploypath : ps-procesador
+ INFO 25 16:57:21 [][][][][][]MichiStartup - Application STARTED
+ INFO 25 16:57:23 [][][][][][]MichiStartup - Registrado correctamente
+ INFO 25 16:57:47 [][][][][][]MichiShutdown - Application SHUTDOWN
+ INFO 25 20:31:20 [][][][][][]ServerStaticConfig - Configuraciones estaticas code: ps-procesador version: 1.1.12 descripcion: Fielco Middleware 
+ INFO 25 20:31:20 [][][][][][]ServerConfig - Obteniendo información del Enviroment
+ INFO 25 20:31:20 [][][][][][]ServerConfig - Env ps-procesador_apikey : 60fb72554d9dbe07092b@44ba7330-890d-4dad-8a60-712e13360c57@ffce99cdab313c1cf4ef
+ INFO 25 20:31:20 [][][][][][]ServerConfig - Env ps-procesador_deploypath : ps-procesador
+ INFO 25 20:31:23 [][][][][][]MichiStartup - Application STARTED
+ INFO 25 20:31:27 [][][][][][]MichiStartup - Registrado correctamente
+ INFO 25 20:46:12 [][][][][][]ServerStaticConfig - Configuraciones estaticas code: ps-procesador version: 1.1.12 descripcion: Fielco Middleware 
+ INFO 25 20:46:12 [][][][][][]ServerConfig - Obteniendo información del Enviroment
+ INFO 25 20:46:12 [][][][][][]ServerConfig - Env ps-procesador_apikey : 60fb72554d9dbe07092b@44ba7330-890d-4dad-8a60-712e13360c57@ffce99cdab313c1cf4ef
+ INFO 25 20:46:12 [][][][][][]ServerConfig - Env ps-procesador_deploypath : ps-procesador
+ INFO 25 20:46:15 [][][][][][]MichiStartup - Application STARTED
+ INFO 25 20:46:16 [][][][][][]MichiStartup - Registrado correctamente
+ INFO 25 20:50:47 [][][][][][]MichiShutdown - Application SHUTDOWN

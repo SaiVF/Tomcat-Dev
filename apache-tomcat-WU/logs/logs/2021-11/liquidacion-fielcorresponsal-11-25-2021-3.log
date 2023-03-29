@@ -1,0 +1,10 @@
+ INFO 2021-11-26T06:00:04,817 [ThreadPoolTaskScheduler3][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - [TAREA_PROGRAMADA]:Obtener lista de monedas
+ INFO 2021-11-26T06:00:04,964 [ThreadPoolTaskScheduler3][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - [TAREA_PROGRAMADA]:Obtener lista de agencias
+ INFO 2021-11-26T06:00:07,170 [ThreadPoolTaskScheduler1][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - [TAREA_PROGRAMADA]:Obtener lista de servicios
+ INFO 2021-11-26T06:00:07,454 [ThreadPoolTaskScheduler1][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - [TAREA_PROGRAMADA]:Obtener fecha de proceso
+ INFO 2021-11-26T06:00:07,486 [ThreadPoolTaskScheduler1][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - Obtener fecha de cierre de Bantotal
+ INFO 2021-11-26T06:00:07,971 [ThreadPoolTaskScheduler1][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - [TAREA_PROGRAMADA]:Llamado al proceso de liquidacion
+ INFO 2021-11-26T06:00:08,040 [ThreadPoolTaskScheduler1][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - Obtener cotizacion de Bantotal
+ INFO 2021-11-26T06:00:08,087 [ThreadPoolTaskScheduler1][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - Obtener cotizacion de Bantotal
+DEBUG 2021-11-26T06:00:16,522 [ThreadPoolTaskScheduler1][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - Agencia  Id =5, Moneda Id = 6900, Sobregiro Anterior = 0.00 
+ INFO 2021-11-26T06:00:20,308 [ThreadPoolTaskScheduler1][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - Sin sobregiros Agencia: 5FARMACIA SAN RAMON, Moneda: PYG

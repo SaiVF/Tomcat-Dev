@@ -1,0 +1,5 @@
+ INFO 2021-12-08T06:00:00,298 [ThreadPoolTaskScheduler58][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.schedule.LiquidacionTask - [TAREA PROGRAMADA]: Verificar si es día habil
+ INFO 2021-12-08T06:00:00,298 [ThreadPoolTaskScheduler58][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.schedule.LiquidacionTask - [TAREA PROGRAMADA]: Verificar si es día habil
+DEBUG 2021-12-08T06:00:01,033 [ThreadPoolTaskScheduler58][[]][][][][][][][][] org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
+DEBUG 2021-12-08T06:00:01,080 [ThreadPoolTaskScheduler58][[]][][][][][][][][] org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT HABIL FROM RAALIB.VDIAHABIL WHERE FECHA=?]
+TRACE 2021-12-08T06:00:21,980 [ThreadPoolTaskScheduler58][[]][][][][][][][][] org.springframework.jdbc.core.StatementCreatorUtils - Setting SQL statement parameter value: column index 1, parameter value [20211208], value class [java.lang.String], SQL type unknown

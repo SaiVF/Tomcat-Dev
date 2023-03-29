@@ -1,0 +1,794 @@
+2021-12-06 10:40:11 ERROR HttpCommunication:466 - 
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: 
+
+
+<!DOCTYPE html>
+
+<html style="background-color: #00348F;">
+
+<head>
+    <title>FielCorresponsal</title>
+	
+
+
+<!--  CSS files -->
+<link href="/resources/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="/resources/css/fielco_general.css?v=2.8.31" rel="stylesheet">
+<link href="/resources/css/fielco_lists.css?v=2.8.31" rel="stylesheet">
+<link href="/resources/css/fielco_margin.css?v=2.8.31" rel="stylesheet">
+<link href="/resources/css/fielco_responsive.css?v=2.8.31" rel="stylesheet">
+<link href="/resources/css/fielco-print.css?v=2.8.31" type="text/css"  rel="stylesheet" media="print">
+
+<link href="/resources/css/jquery.dataTables.css" rel="stylesheet">
+<link href="/resources/css/bootstrap-datepicker.css" rel="stylesheet">
+<!-- FontEllo -->
+
+<link href="/resources/fontello/css/animation.css" rel="stylesheet">
+<link href="/resources/fontello/css/fontello-codes.css" rel="stylesheet">
+<link href="/resources/fontello/css/fontello-embedded.css" rel="stylesheet">
+<link href="/resources/fontello/css/fontello-ie7-codes.css" rel="stylesheet">
+<link href="/resources/fontello/css/fontello-ie7.css" rel="stylesheet">
+<link href="/resources/fontello/css/fontello.css" rel="stylesheet">
+
+<!-- FontFamili -->
+
+<link href="/resources/webfontkit-font/stylesheet.css" rel="stylesheet">
+
+<!-- Font Awesome -->
+
+<link href="/resources/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+
+<!-- Animations -->
+
+<link href="/resources/Hover-master/css/hover.css" rel="stylesheet">
+
+<!-- Autocomplete -->
+
+<link href="/resources/css/autocomplete.css" rel="stylesheet">
+
+<!-- Javascripts files  -->
+
+<script src="/resources/jquery/dist/jquery.min.js"></script>
+<script src="/resources/jquery-ui/jquery-ui.min.js"></script>
+<script src="/resources/js/jquery.dataTables.js"></script>
+<script src="/resources/js/bootstrap-datepicker.js"></script>
+<script src="/resources/js/locale/bootstrap-datepicker.es.min.js"></script>
+
+<script src="/resources/js/masked_input_1.4.1-min.js"></script>
+<script src="/resources/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/resources/js/fielco_general.js?v=2.8.31"></script>
+<script src="/resources/js/ticket.js?v=2.8.31"></script>
+
+<script src="/resources/sha/sha1.js"></script>  
+
+<!-- clientjs // https://github.com/jackspirou/clientjs -->
+<script src="/resources/fingerprint/client.min.js"></script>  
+<!-- webRTC  // http://www.whatismypublicip.com/ -->
+<script src="/resources/fingerprint/webrtc.js?v=2.8.31"></script>  
+<script src="/resources/js/support.js?v=2.8.31"></script> 
+<script src="/resources/js/dataTables.select.min.js"></script>
+
+<script src="/resources/text_editor/quill.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6Ld17J0UAAAAAFlA2K3vxcfF_RZebBjVaqKzI0UL"></script>
+
+
+
+<link href="/resources/text_editor/css/quill.snow.css" rel="stylesheet">
+
+
+
+
+<script type="text/javascript">
+	$(function() {
+ 	    $( "#sortable" ).sortable();
+	    $( "#sortable" ).disableSelection();
+	  });
+</script>
+<script>var ctx = "";</script>        
+
+</head>
+
+<body style="background-color: #00348F;">
+    <div class="container" style="padding-top: 100px;">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-3">
+            	<div class="col-xs-12 pdlr-0">
+            		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pdlr-0" id="boxMessage" style="display: none;">
+					</div>
+            	</div>
+            
+            	<h1 style="color: white;">Bienvenidos a: </h1>
+            	<div style="text-align: right;">
+            		<img class="logo-fielco" style="height: 80%; width: 80%; margin-bottom: 20px;" src="/resources/images/fielco-logo.png"/>
+                </div>
+                <div class=" panel panel-default" style="border-color: #666666; border-radius: 10px;">
+                    <!--div class="panel-heading">
+                    </div-->
+                    <div class="panel-body" style="background-color: #EFEFEF; border-radius: 10px;">
+                        <font size="3"><strong>Ocurrió un error inesperado, usted desea:</strong><br> 
+                        <a href="/home" class="">Volver al Inicio</a>
+                        <br>o<br>
+                        <a href="/" class="">Iniciar Sesión</a>
+                        </font>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>; line: 4, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1586) ~[jackson-core-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:521) ~[jackson-core-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:450) ~[jackson-core-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1823) ~[jackson-core-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:708) ~[jackson-core-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:3829) ~[jackson-databind-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:3774) ~[jackson-databind-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2779) ~[jackson-databind-2.7.3.jar:2.7.3]
+	at com.roshka.michi.communication.HttpCommunication.doPost(HttpCommunication.java:459) [michi-common-client-2.8.1.jar:?]
+	at com.roshka.michi.communication.HttpCommunication.doPost(HttpCommunication.java:128) [michi-common-client-2.8.1.jar:?]
+	at com.roshka.michi.communication.HttpCommunication.perform(HttpCommunication.java:45) [michi-common-client-2.8.1.jar:?]
+	at py.com.fielco.corresponsal.auth.client.AuthAPIClient.requestAccessToken(AuthAPIClient.java:71) [auth-fielcorresponsal-client-2.11.14-RELEASE.jar:2.11.14-RELEASE]
+	at py.com.roshka.fielcorresponsal.services.impl.AuthenticationServicesImpl.login(AuthenticationServicesImpl.java:85) [classes/:?]
+	at py.com.roshka.fielcorresponsal.controller.AuthenticationController.login(AuthenticationController.java:121) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:219) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:745) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:686) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:920) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:827) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:801) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [catalina.jar:8.5.6]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.6]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.6]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.6]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+2021-12-06 10:40:25 ERROR HttpCommunication:466 - 
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: 
+
+
+<!DOCTYPE html>
+
+<html style="background-color: #00348F;">
+
+<head>
+    <title>FielCorresponsal</title>
+	
+
+
+<!--  CSS files -->
+<link href="/resources/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="/resources/css/fielco_general.css?v=2.8.31" rel="stylesheet">
+<link href="/resources/css/fielco_lists.css?v=2.8.31" rel="stylesheet">
+<link href="/resources/css/fielco_margin.css?v=2.8.31" rel="stylesheet">
+<link href="/resources/css/fielco_responsive.css?v=2.8.31" rel="stylesheet">
+<link href="/resources/css/fielco-print.css?v=2.8.31" type="text/css"  rel="stylesheet" media="print">
+
+<link href="/resources/css/jquery.dataTables.css" rel="stylesheet">
+<link href="/resources/css/bootstrap-datepicker.css" rel="stylesheet">
+<!-- FontEllo -->
+
+<link href="/resources/fontello/css/animation.css" rel="stylesheet">
+<link href="/resources/fontello/css/fontello-codes.css" rel="stylesheet">
+<link href="/resources/fontello/css/fontello-embedded.css" rel="stylesheet">
+<link href="/resources/fontello/css/fontello-ie7-codes.css" rel="stylesheet">
+<link href="/resources/fontello/css/fontello-ie7.css" rel="stylesheet">
+<link href="/resources/fontello/css/fontello.css" rel="stylesheet">
+
+<!-- FontFamili -->
+
+<link href="/resources/webfontkit-font/stylesheet.css" rel="stylesheet">
+
+<!-- Font Awesome -->
+
+<link href="/resources/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+
+<!-- Animations -->
+
+<link href="/resources/Hover-master/css/hover.css" rel="stylesheet">
+
+<!-- Autocomplete -->
+
+<link href="/resources/css/autocomplete.css" rel="stylesheet">
+
+<!-- Javascripts files  -->
+
+<script src="/resources/jquery/dist/jquery.min.js"></script>
+<script src="/resources/jquery-ui/jquery-ui.min.js"></script>
+<script src="/resources/js/jquery.dataTables.js"></script>
+<script src="/resources/js/bootstrap-datepicker.js"></script>
+<script src="/resources/js/locale/bootstrap-datepicker.es.min.js"></script>
+
+<script src="/resources/js/masked_input_1.4.1-min.js"></script>
+<script src="/resources/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/resources/js/fielco_general.js?v=2.8.31"></script>
+<script src="/resources/js/ticket.js?v=2.8.31"></script>
+
+<script src="/resources/sha/sha1.js"></script>  
+
+<!-- clientjs // https://github.com/jackspirou/clientjs -->
+<script src="/resources/fingerprint/client.min.js"></script>  
+<!-- webRTC  // http://www.whatismypublicip.com/ -->
+<script src="/resources/fingerprint/webrtc.js?v=2.8.31"></script>  
+<script src="/resources/js/support.js?v=2.8.31"></script> 
+<script src="/resources/js/dataTables.select.min.js"></script>
+
+<script src="/resources/text_editor/quill.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6Ld17J0UAAAAAFlA2K3vxcfF_RZebBjVaqKzI0UL"></script>
+
+
+
+<link href="/resources/text_editor/css/quill.snow.css" rel="stylesheet">
+
+
+
+
+<script type="text/javascript">
+	$(function() {
+ 	    $( "#sortable" ).sortable();
+	    $( "#sortable" ).disableSelection();
+	  });
+</script>
+<script>var ctx = "";</script>        
+
+</head>
+
+<body style="background-color: #00348F;">
+    <div class="container" style="padding-top: 100px;">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-3">
+            	<div class="col-xs-12 pdlr-0">
+            		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pdlr-0" id="boxMessage" style="display: none;">
+					</div>
+            	</div>
+            
+            	<h1 style="color: white;">Bienvenidos a: </h1>
+            	<div style="text-align: right;">
+            		<img class="logo-fielco" style="height: 80%; width: 80%; margin-bottom: 20px;" src="/resources/images/fielco-logo.png"/>
+                </div>
+                <div class=" panel panel-default" style="border-color: #666666; border-radius: 10px;">
+                    <!--div class="panel-heading">
+                    </div-->
+                    <div class="panel-body" style="background-color: #EFEFEF; border-radius: 10px;">
+                        <font size="3"><strong>Ocurrió un error inesperado, usted desea:</strong><br> 
+                        <a href="/home" class="">Volver al Inicio</a>
+                        <br>o<br>
+                        <a href="/" class="">Iniciar Sesión</a>
+                        </font>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>; line: 4, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1586) ~[jackson-core-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:521) ~[jackson-core-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:450) ~[jackson-core-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1823) ~[jackson-core-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:708) ~[jackson-core-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:3829) ~[jackson-databind-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:3774) ~[jackson-databind-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2779) ~[jackson-databind-2.7.3.jar:2.7.3]
+	at com.roshka.michi.communication.HttpCommunication.doPost(HttpCommunication.java:459) [michi-common-client-2.8.1.jar:?]
+	at com.roshka.michi.communication.HttpCommunication.doPost(HttpCommunication.java:128) [michi-common-client-2.8.1.jar:?]
+	at com.roshka.michi.communication.HttpCommunication.perform(HttpCommunication.java:45) [michi-common-client-2.8.1.jar:?]
+	at py.com.fielco.corresponsal.auth.client.AuthAPIClient.requestAccessToken(AuthAPIClient.java:71) [auth-fielcorresponsal-client-2.11.14-RELEASE.jar:2.11.14-RELEASE]
+	at py.com.roshka.fielcorresponsal.services.impl.AuthenticationServicesImpl.login(AuthenticationServicesImpl.java:85) [classes/:?]
+	at py.com.roshka.fielcorresponsal.controller.AuthenticationController.login(AuthenticationController.java:121) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:219) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:745) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:686) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:920) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:827) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:801) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [catalina.jar:8.5.6]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.6]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.6]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.6]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+2021-12-06 10:53:19 ERROR HttpCommunication:466 - 
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: 
+
+
+<!DOCTYPE html>
+
+<html style="background-color: #00348F;">
+
+<head>
+    <title>FielCorresponsal</title>
+	
+
+
+<!--  CSS files -->
+<link href="/resources/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="/resources/css/fielco_general.css?v=2.8.31" rel="stylesheet">
+<link href="/resources/css/fielco_lists.css?v=2.8.31" rel="stylesheet">
+<link href="/resources/css/fielco_margin.css?v=2.8.31" rel="stylesheet">
+<link href="/resources/css/fielco_responsive.css?v=2.8.31" rel="stylesheet">
+<link href="/resources/css/fielco-print.css?v=2.8.31" type="text/css"  rel="stylesheet" media="print">
+
+<link href="/resources/css/jquery.dataTables.css" rel="stylesheet">
+<link href="/resources/css/bootstrap-datepicker.css" rel="stylesheet">
+<!-- FontEllo -->
+
+<link href="/resources/fontello/css/animation.css" rel="stylesheet">
+<link href="/resources/fontello/css/fontello-codes.css" rel="stylesheet">
+<link href="/resources/fontello/css/fontello-embedded.css" rel="stylesheet">
+<link href="/resources/fontello/css/fontello-ie7-codes.css" rel="stylesheet">
+<link href="/resources/fontello/css/fontello-ie7.css" rel="stylesheet">
+<link href="/resources/fontello/css/fontello.css" rel="stylesheet">
+
+<!-- FontFamili -->
+
+<link href="/resources/webfontkit-font/stylesheet.css" rel="stylesheet">
+
+<!-- Font Awesome -->
+
+<link href="/resources/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+
+<!-- Animations -->
+
+<link href="/resources/Hover-master/css/hover.css" rel="stylesheet">
+
+<!-- Autocomplete -->
+
+<link href="/resources/css/autocomplete.css" rel="stylesheet">
+
+<!-- Javascripts files  -->
+
+<script src="/resources/jquery/dist/jquery.min.js"></script>
+<script src="/resources/jquery-ui/jquery-ui.min.js"></script>
+<script src="/resources/js/jquery.dataTables.js"></script>
+<script src="/resources/js/bootstrap-datepicker.js"></script>
+<script src="/resources/js/locale/bootstrap-datepicker.es.min.js"></script>
+
+<script src="/resources/js/masked_input_1.4.1-min.js"></script>
+<script src="/resources/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/resources/js/fielco_general.js?v=2.8.31"></script>
+<script src="/resources/js/ticket.js?v=2.8.31"></script>
+
+<script src="/resources/sha/sha1.js"></script>  
+
+<!-- clientjs // https://github.com/jackspirou/clientjs -->
+<script src="/resources/fingerprint/client.min.js"></script>  
+<!-- webRTC  // http://www.whatismypublicip.com/ -->
+<script src="/resources/fingerprint/webrtc.js?v=2.8.31"></script>  
+<script src="/resources/js/support.js?v=2.8.31"></script> 
+<script src="/resources/js/dataTables.select.min.js"></script>
+
+<script src="/resources/text_editor/quill.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6Ld17J0UAAAAAFlA2K3vxcfF_RZebBjVaqKzI0UL"></script>
+
+
+
+<link href="/resources/text_editor/css/quill.snow.css" rel="stylesheet">
+
+
+
+
+<script type="text/javascript">
+	$(function() {
+ 	    $( "#sortable" ).sortable();
+	    $( "#sortable" ).disableSelection();
+	  });
+</script>
+<script>var ctx = "";</script>        
+
+</head>
+
+<body style="background-color: #00348F;">
+    <div class="container" style="padding-top: 100px;">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-3">
+            	<div class="col-xs-12 pdlr-0">
+            		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pdlr-0" id="boxMessage" style="display: none;">
+					</div>
+            	</div>
+            
+            	<h1 style="color: white;">Bienvenidos a: </h1>
+            	<div style="text-align: right;">
+            		<img class="logo-fielco" style="height: 80%; width: 80%; margin-bottom: 20px;" src="/resources/images/fielco-logo.png"/>
+                </div>
+                <div class=" panel panel-default" style="border-color: #666666; border-radius: 10px;">
+                    <!--div class="panel-heading">
+                    </div-->
+                    <div class="panel-body" style="background-color: #EFEFEF; border-radius: 10px;">
+                        <font size="3"><strong>Ocurrió un error inesperado, usted desea:</strong><br> 
+                        <a href="/home" class="">Volver al Inicio</a>
+                        <br>o<br>
+                        <a href="/" class="">Iniciar Sesión</a>
+                        </font>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>; line: 4, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1586) ~[jackson-core-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:521) ~[jackson-core-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:450) ~[jackson-core-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1823) ~[jackson-core-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:708) ~[jackson-core-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:3829) ~[jackson-databind-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:3774) ~[jackson-databind-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2779) ~[jackson-databind-2.7.3.jar:2.7.3]
+	at com.roshka.michi.communication.HttpCommunication.doPost(HttpCommunication.java:459) [michi-common-client-2.8.1.jar:?]
+	at com.roshka.michi.communication.HttpCommunication.doPost(HttpCommunication.java:128) [michi-common-client-2.8.1.jar:?]
+	at com.roshka.michi.communication.HttpCommunication.perform(HttpCommunication.java:45) [michi-common-client-2.8.1.jar:?]
+	at py.com.fielco.corresponsal.auth.client.AuthAPIClient.requestAccessToken(AuthAPIClient.java:71) [auth-fielcorresponsal-client-2.11.14-RELEASE.jar:2.11.14-RELEASE]
+	at py.com.roshka.fielcorresponsal.services.impl.AuthenticationServicesImpl.login(AuthenticationServicesImpl.java:85) [classes/:?]
+	at py.com.roshka.fielcorresponsal.controller.AuthenticationController.login(AuthenticationController.java:121) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:219) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:745) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:686) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:920) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:827) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:801) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [catalina.jar:8.5.6]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.6]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.6]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.6]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+2021-12-06 11:55:37 ERROR HttpCommunication:466 - 
+com.fasterxml.jackson.databind.JsonMappingException: No content to map due to end-of-input
+ at [Source: ; line: 1, column: 0]
+	at com.fasterxml.jackson.databind.JsonMappingException.from(JsonMappingException.java:216) ~[jackson-databind-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:3833) ~[jackson-databind-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:3774) ~[jackson-databind-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2779) ~[jackson-databind-2.7.3.jar:2.7.3]
+	at com.roshka.michi.communication.HttpCommunication.doPost(HttpCommunication.java:459) [michi-common-client-2.8.1.jar:?]
+	at com.roshka.michi.communication.HttpCommunication.doPost(HttpCommunication.java:128) [michi-common-client-2.8.1.jar:?]
+	at com.roshka.michi.communication.HttpCommunication.perform(HttpCommunication.java:45) [michi-common-client-2.8.1.jar:?]
+	at py.com.fielco.corresponsal.auth.client.AuthAPIClient.requestAccessToken(AuthAPIClient.java:71) [auth-fielcorresponsal-client-2.11.14-RELEASE.jar:2.11.14-RELEASE]
+	at py.com.roshka.fielcorresponsal.services.impl.AuthenticationServicesImpl.login(AuthenticationServicesImpl.java:85) [classes/:?]
+	at py.com.roshka.fielcorresponsal.controller.AuthenticationController.login(AuthenticationController.java:121) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:219) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:745) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:686) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:920) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:827) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:801) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [catalina.jar:8.5.6]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.6]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.6]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.6]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+2021-12-06 11:55:37 ERROR HiddenInputTag:87 - Neither BindingResult nor plain target object for bean name 'userInfo' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'userInfo' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:141) ~[spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:179) ~[spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199) ~[spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:165) ~[spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:128) ~[spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:421) ~[spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.tags.form.HiddenInputTag.writeTagContent(HiddenInputTag.java:77) ~[spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:103) ~[spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:80) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.apache.jsp.WEB_002dINF.views.commons.login_jsp._jspx_meth_sf_005fhidden_005f0(login_jsp.java:460) [fielcorresponsal/:?]
+	at org.apache.jsp.WEB_002dINF.views.commons.login_jsp._jspService(login_jsp.java:282) [fielcorresponsal/:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70) [jasper.jar:8.5.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443) [jasper.jar:8.5.6]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385) [jasper.jar:8.5.6]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329) [jasper.jar:8.5.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:394) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311) [catalina.jar:8.5.6]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:238) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:264) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1208) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:992) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:939) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:920) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:827) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:801) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [catalina.jar:8.5.6]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.6]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.6]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.6]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+2021-12-06 12:18:37 ERROR HttpCommunication:466 - 
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <!DOCTYPE html><html><head><title>Apache Tomcat/8.0.0 - Informe de Error</title><style type="text/css">H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}.line {height: 1px; background-color: #525D76; border: none;}</style> </head><body><h1>Estado HTTP 500 - </h1><div class="line"></div><p><b>type</b> Informe de Excepción</p><p><b>mensaje</b> <u></u></p><p><b>descripción</b> <u>El servidor encontró un error interno que hizo que no pudiera rellenar este requerimiento.</u></p><p><b>excepción</b></p><pre>java.lang.NullPointerException
+	org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre><p><b>nota</b> <u>La traza completa de la causa de este error se encuentra en los archivos de diario de Apache Tomcat/8.0.0.</u></p><hr class="line"><h3>Apache Tomcat/8.0.0</h3></body></html>; line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1586) ~[jackson-core-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:521) ~[jackson-core-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:450) ~[jackson-core-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1823) ~[jackson-core-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:708) ~[jackson-core-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:3829) ~[jackson-databind-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:3774) ~[jackson-databind-2.7.3.jar:2.7.3]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2779) ~[jackson-databind-2.7.3.jar:2.7.3]
+	at com.roshka.michi.communication.HttpCommunication.doPost(HttpCommunication.java:459) [michi-common-client-2.8.1.jar:?]
+	at com.roshka.michi.communication.HttpCommunication.doPost(HttpCommunication.java:128) [michi-common-client-2.8.1.jar:?]
+	at com.roshka.michi.communication.HttpCommunication.perform(HttpCommunication.java:45) [michi-common-client-2.8.1.jar:?]
+	at py.com.fielco.corresponsal.auth.client.AuthAPIClient.requestAccessToken(AuthAPIClient.java:71) [auth-fielcorresponsal-client-2.11.14-RELEASE.jar:2.11.14-RELEASE]
+	at py.com.roshka.fielcorresponsal.services.impl.AuthenticationServicesImpl.login(AuthenticationServicesImpl.java:85) [classes/:?]
+	at py.com.roshka.fielcorresponsal.controller.AuthenticationController.login(AuthenticationController.java:121) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:219) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:745) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:686) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:920) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:827) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:801) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [catalina.jar:8.5.6]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.6]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.6]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.6]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+2021-12-06 15:48:00 ERROR HiddenInputTag:87 - Neither BindingResult nor plain target object for bean name 'userInfo' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'userInfo' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:141) ~[spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:179) ~[spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199) ~[spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:165) ~[spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:128) ~[spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:421) ~[spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.tags.form.HiddenInputTag.writeTagContent(HiddenInputTag.java:77) ~[spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:103) ~[spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:80) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.apache.jsp.WEB_002dINF.views.commons.login_jsp._jspx_meth_sf_005fhidden_005f0(login_jsp.java:460) [fielcorresponsal/:?]
+	at org.apache.jsp.WEB_002dINF.views.commons.login_jsp._jspService(login_jsp.java:282) [fielcorresponsal/:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70) [jasper.jar:8.5.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443) [jasper.jar:8.5.6]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385) [jasper.jar:8.5.6]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329) [jasper.jar:8.5.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:394) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311) [catalina.jar:8.5.6]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:238) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:264) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1208) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:992) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:939) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:920) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:827) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:801) [spring-webmvc-3.2.1.RELEASE.jar:3.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.0.RELEASE.jar:3.2.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [catalina.jar:8.5.6]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.6]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.6]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.6]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-coyote.jar:8.5.6]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.6]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]

@@ -1,0 +1,12 @@
+ INFO 2022-01-19T17:12:49,432 [][][][][][]com.roshka.michi.configuration.server.ServerStaticConfig - Configuraciones estaticas code: wu-external-api version: 1.0.0 descripcion: API de WU para Sistemas Externos
+ INFO 2022-01-19T17:12:49,455 [][][][][][]com.roshka.michi.configuration.server.ServerConfig - Obteniendo información del Enviroment
+ INFO 2022-01-19T17:12:49,455 [][][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-external-api_apikey : ec03d974ce27afacdc71@8a6f9488-83cf-45fc-a7c2-2492b0174ad0@6967990e0e5357fd10cf
+ INFO 2022-01-19T17:12:49,455 [][][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-external-api_deploypath : wu-external-api
+ INFO 2022-01-19T17:13:28,321 [][][][][][]com.roshka.michi.configuration.server.ServerStaticConfig - Configuraciones estaticas code: wu-external-api version: 1.0.0 descripcion: API de WU para Sistemas Externos
+ INFO 2022-01-19T17:13:28,344 [][][][][][]com.roshka.michi.configuration.server.ServerConfig - Obteniendo información del Enviroment
+ INFO 2022-01-19T17:13:28,345 [][][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-external-api_apikey : ec03d974ce27afacdc71@8a6f9488-83cf-45fc-a7c2-2492b0174ad0@6967990e0e5357fd10cf
+ INFO 2022-01-19T17:13:28,345 [][][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-external-api_deploypath : wu-external-api
+ INFO 2022-01-19T17:13:56,588 [][][][][][]com.roshka.michi.configuration.server.ServerStaticConfig - Configuraciones estaticas code: wu-external-api version: 1.0.0 descripcion: API de WU para Sistemas Externos
+ INFO 2022-01-19T17:13:56,610 [][][][][][]com.roshka.michi.configuration.server.ServerConfig - Obteniendo información del Enviroment
+ INFO 2022-01-19T17:13:56,611 [][][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-external-api_apikey : ec03d974ce27afacdc71@8a6f9488-83cf-45fc-a7c2-2492b0174ad0@6967990e0e5357fd10cf
+ INFO 2022-01-19T17:13:56,611 [][][][][][]com.roshka.michi.configuration.server.ServerConfig - Env wu-external-api_deploypath : wu-external-api

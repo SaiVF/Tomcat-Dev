@@ -1,0 +1,7 @@
+31-Jan-2022 09:00:25.618 INFORMACIÓN [http-nio-8080-exec-101] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+31-Jan-2022 09:00:25.628 INFORMACIÓN [http-nio-8080-exec-101] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+31-Jan-2022 09:08:26.864 INFORMACIÓN [http-nio-8080-exec-105] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+31-Jan-2022 09:08:27.549 INFORMACIÓN [http-nio-8080-exec-105] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+31-Jan-2022 09:08:27.926 INFORMACIÓN [http-nio-8080-exec-105] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+31-Jan-2022 09:21:08.196 INFORMACIÓN [http-nio-8080-exec-112] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+31-Jan-2022 09:21:08.223 INFORMACIÓN [http-nio-8080-exec-112] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext

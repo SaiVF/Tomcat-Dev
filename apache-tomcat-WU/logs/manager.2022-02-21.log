@@ -1,0 +1,7 @@
+21-Feb-2022 09:36:47.315 INFORMACIÓN [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+21-Feb-2022 09:37:21.515 INFORMACIÓN [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+21-Feb-2022 09:37:21.515 INFORMACIÓN [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+21-Feb-2022 09:38:10.331 INFORMACIÓN [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+21-Feb-2022 09:38:10.334 INFORMACIÓN [http-nio-8080-exec-34] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+21-Feb-2022 09:38:10.697 INFORMACIÓN [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/User/AppData/Local/Temp/context3814545325975322302.xml'
+21-Feb-2022 09:39:08.964 INFORMACIÓN [http-nio-8080-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/administrativo-fielcorresponsal'

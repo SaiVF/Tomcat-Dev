@@ -1,0 +1,138 @@
+<definitions name="GetCustomerData" targetNamespace="tgbfcustservice" xmlns:wsdlns="tgbfcustservice" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="tgbfcustservice">
+        <types>
+                <schema targetNamespace="tgbfcustservice" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" elementFormDefault="qualified">
+                        <complexType name="GetCustomerDataInput">
+                                <sequence>
+                                        <element name="USUARIO" type="xsd:string">
+                                        </element>
+                                        <element name="PASSWORD" type="xsd:string">
+                                        </element>
+                                        <element name="CLIENTE_MSISDN" type="xsd:string">
+                                        </element>
+                                        <element name="CLIENTE_NRO_DOC" type="xsd:string">
+                                        </element>
+                                </sequence>
+                        </complexType>
+                        <complexType name="GetCustomerDataOutput">
+                                <sequence>
+                                        <element name="ResponseData" type="tns:ResponseData">
+                                        </element>
+                                        <element name="InfoCustomer" type="tns:InfoCustomer">
+                                        </element>
+                                </sequence>
+                        </complexType>
+                        <complexType name="ResponseData">
+                                <sequence>
+                                        <element name="Codigo" type="xsd:short">
+                                        </element>
+                                        <element name="Descripcion" type="xsd:string">
+                                        </element>
+                                </sequence>
+                        </complexType>
+                        <complexType name="InfoCustomer">
+                                <sequence>
+                                        <element name="NRO_DOC_IDENTIDAD" type="xsd:string">
+                                        </element>
+                                        <element name="MSISDN" type="xsd:string">
+                                        </element>
+                                        <element name="PRIMER_NOMBRE" type="xsd:string">
+                                        </element>
+                                        <element name="SEGUNDO_NOMBRE" type="xsd:string">
+                                        </element>
+                                        <element name="PRIMER_APELLIDO" type="xsd:string">
+                                        </element>
+                                        <element name="SEGUNDO_APELLIDO" type="xsd:string">
+                                        </element>
+                                        <element name="TITULAR_LINEA" type="xsd:boolean">
+                                        </element>
+                                        <element name="TITULAR_BILLETERA" type="xsd:boolean">
+                                        </element>
+                                        <element name="CLIENTE_TIGOSTAR" type="xsd:boolean">
+                                        </element>
+                                        <element name="DEPARTAMENTO" type="xsd:string">
+                                        </element>
+                                        <element name="DISTRITO" type="xsd:string">
+                                        </element>
+                                        <element name="NACIONALIDAD" type="xsd:string">
+                                        </element>
+                                        <element name="TIPO_DOC" type="xsd:string">
+                                        </element>
+                                        <element name="SEXO" type="xsd:string">
+                                        </element>
+                                        <element name="EDAD" type="xsd:long">
+                                        </element>
+                                        <element name="ESTADO" type="xsd:string">
+                                        </element>
+                                        <element name="ESTADO_CIVIL" type="xsd:string">
+                                        </element>
+                                        <element name="FECHA_NACIMIENTO" type="xsd:dateTime" nillable="true">
+                                        </element>
+                                        <element name="RAZON_SOCIAL_NOMBRE" type="xsd:string">
+                                        </element>
+                                        <element name="TIPO_PERSONA" type="xsd:string">
+                                        </element>
+                                        <element name="COD_PLAN_CONSUMO" type="xsd:string">
+                                        </element>
+                                        <element name="DESCRIPCION_BILLING" type="xsd:string">
+                                        </element>
+                                        <element name="FECHA_INGRESO" type="xsd:dateTime" nillable="true">
+                                        </element>
+                                        <element name="FECHA_CREACION_BILLETERA" type="xsd:dateTime" nillable="true">
+                                        </element>
+                                        <element name="MODALIDAD_PAGO" type="xsd:string">
+                                        </element>
+                                        <element name="CAMPO_1" type="xsd:string">
+</element>
+                                        <element name="CAMPO_2" type="xsd:string">
+                                        </element>
+                                        <element name="CAMPO_3" type="xsd:string">
+                                        </element>
+                                </sequence>
+                        </complexType>
+                        <element name="GetCustomerData.Execute">
+                                <complexType>
+                                        <sequence>
+                                                <element minOccurs="1" maxOccurs="1" name="Getcustomerdatainput" type="tns:GetCustomerDataInput"/>
+                                        </sequence>
+                                </complexType>
+                        </element>
+                        <element name="GetCustomerData.ExecuteResponse">
+                                <complexType>
+                                        <sequence>
+                                                <element minOccurs="1" maxOccurs="1" name="Getcustomerdataoutput" type="tns:GetCustomerDataOutput"/>
+                                        </sequence>
+                                </complexType>
+                        </element>
+                </schema>
+        </types>
+        <message name="GetCustomerData.ExecuteSoapIn">
+                <part name="parameters" element="tns:GetCustomerData.Execute"/>
+        </message>
+        <message name="GetCustomerData.ExecuteSoapOut">
+                <part name="parameters" element="tns:GetCustomerData.ExecuteResponse"/>
+        </message>
+        <portType name="GetCustomerDataSoapPort">
+                <operation name="Execute">
+                        <input message="wsdlns:GetCustomerData.ExecuteSoapIn"/>
+                        <output message="wsdlns:GetCustomerData.ExecuteSoapOut"/>
+                </operation>
+        </portType>
+        <binding name="GetCustomerDataSoapBinding" type="wsdlns:GetCustomerDataSoapPort">
+                <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+                <operation name="Execute">
+                        <soap:operation soapAction="tgbfcustserviceaction/AGETCUSTOMERDATA.Execute"/>
+                        <input>
+                                <soap:body use="literal"/>
+                        </input>
+<output>
+                                <soap:body use="literal"/>
+                        </output>
+                </operation>
+        </binding>
+        <service name="GetCustomerData">
+                <port name="GetCustomerDataSoapPort" binding="wsdlns:GetCustomerDataSoapBinding">
+                        <soap:address location="https://10.255.8.121:9143/custservice/servlet/com.tgbfcustservice.agetcustomerdata"/>
+                </port>
+        </service>
+</definitions>
+

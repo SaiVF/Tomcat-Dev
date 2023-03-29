@@ -1,0 +1,11 @@
+127.0.0.1 - tomcat [19/Feb/2022:11:00:44 -0300] "GET /manager/text/ HTTP/1.1" 200 42
+127.0.0.1 - tomcat [19/Feb/2022:11:00:45 -0300] "GET /manager/text/ HTTP/1.1" 200 42
+127.0.0.1 - tomcat [19/Feb/2022:11:00:46 -0300] "GET /manager/text/ HTTP/1.1" 200 42
+127.0.0.1 - tomcat [19/Feb/2022:11:00:46 -0300] "GET /manager/text/ HTTP/1.1" 200 42
+127.0.0.1 - tomcat [19/Feb/2022:11:00:47 -0300] "GET /manager/text/ HTTP/1.1" 200 42
+127.0.0.1 - tomcat [19/Feb/2022:11:00:47 -0300] "GET /manager/text/ HTTP/1.1" 200 42
+127.0.0.1 - tomcat [19/Feb/2022:11:00:47 -0300] "GET /manager/text/ HTTP/1.1" 200 42
+127.0.0.1 - tomcat [19/Feb/2022:11:00:47 -0300] "GET /manager/text/ HTTP/1.1" 200 42
+127.0.0.1 - tomcat [19/Feb/2022:11:00:48 -0300] "GET /manager/text/ HTTP/1.1" 200 42
+127.0.0.1 - tomcat [19/Feb/2022:11:00:48 -0300] "GET /manager/text/ HTTP/1.1" 200 42
+127.0.0.1 - tomcat [19/Feb/2022:11:00:48 -0300] "GET /manager/text/ HTTP/1.1" 200 42

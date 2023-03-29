@@ -1,0 +1,47 @@
+03-Mar-2022 16:28:02.870 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+03-Mar-2022 16:28:07.670 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+03-Mar-2022 16:28:08.251 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appServlet'
+03-Mar-2022 16:28:27.362 INFORMACIÓN [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+03-Mar-2022 16:28:35.284 INFORMACIÓN [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+03-Mar-2022 16:28:56.561 INFORMACIÓN [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+03-Mar-2022 16:29:03.481 INFORMACIÓN [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+03-Mar-2022 16:29:12.666 INFORMACIÓN [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+03-Mar-2022 16:29:19.476 INFORMACIÓN [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+03-Mar-2022 16:29:33.171 INFORMACIÓN [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appServlet'
+03-Mar-2022 16:29:33.181 INFORMACIÓN [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+03-Mar-2022 16:30:20.831 INFORMACIÓN [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+03-Mar-2022 16:30:30.076 INFORMACIÓN [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+03-Mar-2022 16:30:53.948 INFORMACIÓN [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+03-Mar-2022 16:31:01.061 INFORMACIÓN [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+03-Mar-2022 16:31:09.795 INFORMACIÓN [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+03-Mar-2022 16:31:16.673 INFORMACIÓN [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+03-Mar-2022 16:33:55.372 INFORMACIÓN [http-nio-8080-exec-25] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+03-Mar-2022 16:34:01.067 INFORMACIÓN [http-nio-8080-exec-25] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+03-Mar-2022 16:34:16.382 INFORMACIÓN [http-nio-8080-exec-32] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+03-Mar-2022 16:34:21.653 INFORMACIÓN [http-nio-8080-exec-32] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+03-Mar-2022 16:34:27.392 INFORMACIÓN [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+03-Mar-2022 16:34:32.852 INFORMACIÓN [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+03-Mar-2022 16:34:41.707 INFORMACIÓN [http-nio-8080-exec-35] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+03-Mar-2022 16:34:47.387 INFORMACIÓN [http-nio-8080-exec-35] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+03-Mar-2022 16:34:48.432 GRAVE [http-nio-8080-exec-35] org.apache.catalina.core.StandardHostValve.invoke Exception Processing null
+ java.lang.NullPointerException
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:245)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:589)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:319)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:88)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+

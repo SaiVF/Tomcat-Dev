@@ -1,0 +1,6 @@
+ INFO 2021-11-29T06:00:17,752 [ThreadPoolTaskScheduler4][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - [TAREA_PROGRAMADA]:Obtener lista de monedas
+ INFO 2021-11-29T06:00:17,753 [ThreadPoolTaskScheduler4][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - [TAREA_PROGRAMADA]:Obtener lista de agencias
+ INFO 2021-11-29T06:00:17,863 [ThreadPoolTaskScheduler4][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - [TAREA_PROGRAMADA]:Obtener lista de servicios
+ INFO 2021-11-29T06:00:17,980 [ThreadPoolTaskScheduler4][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - [TAREA_PROGRAMADA]:Obtener fecha de proceso
+ INFO 2021-11-29T06:00:18,338 [ThreadPoolTaskScheduler4][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - [TAREA_PROGRAMADA]:Llamado al proceso de liquidacion
+ INFO 2021-11-29T06:00:18,379 [ThreadPoolTaskScheduler4][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - Obtener cotizacion de Bantotal

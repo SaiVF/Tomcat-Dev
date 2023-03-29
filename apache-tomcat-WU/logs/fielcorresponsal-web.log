@@ -1,0 +1,4 @@
+2022-03-03T16:28:08,670  INFO [localhost-startStop-1][[]][][][][][] org.springframework.context.annotation.ClassPathBeanDefinitionScanner:202 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2022-03-03T16:28:08,830  INFO [localhost-startStop-1][[]][][][][][] org.springframework.context.annotation.ClassPathBeanDefinitionScanner:210 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2022-03-03T16:28:14,266  INFO [localhost-startStop-1][[]][][][][][] org.apache.tiles.access.TilesAccess:93 - Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-03-03T16:29:33,171  INFO [http-nio-8080-exec-5][[]][][][][][] org.apache.tiles.access.TilesAccess:88 - Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext

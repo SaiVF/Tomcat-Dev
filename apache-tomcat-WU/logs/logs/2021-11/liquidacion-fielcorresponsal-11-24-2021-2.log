@@ -1,0 +1,11 @@
+ INFO 2021-11-25T06:00:04,610 [ThreadPoolTaskScheduler1][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - [TAREA_PROGRAMADA]:Obtener lista de agencias
+ INFO 2021-11-25T06:00:08,112 [ThreadPoolTaskScheduler1][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - [TAREA_PROGRAMADA]:Obtener lista de servicios
+ INFO 2021-11-25T06:00:08,263 [ThreadPoolTaskScheduler1][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - [TAREA_PROGRAMADA]:Obtener fecha de proceso
+ INFO 2021-11-25T06:00:08,265 [ThreadPoolTaskScheduler1][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - Obtener fecha de cierre de Bantotal
+ INFO 2021-11-25T06:00:11,922 [ThreadPoolTaskScheduler1][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - [TAREA_PROGRAMADA]:Llamado al proceso de liquidacion
+ INFO 2021-11-25T06:00:11,991 [ThreadPoolTaskScheduler1][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - Obtener cotizacion de Bantotal
+ INFO 2021-11-25T06:00:12,030 [ThreadPoolTaskScheduler1][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - Obtener cotizacion de Bantotal
+DEBUG 2021-11-25T06:00:13,000 [ThreadPoolTaskScheduler1][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - Agencia  Id =5, Moneda Id = 6900, Sobregiro Anterior = 0.00 
+ INFO 2021-11-25T06:00:17,122 [ThreadPoolTaskScheduler1][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - Sin sobregiros Agencia: 5FARMACIA SAN RAMON, Moneda: PYG
+DEBUG 2021-11-25T06:00:19,585 [ThreadPoolTaskScheduler1][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - Agencia  Id =5, Moneda Id = 1, Sobregiro Anterior = 0.00 
+ INFO 2021-11-25T06:00:20,212 [ThreadPoolTaskScheduler3][[]][][][][][][][][] py.com.fielco.corresponsal.administrativo.service.LiquidacionServiceImpl - [TAREA_PROGRAMADA]:Obtener lista de monedas

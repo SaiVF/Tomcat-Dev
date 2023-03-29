@@ -1,0 +1,140 @@
+11-23 16:13:13 ERROR FielcoCBAPIConfig:203 - La propiedad check.name.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-23 16:13:13 ERROR FielcoCBAPIConfig:203 - La propiedad check.name.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-23 16:13:13 ERROR FielcoCBAPIConfig:211 - La propiedad check.otherdata.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-23 16:13:13 ERROR FielcoCBAPIConfig:211 - La propiedad check.otherdata.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-23 16:13:13 ERROR FielcoCBAPIConfig:219 - La propiedad check.code.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-23 16:13:13 ERROR FielcoCBAPIConfig:219 - La propiedad check.code.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-23 16:13:13 ERROR FielcoCBAPIConfig:227 - La propiedad tx.key.min.length no estÃ¡ especificada en el archivo de propiedades
+11-23 16:13:13 ERROR FielcoCBAPIConfig:227 - La propiedad tx.key.min.length no estÃ¡ especificada en el archivo de propiedades
+11-23 16:13:13 ERROR FielcoCBAPIConfig:235 - La propiedad psw.min.length no estÃ¡ especificada en el archivo de propiedades
+11-23 16:13:13 ERROR FielcoCBAPIConfig:235 - La propiedad psw.min.length no estÃ¡ especificada en el archivo de propiedades
+11-23 16:13:13 ERROR FielcoCBAPIConfig:295 - java.lang.NumberFormatException: null
+11-23 16:13:13 ERROR FielcoCBAPIConfig:295 - java.lang.NumberFormatException: null
+11-23 16:13:13 ERROR FielcoCBAPIConfig:319 - java.lang.NumberFormatException: null
+11-23 16:13:13 ERROR FielcoCBAPIConfig:319 - java.lang.NumberFormatException: null
+11-24 15:17:45 ERROR FielcoCBAPIConfig:203 - La propiedad check.name.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-24 15:17:45 ERROR FielcoCBAPIConfig:203 - La propiedad check.name.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-24 15:17:45 ERROR FielcoCBAPIConfig:211 - La propiedad check.otherdata.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-24 15:17:45 ERROR FielcoCBAPIConfig:211 - La propiedad check.otherdata.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-24 15:17:45 ERROR FielcoCBAPIConfig:219 - La propiedad check.code.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-24 15:17:45 ERROR FielcoCBAPIConfig:219 - La propiedad check.code.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-24 15:17:45 ERROR FielcoCBAPIConfig:227 - La propiedad tx.key.min.length no estÃ¡ especificada en el archivo de propiedades
+11-24 15:17:45 ERROR FielcoCBAPIConfig:227 - La propiedad tx.key.min.length no estÃ¡ especificada en el archivo de propiedades
+11-24 15:17:45 ERROR FielcoCBAPIConfig:235 - La propiedad psw.min.length no estÃ¡ especificada en el archivo de propiedades
+11-24 15:17:45 ERROR FielcoCBAPIConfig:235 - La propiedad psw.min.length no estÃ¡ especificada en el archivo de propiedades
+11-24 15:17:45 ERROR FielcoCBAPIConfig:295 - java.lang.NumberFormatException: null
+11-24 15:17:45 ERROR FielcoCBAPIConfig:295 - java.lang.NumberFormatException: null
+11-24 15:17:45 ERROR FielcoCBAPIConfig:319 - java.lang.NumberFormatException: null
+11-24 15:17:45 ERROR FielcoCBAPIConfig:319 - java.lang.NumberFormatException: null
+11-24 15:23:02 ERROR FielcoCBAPIConfig:203 - La propiedad check.name.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-24 15:23:02 ERROR FielcoCBAPIConfig:203 - La propiedad check.name.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-24 15:23:02 ERROR FielcoCBAPIConfig:211 - La propiedad check.otherdata.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-24 15:23:02 ERROR FielcoCBAPIConfig:211 - La propiedad check.otherdata.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-24 15:23:02 ERROR FielcoCBAPIConfig:219 - La propiedad check.code.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-24 15:23:02 ERROR FielcoCBAPIConfig:219 - La propiedad check.code.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-24 15:23:02 ERROR FielcoCBAPIConfig:227 - La propiedad tx.key.min.length no estÃ¡ especificada en el archivo de propiedades
+11-24 15:23:02 ERROR FielcoCBAPIConfig:227 - La propiedad tx.key.min.length no estÃ¡ especificada en el archivo de propiedades
+11-24 15:23:02 ERROR FielcoCBAPIConfig:235 - La propiedad psw.min.length no estÃ¡ especificada en el archivo de propiedades
+11-24 15:23:02 ERROR FielcoCBAPIConfig:235 - La propiedad psw.min.length no estÃ¡ especificada en el archivo de propiedades
+11-24 15:23:02 ERROR FielcoCBAPIConfig:295 - java.lang.NumberFormatException: null
+11-24 15:23:02 ERROR FielcoCBAPIConfig:295 - java.lang.NumberFormatException: null
+11-24 15:23:02 ERROR FielcoCBAPIConfig:319 - java.lang.NumberFormatException: null
+11-24 15:23:02 ERROR FielcoCBAPIConfig:319 - java.lang.NumberFormatException: null
+11-24 16:08:47 ERROR FielcoCBAPIConfig:203 - La propiedad check.name.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-24 16:08:47 ERROR FielcoCBAPIConfig:203 - La propiedad check.name.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-24 16:08:47 ERROR FielcoCBAPIConfig:211 - La propiedad check.otherdata.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-24 16:08:47 ERROR FielcoCBAPIConfig:211 - La propiedad check.otherdata.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-24 16:08:47 ERROR FielcoCBAPIConfig:219 - La propiedad check.code.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-24 16:08:47 ERROR FielcoCBAPIConfig:219 - La propiedad check.code.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-24 16:08:47 ERROR FielcoCBAPIConfig:227 - La propiedad tx.key.min.length no estÃ¡ especificada en el archivo de propiedades
+11-24 16:08:47 ERROR FielcoCBAPIConfig:227 - La propiedad tx.key.min.length no estÃ¡ especificada en el archivo de propiedades
+11-24 16:08:47 ERROR FielcoCBAPIConfig:235 - La propiedad psw.min.length no estÃ¡ especificada en el archivo de propiedades
+11-24 16:08:47 ERROR FielcoCBAPIConfig:235 - La propiedad psw.min.length no estÃ¡ especificada en el archivo de propiedades
+11-24 16:08:47 ERROR FielcoCBAPIConfig:295 - java.lang.NumberFormatException: null
+11-24 16:08:47 ERROR FielcoCBAPIConfig:295 - java.lang.NumberFormatException: null
+11-24 16:08:47 ERROR FielcoCBAPIConfig:319 - java.lang.NumberFormatException: null
+11-24 16:08:47 ERROR FielcoCBAPIConfig:319 - java.lang.NumberFormatException: null
+11-25 09:21:28 ERROR FielcoCBAPIConfig:203 - La propiedad check.name.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-25 09:21:28 ERROR FielcoCBAPIConfig:203 - La propiedad check.name.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-25 09:21:28 ERROR FielcoCBAPIConfig:211 - La propiedad check.otherdata.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-25 09:21:28 ERROR FielcoCBAPIConfig:211 - La propiedad check.otherdata.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-25 09:21:28 ERROR FielcoCBAPIConfig:219 - La propiedad check.code.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-25 09:21:28 ERROR FielcoCBAPIConfig:219 - La propiedad check.code.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-25 09:21:28 ERROR FielcoCBAPIConfig:227 - La propiedad tx.key.min.length no estÃ¡ especificada en el archivo de propiedades
+11-25 09:21:28 ERROR FielcoCBAPIConfig:227 - La propiedad tx.key.min.length no estÃ¡ especificada en el archivo de propiedades
+11-25 09:21:28 ERROR FielcoCBAPIConfig:235 - La propiedad psw.min.length no estÃ¡ especificada en el archivo de propiedades
+11-25 09:21:28 ERROR FielcoCBAPIConfig:235 - La propiedad psw.min.length no estÃ¡ especificada en el archivo de propiedades
+11-25 09:21:28 ERROR FielcoCBAPIConfig:295 - java.lang.NumberFormatException: null
+11-25 09:21:28 ERROR FielcoCBAPIConfig:295 - java.lang.NumberFormatException: null
+11-25 09:21:28 ERROR FielcoCBAPIConfig:319 - java.lang.NumberFormatException: null
+11-25 09:21:28 ERROR FielcoCBAPIConfig:319 - java.lang.NumberFormatException: null
+11-29 17:03:43 ERROR FielcoCBAPIConfig:203 - La propiedad check.name.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-29 17:03:43 ERROR FielcoCBAPIConfig:203 - La propiedad check.name.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-29 17:03:43 ERROR FielcoCBAPIConfig:211 - La propiedad check.otherdata.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-29 17:03:43 ERROR FielcoCBAPIConfig:211 - La propiedad check.otherdata.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-29 17:03:43 ERROR FielcoCBAPIConfig:219 - La propiedad check.code.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-29 17:03:43 ERROR FielcoCBAPIConfig:219 - La propiedad check.code.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-29 17:03:43 ERROR FielcoCBAPIConfig:227 - La propiedad tx.key.min.length no estÃ¡ especificada en el archivo de propiedades
+11-29 17:03:43 ERROR FielcoCBAPIConfig:227 - La propiedad tx.key.min.length no estÃ¡ especificada en el archivo de propiedades
+11-29 17:03:43 ERROR FielcoCBAPIConfig:235 - La propiedad psw.min.length no estÃ¡ especificada en el archivo de propiedades
+11-29 17:03:43 ERROR FielcoCBAPIConfig:235 - La propiedad psw.min.length no estÃ¡ especificada en el archivo de propiedades
+11-29 17:03:43 ERROR FielcoCBAPIConfig:295 - java.lang.NumberFormatException: null
+11-29 17:03:43 ERROR FielcoCBAPIConfig:295 - java.lang.NumberFormatException: null
+11-29 17:03:43 ERROR FielcoCBAPIConfig:319 - java.lang.NumberFormatException: null
+11-29 17:03:43 ERROR FielcoCBAPIConfig:319 - java.lang.NumberFormatException: null
+11-30 16:25:05 ERROR FielcoCBAPIConfig:203 - La propiedad check.name.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-30 16:25:05 ERROR FielcoCBAPIConfig:203 - La propiedad check.name.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-30 16:25:05 ERROR FielcoCBAPIConfig:211 - La propiedad check.otherdata.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-30 16:25:05 ERROR FielcoCBAPIConfig:211 - La propiedad check.otherdata.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-30 16:25:05 ERROR FielcoCBAPIConfig:219 - La propiedad check.code.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-30 16:25:05 ERROR FielcoCBAPIConfig:219 - La propiedad check.code.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-30 16:25:05 ERROR FielcoCBAPIConfig:227 - La propiedad tx.key.min.length no estÃ¡ especificada en el archivo de propiedades
+11-30 16:25:05 ERROR FielcoCBAPIConfig:227 - La propiedad tx.key.min.length no estÃ¡ especificada en el archivo de propiedades
+11-30 16:25:05 ERROR FielcoCBAPIConfig:235 - La propiedad psw.min.length no estÃ¡ especificada en el archivo de propiedades
+11-30 16:25:05 ERROR FielcoCBAPIConfig:235 - La propiedad psw.min.length no estÃ¡ especificada en el archivo de propiedades
+11-30 16:25:05 ERROR FielcoCBAPIConfig:295 - java.lang.NumberFormatException: null
+11-30 16:25:05 ERROR FielcoCBAPIConfig:295 - java.lang.NumberFormatException: null
+11-30 16:25:05 ERROR FielcoCBAPIConfig:319 - java.lang.NumberFormatException: null
+11-30 16:25:05 ERROR FielcoCBAPIConfig:319 - java.lang.NumberFormatException: null
+11-30 16:53:40 ERROR FielcoCBAPIConfig:203 - La propiedad check.name.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-30 16:53:40 ERROR FielcoCBAPIConfig:203 - La propiedad check.name.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-30 16:53:40 ERROR FielcoCBAPIConfig:211 - La propiedad check.otherdata.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-30 16:53:40 ERROR FielcoCBAPIConfig:211 - La propiedad check.otherdata.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-30 16:53:40 ERROR FielcoCBAPIConfig:219 - La propiedad check.code.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-30 16:53:40 ERROR FielcoCBAPIConfig:219 - La propiedad check.code.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+11-30 16:53:40 ERROR FielcoCBAPIConfig:227 - La propiedad tx.key.min.length no estÃ¡ especificada en el archivo de propiedades
+11-30 16:53:40 ERROR FielcoCBAPIConfig:227 - La propiedad tx.key.min.length no estÃ¡ especificada en el archivo de propiedades
+11-30 16:53:40 ERROR FielcoCBAPIConfig:235 - La propiedad psw.min.length no estÃ¡ especificada en el archivo de propiedades
+11-30 16:53:40 ERROR FielcoCBAPIConfig:235 - La propiedad psw.min.length no estÃ¡ especificada en el archivo de propiedades
+11-30 16:53:40 ERROR FielcoCBAPIConfig:295 - java.lang.NumberFormatException: null
+11-30 16:53:40 ERROR FielcoCBAPIConfig:295 - java.lang.NumberFormatException: null
+11-30 16:53:40 ERROR FielcoCBAPIConfig:319 - java.lang.NumberFormatException: null
+11-30 16:53:40 ERROR FielcoCBAPIConfig:319 - java.lang.NumberFormatException: null
+12-03 10:51:44 ERROR FielcoCBAPIConfig:203 - La propiedad check.name.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+12-03 10:51:44 ERROR FielcoCBAPIConfig:203 - La propiedad check.name.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+12-03 10:51:44 ERROR FielcoCBAPIConfig:211 - La propiedad check.otherdata.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+12-03 10:51:44 ERROR FielcoCBAPIConfig:211 - La propiedad check.otherdata.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+12-03 10:51:44 ERROR FielcoCBAPIConfig:219 - La propiedad check.code.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+12-03 10:51:44 ERROR FielcoCBAPIConfig:219 - La propiedad check.code.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+12-03 10:51:44 ERROR FielcoCBAPIConfig:227 - La propiedad tx.key.min.length no estÃ¡ especificada en el archivo de propiedades
+12-03 10:51:44 ERROR FielcoCBAPIConfig:227 - La propiedad tx.key.min.length no estÃ¡ especificada en el archivo de propiedades
+12-03 10:51:44 ERROR FielcoCBAPIConfig:235 - La propiedad psw.min.length no estÃ¡ especificada en el archivo de propiedades
+12-03 10:51:44 ERROR FielcoCBAPIConfig:235 - La propiedad psw.min.length no estÃ¡ especificada en el archivo de propiedades
+12-03 10:51:44 ERROR FielcoCBAPIConfig:295 - java.lang.NumberFormatException: null
+12-03 10:51:44 ERROR FielcoCBAPIConfig:295 - java.lang.NumberFormatException: null
+12-03 10:51:44 ERROR FielcoCBAPIConfig:319 - java.lang.NumberFormatException: null
+12-03 10:51:44 ERROR FielcoCBAPIConfig:319 - java.lang.NumberFormatException: null
+12-03 12:07:41 ERROR FielcoCBAPIConfig:203 - La propiedad check.name.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+12-03 12:07:41 ERROR FielcoCBAPIConfig:203 - La propiedad check.name.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+12-03 12:07:41 ERROR FielcoCBAPIConfig:211 - La propiedad check.otherdata.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+12-03 12:07:41 ERROR FielcoCBAPIConfig:211 - La propiedad check.otherdata.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+12-03 12:07:41 ERROR FielcoCBAPIConfig:219 - La propiedad check.code.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+12-03 12:07:41 ERROR FielcoCBAPIConfig:219 - La propiedad check.code.max.fail.number no estÃ¡ especificada en el archivo de propiedades
+12-03 12:07:41 ERROR FielcoCBAPIConfig:227 - La propiedad tx.key.min.length no estÃ¡ especificada en el archivo de propiedades
+12-03 12:07:41 ERROR FielcoCBAPIConfig:227 - La propiedad tx.key.min.length no estÃ¡ especificada en el archivo de propiedades
+12-03 12:07:41 ERROR FielcoCBAPIConfig:235 - La propiedad psw.min.length no estÃ¡ especificada en el archivo de propiedades
+12-03 12:07:41 ERROR FielcoCBAPIConfig:235 - La propiedad psw.min.length no estÃ¡ especificada en el archivo de propiedades
+12-03 12:07:41 ERROR FielcoCBAPIConfig:295 - java.lang.NumberFormatException: null
+12-03 12:07:41 ERROR FielcoCBAPIConfig:295 - java.lang.NumberFormatException: null
+12-03 12:07:41 ERROR FielcoCBAPIConfig:319 - java.lang.NumberFormatException: null
+12-03 12:07:41 ERROR FielcoCBAPIConfig:319 - java.lang.NumberFormatException: null

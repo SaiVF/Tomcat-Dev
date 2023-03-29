@@ -1,0 +1,50 @@
+2022-03-10T10:11:50,434  INFO [localhost-startStop-3][[]][][][][][] org.springframework.web.context.support.XmlWebApplicationContext:960 - Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Wed Mar 09 17:22:58 PYST 2022]; parent: Root WebApplicationContext
+2022-03-10T10:11:50,521  INFO [localhost-startStop-3][[]][][][][][] com.roshka.michi.application.MichiShutdown:21 - Application SHUTDOWN
+2022-03-10T10:11:50,648 DEBUG [localhost-startStop-3][[]][][][][][] com.roshka.michi.service.RegisterService:106 - Deregistrando la aplicación...
+2022-03-10T10:11:50,649 DEBUG [localhost-startStop-3][[]][][][][][] com.roshka.michi.communication.HttpCommunication:40 - URL: POSTP | http://192.168.30.64:8080/michi-discovery/unregister 
+2022-03-10T10:11:50,887 DEBUG [localhost-startStop-3][[]][][][][][] com.roshka.michi.communication.HttpCommunication:446 - RESP STATUS : HTTP/1.1 500 Error Interno del Servidor
+2022-03-10T10:11:50,891 DEBUG [localhost-startStop-3][[]][][][][][] com.roshka.michi.communication.HttpCommunication:451 - RESPONSE    : {"code":"g1005","message":"Unexpected DATABASE error","type":"DATABASE","useApiMessage":false}
+2022-03-10T10:11:50,923  WARN [localhost-startStop-3][[]][][][][][] com.roshka.michi.service.RegisterService:113 - No se pudo deregistrar la aplicación!
+com.roshka.michi.exception.APIClientException: null
+	at com.roshka.michi.communication.HttpCommunication.doPost(HttpCommunication.java:460) ~[michi-common-client-2.8.2.jar:?]
+	at com.roshka.michi.communication.HttpCommunication.doPost(HttpCommunication.java:128) ~[michi-common-client-2.8.2.jar:?]
+	at com.roshka.michi.communication.HttpCommunication.perform(HttpCommunication.java:45) ~[michi-common-client-2.8.2.jar:?]
+	at com.roshka.michi.discovery.client.DiscoveryAPIClient.unregister(DiscoveryAPIClient.java:91) ~[michi-discovery-client-2.8.2.jar:?]
+	at com.roshka.michi.service.RegisterService.unregister(RegisterService.java:109) [common-2.8.2.jar:?]
+	at com.roshka.michi.service.RegisterService$$FastClassBySpringCGLIB$$34aa55da.invoke(<generated>) [common-2.8.2.jar:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) [spring-core-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720) [spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) [spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.retry.annotation.AnnotationAwareRetryOperationsInterceptor.invoke(AnnotationAwareRetryOperationsInterceptor.java:156) [spring-retry-1.2.2.RELEASE.jar:?]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655) [spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at com.roshka.michi.service.RegisterService$$EnhancerBySpringCGLIB$$eba7bd2.unregister(<generated>) [common-2.8.2.jar:?]
+	at com.roshka.michi.application.MichiShutdown.unregister(MichiShutdown.java:28) [common-2.8.2.jar:?]
+	at com.roshka.michi.application.MichiShutdown.onApplicationEvent(MichiShutdown.java:22) [common-2.8.2.jar:?]
+	at com.roshka.michi.application.MichiShutdown.onApplicationEvent(MichiShutdown.java:11) [common-2.8.2.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:302) [spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:202) [spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at com.sun.proxy.$Proxy177.onApplicationEvent(Unknown Source) [?:?]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:163) [spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:136) [spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:381) [spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:335) [spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:967) [spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:934) [spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.destroy(FrameworkServlet.java:828) [spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1359) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1690) [catalina.jar:8.5.6]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5399) [catalina.jar:8.5.6]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1419) [catalina.jar:8.5.6]
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1408) [catalina.jar:8.5.6]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+2022-03-10T10:11:51,063  INFO [localhost-startStop-3][[]][][][][][] org.springframework.web.context.support.XmlWebApplicationContext:960 - Closing Root WebApplicationContext: startup date [Wed Mar 09 17:22:58 PYST 2022]; root of context hierarchy

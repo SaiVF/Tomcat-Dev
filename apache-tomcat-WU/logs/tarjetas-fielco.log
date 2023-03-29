@@ -1,0 +1,4 @@
+ INFO 17 15:29:04 [][][][][]ServerStaticConfig- Configuraciones estaticas code: fielco-tarjetas version: 2.21.10 descripcion: Fielco Tarjetas
+ INFO 17 15:29:04 [][][][][]ServerConfig- Obteniendo información del Enviroment
+ INFO 17 15:29:04 [][][][][]ServerConfig- Env fielco-tarjetas_apikey : 1604d67e09beac0f7d84@39435386-af07-48ba-80bd-10cca4939337@c37ba8fef7222eede465
+ INFO 17 15:29:04 [][][][][]ServerConfig- Env fielco-tarjetas_deploypath : tarjetas-fielco

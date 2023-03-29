@@ -1,0 +1,1316 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGBUS (0x7) at pc=0x00007f895fbe4a32, pid=10785, tid=0x00007f894759e700
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_111-b14) (build 1.8.0_111-b14)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.111-b14 mixed mode linux-amd64 compressed oops)
+# Problematic frame:
+# C  [libzip.so+0x11a32]  newEntry+0x62
+#
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007f88e4004800):  JavaThread "localhost-startStop-1" daemon [_thread_in_native, id=10832, stack(0x00007f894749e000,0x00007f894759f000)]
+
+siginfo: si_signo: 7 (SIGBUS), si_code: 2 (BUS_ADRERR), si_addr: 0x00007f89472a9eec
+
+Registers:
+RAX=0x00007f88bafebe40, RBX=0x00007f88e80b8460, RCX=0x00007f88e8000020, RDX=0x00007f88bafebe40
+RSP=0x00007f894759a6c0, RBP=0x00007f894759a710, RSI=0x00007f88e8000038, RDI=0x0000000000000003
+R8 =0x0000000000000000, R9 =0x00007f894759a790, R10=0x00007f8950d3c798, R11=0x00007f89669bd110
+R12=0x00007f89472a9ecf, R13=0x00007f88bafebe40, R14=0x00000000d7db755c, R15=0x00007f88e810e390
+RIP=0x00007f895fbe4a32, EFLAGS=0x0000000000010206, CSGSFS=0x0000000000000033, ERR=0x0000000000000004
+  TRAPNO=0x000000000000000e
+
+Top of Stack: (sp=0x00007f894759a6c0)
+0x00007f894759a6c0:   00007f8900001fa0 00007f8900000000
+0x00007f894759a6d0:   00000007c00007a8 00007f8966115b4e
+0x00007f894759a6e0:   00007f88bafebe40 00007f88e80b8460
+0x00007f894759a6f0:   00007f88e2cb1250 00007f88e810e390
+0x00007f894759a700:   00000000d7db755c 0000000000000039
+0x00007f894759a710:   00007f894759a770 00007f895fbe518f
+0x00007f894759a720:   00007f88e4004800 01007f8965ec7385
+0x00007f894759a730:   00007f894759a790 00007f894759a7ca
+0x00007f894759a740:   00007f894759a7c8 00007f894759a790
+0x00007f894759a750:   0000000000000039 00007f88e40049f8
+0x00007f894759a760:   00007f894759abe8 0000000000000001
+0x00007f894759a770:   00007f894759abd0 00007f895fbd6ec0
+0x00007f894759a780:   00007f894759ad00 00007f88e810e390
+0x00007f894759a790:   697270732f67726f 77656d617266676e
+0x00007f894759a7a0:   696c61762f6b726f 4d2f6e6f69746164
+0x00007f894759a7b0:   6f43656761737365 6c6f736552736564
+0x00007f894759a7c0:   73616c632e726576 0000000000000073
+0x00007f894759a7d0:   00007f894759b340 00007f88e4004800
+0x00007f894759a7e0:   00007f894ec92470 00007f88e4004800
+0x00007f894759a7f0:   00007f8951b02610 00007f8900000000
+0x00007f894759a800:   00007f894ec92470 00007f88e4004800
+0x00007f894759a810:   00000007c0057ae8 00007f894ef55280
+0x00007f894759a820:   00007f894ef55420 00007f88e4004800
+0x00007f894759a830:   00007f894ec92470 00007f88e4004800
+0x00007f894759a840:   00007f894759b060 00007f88e4004800
+0x00007f894759a850:   00007f894ec92470 00007f88e4004800
+0x00007f894759a860:   00007f894759a890 00007f88e4003040
+0x00007f894759a870:   000000078b0ae2c8 00007f894ec92470
+0x00007f894759a880:   00007f88e40031e0 00007f88e4004800
+0x00007f894759a890:   00007f894759aa20 00007f8965f096ff
+0x00007f894759a8a0:   00007f8951b02610 00007f8900000000
+0x00007f894759a8b0:   00007f894759a900 00007f894759a980 
+
+Instructions: (pc=0x00007f895fbe4a32)
+0x00007f895fbe4a12:   00 48 c7 40 28 00 00 00 00 41 80 7f 30 00 0f 84
+0x00007f895fbe4a22:   8a 02 00 00 4c 8b 63 08 4d 2b 67 28 4d 03 67 18
+0x00007f895fbe4a32:   41 0f b6 5c 24 1d 41 0f b6 44 24 1c c1 e3 08 09
+0x00007f895fbe4a42:   c3 41 0f b6 44 24 1e 88 45 bd 41 0f b6 54 24 20 
+
+Register to memory mapping:
+
+RAX=0x00007f88bafebe40 is an unknown value
+RBX=0x00007f88e80b8460 is an unknown value
+RCX=0x00007f88e8000020 is an unknown value
+RDX=0x00007f88bafebe40 is an unknown value
+RSP=0x00007f894759a6c0 is pointing into the stack for thread: 0x00007f88e4004800
+RBP=0x00007f894759a710 is pointing into the stack for thread: 0x00007f88e4004800
+RSI=0x00007f88e8000038 is an unknown value
+RDI=0x0000000000000003 is an unknown value
+R8 =0x0000000000000000 is an unknown value
+R9 =0x00007f894759a790 is pointing into the stack for thread: 0x00007f88e4004800
+R10=0x00007f8950d3c798 is at entry_point+88 in (nmethod*)0x00007f8950d3c5d0
+R11=0x00007f89669bd110: <offset 0x196110> in /lib/x86_64-linux-gnu/libc.so.6 at 0x00007f8966827000
+R12=0x00007f89472a9ecf is an unknown value
+R13=0x00007f88bafebe40 is an unknown value
+R14=0x00000000d7db755c is an unknown value
+R15=0x00007f88e810e390 is an unknown value
+
+
+Stack: [0x00007f894749e000,0x00007f894759f000],  sp=0x00007f894759a6c0,  free space=1009k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [libzip.so+0x11a32]  newEntry+0x62
+C  [libzip.so+0x1218f]  ZIP_GetEntry2+0xff
+C  [libzip.so+0x3ec0]  Java_java_util_zip_ZipFile_getEntry+0xf0
+J 165  java.util.zip.ZipFile.getEntry(J[BZ)J (0 bytes) @ 0x00007f8950d3c80e [0x00007f8950d3c740+0xce]
+J 934 C2 java.util.jar.JarFile.getEntry(Ljava/lang/String;)Ljava/util/zip/ZipEntry; (22 bytes) @ 0x00007f8950fd07d4 [0x00007f8950fd0420+0x3b4]
+J 1376 C2 org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(Ljava/lang/String;)Ljava/util/jar/JarEntry; (46 bytes) @ 0x00007f8951177ea8 [0x00007f8951177da0+0x108]
+J 4954 C2 org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(Ljava/lang/String;)Lorg/apache/catalina/WebResource; (338 bytes) @ 0x00007f8951d3c270 [0x00007f8951d3b800+0xa70]
+J 1745 C2 org.apache.catalina.webresources.StandardRoot.getResourceInternal(Ljava/lang/String;Z)Lorg/apache/catalina/WebResource; (172 bytes) @ 0x00007f8950e98558 [0x00007f8950e98340+0x218]
+J 2155 C2 org.apache.catalina.webresources.StandardRoot.getResource(Ljava/lang/String;ZZ)Lorg/apache/catalina/WebResource; (34 bytes) @ 0x00007f89513a67c8 [0x00007f89513a5be0+0xbe8]
+J 5402 C2 org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(Ljava/lang/String;)Ljava/lang/Class; (709 bytes) @ 0x00007f8951faab84 [0x00007f8951fa8c60+0x1f24]
+J 6993 C2 org.apache.catalina.loader.WebappClassLoaderBase.findClass(Ljava/lang/String;)Ljava/lang/Class; (561 bytes) @ 0x00007f895185be08 [0x00007f895185bd20+0xe8]
+J 4366 C2 org.apache.catalina.loader.WebappClassLoaderBase.loadClass(Ljava/lang/String;Z)Ljava/lang/Class; (649 bytes) @ 0x00007f8951b039a0 [0x00007f8951b02b20+0xe80]
+J 3821 C2 org.apache.catalina.loader.WebappClassLoaderBase.loadClass(Ljava/lang/String;)Ljava/lang/Class; (7 bytes) @ 0x00007f895191699c [0x00007f8951916960+0x3c]
+v  ~StubRoutines::call_stub
+V  [libjvm.so+0x690206]  JavaCalls::call_helper(JavaValue*, methodHandle*, JavaCallArguments*, Thread*)+0x1056
+V  [libjvm.so+0x690711]  JavaCalls::call_virtual(JavaValue*, KlassHandle, Symbol*, Symbol*, JavaCallArguments*, Thread*)+0x321
+V  [libjvm.so+0x690b66]  JavaCalls::call_virtual(JavaValue*, Handle, KlassHandle, Symbol*, Symbol*, Handle, Thread*)+0x56
+V  [libjvm.so+0xa3b510]  SystemDictionary::load_instance_class(Symbol*, Handle, Thread*)+0x3f0
+V  [libjvm.so+0xa3a45c]  SystemDictionary::resolve_instance_class_or_null(Symbol*, Handle, Handle, Thread*)+0x7cc
+V  [libjvm.so+0xa3b933]  SystemDictionary::resolve_or_fail(Symbol*, Handle, Handle, bool, Thread*)+0x33
+V  [libjvm.so+0x999cd6]  get_mirror_from_signature(methodHandle, SignatureStream*, Thread*)+0xc6
+V  [libjvm.so+0x99d39e]  Reflection::get_parameter_types(methodHandle, int, oopDesc**, Thread*)+0x18e
+V  [libjvm.so+0x99df3c]  Reflection::new_method(methodHandle, bool, bool, Thread*)+0xfc
+V  [libjvm.so+0x728619]  get_class_declared_methods_helper(JNIEnv_*, _jclass*, unsigned char, bool, Klass*, Thread*)+0x479
+V  [libjvm.so+0x728aab]  JVM_GetClassDeclaredMethods+0xcb
+J 2927  java.lang.Class.getDeclaredMethods0(Z)[Ljava/lang/reflect/Method; (0 bytes) @ 0x00007f895157b068 [0x00007f895157afc0+0xa8]
+J 4163 C2 java.lang.Class.privateGetDeclaredMethods(Z)[Ljava/lang/reflect/Method; (67 bytes) @ 0x00007f8951292854 [0x00007f8951292620+0x234]
+J 7731 C1 org.springframework.util.ReflectionUtils.getDeclaredMethods(Ljava/lang/Class;)[Ljava/lang/reflect/Method; (128 bytes) @ 0x00007f8952600614 [0x00007f8952600340+0x2d4]
+J 7701 C1 org.springframework.util.ReflectionUtils.doWithMethods(Ljava/lang/Class;Lorg/springframework/util/ReflectionUtils$MethodCallback;Lorg/springframework/util/ReflectionUtils$MethodFilter;)V (176 bytes) @ 0x00007f89525e6bf4 [0x00007f89525e6b80+0x74]
+J 7991 C1 org.springframework.util.ReflectionUtils.doWithMethods(Ljava/lang/Class;Lorg/springframework/util/ReflectionUtils$MethodCallback;)V (7 bytes) @ 0x00007f89522c88bc [0x00007f89522c8840+0x7c]
+j  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(Ljava/lang/Class;Ljava/lang/String;)[Ljava/lang/reflect/Constructor;+23
+j  org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(Ljava/lang/Class;Ljava/lang/String;)[Ljava/lang/reflect/Constructor;+60
+j  org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(Ljava/lang/String;Lorg/springframework/beans/factory/support/RootBeanDefinition;[Ljava/lang/Object;)Lorg/springframework/beans/BeanWrapper;+164
+j  org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(Ljava/lang/String;Lorg/springframework/beans/factory/support/RootBeanDefinition;[Ljava/lang/Object;)Ljava/lang/Object;+34
+j  org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(Ljava/lang/String;Lorg/springframework/beans/factory/support/RootBeanDefinition;[Ljava/lang/Object;)Ljava/lang/Object;+169
+j  org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(Ljava/lang/Object;Ljava/lang/String;Lorg/springframework/beans/factory/config/BeanDefinition;)Ljava/lang/Object;+123
+j  org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;+159
+j  org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(Ljava/lang/String;Lorg/springframework/beans/factory/config/BeanDefinition;Lorg/springframework/beans/BeanWrapper;Lorg/springframework/beans/PropertyValues;)V+238
+j  org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(Ljava/lang/String;Lorg/springframework/beans/factory/support/RootBeanDefinition;Lorg/springframework/beans/BeanWrapper;)V+342
+j  org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(Ljava/lang/String;Lorg/springframework/beans/factory/support/RootBeanDefinition;[Ljava/lang/Object;)Ljava/lang/Object;+222
+j  org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(Ljava/lang/String;Lorg/springframework/beans/factory/support/RootBeanDefinition;[Ljava/lang/Object;)Ljava/lang/Object;+169
+j  org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject()Ljava/lang/Object;+16
+j  org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(Ljava/lang/String;Lorg/springframework/beans/factory/ObjectFactory;)Ljava/lang/Object;+132
+J 7970 C1 org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(Ljava/lang/String;Ljava/lang/Class;[Ljava/lang/Object;Z)Ljava/lang/Object; (732 bytes) @ 0x00007f89522cda7c [0x00007f89522cbc00+0x1e7c]
+j  org.springframework.beans.factory.support.AbstractBeanFactory.getBean(Ljava/lang/String;)Ljava/lang/Object;+5
+j  org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons()V+231
+j  org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V+103
+j  org.springframework.context.support.AbstractApplicationContext.refresh()V+54
+j  org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(Lorg/springframework/web/context/ConfigurableWebApplicationContext;)V+180
+j  org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(Lorg/springframework/context/ApplicationContext;)Lorg/springframework/web/context/WebApplicationContext;+172
+j  org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(Lorg/springframework/web/context/WebApplicationContext;)Lorg/springframework/web/context/WebApplicationContext;+2
+j  org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext()Lorg/springframework/web/context/WebApplicationContext;+79
+j  org.springframework.web.servlet.FrameworkServlet.initServletBean()V+90
+j  org.springframework.web.servlet.HttpServletBean.init()V+158
+j  javax.servlet.GenericServlet.init(Ljavax/servlet/ServletConfig;)V+6
+j  org.apache.catalina.core.StandardWrapper.initServlet(Ljavax/servlet/Servlet;)V+79
+j  org.apache.catalina.core.StandardWrapper.loadServlet()Ljavax/servlet/Servlet;+363
+j  org.apache.catalina.core.StandardWrapper.load()V+2
+j  org.apache.catalina.core.StandardContext.loadOnStartup([Lorg/apache/catalina/Container;)Z+157
+j  org.apache.catalina.core.StandardContext.startInternal()V+1258
+J 2221 C1 org.apache.catalina.util.LifecycleBase.start()V (310 bytes) @ 0x00007f8950f1e3fc [0x00007f8950f1c880+0x1b7c]
+j  org.apache.catalina.core.ContainerBase.addChildInternal(Lorg/apache/catalina/Container;)V+170
+j  org.apache.catalina.core.ContainerBase.addChild(Lorg/apache/catalina/Container;)V+26
+j  org.apache.catalina.core.StandardHost.addChild(Lorg/apache/catalina/Container;)V+40
+j  org.apache.catalina.startup.HostConfig.deployDescriptor(Lorg/apache/catalina/util/ContextName;Ljava/io/File;)V+513
+j  org.apache.catalina.startup.HostConfig$DeployDescriptor.run()V+12
+j  java.util.concurrent.Executors$RunnableAdapter.call()Ljava/lang/Object;+4
+j  java.util.concurrent.FutureTask.run()V+42
+j  java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V+95
+j  java.util.concurrent.ThreadPoolExecutor$Worker.run()V+5
+j  java.lang.Thread.run()V+11
+v  ~StubRoutines::call_stub
+V  [libjvm.so+0x690206]  JavaCalls::call_helper(JavaValue*, methodHandle*, JavaCallArguments*, Thread*)+0x1056
+V  [libjvm.so+0x690711]  JavaCalls::call_virtual(JavaValue*, KlassHandle, Symbol*, Symbol*, JavaCallArguments*, Thread*)+0x321
+V  [libjvm.so+0x690bb7]  JavaCalls::call_virtual(JavaValue*, Handle, KlassHandle, Symbol*, Symbol*, Thread*)+0x47
+V  [libjvm.so+0x7278f0]  thread_entry(JavaThread*, Thread*)+0xa0
+V  [libjvm.so+0xa742b3]  JavaThread::thread_main_inner()+0x103
+V  [libjvm.so+0xa743fc]  JavaThread::run()+0x11c
+V  [libjvm.so+0x924ea8]  java_start(Thread*)+0x108
+C  [libpthread.so.0+0x76ba]  start_thread+0xca
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+J 165  java.util.zip.ZipFile.getEntry(J[BZ)J (0 bytes) @ 0x00007f8950d3c798 [0x00007f8950d3c740+0x58]
+J 934 C2 java.util.jar.JarFile.getEntry(Ljava/lang/String;)Ljava/util/zip/ZipEntry; (22 bytes) @ 0x00007f8950fd07d4 [0x00007f8950fd0420+0x3b4]
+J 1376 C2 org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(Ljava/lang/String;)Ljava/util/jar/JarEntry; (46 bytes) @ 0x00007f8951177ea8 [0x00007f8951177da0+0x108]
+J 4954 C2 org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(Ljava/lang/String;)Lorg/apache/catalina/WebResource; (338 bytes) @ 0x00007f8951d3c270 [0x00007f8951d3b800+0xa70]
+J 1745 C2 org.apache.catalina.webresources.StandardRoot.getResourceInternal(Ljava/lang/String;Z)Lorg/apache/catalina/WebResource; (172 bytes) @ 0x00007f8950e98558 [0x00007f8950e98340+0x218]
+J 2155 C2 org.apache.catalina.webresources.StandardRoot.getResource(Ljava/lang/String;ZZ)Lorg/apache/catalina/WebResource; (34 bytes) @ 0x00007f89513a67c8 [0x00007f89513a5be0+0xbe8]
+J 5402 C2 org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(Ljava/lang/String;)Ljava/lang/Class; (709 bytes) @ 0x00007f8951faab84 [0x00007f8951fa8c60+0x1f24]
+J 6993 C2 org.apache.catalina.loader.WebappClassLoaderBase.findClass(Ljava/lang/String;)Ljava/lang/Class; (561 bytes) @ 0x00007f895185be08 [0x00007f895185bd20+0xe8]
+J 4366 C2 org.apache.catalina.loader.WebappClassLoaderBase.loadClass(Ljava/lang/String;Z)Ljava/lang/Class; (649 bytes) @ 0x00007f8951b039a0 [0x00007f8951b02b20+0xe80]
+J 3821 C2 org.apache.catalina.loader.WebappClassLoaderBase.loadClass(Ljava/lang/String;)Ljava/lang/Class; (7 bytes) @ 0x00007f895191699c [0x00007f8951916960+0x3c]
+v  ~StubRoutines::call_stub
+J 2927  java.lang.Class.getDeclaredMethods0(Z)[Ljava/lang/reflect/Method; (0 bytes) @ 0x00007f895157aff8 [0x00007f895157afc0+0x38]
+J 4163 C2 java.lang.Class.privateGetDeclaredMethods(Z)[Ljava/lang/reflect/Method; (67 bytes) @ 0x00007f8951292854 [0x00007f8951292620+0x234]
+J 7731 C1 org.springframework.util.ReflectionUtils.getDeclaredMethods(Ljava/lang/Class;)[Ljava/lang/reflect/Method; (128 bytes) @ 0x00007f8952600614 [0x00007f8952600340+0x2d4]
+J 7701 C1 org.springframework.util.ReflectionUtils.doWithMethods(Ljava/lang/Class;Lorg/springframework/util/ReflectionUtils$MethodCallback;Lorg/springframework/util/ReflectionUtils$MethodFilter;)V (176 bytes) @ 0x00007f89525e6bf4 [0x00007f89525e6b80+0x74]
+J 7991 C1 org.springframework.util.ReflectionUtils.doWithMethods(Ljava/lang/Class;Lorg/springframework/util/ReflectionUtils$MethodCallback;)V (7 bytes) @ 0x00007f89522c88bc [0x00007f89522c8840+0x7c]
+j  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(Ljava/lang/Class;Ljava/lang/String;)[Ljava/lang/reflect/Constructor;+23
+j  org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(Ljava/lang/Class;Ljava/lang/String;)[Ljava/lang/reflect/Constructor;+60
+j  org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(Ljava/lang/String;Lorg/springframework/beans/factory/support/RootBeanDefinition;[Ljava/lang/Object;)Lorg/springframework/beans/BeanWrapper;+164
+j  org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(Ljava/lang/String;Lorg/springframework/beans/factory/support/RootBeanDefinition;[Ljava/lang/Object;)Ljava/lang/Object;+34
+j  org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(Ljava/lang/String;Lorg/springframework/beans/factory/support/RootBeanDefinition;[Ljava/lang/Object;)Ljava/lang/Object;+169
+j  org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(Ljava/lang/Object;Ljava/lang/String;Lorg/springframework/beans/factory/config/BeanDefinition;)Ljava/lang/Object;+123
+j  org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;+159
+j  org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(Ljava/lang/String;Lorg/springframework/beans/factory/config/BeanDefinition;Lorg/springframework/beans/BeanWrapper;Lorg/springframework/beans/PropertyValues;)V+238
+j  org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(Ljava/lang/String;Lorg/springframework/beans/factory/support/RootBeanDefinition;Lorg/springframework/beans/BeanWrapper;)V+342
+j  org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(Ljava/lang/String;Lorg/springframework/beans/factory/support/RootBeanDefinition;[Ljava/lang/Object;)Ljava/lang/Object;+222
+j  org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(Ljava/lang/String;Lorg/springframework/beans/factory/support/RootBeanDefinition;[Ljava/lang/Object;)Ljava/lang/Object;+169
+j  org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject()Ljava/lang/Object;+16
+j  org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(Ljava/lang/String;Lorg/springframework/beans/factory/ObjectFactory;)Ljava/lang/Object;+132
+J 7970 C1 org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(Ljava/lang/String;Ljava/lang/Class;[Ljava/lang/Object;Z)Ljava/lang/Object; (732 bytes) @ 0x00007f89522cda7c [0x00007f89522cbc00+0x1e7c]
+j  org.springframework.beans.factory.support.AbstractBeanFactory.getBean(Ljava/lang/String;)Ljava/lang/Object;+5
+j  org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons()V+231
+j  org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V+103
+j  org.springframework.context.support.AbstractApplicationContext.refresh()V+54
+j  org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(Lorg/springframework/web/context/ConfigurableWebApplicationContext;)V+180
+j  org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(Lorg/springframework/context/ApplicationContext;)Lorg/springframework/web/context/WebApplicationContext;+172
+j  org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(Lorg/springframework/web/context/WebApplicationContext;)Lorg/springframework/web/context/WebApplicationContext;+2
+j  org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext()Lorg/springframework/web/context/WebApplicationContext;+79
+j  org.springframework.web.servlet.FrameworkServlet.initServletBean()V+90
+j  org.springframework.web.servlet.HttpServletBean.init()V+158
+j  javax.servlet.GenericServlet.init(Ljavax/servlet/ServletConfig;)V+6
+j  org.apache.catalina.core.StandardWrapper.initServlet(Ljavax/servlet/Servlet;)V+79
+j  org.apache.catalina.core.StandardWrapper.loadServlet()Ljavax/servlet/Servlet;+363
+j  org.apache.catalina.core.StandardWrapper.load()V+2
+j  org.apache.catalina.core.StandardContext.loadOnStartup([Lorg/apache/catalina/Container;)Z+157
+j  org.apache.catalina.core.StandardContext.startInternal()V+1258
+J 2221 C1 org.apache.catalina.util.LifecycleBase.start()V (310 bytes) @ 0x00007f8950f1e3fc [0x00007f8950f1c880+0x1b7c]
+j  org.apache.catalina.core.ContainerBase.addChildInternal(Lorg/apache/catalina/Container;)V+170
+j  org.apache.catalina.core.ContainerBase.addChild(Lorg/apache/catalina/Container;)V+26
+j  org.apache.catalina.core.StandardHost.addChild(Lorg/apache/catalina/Container;)V+40
+j  org.apache.catalina.startup.HostConfig.deployDescriptor(Lorg/apache/catalina/util/ContextName;Ljava/io/File;)V+513
+j  org.apache.catalina.startup.HostConfig$DeployDescriptor.run()V+12
+j  java.util.concurrent.Executors$RunnableAdapter.call()Ljava/lang/Object;+4
+j  java.util.concurrent.FutureTask.run()V+42
+j  java.util.concurrent.ThreadPoolExecutor.runWorker(Ljava/util/concurrent/ThreadPoolExecutor$Worker;)V+95
+j  java.util.concurrent.ThreadPoolExecutor$Worker.run()V+5
+j  java.lang.Thread.run()V+11
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x00007f88eb7b3800 JavaThread "AsyncAppender-RollingFileAsyncLiq" daemon [_thread_blocked, id=11033, stack(0x00007f893e65c000,0x00007f893e75d000)]
+  0x00007f88e8f8a800 JavaThread "AsyncAppender-RollingFileAsync" daemon [_thread_blocked, id=11032, stack(0x00007f893e75d000,0x00007f893e85e000)]
+  0x00007f88f4010000 JavaThread "AS400 Read Daemon [system:192.168.30.112;job:422019/QUSER/QZDASOINIT]" daemon [_thread_in_native, id=11031, stack(0x00007f893ea5e000,0x00007f893eb5f000)]
+  0x00007f88f400e800 JavaThread "AS400 Read Daemon [system:192.168.30.112;job:422015/QUSER/QZDASOINIT]" daemon [_thread_in_native, id=11030, stack(0x00007f893eb5f000,0x00007f893ec60000)]
+  0x00007f88f400c800 JavaThread "AS400 Read Daemon [system:192.168.30.112;job:422018/QUSER/QZDASOINIT]" daemon [_thread_in_native, id=11029, stack(0x00007f893ec60000,0x00007f893ed61000)]
+  0x00007f88f4009800 JavaThread "AS400 Read Daemon [system:192.168.30.112;job:422017/QUSER/QZDASOINIT]" daemon [_thread_in_native, id=11028, stack(0x00007f893ed61000,0x00007f893ee62000)]
+  0x00007f88f400a800 JavaThread "AS400 Read Daemon [system:192.168.30.112;job:422021/QUSER/QZDASOINIT]" daemon [_thread_in_native, id=11027, stack(0x00007f893ee62000,0x00007f893ef63000)]
+  0x00007f88f8021800 JavaThread "AS400 Read Daemon [system:192.168.30.112;job:420556/QUSER/QZDASOINIT]" daemon [_thread_in_native, id=11026, stack(0x00007f893ef63000,0x00007f893f064000)]
+  0x00007f88f0004800 JavaThread "AS400 Read Daemon [system:192.168.30.112;job:422014/QUSER/QZDASOINIT]" daemon [_thread_in_native, id=11023, stack(0x00007f893f266000,0x00007f893f367000)]
+  0x00007f88e1bb5800 JavaThread "HikariPool-6 housekeeper" daemon [_thread_blocked, id=11021, stack(0x00007f893f367000,0x00007f893f468000)]
+  0x00007f88dcb12800 JavaThread "HikariPool-5 housekeeper" daemon [_thread_blocked, id=11018, stack(0x00007f8946233000,0x00007f8946334000)]
+  0x00007f88dcb84000 JavaThread "HikariPool-4 housekeeper" daemon [_thread_blocked, id=11015, stack(0x00007f8946132000,0x00007f8946233000)]
+  0x00007f88dc1a0800 JavaThread "AS400 Read Daemon [system:192.168.30.112;job:422020/QUSER/QZDASOINIT]" daemon [_thread_in_native, id=10945, stack(0x00007f8946031000,0x00007f8946132000)]
+  0x00007f88e174b000 JavaThread "AsyncAppender-RollingFileAsync" daemon [_thread_blocked, id=10911, stack(0x00007f894540e000,0x00007f894550f000)]
+  0x00007f88c8013000 JavaThread "AS400 Read Daemon [system:192.168.30.112;job:422002/QUSER/QZDASOINIT]" daemon [_thread_in_native, id=10910, stack(0x00007f894592a000,0x00007f8945a2b000)]
+  0x00007f88c8011800 JavaThread "AS400 Read Daemon [system:192.168.30.112;job:422005/QUSER/QZDASOINIT]" daemon [_thread_in_native, id=10909, stack(0x00007f8945a2b000,0x00007f8945b2c000)]
+  0x00007f88c8010000 JavaThread "AS400 Read Daemon [system:192.168.30.112;job:422004/QUSER/QZDASOINIT]" daemon [_thread_in_native, id=10908, stack(0x00007f8945b2c000,0x00007f8945c2d000)]
+  0x00007f88c800e000 JavaThread "AS400 Read Daemon [system:192.168.30.112;job:421206/QUSER/QZDASOINIT]" daemon [_thread_in_native, id=10907, stack(0x00007f8945c2d000,0x00007f8945d2e000)]
+  0x00007f88c4002800 JavaThread "AS400 Read Daemon [system:192.168.30.112;job:420694/QUSER/QZDASOINIT]" daemon [_thread_in_native, id=10906, stack(0x00007f8945d2e000,0x00007f8945e2f000)]
+  0x00007f88c8002000 JavaThread "AS400 Read Daemon [system:192.168.30.112;job:420309/QUSER/QZDASOINIT]" daemon [_thread_in_native, id=10905, stack(0x00007f8945e2f000,0x00007f8945f30000)]
+  0x00007f88d0002000 JavaThread "AS400 Read Daemon [system:192.168.30.112;job:420467/QUSER/QZDASOINIT]" daemon [_thread_in_native, id=10904, stack(0x00007f8945f30000,0x00007f8946031000)]
+  0x00007f88e30eb800 JavaThread "HikariPool-3 housekeeper" daemon [_thread_blocked, id=10900, stack(0x00007f8946334000,0x00007f8946435000)]
+  0x00007f88e30e9000 JavaThread "HikariPool-2 housekeeper" daemon [_thread_blocked, id=10897, stack(0x00007f8946435000,0x00007f8946536000)]
+  0x00007f88e30c7800 JavaThread "HikariPool-1 housekeeper" daemon [_thread_blocked, id=10894, stack(0x00007f8946536000,0x00007f8946637000)]
+=>0x00007f88e4004800 JavaThread "localhost-startStop-1" daemon [_thread_in_native, id=10832, stack(0x00007f894749e000,0x00007f894759f000)]
+  0x00007f8960501800 JavaThread "Catalina-startStop-1" daemon [_thread_blocked, id=10831, stack(0x00007f894759f000,0x00007f89476a0000)]
+  0x00007f89604ef800 JavaThread "NioBlockingSelector.BlockPoller-2" daemon [_thread_in_native, id=10830, stack(0x00007f89476a0000,0x00007f89477a1000)]
+  0x00007f89604d4800 JavaThread "NioBlockingSelector.BlockPoller-1" daemon [_thread_in_native, id=10829, stack(0x00007f89477a1000,0x00007f89478a2000)]
+  0x00007f8960452000 JavaThread "GC Daemon" daemon [_thread_blocked, id=10826, stack(0x00007f8947eff000,0x00007f8948000000)]
+  0x00007f8960181800 JavaThread "AsyncFileHandlerWriter-1749186397" daemon [_thread_blocked, id=10809, stack(0x00007f894cca3000,0x00007f894cda4000)]
+  0x00007f89600d4000 JavaThread "Service Thread" daemon [_thread_blocked, id=10807, stack(0x00007f894cea5000,0x00007f894cfa6000)]
+  0x00007f89600d0800 JavaThread "C1 CompilerThread2" daemon [_thread_blocked, id=10806, stack(0x00007f894cfa6000,0x00007f894d0a7000)]
+  0x00007f89600cf000 JavaThread "C2 CompilerThread1" daemon [_thread_blocked, id=10805, stack(0x00007f894d0a7000,0x00007f894d1a8000)]
+  0x00007f89600cc000 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=10804, stack(0x00007f894d1a8000,0x00007f894d2a9000)]
+  0x00007f89600c9800 JavaThread "JDWP Event Helper Thread" daemon [_thread_blocked, id=10803, stack(0x00007f894d2a9000,0x00007f894d3aa000)]
+  0x00007f89600c5000 JavaThread "JDWP Transport Listener: dt_socket" daemon [_thread_in_native, id=10802, stack(0x00007f894d3aa000,0x00007f894d4ab000)]
+  0x00007f89600b9000 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=10801, stack(0x00007f894d6af000,0x00007f894d7b0000)]
+  0x00007f8960087000 JavaThread "Finalizer" daemon [_thread_blocked, id=10800, stack(0x00007f894d7b0000,0x00007f894d8b1000)]
+  0x00007f8960082800 JavaThread "Reference Handler" daemon [_thread_blocked, id=10799, stack(0x00007f894d8b1000,0x00007f894d9b2000)]
+  0x00007f896000d000 JavaThread "main" [_thread_blocked, id=10789, stack(0x00007f896731e000,0x00007f896741f000)]
+
+Other Threads:
+  0x00007f896007a800 VMThread [stack: 0x00007f894d9b2000,0x00007f894dab3000] [id=10798]
+  0x00007f89600d7000 WatcherThread [stack: 0x00007f894cda4000,0x00007f894cea5000] [id=10808]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 890368K, used 161680K [0x0000000782000000, 0x00000007bfa80000, 0x00000007c0000000)
+  eden space 777728K, 19% used [0x0000000782000000,0x000000078b310a70,0x00000007b1780000)
+  from space 112640K, 9% used [0x00000007b8c80000,0x00000007b97538b0,0x00000007bfa80000)
+  to   space 116224K, 0% used [0x00000007b1780000,0x00000007b1780000,0x00000007b8900000)
+ ParOldGen       total 240640K, used 145152K [0x0000000706000000, 0x0000000714b00000, 0x0000000782000000)
+  object space 240640K, 60% used [0x0000000706000000,0x000000070edc0250,0x0000000714b00000)
+ Metaspace       used 72946K, capacity 74184K, committed 74456K, reserved 1114112K
+  class space    used 9033K, capacity 9330K, committed 9432K, reserved 1048576K
+
+Card table byte_map: [0x00007f8950242000,0x00007f8950813000] byte_map_base: 0x00007f894ca12000
+
+Marking Bits: (ParMarkBitMap*) 0x00007f89667fa220
+ Begin Bits: [0x00007f892a300000, 0x00007f892d180000)
+ End Bits:   [0x00007f892d180000, 0x00007f8930000000)
+
+Polling page: 0x00007f896744a000
+
+CodeCache: size=245760Kb used=28133Kb max_used=28146Kb free=217626Kb
+ bounds [0x00007f8950bd3000, 0x00007f8952773000, 0x00007f895fbd3000]
+ total_blobs=7302 nmethods=6769 adapters=453
+ compilation: enabled
+
+Compilation events (10 events):
+Event: 77,847 Thread 0x00007f89600d0800 8156       3       com.sun.beans.WildcardTypeImpl::<init> (15 bytes)
+Event: 77,848 Thread 0x00007f89600d0800 nmethod 8156 0x00007f8952740bd0 code [0x00007f8952740d40, 0x00007f8952740f30]
+Event: 77,848 Thread 0x00007f89600d0800 8155       3       java.beans.PropertyDescriptor::setPropertyEditorClass (9 bytes)
+Event: 77,848 Thread 0x00007f89600d0800 nmethod 8155 0x00007f89527404d0 code [0x00007f8952740660, 0x00007f8952740a08]
+Event: 77,848 Thread 0x00007f89600d0800 8158       3       org.springframework.beans.factory.support.AutowireUtils::isSetterDefinedInInterface (76 bytes)
+Event: 77,849 Thread 0x00007f89600d0800 nmethod 8158 0x00007f895273d9d0 code [0x00007f895273dbe0, 0x00007f895273e808]
+Event: 77,849 Thread 0x00007f89600d0800 8159       1       org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor::getRequiredAnnotationType (5 bytes)
+Event: 77,849 Thread 0x00007f89600d0800 nmethod 8159 0x00007f8952740210 code [0x00007f8952740360, 0x00007f8952740470]
+Event: 77,849 Thread 0x00007f89600d0800 8160       3       org.springframework.beans.factory.support.AbstractBeanFactory::isPrototypeCurrentlyInCreation (46 bytes)
+Event: 77,849 Thread 0x00007f89600d0800 nmethod 8160 0x00007f895273cfd0 code [0x00007f895273d180, 0x00007f895273d868]
+
+GC Heap History (10 events):
+Event: 67,956 GC heap before
+{Heap before GC invocations=23 (full 2):
+ PSYoungGen      total 869376K, used 869367K [0x0000000782000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 793600K, 100% used [0x0000000782000000,0x00000007b2700000,0x00000007b2700000)
+  from space 75776K, 99% used [0x00000007bb600000,0x00000007bfffde10,0x00000007c0000000)
+  to   space 111104K, 0% used [0x00000007b2700000,0x00000007b2700000,0x00000007b9380000)
+ ParOldGen       total 126464K, used 99587K [0x0000000706000000, 0x000000070db80000, 0x0000000782000000)
+  object space 126464K, 78% used [0x0000000706000000,0x000000070c140c38,0x000000070db80000)
+ Metaspace       used 55038K, capacity 56026K, committed 56408K, reserved 1099776K
+  class space    used 6643K, capacity 6889K, committed 7000K, reserved 1048576K
+Event: 67,993 GC heap after
+Heap after GC invocations=23 (full 2):
+ PSYoungGen      total 866816K, used 73077K [0x0000000782000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 793600K, 0% used [0x0000000782000000,0x0000000782000000,0x00000007b2700000)
+  from space 73216K, 99% used [0x00000007b2700000,0x00000007b6e5d570,0x00000007b6e80000)
+  to   space 115712K, 0% used [0x00000007b8f00000,0x00000007b8f00000,0x00000007c0000000)
+ ParOldGen       total 126464K, used 111174K [0x0000000706000000, 0x000000070db80000, 0x0000000782000000)
+  object space 126464K, 87% used [0x0000000706000000,0x000000070cc91b10,0x000000070db80000)
+ Metaspace       used 55038K, capacity 56026K, committed 56408K, reserved 1099776K
+  class space    used 6643K, capacity 6889K, committed 7000K, reserved 1048576K
+}
+Event: 67,993 GC heap before
+{Heap before GC invocations=24 (full 3):
+ PSYoungGen      total 866816K, used 73077K [0x0000000782000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 793600K, 0% used [0x0000000782000000,0x0000000782000000,0x00000007b2700000)
+  from space 73216K, 99% used [0x00000007b2700000,0x00000007b6e5d570,0x00000007b6e80000)
+  to   space 115712K, 0% used [0x00000007b8f00000,0x00000007b8f00000,0x00000007c0000000)
+ ParOldGen       total 126464K, used 111174K [0x0000000706000000, 0x000000070db80000, 0x0000000782000000)
+  object space 126464K, 87% used [0x0000000706000000,0x000000070cc91b10,0x000000070db80000)
+ Metaspace       used 55038K, capacity 56026K, committed 56408K, reserved 1099776K
+  class space    used 6643K, capacity 6889K, committed 7000K, reserved 1048576K
+Event: 68,238 GC heap after
+Heap after GC invocations=24 (full 3):
+ PSYoungGen      total 866816K, used 30751K [0x0000000782000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 793600K, 0% used [0x0000000782000000,0x0000000782000000,0x00000007b2700000)
+  from space 73216K, 42% used [0x00000007b2700000,0x00000007b4507ef0,0x00000007b6e80000)
+  to   space 115712K, 0% used [0x00000007b8f00000,0x00000007b8f00000,0x00000007c0000000)
+ ParOldGen       total 240640K, used 126376K [0x0000000706000000, 0x0000000714b00000, 0x0000000782000000)
+  object space 240640K, 52% used [0x0000000706000000,0x000000070db6a2e8,0x0000000714b00000)
+ Metaspace       used 55038K, capacity 56026K, committed 56408K, reserved 1099776K
+  class space    used 6643K, capacity 6889K, committed 7000K, reserved 1048576K
+}
+Event: 71,300 GC heap before
+{Heap before GC invocations=25 (full 3):
+ PSYoungGen      total 866816K, used 824351K [0x0000000782000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 793600K, 100% used [0x0000000782000000,0x00000007b2700000,0x00000007b2700000)
+  from space 73216K, 42% used [0x00000007b2700000,0x00000007b4507ef0,0x00000007b6e80000)
+  to   space 115712K, 0% used [0x00000007b8f00000,0x00000007b8f00000,0x00000007c0000000)
+ ParOldGen       total 240640K, used 126376K [0x0000000706000000, 0x0000000714b00000, 0x0000000782000000)
+  object space 240640K, 52% used [0x0000000706000000,0x000000070db6a2e8,0x0000000714b00000)
+ Metaspace       used 55259K, capacity 56216K, committed 56408K, reserved 1099776K
+  class space    used 6682K, capacity 6926K, committed 7000K, reserved 1048576K
+Event: 71,371 GC heap after
+Heap after GC invocations=25 (full 3):
+ PSYoungGen      total 891904K, used 74154K [0x0000000782000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 776192K, 0% used [0x0000000782000000,0x0000000782000000,0x00000007b1600000)
+  from space 115712K, 64% used [0x00000007b8f00000,0x00000007bd76abf8,0x00000007c0000000)
+  to   space 119808K, 0% used [0x00000007b1600000,0x00000007b1600000,0x00000007b8b00000)
+ ParOldGen       total 240640K, used 130210K [0x0000000706000000, 0x0000000714b00000, 0x0000000782000000)
+  object space 240640K, 54% used [0x0000000706000000,0x000000070df28880,0x0000000714b00000)
+ Metaspace       used 55259K, capacity 56216K, committed 56408K, reserved 1099776K
+  class space    used 6682K, capacity 6926K, committed 7000K, reserved 1048576K
+}
+Event: 73,918 GC heap before
+{Heap before GC invocations=26 (full 3):
+ PSYoungGen      total 891904K, used 850346K [0x0000000782000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 776192K, 100% used [0x0000000782000000,0x00000007b1600000,0x00000007b1600000)
+  from space 115712K, 64% used [0x00000007b8f00000,0x00000007bd76abf8,0x00000007c0000000)
+  to   space 119808K, 0% used [0x00000007b1600000,0x00000007b1600000,0x00000007b8b00000)
+ ParOldGen       total 240640K, used 130210K [0x0000000706000000, 0x0000000714b00000, 0x0000000782000000)
+  object space 240640K, 54% used [0x0000000706000000,0x000000070df28880,0x0000000714b00000)
+ Metaspace       used 64034K, capacity 65106K, committed 65368K, reserved 1105920K
+  class space    used 7910K, capacity 8185K, committed 8280K, reserved 1048576K
+Event: 73,941 GC heap after
+Heap after GC invocations=26 (full 3):
+ PSYoungGen      total 896000K, used 14709K [0x0000000782000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 776192K, 0% used [0x0000000782000000,0x0000000782000000,0x00000007b1600000)
+  from space 119808K, 12% used [0x00000007b1600000,0x00000007b245d5a0,0x00000007b8b00000)
+  to   space 118272K, 0% used [0x00000007b8c80000,0x00000007b8c80000,0x00000007c0000000)
+ ParOldGen       total 240640K, used 135749K [0x0000000706000000, 0x0000000714b00000, 0x0000000782000000)
+  object space 240640K, 56% used [0x0000000706000000,0x000000070e491650,0x0000000714b00000)
+ Metaspace       used 64034K, capacity 65106K, committed 65368K, reserved 1105920K
+  class space    used 7910K, capacity 8185K, committed 8280K, reserved 1048576K
+}
+Event: 77,574 GC heap before
+{Heap before GC invocations=27 (full 3):
+ PSYoungGen      total 896000K, used 790901K [0x0000000782000000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 776192K, 100% used [0x0000000782000000,0x00000007b1600000,0x00000007b1600000)
+  from space 119808K, 12% used [0x00000007b1600000,0x00000007b245d5a0,0x00000007b8b00000)
+  to   space 118272K, 0% used [0x00000007b8c80000,0x00000007b8c80000,0x00000007c0000000)
+ ParOldGen       total 240640K, used 135749K [0x0000000706000000, 0x0000000714b00000, 0x0000000782000000)
+  object space 240640K, 56% used [0x0000000706000000,0x000000070e491650,0x0000000714b00000)
+ Metaspace       used 70078K, capacity 71304K, committed 71512K, reserved 1112064K
+  class space    used 8719K, capacity 9010K, committed 9048K, reserved 1048576K
+Event: 77,590 GC heap after
+Heap after GC invocations=27 (full 3):
+ PSYoungGen      total 890368K, used 11086K [0x0000000782000000, 0x00000007bfa80000, 0x00000007c0000000)
+  eden space 777728K, 0% used [0x0000000782000000,0x0000000782000000,0x00000007b1780000)
+  from space 112640K, 9% used [0x00000007b8c80000,0x00000007b97538b0,0x00000007bfa80000)
+  to   space 116224K, 0% used [0x00000007b1780000,0x00000007b1780000,0x00000007b8900000)
+ ParOldGen       total 240640K, used 145152K [0x0000000706000000, 0x0000000714b00000, 0x0000000782000000)
+  object space 240640K, 60% used [0x0000000706000000,0x000000070edc0250,0x0000000714b00000)
+ Metaspace       used 70078K, capacity 71304K, committed 71512K, reserved 1112064K
+  class space    used 8719K, capacity 9010K, committed 9048K, reserved 1048576K
+}
+
+Deoptimization events (10 events):
+Event: 75,401 Thread 0x00007f88e4004800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007f895265da48 method=org.springframework.asm.ClassReader.readMethod(Lorg/springframework/asm/ClassVisitor;Lorg/springframework/asm/Context;I)I @ 509
+Event: 75,401 Thread 0x00007f88e4004800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007f895265da48 method=org.springframework.asm.ClassReader.readMethod(Lorg/springframework/asm/ClassVisitor;Lorg/springframework/asm/Context;I)I @ 509
+Event: 75,401 Thread 0x00007f88e4004800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007f895265da48 method=org.springframework.asm.ClassReader.readMethod(Lorg/springframework/asm/ClassVisitor;Lorg/springframework/asm/Context;I)I @ 509
+Event: 75,674 Thread 0x00007f88e4004800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007f895265da48 method=org.springframework.asm.ClassReader.readMethod(Lorg/springframework/asm/ClassVisitor;Lorg/springframework/asm/Context;I)I @ 509
+Event: 75,737 Thread 0x00007f88e4004800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f89526999b0 method=org.springframework.cache.annotation.SpringCacheAnnotationParser.getAnnotations(Ljava/lang/reflect/AnnotatedElement;Ljava/lang/Class;)Ljava/util/Collection; @ 20
+Event: 75,756 Thread 0x00007f88e4004800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f89526887a8 method=org.springframework.asm.Frame.merge(Lorg/springframework/asm/ClassWriter;I[II)Z @ 80
+Event: 75,767 Thread 0x00007f88e4004800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f8951e17574 method=org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(Ljava/lang/String;Lorg/springframework/beans/factory/support/RootBeanDefinition;
+Event: 75,812 Thread 0x00007f88e4004800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f89526d632c method=org.springframework.asm.Frame.merge(Lorg/springframework/asm/ClassWriter;Lorg/springframework/asm/Frame;I)Z @ 378
+Event: 75,831 Thread 0x00007f88e4004800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f89526ad3a4 method=org.springframework.core.annotation.AnnotationUtils.findAnnotation(Ljava/lang/Class;Ljava/lang/Class;Ljava/util/Set;)Ljava/lang/annotation/Annotation; @ 38
+Event: 76,180 Thread 0x00007f88e4004800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007f89510bf678 method=java.util.regex.Matcher.search(I)Z @ 86
+
+Internal exceptions (10 events):
+Event: 75,885 Thread 0x00007f88e4004800 Exception <a 'java/lang/ClassNotFoundException': org/springframework/validation/beanvalidation/SpringValidatorAdapterBeanInfo> (0x00000007ab511348) thrown at [/HUDSON3/workspace/8-2-build-linux-amd64/jdk8u111/7883/hotspot/src/share/vm/classfile/systemDict
+Event: 75,886 Thread 0x00007f88e4004800 Exception <a 'java/lang/ClassNotFoundException': org/springframework/validation/beanvalidation/SpringValidatorAdapterCustomizer> (0x00000007ab660028) thrown at [/HUDSON3/workspace/8-2-build-linux-amd64/jdk8u111/7883/hotspot/src/share/vm/classfile/systemDi
+Event: 75,888 Thread 0x00007f88e4004800 Exception <a 'java/lang/ClassNotFoundException': org/springframework/validation/beanvalidation/LocalValidatorFactoryBeanCustomizer> (0x00000007ab7c4190) thrown at [/HUDSON3/workspace/8-2-build-linux-amd64/jdk8u111/7883/hotspot/src/share/vm/classfile/syste
+Event: 75,890 Thread 0x00007f88e4004800 Exception <a 'java/lang/ClassNotFoundException': org/springframework/validation/beanvalidation/OptionalValidatorFactoryBeanCustomizer> (0x00000007ab93eba0) thrown at [/HUDSON3/workspace/8-2-build-linux-amd64/jdk8u111/7883/hotspot/src/share/vm/classfile/sy
+Event: 77,839 Thread 0x00007f88e4004800 Exception <a 'java/lang/ClassNotFoundException': org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapterBeanInfo> (0x000000078a910650) thrown at [/HUDSON3/workspace/8-2-build-linux-amd64/jdk8u111/7883/hotspot/src/share/vm/classf
+Event: 77,840 Thread 0x00007f88e4004800 Exception <a 'java/lang/ClassNotFoundException': org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapterBeanInfo> (0x000000078aa62c68) thrown at [/HUDSON3/workspace/8-2-build-linux-amd64/jdk8u111/7883/hotspot/src/share/vm/classfile/systemD
+Event: 77,841 Thread 0x00007f88e4004800 Exception <a 'java/lang/ClassNotFoundException': org/springframework/web/servlet/support/WebContentGeneratorBeanInfo> (0x000000078ab8fe50) thrown at [/HUDSON3/workspace/8-2-build-linux-amd64/jdk8u111/7883/hotspot/src/share/vm/classfile/systemDictionary.cp
+Event: 77,842 Thread 0x00007f88e4004800 Exception <a 'java/lang/ClassNotFoundException': org/springframework/web/servlet/support/WebContentGeneratorCustomizer> (0x000000078acbf6e0) thrown at [/HUDSON3/workspace/8-2-build-linux-amd64/jdk8u111/7883/hotspot/src/share/vm/classfile/systemDictionary.
+Event: 77,844 Thread 0x00007f88e4004800 Exception <a 'java/lang/ClassNotFoundException': org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapterCustomizer> (0x000000078ae2eca8) thrown at [/HUDSON3/workspace/8-2-build-linux-amd64/jdk8u111/7883/hotspot/src/share/vm/classfile/syste
+Event: 77,845 Thread 0x00007f88e4004800 Exception <a 'java/lang/ClassNotFoundException': org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapterCustomizer> (0x000000078afb22b0) thrown at [/HUDSON3/workspace/8-2-build-linux-amd64/jdk8u111/7883/hotspot/src/share/vm/clas
+
+Events (10 events):
+Event: 77,848 Thread 0x00007f88e4004800 DEOPT PACKING pc=0x00007f895110b6fc sp=0x00007f894759c0b0
+Event: 77,848 Thread 0x00007f88e4004800 DEOPT UNPACKING pc=0x00007f8950c1a633 sp=0x00007f894759be70 mode 1
+Event: 77,848 Thread 0x00007f88e4004800 DEOPT PACKING pc=0x00007f895110b6fc sp=0x00007f894759c0b0
+Event: 77,848 Thread 0x00007f88e4004800 DEOPT UNPACKING pc=0x00007f8950c1a633 sp=0x00007f894759be70 mode 1
+Event: 77,848 Thread 0x00007f88e4004800 DEOPT PACKING pc=0x00007f895110b6fc sp=0x00007f894759c0b0
+Event: 77,848 Thread 0x00007f88e4004800 DEOPT UNPACKING pc=0x00007f8950c1a633 sp=0x00007f894759be70 mode 1
+Event: 77,848 Thread 0x00007f88e4004800 DEOPT PACKING pc=0x00007f895110b6fc sp=0x00007f894759c0b0
+Event: 77,848 Thread 0x00007f88e4004800 DEOPT UNPACKING pc=0x00007f8950c1a633 sp=0x00007f894759be70 mode 1
+Event: 77,848 Thread 0x00007f88e4004800 DEOPT PACKING pc=0x00007f895110b6fc sp=0x00007f894759c0b0
+Event: 77,848 Thread 0x00007f88e4004800 DEOPT UNPACKING pc=0x00007f8950c1a633 sp=0x00007f894759be70 mode 1
+
+
+Dynamic libraries:
+00400000-00401000 r-xp 00000000 08:01 24781401                           /usr/lib/jvm/java-8-oracle/bin/java
+00600000-00601000 rw-p 00000000 08:01 24781401                           /usr/lib/jvm/java-8-oracle/bin/java
+02555000-02576000 rw-p 00000000 00:00 0                                  [heap]
+706000000-714b00000 rw-p 00000000 00:00 0 
+714b00000-782000000 ---p 00000000 00:00 0 
+782000000-7bfa80000 rw-p 00000000 00:00 0 
+7bfa80000-7c0000000 ---p 00000000 00:00 0 
+7c0000000-7c0936000 rw-p 00000000 00:00 0 
+7c0936000-800000000 ---p 00000000 00:00 0 
+7f88a4000000-7f88a4e6f000 rw-p 00000000 00:00 0 
+7f88a4e6f000-7f88a8000000 ---p 00000000 00:00 0 
+7f88ac000000-7f88b3ffd000 rw-p 00000000 00:00 0 
+7f88b3ffd000-7f88b4000000 ---p 00000000 00:00 0 
+7f88b4000000-7f88b4021000 rw-p 00000000 00:00 0 
+7f88b4021000-7f88b8000000 ---p 00000000 00:00 0 
+7f88b8000000-7f88bc000000 rw-p 00000000 00:00 0 
+7f88bc000000-7f88bc021000 rw-p 00000000 00:00 0 
+7f88bc021000-7f88c0000000 ---p 00000000 00:00 0 
+7f88c0000000-7f88c0021000 rw-p 00000000 00:00 0 
+7f88c0021000-7f88c4000000 ---p 00000000 00:00 0 
+7f88c4000000-7f88c4021000 rw-p 00000000 00:00 0 
+7f88c4021000-7f88c8000000 ---p 00000000 00:00 0 
+7f88c8000000-7f88c8022000 rw-p 00000000 00:00 0 
+7f88c8022000-7f88cc000000 ---p 00000000 00:00 0 
+7f88cc000000-7f88cc021000 rw-p 00000000 00:00 0 
+7f88cc021000-7f88d0000000 ---p 00000000 00:00 0 
+7f88d0000000-7f88d0021000 rw-p 00000000 00:00 0 
+7f88d0021000-7f88d4000000 ---p 00000000 00:00 0 
+7f88d4000000-7f88d4021000 rw-p 00000000 00:00 0 
+7f88d4021000-7f88d8000000 ---p 00000000 00:00 0 
+7f88d8000000-7f88d8021000 rw-p 00000000 00:00 0 
+7f88d8021000-7f88dc000000 ---p 00000000 00:00 0 
+7f88dc000000-7f88e3ffb000 rw-p 00000000 00:00 0 
+7f88e3ffb000-7f88e4000000 ---p 00000000 00:00 0 
+7f88e4000000-7f88e4021000 rw-p 00000000 00:00 0 
+7f88e4021000-7f88e8000000 ---p 00000000 00:00 0 
+7f88e8000000-7f88ebffb000 rw-p 00000000 00:00 0 
+7f88ebffb000-7f88ec000000 ---p 00000000 00:00 0 
+7f88ec000000-7f88ec021000 rw-p 00000000 00:00 0 
+7f88ec021000-7f88f0000000 ---p 00000000 00:00 0 
+7f88f0000000-7f88f0021000 rw-p 00000000 00:00 0 
+7f88f0021000-7f88f4000000 ---p 00000000 00:00 0 
+7f88f4000000-7f88f4021000 rw-p 00000000 00:00 0 
+7f88f4021000-7f88f8000000 ---p 00000000 00:00 0 
+7f88f8000000-7f88f8047000 rw-p 00000000 00:00 0 
+7f88f8047000-7f88fc000000 ---p 00000000 00:00 0 
+7f88fc000000-7f88fc021000 rw-p 00000000 00:00 0 
+7f88fc021000-7f8900000000 ---p 00000000 00:00 0 
+7f8900000000-7f8900021000 rw-p 00000000 00:00 0 
+7f8900021000-7f8904000000 ---p 00000000 00:00 0 
+7f8904000000-7f89073a9000 rw-p 00000000 00:00 0 
+7f89073a9000-7f8908000000 ---p 00000000 00:00 0 
+7f8908000000-7f8909026000 rw-p 00000000 00:00 0 
+7f8909026000-7f890c000000 ---p 00000000 00:00 0 
+7f890c000000-7f890c021000 rw-p 00000000 00:00 0 
+7f890c021000-7f8910000000 ---p 00000000 00:00 0 
+7f8910000000-7f89139cd000 rw-p 00000000 00:00 0 
+7f89139cd000-7f8914000000 ---p 00000000 00:00 0 
+7f8914000000-7f8914021000 rw-p 00000000 00:00 0 
+7f8914021000-7f8918000000 ---p 00000000 00:00 0 
+7f8918000000-7f8918022000 rw-p 00000000 00:00 0 
+7f8918022000-7f891c000000 ---p 00000000 00:00 0 
+7f891c000000-7f891c021000 rw-p 00000000 00:00 0 
+7f891c021000-7f8920000000 ---p 00000000 00:00 0 
+7f8920000000-7f8920021000 rw-p 00000000 00:00 0 
+7f8920021000-7f8924000000 ---p 00000000 00:00 0 
+7f8924000000-7f89240e2000 rw-p 00000000 00:00 0 
+7f89240e2000-7f8928000000 ---p 00000000 00:00 0 
+7f892a300000-7f8930000000 rw-p 00000000 00:00 0 
+7f8930000000-7f8930022000 rw-p 00000000 00:00 0 
+7f8930022000-7f8934000000 ---p 00000000 00:00 0 
+7f8938000000-7f8938021000 rw-p 00000000 00:00 0 
+7f8938021000-7f893c000000 ---p 00000000 00:00 0 
+7f893da5c000-7f893dbdc000 rw-p 00000000 00:00 0 
+7f893dbdc000-7f893dc5c000 ---p 00000000 00:00 0 
+7f893dc5c000-7f893de5c000 rw-p 00000000 00:00 0 
+7f893de5c000-7f893e05c000 rw-p 00000000 00:00 0 
+7f893e05c000-7f893e25c000 rw-p 00000000 00:00 0 
+7f893e25c000-7f893e45c000 rw-p 00000000 00:00 0 
+7f893e45c000-7f893e65c000 rw-p 00000000 00:00 0 
+7f893e65c000-7f893e65f000 ---p 00000000 00:00 0 
+7f893e65f000-7f893e75d000 rw-p 00000000 00:00 0 
+7f893e75d000-7f893e760000 ---p 00000000 00:00 0 
+7f893e760000-7f893ea5e000 rw-p 00000000 00:00 0 
+7f893ea5e000-7f893ea61000 ---p 00000000 00:00 0 
+7f893ea61000-7f893eb5f000 rw-p 00000000 00:00 0 
+7f893eb5f000-7f893eb62000 ---p 00000000 00:00 0 
+7f893eb62000-7f893ec60000 rw-p 00000000 00:00 0 
+7f893ec60000-7f893ec63000 ---p 00000000 00:00 0 
+7f893ec63000-7f893ed61000 rw-p 00000000 00:00 0 
+7f893ed61000-7f893ed64000 ---p 00000000 00:00 0 
+7f893ed64000-7f893ee62000 rw-p 00000000 00:00 0 
+7f893ee62000-7f893ee65000 ---p 00000000 00:00 0 
+7f893ee65000-7f893ef63000 rw-p 00000000 00:00 0 
+7f893ef63000-7f893ef66000 ---p 00000000 00:00 0 
+7f893ef66000-7f893f064000 rw-p 00000000 00:00 0 
+7f893f064000-7f893f067000 ---p 00000000 00:00 0 
+7f893f067000-7f893f165000 rw-p 00000000 00:00 0 
+7f893f165000-7f893f168000 ---p 00000000 00:00 0 
+7f893f168000-7f893f266000 rw-p 00000000 00:00 0 
+7f893f266000-7f893f269000 ---p 00000000 00:00 0 
+7f893f269000-7f893f367000 rw-p 00000000 00:00 0 
+7f893f367000-7f893f36a000 ---p 00000000 00:00 0 
+7f893f36a000-7f893f468000 rw-p 00000000 00:00 0 
+7f893f468000-7f893f46b000 ---p 00000000 00:00 0 
+7f893f46b000-7f893f769000 rw-p 00000000 00:00 0 
+7f893f769000-7f893f76a000 r--s 00003000 08:01 25304879                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/clientes-fielcorresponsal-client-2.4.34-RC.jar
+7f893f76a000-7f893f76e000 r--s 0001b000 08:01 25304965                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/metrics-spring-3.1.3.jar
+7f893f76e000-7f893f775000 r--s 00038000 08:01 25304000                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/batik-css-1.8.jar
+7f893f775000-7f893f777000 r--s 0000d000 08:01 25304911                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/commons-logging-1.1.1.jar
+7f893f777000-7f893f77b000 r--s 00024000 08:01 25304887                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/stax2-api-3.1.4.jar
+7f893f77b000-7f893f77d000 r--s 00007000 08:01 25304756                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/javax.websocket-api-1.0.jar
+7f893f77d000-7f893f780000 r--s 0001e000 08:01 25304893                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/cxf-rt-databinding-jaxb-2.7.18.jar
+7f893f780000-7f893f785000 r--s 00020000 08:01 25305003                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/bantotal-cliente-201808-1982-E15-E3-mg-inclusion_wu_agente-SNAPSHOT.jar
+7f893f785000-7f893f788000 r--s 0004b000 08:01 25304878                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jtds-1.3.1.jar
+7f893f788000-7f893f78c000 r--s 0001e000 08:01 25304996                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/springfox-spring-web-2.2.2.jar
+7f893f78c000-7f893f793000 r--s 0003f000 08:01 25304903                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/commons-codec-1.10.jar
+7f893f793000-7f893f798000 r--s 00030000 08:01 25304897                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/cxf-rt-ws-policy-2.7.18.jar
+7f893f798000-7f893f7c3000 r--s 001fc000 08:01 25304963                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/guava-18.0.jar
+7f893f7c3000-7f893f7c7000 r--s 0001f000 08:01 25304001                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/batik-dom-1.8.jar
+7f893f7c7000-7f893f7cf000 r--s 00065000 08:01 25304936                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/olap4j-0.9.7.309-JS-3.jar
+7f893f7cf000-7f893f7d1000 r--s 00015000 08:01 25304810                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/ftp4che-0.7.1.jar
+7f893f7d1000-7f893f7d3000 r--s 00002000 08:01 25304990                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/swagger-annotations-1.5.3.jar
+7f893f7d3000-7f893f7df000 r--s 00085000 08:01 25304982                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/httpclient-4.3.4.jar
+7f893f7df000-7f893f800000 r--s 0015a000 08:01 25304916                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/bcprov-jdk14-1.38.jar
+7f893f800000-7f893fa00000 rw-p 00000000 00:00 0 
+7f893fa00000-7f893fc00000 rw-p 00000000 00:00 0 
+7f893fc00000-7f893fe00000 rw-p 00000000 00:00 0 
+7f893fe00000-7f8940000000 rw-p 00000000 00:00 0 
+7f8940000000-7f8940021000 rw-p 00000000 00:00 0 
+7f8940021000-7f8944000000 ---p 00000000 00:00 0 
+7f8944000000-7f8944001000 r--s 00005000 08:01 25304833                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/SassyReader-0.5.jar
+7f8944001000-7f8944004000 r--s 00012000 08:01 25304812                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/infobright-core-3.4.jar
+7f8944004000-7f8944006000 r--s 00008000 08:01 25304739                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jug-lgpl-2.0.0.jar
+7f8944006000-7f894400e000 r--s 0009d000 08:01 25304808                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jackcess-1.2.6.jar
+7f894400e000-7f8944013000 r--s 00027000 08:01 25304962                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/spring-context-support-4.2.4.RELEASE.jar
+7f8944013000-7f8944014000 r--s 00005000 08:01 25304766                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/pentaho-registry-8.0.0.0-1.jar
+7f8944014000-7f8944015000 r--s 00000000 08:01 25304765                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/reactive-streams-1.0.0.jar
+7f8944015000-7f8944018000 r--s 0000f000 08:01 25304895                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/cxf-rt-frontend-simple-2.7.18.jar
+7f8944018000-7f894401f000 r--s 00079000 08:01 25304798                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/rsyntaxtextarea-1.3.2.jar
+7f894401f000-7f8944024000 r--s 00041000 08:01 25304906                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/commons-lang-2.6.jar
+7f8944024000-7f8944026000 r--s 0000c000 08:01 25304755                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/pdi-engine-api-8.0.0.0-1.jar
+7f8944026000-7f89440e0000 r--s 004dd000 08:01 25304796                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/poi-ooxml-schemas-3.15.jar
+7f89440e0000-7f894414f000 r--s 00761000 08:01 25304754                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/kettle-engine-8.0.0.0-1.jar
+7f894414f000-7f8944153000 r--s 0000c000 08:01 25304955                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/validation-api-1.1.0.Final.jar
+7f8944153000-7f8944157000 r--s 00026000 08:01 25305000                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/spring-hateoas-0.18.0.RELEASE.jar
+7f8944157000-7f8944160000 r--s 00039000 08:01 25304779                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/libfonts-8.0.0.0-1.jar
+7f8944160000-7f8944164000 r--s 00026000 08:01 25304742                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/ognl-2.6.9.jar
+7f8944164000-7f8944171000 r--s 000a6000 08:01 25304943                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar
+7f8944171000-7f8944172000 r--s 00002000 08:01 25304967                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/metrics-healthchecks-3.1.2.jar
+7f8944172000-7f8944178000 r--s 00049000 08:01 25304852                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/cglib-nodep-2.2.jar
+7f8944178000-7f8944378000 rw-p 00000000 00:00 0 
+7f8944378000-7f8944578000 rw-p 00000000 00:00 0 
+7f8944578000-7f8944778000 rw-p 00000000 00:00 0 
+7f8944778000-7f894480e000 r--s 01103000 08:01 25167189                   /usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar
+7f894480e000-7f8944a0e000 rw-p 00000000 00:00 0 
+7f8944a0e000-7f8944c0e000 rw-p 00000000 00:00 0 
+7f8944c0e000-7f8944e0e000 rw-p 00000000 00:00 0 
+7f8944e0e000-7f894500e000 rw-p 00000000 00:00 0 
+7f894500e000-7f894520e000 rw-p 00000000 00:00 0 
+7f894520e000-7f894540e000 rw-p 00000000 00:00 0 
+7f894540e000-7f8945411000 ---p 00000000 00:00 0 
+7f8945411000-7f894550f000 rw-p 00000000 00:00 0 
+7f894550f000-7f894552a000 r--s 001d2000 08:01 25167192                   /usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar
+7f894552a000-7f894572a000 rw-p 00000000 00:00 0 
+7f894572a000-7f894592a000 rw-p 00000000 00:00 0 
+7f894592a000-7f894592d000 ---p 00000000 00:00 0 
+7f894592d000-7f8945a2b000 rw-p 00000000 00:00 0 
+7f8945a2b000-7f8945a2e000 ---p 00000000 00:00 0 
+7f8945a2e000-7f8945b2c000 rw-p 00000000 00:00 0 
+7f8945b2c000-7f8945b2f000 ---p 00000000 00:00 0 
+7f8945b2f000-7f8945c2d000 rw-p 00000000 00:00 0 
+7f8945c2d000-7f8945c30000 ---p 00000000 00:00 0 
+7f8945c30000-7f8945d2e000 rw-p 00000000 00:00 0 
+7f8945d2e000-7f8945d31000 ---p 00000000 00:00 0 
+7f8945d31000-7f8945e2f000 rw-p 00000000 00:00 0 
+7f8945e2f000-7f8945e32000 ---p 00000000 00:00 0 
+7f8945e32000-7f8945f30000 rw-p 00000000 00:00 0 
+7f8945f30000-7f8945f33000 ---p 00000000 00:00 0 
+7f8945f33000-7f8946031000 rw-p 00000000 00:00 0 
+7f8946031000-7f8946034000 ---p 00000000 00:00 0 
+7f8946034000-7f8946132000 rw-p 00000000 00:00 0 
+7f8946132000-7f8946135000 ---p 00000000 00:00 0 
+7f8946135000-7f8946233000 rw-p 00000000 00:00 0 
+7f8946233000-7f8946236000 ---p 00000000 00:00 0 
+7f8946236000-7f8946334000 rw-p 00000000 00:00 0 
+7f8946334000-7f8946337000 ---p 00000000 00:00 0 
+7f8946337000-7f8946435000 rw-p 00000000 00:00 0 
+7f8946435000-7f8946438000 ---p 00000000 00:00 0 
+7f8946438000-7f8946536000 rw-p 00000000 00:00 0 
+7f8946536000-7f8946539000 ---p 00000000 00:00 0 
+7f8946539000-7f8946837000 rw-p 00000000 00:00 0 
+7f8946837000-7f8946a37000 rw-p 00000000 00:00 0 
+7f8946a37000-7f8946a3c000 r--s 002f9000 08:01 24781428                   /usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar
+7f8946a3c000-7f8946c3c000 rw-p 00000000 00:00 0 
+7f8946c3c000-7f8946c4f000 r--s 00345000 08:01 24781453                   /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar
+7f8946c4f000-7f8946c53000 r--s 0003c000 08:01 25304927                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jackson-core-2.6.2.jar
+7f8946c53000-7f8946c58000 r--s 0002f000 08:01 25304892                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/cxf-rt-bindings-soap-2.7.18.jar
+7f8946c58000-7f8946c59000 r--s 00001000 08:01 25304849                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/hibernate-c3p0-3.6.9.Final.jar
+7f8946c59000-7f8946c5c000 r--s 00016000 08:01 25304792                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/libxml-8.0.0.0-1.jar
+7f8946c5c000-7f8946c5e000 r--s 00003000 08:01 25304819                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jersey-apache-client4-1.19.1.jar
+7f8946c5e000-7f8946c61000 r--s 0000a000 08:01 25304922                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/castor-core-1.3.3.jar
+7f8946c61000-7f8946c6a000 r--s 00052000 08:01 25304838                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/syslog4j-0.9.46.jar
+7f8946c6a000-7f8946c6d000 r--s 00019000 08:01 25304976                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jjwt-0.9.1.jar
+7f8946c6d000-7f8946c71000 r--s 00011000 08:01 25304905                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/fielcorresponsal-common-bean-2.4.34-RC.jar
+7f8946c71000-7f8946c74000 r--s 00018000 08:01 25304725                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/batik-util-1.8.jar
+7f8946c74000-7f8946c79000 r--s 00016000 08:01 25304768                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/xml-apis-1.0.b2.jar
+7f8946c79000-7f8946c99000 r--s 0015b000 08:01 25304950                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/log4j-core-2.9.0.jar
+7f8946c99000-7f8946c9b000 r--s 00004000 08:01 25304926                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/stax-api-1.0-2.jar
+7f8946c9b000-7f8946c9d000 r--s 0000e000 08:01 25304866                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/log4jdbc-1.2.jar
+7f8946c9d000-7f8946cab000 r--s 000ad000 08:01 25304846                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jackson-mapper-asl-1.9.2.jar
+7f8946cab000-7f8946cac000 r--s 00002000 08:01 25304971                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/metrics-servlet-3.2.5.jar
+7f8946cac000-7f8946cb0000 r--s 00031000 08:01 25304981                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/commons-io-2.6.jar
+7f8946cb0000-7f8946cb3000 r--s 0001f000 08:01 25304805                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/commons-validator-1.3.1.jar
+7f8946cb3000-7f8946cb6000 r--s 0000e000 08:01 25304959                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/common-201808-1982-E15-E3-mg-inclusion_wu_agente-SNAPSHOT.jar
+7f8946cb6000-7f8946cbb000 r--s 00020000 08:01 25304842                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/wsdl4j-1.6.2.jar
+7f8946cbb000-7f8946cc2000 r--s 00043000 08:01 25304731                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/batik-awt-util-1.8.jar
+7f8946cc2000-7f8946cc7000 r--s 00020000 08:01 25303734                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/fielcorresponsal-common-2.4.34-RC.jar
+7f8946cc7000-7f8946ccb000 r--s 00018000 08:01 25304966                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/metrics-core-3.1.2.jar
+7f8946ccb000-7f8946cd5000 r--s 00061000 08:01 25304822                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jersey-core-1.19.1.jar
+7f8946cd5000-7f8946cd7000 r--s 0000e000 08:01 25304870                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/oro-2.0.8.jar
+7f8946cd7000-7f8946cdc000 r--s 00036000 08:01 25304736                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/commons-compress-1.4.1.jar
+7f8946cdc000-7f8946cde000 r--s 0000a000 08:01 25304934                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/lucene-sandbox-4.5.1.jar
+7f8946cde000-7f8946ce3000 r--s 00020000 08:01 25304780                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/libloader-8.0.0.0-1.jar
+7f8946ce3000-7f8946ce5000 r--s 00018000 08:01 25304861                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jetty-io-8.1.15.v20140411.jar
+7f8946ce5000-7f8946cfd000 r--s 00115000 08:01 25304774                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/xercesImpl-2.9.1.jar
+7f8946cfd000-7f8946d1e000 r--s 0015a000 08:01 25304914                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/bcprov-jdk14-138.jar
+7f8946d1e000-7f8946d20000 r--s 00019000 08:01 25304865                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jetty-webapp-8.1.15.v20140411.jar
+7f8946d20000-7f8946d21000 r--s 00002000 08:01 25304977                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jsonevent-layout-1.7.jar
+7f8946d21000-7f8946d23000 r--s 0000f000 08:01 25304957                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jboss-logging-3.2.1.Final.jar
+7f8946d23000-7f8946d24000 r--s 00003000 08:01 25304795                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/sac-1.3.jar
+7f8946d24000-7f8946d25000 r--s 00005000 08:01 25304980                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/michi-common-client-201808-1982-E15-E3-mg-inclusion_wu_agente-SNAPSHOT.jar
+7f8946d25000-7f8946d27000 r--s 00015000 08:01 25304872                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/common-3.3.0-v20070426.jar
+7f8946d27000-7f8946d38000 r--s 0010c000 08:01 25304928                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jackson-databind-2.6.2.jar
+7f8946d38000-7f8946d8d000 r--s 00384000 08:01 25304826                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/odfdom-java-0.8.6.jar
+7f8946d8d000-7f8946d8e000 r--s 00000000 08:01 25304923                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/javax.inject-1.jar
+7f8946d8e000-7f8946df0000 r--s 004e5000 08:01 25304908                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jasperreports-6.3.1.jar
+7f8946df0000-7f8946df2000 r--s 00000000 08:01 25304964                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/michi-discovery-client-201808-1982-E15-E3-mg-inclusion_wu_agente-SNAPSHOT.jar
+7f8946df2000-7f8946e0b000 r--s 00112000 08:01 25304844                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/ehcache-core-2.5.1.jar
+7f8946e0b000-7f8946e0c000 r--s 00002000 08:01 25304726                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/batik-ext-1.8.jar
+7f8946e0c000-7f8946e11000 r--s 00010000 08:01 25304788                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/libformat-8.0.0.0-1.jar
+7f8946e11000-7f8946e13000 r--s 00013000 08:01 25304857                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jetty-plus-8.1.15.v20140411.jar
+7f8946e13000-7f8946e16000 r--s 00014000 08:01 25304723                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/batik-transcoder-1.8.jar
+7f8946e16000-7f8946e17000 r--s 00004000 08:01 25304998                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/spring-plugin-core-1.2.0.RELEASE.jar
+7f8946e17000-7f8946e1a000 r--s 0000e000 08:01 25304929                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jackson-annotations-2.9.5.jar
+7f8946e1a000-7f8946e1b000 r--s 00006000 08:01 25304972                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jdbcmetrics-2.0.1.jar
+7f8946e1b000-7f8946e1d000 r--s 00004000 08:01 25304859                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jetty-continuation-8.1.15.v20140411.jar
+7f8946e1d000-7f8946e27000 r--s 00089000 08:01 25304783                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/xmlgraphics-commons-1.5.jar
+7f8946e27000-7f8946e29000 r--s 00004000 08:01 25304969                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/metrics-graphite-3.1.2.jar
+7f8946e29000-7f8946e2f000 r--s 0005a000 08:01 25304882                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/cxf-rt-frontend-jaxws-2.7.18.jar
+7f8946e2f000-7f8946e45000 r--s 001de000 08:01 25304753                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/org.eclipse.swt.gtk.linux.x86_64-4.6.jar
+7f8946e45000-7f8946e4b000 r--s 00032000 08:01 25304750                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jaxen-1.1.1.jar
+7f8946e4b000-7f8946e4d000 r--s 0000b000 08:01 25304776                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jsp-api-2.0.jar
+7f8946e4d000-7f8946e4e000 r--s 00009000 08:01 25304864                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jetty-xml-8.1.15.v20140411.jar
+7f8946e4e000-7f8946e62000 r--s 000fc000 08:01 25304885                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/cxf-api-2.7.18.jar
+7f8946e62000-7f8946e73000 r--s 00070000 08:01 25304789                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/libformula-8.0.0.0-1.jar
+7f8946e73000-7f8946e7b000 r--s 0003f000 08:01 25304793                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/libswing-8.0.0.0-1.jar
+7f8946e7b000-7f8946e85000 r--s 0008d000 08:01 25304814                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/janino-2.5.16.jar
+7f8946e85000-7f8946e8a000 r--s 00024000 08:01 25304888                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/xmlschema-core-2.1.0.jar
+7f8946e8a000-7f8946e94000 r--s 0006e000 08:01 25304816                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jcommon-1.0.16.jar
+7f8946e94000-7f8946e98000 r--s 0001e000 08:01 25303804                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/metastore-8.0.0.0-1.jar
+7f8946e98000-7f8946e9a000 r--s 00013000 08:01 25305006                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/spring-oxm-4.2.7.RELEASE.jar
+7f8946e9a000-7f8946ea0000 r--s 0002b000 08:01 25304910                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/commons-digester-2.1.jar
+7f8946ea0000-7f8946ea3000 r--s 00011000 08:01 25304993                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/springfox-core-2.2.2.jar
+7f8946ea3000-7f8946ea8000 r--s 00036000 08:01 25304951                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/log4j-api-2.9.0.jar
+7f8946ea8000-7f8946eab000 r--s 00019000 08:01 25304799                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/bsf-2.4.0.jar
+7f8946eab000-7f8946eae000 r--s 00011000 08:01 25304995                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/springfox-swagger-common-2.2.2.jar
+7f8946eae000-7f8946eb0000 r--s 00004000 08:01 25304811                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/georss-rome-0.9.8.jar
+7f8946eb0000-7f8946eb4000 r--s 00023000 08:01 25304802                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/itext-rtf-2.1.7.jar
+7f8946eb4000-7f8946ee5000 r--s 00332000 08:01 25304767                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/mondrian-8.0.0.0-1.jar
+7f8946ee5000-7f8946eea000 r--s 00048000 08:01 25304737                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/dom4j-1.6.1.jar
+7f8946eea000-7f8946eed000 r--s 00016000 08:01 25304735                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/commons-pool-1.5.7.jar
+7f8946eed000-7f8946eef000 r--s 00063000 08:01 25304855                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/snappy-java-1.1.0.jar
+7f8946eef000-7f8946ef0000 r--s 00001000 08:01 25304979                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/michi-common-bean-201808-1982-E15-E3-mg-inclusion_wu_agente-SNAPSHOT.jar
+7f8946ef0000-7f8946ef2000 r--s 00014000 08:01 25304862                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jetty-security-8.1.15.v20140411.jar
+7f8946ef2000-7f8946ef6000 r--s 00019000 08:01 25304997                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/aspectjrt-1.8.6.jar
+7f8946ef6000-7f8946ef8000 r--s 00016000 08:01 25304775                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/servlet-api-2.4.jar
+7f8946ef8000-7f8946f0b000 r--s 000c4000 08:01 25304891                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jaxb-impl-2.1.13.jar
+7f8946f0b000-7f8946f1c000 r--s 000c5000 08:01 25304946                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/spring-webmvc-4.2.4.RELEASE.jar
+7f8946f1c000-7f8946f1d000 r--s 00003000 08:01 25304815                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/javadbf-20081125.jar
+7f8946f1d000-7f8946f20000 r--s 0001b000 08:01 25304991                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/swagger-models-1.5.3.jar
+7f8946f20000-7f8946f2a000 r--s 000ae000 08:01 25304745                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/javassist-3.20.0-GA.jar
+7f8946f2a000-7f8946f2c000 r--s 0000e000 08:01 25303736                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/activation-1.1.jar
+7f8946f2c000-7f8946f2e000 r--s 00000000 08:01 25304999                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/spring-plugin-metadata-1.2.0.RELEASE.jar
+7f8946f2e000-7f8946f2f000 r--s 00005000 08:01 25304953                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/log4j-slf4j-impl-2.9.0.jar
+7f8946f2f000-7f8946f37000 r--s 0007d000 08:01 25304937                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/core-3.2.1.jar
+7f8946f37000-7f8946f38000 r--s 00004000 08:01 25304743                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/scannotation-1.0.2.jar
+7f8946f38000-7f8946f3b000 r--s 0000b000 08:01 25304729                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/batik-parser-1.8.jar
+7f8946f3b000-7f8946f40000 r--s 0003c000 08:01 25304824                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/ldapjdk-20000524.jar
+7f8946f40000-7f8946f49000 r--s 00052000 08:01 25304948                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/spring-aop-4.2.4.RELEASE.jar
+7f8946f49000-7f8946f4e000 r--s 00037000 08:01 25304800                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/bsh-1.3.0.jar
+7f8946f4e000-7f8946f4f000 r--s 00008000 08:01 25303808                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/encoder-1.2.jar
+7f8946f4f000-7f8946f72000 r--s 0016b000 08:01 25304820                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jersey-bundle-1.19.1.jar
+7f8946f72000-7f8946f76000 r--s 0002c000 08:01 25304752                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/pentaho-xul-swing-8.0.0.0-1.jar
+7f8946f76000-7f8946f7a000 r--s 0002b000 08:01 25304913                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/bcmail-jdk14-138.jar
+7f8946f7a000-7f8946f82000 r--s 000a6000 08:01 25304831                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/postgresql-42.1.1.jar
+7f8946f82000-7f8946f88000 r--s 0004b000 08:01 25304918                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jcommon-1.0.23.jar
+7f8946f88000-7f8946f8c000 r--s 00016000 08:01 25304786                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/libdocbundle-8.0.0.0-1.jar
+7f8946f8c000-7f8946f91000 r--s 0003c000 08:01 25304945                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/spring-expression-4.2.4.RELEASE.jar
+7f8946f91000-7f8946f98000 r--s 00027000 08:01 25304749                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/pentaho-xul-core-8.0.0.0-1.jar
+7f8946f98000-7f8946fa0000 r--s 00078000 08:01 25303735                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/mail-1.4.7.jar
+7f8946fa0000-7f8946fb0000 r--s 000a8000 08:01 25304829                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/commons-collections4-4.1.jar
+7f8946fb0000-7f8946fb3000 r--s 00016000 08:01 25304900                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/cxf-rt-transports-http-jetty-2.7.18.jar
+7f8946fb3000-7f8946fb5000 r--s 00013000 08:01 25304883                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/xml-resolver-1.2.jar
+7f8946fb5000-7f8946fb8000 r--s 0000a000 08:01 25304988                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/springfox-swagger2-2.2.2.jar
+7f8946fb8000-7f8946fba000 r--s 00003000 08:01 25304730                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/batik-script-1.8.jar
+7f8946fba000-7f8946fd4000 r--s 00173000 08:01 25305001                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/mybatis-3.4.5.jar
+7f8946fd4000-7f8946fea000 r--s 000f2000 08:01 25304944                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar
+7f8946fea000-7f8946feb000 r--s 00006000 08:01 25304935                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jakarta-regexp-1.4.jar
+7f8946feb000-7f8946fed000 r--s 00000000 08:01 25304985                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/michi-logging-client-201808-1982-E15-E3-mg-inclusion_wu_agente-SNAPSHOT.jar
+7f8946fed000-7f8946ffd000 r--s 00174000 08:01 25304931                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/lucene-analyzers-common-4.5.1.jar
+7f8946ffd000-7f8947002000 r--s 00040000 08:01 25304741                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jsch-0.1.54.jar
+7f8947002000-7f8947012000 r--s 0009c000 08:01 25304956                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/hibernate-validator-5.2.4.Final.jar
+7f8947012000-7f8947015000 r--s 0002d000 08:01 25304854                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/mstor-0.9.13.jar
+7f8947015000-7f8947017000 r--s 0001b000 08:01 25304825                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/monetdb-jdbc-2.8.jar
+7f8947017000-7f894701c000 r--s 00010000 08:01 25304732                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/xml-apis-ext-1.3.04.jar
+7f894701c000-7f8947028000 r--s 00076000 08:01 25303814                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/batik-bridge-1.8.jar
+7f8947028000-7f894702a000 r--s 00000000 08:01 25304984                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/michi-discovery-bean-201808-1982-E15-E3-mg-inclusion_wu_agente-SNAPSHOT.jar
+7f894702a000-7f8947033000 r--s 0006f000 08:01 25304877                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/log4j-1.2.17.jar
+7f8947033000-7f8947039000 r--s 0005a000 08:01 25304746                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jcifs-1.3.3.jar
+7f8947039000-7f894703a000 r--s 00001000 08:01 25304986                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/michi-acl-client-201808-1982-E15-E3-mg-inclusion_wu_agente-SNAPSHOT.jar
+7f894703a000-7f894703b000 r--s 00004000 08:01 25304847                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jackson-jaxrs-1.9.2.jar
+7f894703b000-7f894703d000 r--s 00009000 08:01 25304856                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/commons-cli-1.2.jar
+7f894703d000-7f894703e000 r--s 00003000 08:01 25304989                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/mapstruct-1.0.0.CR1.jar
+7f894703e000-7f894704a000 r--s 000a6000 08:01 25304823                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jxl-2.6.12.jar
+7f894704a000-7f894704b000 r--s 0000a000 08:01 25304884                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/asm-3.3.1.jar
+7f894704b000-7f8947054000 r--s 00055000 08:01 25304932                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/lucene-queryparser-4.5.1.jar
+7f8947054000-7f8947058000 r--s 00016000 08:01 25304874                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/commands-3.3.0-I20070605-0010.jar
+7f8947058000-7f894705c000 r--s 00032000 08:01 25304832                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/rome-1.0.jar
+7f894705c000-7f894705e000 r--s 0000e000 08:01 25304958                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/classmate-1.1.0.jar
+7f894705e000-7f894705f000 r--s 00007000 08:01 25304952                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/slf4j-api-1.7.12.jar
+7f894705f000-7f8947066000 r--s 0005f000 08:01 25304890                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/cxf-rt-core-2.7.18.jar
+7f8947066000-7f89470d9000 r--s 00462000 08:01 25304784                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/classic-core-8.0.0.0-1.jar
+7f89470d9000-7f89470e6000 r--s 00106000 08:01 25304803                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/js-1.7R3.jar
+7f89470e6000-7f89470eb000 r--s 00026000 08:01 25304769                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/commons-math-1.1.jar
+7f89470eb000-7f89470f2000 r--s 0001f000 08:01 25304782                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/batik-gui-util-1.8.jar
+7f89470f2000-7f89470f7000 r--s 00039000 08:01 25304744                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/com.wcohen.secondstring-0.1.jar
+7f89470f7000-7f89470f8000 r--s 00006000 08:01 25304727                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/batik-xml-1.8.jar
+7f89470f8000-7f89470f9000 r--s 0000b000 08:01 25304809                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/feed4j-1.0.jar
+7f89470f9000-7f89470fc000 r--s 00029000 08:01 25304924                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/stax-1.2.0.jar
+7f89470fc000-7f89470fe000 r--s 00002000 08:01 25304954                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/log4j-jcl-2.9.0.jar
+7f89470fe000-7f8947101000 r--s 0000f000 08:01 25304850                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/hibernate-commons-annotations-3.2.0.Final.jar
+7f8947101000-7f8947105000 r--s 00020000 08:01 25304035                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/batik-gvt-1.8.jar
+7f8947105000-7f8947120000 r--s 004b6000 08:01 25304834                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/saxon-9.1.0.8.jar
+7f8947120000-7f8947135000 r--s 00172000 08:01 25304975                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/aspectjweaver-1.6.6.jar
+7f8947135000-7f8947137000 r--s 00017000 08:01 25304794                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/flute-8.0.0.0-1.jar
+7f8947137000-7f8947144000 r--s 00071000 08:01 25305004                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/spring-ws-core-2.4.0.RELEASE.jar
+7f8947144000-7f894714a000 r--s 00071000 08:01 25304886                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/woodstox-core-asl-4.4.1.jar
+7f894714a000-7f894714d000 r--s 00011000 08:01 25304790                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/librepository-8.0.0.0-1.jar
+7f894714d000-7f8947173000 r--s 0020b000 08:01 25304930                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/lucene-core-4.5.1.jar
+7f8947173000-7f8947174000 r--s 00002000 08:01 25304851                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/hibernate-ehcache-3.6.9.Final.jar
+7f8947174000-7f8947176000 r--s 0025c000 08:01 25304939                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jasperreports-fonts-6.0.0.jar
+7f8947176000-7f8947178000 r--s 0000c000 08:01 25305002                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/mybatis-spring-1.3.2.jar
+7f8947178000-7f894717e000 r--s 0002d000 08:01 25304933                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/lucene-queries-4.5.1.jar
+7f894717e000-7f8947180000 r--s 00005000 08:01 25304902                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/auth-fielcorresponsal-client-2.4.34-RC.jar
+7f8947180000-7f894718f000 r--s 000f8000 08:01 25303787                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/kettle-core-8.0.0.0-1.jar
+7f894718f000-7f8947191000 r--s 00005000 08:01 25304840                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jaxrpc-api-1.1.jar
+7f8947191000-7f8947197000 r--s 00038000 08:01 25304836                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/snakeyaml-1.7.jar
+7f8947197000-7f8947199000 r--s 00002000 08:01 25304970                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/metrics-httpclient-3.1.2.jar
+7f8947199000-7f894719b000 r--s 00016000 08:01 25304860                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jetty-http-8.1.15.v20140411.jar
+7f894719b000-7f894719f000 r--s 0002b000 08:01 25304785                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/libbase-8.0.0.0-1.jar
+7f894719f000-7f89471a1000 r--s 00017000 08:01 25304863                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jetty-servlet-8.1.15.v20140411.jar
+7f89471a1000-7f89471a2000 r--s 00005000 08:01 25304915                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/bctsp-jdk14-1.38.jar
+7f89471a2000-7f89471a5000 r--s 00009000 08:01 25304992                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/springfox-spi-2.2.2.jar
+7f89471a5000-7f89471a7000 r--s 00005000 08:01 25304925                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/stax-api-1.0.1.jar
+7f89471a7000-7f89471ac000 r--s 00042000 08:01 25304738                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jetty-util-8.1.15.v20140411.jar
+7f89471ac000-7f89471bd000 r--s 000c5000 08:01 25304921                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/castor-xml-1.3.3.jar
+7f89471bd000-7f89471c0000 r--s 00028000 08:01 25304806                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/edtftpj-2.1.0.jar
+7f89471c0000-7f89471c2000 r--s 00012000 08:01 25304868                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/pentaho-vfs-browser-8.0.0.0-1.jar
+7f89471c2000-7f89471c4000 r--s 00007000 08:01 25304791                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/libserializer-8.0.0.0-1.jar
+7f89471c4000-7f89471c6000 r--s 00016000 08:01 25304813                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/ini4j-0.5.1.jar
+7f89471c6000-7f89471c9000 r--s 00022000 08:01 25304853                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/nekohtml-1.9.15.jar
+7f89471c9000-7f89471ca000 r--s 00001000 08:01 25304987                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/michi-device-client-201808-1982-E15-E3-mg-inclusion_wu_agente-SNAPSHOT.jar
+7f89471ca000-7f89471cc000 r--s 0001e000 08:01 25304835                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/saxon-dom-9.1.0.8.jar
+7f89471cc000-7f89471cf000 r--s 00038000 08:01 25304777                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/javacup-10k.jar
+7f89471cf000-7f89471d1000 r--s 00003000 08:01 25304772                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/eigenbase-properties-1.1.2.jar
+7f89471d1000-7f89471d8000 r--s 0003a000 08:01 25304961                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar
+7f89471d8000-7f89471d9000 r--s 00001000 08:01 25304871                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/pentaho-capability-manager-8.0.0.0-1.jar
+7f89471d9000-7f89471db000 r--s 00001000 08:01 25304818                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jsonpath-1.0.jar
+7f89471db000-7f89471de000 r--s 00012000 08:01 25304973                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/metrics-core-3.0.1.jar
+7f89471de000-7f89471e2000 r--s 0001c000 08:01 25304974                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/spring-retry-1.2.2.RELEASE.jar
+7f89471e2000-7f89471f5000 r--s 000db000 08:01 25304873                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jface-3.3.0-I20070606-0010.jar
+7f89471f5000-7f8947210000 r--s 0023d000 08:01 25304804                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/antlr-complete-3.5.2.jar
+7f8947210000-7f8947213000 r--s 0000e000 08:01 25305005                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/spring-xml-2.4.0.RELEASE.jar
+7f8947213000-7f8947215000 r--s 0000d000 08:01 25304748                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/kettle-dbdialog-8.0.0.0-1.jar
+7f8947215000-7f894721b000 r--s 00045000 08:01 25304751                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/pentaho-xul-swt-8.0.0.0-1.jar
+7f894721b000-7f894721d000 r--s 00000000 08:01 25304949                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/aopalliance-1.0.jar
+7f894721d000-7f894721f000 r--s 00005000 08:01 25304907                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/transacciones-fielcorresponsal-client-2.4.34-RC.jar
+7f894721f000-7f8947221000 r--s 00018000 08:01 25304771                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/eigenbase-xom-1.3.5.jar
+7f8947221000-7f8947230000 r--s 001b0000 08:01 25304920                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/ecj-4.3.1.jar
+7f8947230000-7f894726e000 r--s 0025d000 08:01 25304830                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/xmlbeans-2.6.0.jar
+7f894726e000-7f8947273000 r--s 00032000 08:01 25304889                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/geronimo-javamail_1.4_spec-1.7.1.jar
+7f8947273000-7f8947284000 r--s 00136000 08:01 25304828                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/poi-ooxml-3.15.jar
+7f8947284000-7f8947285000 r--s 00003000 08:01 25304817                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/json-simple-1.1.jar
+7f8947285000-7f894728e000 r--s 00062000 08:01 25304733                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/commons-vfs2-2.1-20150824.jar
+7f894728e000-7f8947290000 r--s 0001b000 08:01 25304747                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/org.apache.karaf.main-3.0.3.jar
+7f8947290000-7f8947296000 r--s 0003f000 08:01 25304983                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/httpcore-4.3.2.jar
+7f8947296000-7f89472a0000 r--s 0005e000 08:01 25304960                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar
+7f89472a0000-7f89472b9000 r--s 000f3000 08:01 25304942                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar
+7f89472b9000-7f89472ba000 r--s 00000000 08:01 25304843                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/wsdl4j-qname-1.6.1.jar
+7f89472ba000-7f89472be000 r--s 00034000 08:01 25304845                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jackson-core-asl-1.9.2.jar
+7f89472be000-7f89472c4000 r--s 00046000 08:01 25304869                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/commons-net-3.6.jar
+7f89472c4000-7f89472c9000 r--s 00034000 08:01 25304904                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/commons-beanutils-1.9.0.jar
+7f89472c9000-7f89472d6000 r--s 00083000 08:01 25304909                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/commons-collections-3.2.2.jar
+7f89472d6000-7f89472d8000 r--s 0000b000 08:01 25304978                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/json-smart-1.1.1.jar
+7f89472d8000-7f89472da000 r--s 0000e000 08:01 25304994                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/springfox-schema-2.2.2.jar
+7f89472da000-7f89472e6000 r--s 00051000 08:01 25304728                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/batik-anim-1.8.jar
+7f89472e6000-7f89472e7000 r--s 00007000 08:01 25304940                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jasperreports-functions-6.3.1.jar
+7f89472e7000-7f89472ea000 r--s 0000a000 08:01 25303733                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/administrativo-fielcorresponsal-client-2.4.34-RC.jar
+7f89472ea000-7f89472eb000 r--s 00001000 08:01 25304968                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/metrics-annotation-3.1.2.jar
+7f89472eb000-7f89472fc000 r--s 0014c000 08:01 25304875                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jfreechart-1.0.13.jar
+7f89472fc000-7f8947302000 r--s 0004b000 08:01 25304899                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/cxf-rt-transports-http-2.7.18.jar
+7f8947302000-7f8947305000 r--s 0000f000 08:01 25304770                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/commons-discovery-0.2.jar
+7f8947305000-7f894730a000 r--s 00026000 08:01 25304880                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/fielcorresponsal-common-ws-2.4.34-RC.jar
+7f894730a000-7f894733c000 r--s 002c8000 08:01 25304848                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/hibernate-core-3.6.9.Final.jar
+7f894733c000-7f894733e000 r--s 00012000 08:01 25304896                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/cxf-rt-ws-addr-2.7.18.jar
+7f894733e000-7f8947342000 r--s 0002b000 08:01 25304917                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/bcmail-jdk14-1.38.jar
+7f8947342000-7f8947347000 r--s 0002a000 08:01 25304781                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/libpixie-8.0.0.0-1.jar
+7f8947347000-7f894734d000 r--s 00055000 08:01 25304837                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/snmp4j-1.9.3d.jar
+7f894734d000-7f8947352000 r--s 00031000 08:01 25304722                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/batik-svg-dom-1.8.jar
+7f8947352000-7f8947363000 r--s 0016e000 08:01 25304919                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jfreechart-1.0.19.jar
+7f8947363000-7f8947366000 r--s 0001e000 08:01 25304821                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jersey-client-1.19.1.jar
+7f8947366000-7f8947369000 r--s 00015000 08:01 25304901                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/geronimo-servlet_3.0_spec-1.0.jar
+7f8947369000-7f894736c000 r--s 00018000 08:01 25304724                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/batik-codec-1.8.jar
+7f894736c000-7f894736e000 r--s 00006000 08:01 25304807                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jsendnsca-2.0.1.jar
+7f894736e000-7f8947372000 r--s 00045000 08:01 25304778                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/javacc-5.0.jar
+7f8947372000-7f8947376000 r--s 0003a000 08:01 25304839                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/trilead-ssh2-build213.jar
+7f8947376000-7f8947378000 r--s 00008000 08:01 25304894                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/cxf-rt-bindings-xml-2.7.18.jar
+7f8947378000-7f894737a000 r--s 00003000 08:01 25304881                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jcl-over-slf4j-1.7.12.jar
+7f894737a000-7f89473dd000 r--s 00a62000 08:01 25304938                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/icu4j-57.1.jar
+7f89473dd000-7f8947407000 r--s 0024c000 08:01 25304827                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/poi-3.15.jar
+7f8947407000-7f894749e000 r--s 007a2000 08:01 25304867                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/kettle-ui-swt-8.0.0.0-1.jar
+7f894749e000-7f89474a1000 ---p 00000000 00:00 0 
+7f89474a1000-7f894759f000 rw-p 00000000 00:00 0 
+7f894759f000-7f89475a2000 ---p 00000000 00:00 0 
+7f89475a2000-7f89476a0000 rw-p 00000000 00:00 0 
+7f89476a0000-7f89476a3000 ---p 00000000 00:00 0 
+7f89476a3000-7f89477a1000 rw-p 00000000 00:00 0 
+7f89477a1000-7f89477a4000 ---p 00000000 00:00 0 
+7f89477a4000-7f8947aa2000 rw-p 00000000 00:00 0 
+7f8947aa2000-7f8947ab8000 r-xp 00000000 08:01 7344577                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f8947ab8000-7f8947cb7000 ---p 00016000 08:01 7344577                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f8947cb7000-7f8947cb8000 rw-p 00015000 08:01 7344577                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f8947cb8000-7f8947cea000 r-xp 00000000 08:01 25167127                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libsunec.so
+7f8947cea000-7f8947ee9000 ---p 00032000 08:01 25167127                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libsunec.so
+7f8947ee9000-7f8947eef000 rw-p 00031000 08:01 25167127                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libsunec.so
+7f8947eef000-7f8947eff000 rw-p 00000000 00:00 0 
+7f8947eff000-7f8947f02000 ---p 00000000 00:00 0 
+7f8947f02000-7f8948000000 rw-p 00000000 00:00 0 
+7f8948000000-7f8948021000 rw-p 00000000 00:00 0 
+7f8948021000-7f894c000000 ---p 00000000 00:00 0 
+7f894c000000-7f894c002000 r--s 0000e000 08:01 25304773                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/eigenbase-resgen-1.3.1.jar
+7f894c002000-7f894c00f000 r--s 00108000 08:01 25304912                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/itext-2.1.7.js5.jar
+7f894c00f000-7f894c011000 r--s 00010000 08:01 25304898                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/neethi-3.0.3.jar
+7f894c011000-7f894c021000 r--s 0007c000 08:01 25304941                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/joda-time-2.1.jar
+7f894c021000-7f894c024000 r--s 00025000 08:01 25304734                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/commons-dbcp-1.4.jar
+7f894c024000-7f894c026000 r--s 0001e000 08:01 25304797                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/pentaho-database-model-8.0.0.0-1.jar
+7f894c026000-7f894c02b000 r--s 00053000 08:01 25304858                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/jetty-server-8.1.15.v20140411.jar
+7f894c02b000-7f894c03c000 r--s 000ab000 08:01 25304947                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar
+7f894c03c000-7f894c041000 r--s 00030000 08:01 25304841                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/olap4j-xmla-1.2.0.jar
+7f894c041000-7f894c0b1000 r--s 00641000 08:01 25304801                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/groovy-all-2.4.7.jar
+7f894c0b1000-7f894c0b2000 r--s 00005000 08:01 25304876                   /home/oem/git-cds/fielcorresponsal/ssh8/michi/administrativo-fielcorresponsal/target/administrativo-fielcorresponsal##2.4.34-RC/WEB-INF/lib/kettle5-log4j-plugin-7.1-SNAPSHOT.jar
+7f894c0b2000-7f894c0b8000 r--s 0003f000 08:01 25167191                   /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar
+7f894c0b8000-7f894c0ba000 r--s 00009000 08:01 25167190                   /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar
+7f894c0ba000-7f894c0bd000 r--s 0001a000 08:01 24781457                   /usr/lib/jvm/java-8-oracle/jre/lib/jce.jar
+7f894c0bd000-7f894c0c1000 r--s 00097000 08:01 24781427                   /usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar
+7f894c0c1000-7f894c0dd000 r--s 00393000 08:01 25167196                   /usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar
+7f894c0dd000-7f894c0e7000 r--s 00116000 08:01 25167193                   /usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar
+7f894c0e7000-7f894c2e7000 rw-p 00000000 00:00 0 
+7f894c2e7000-7f894c2f8000 r-xp 00000000 08:01 25167144                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnio.so
+7f894c2f8000-7f894c4f7000 ---p 00011000 08:01 25167144                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnio.so
+7f894c4f7000-7f894c4f8000 rw-p 00010000 08:01 25167144                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnio.so
+7f894c4f8000-7f894c7f9000 rw-p 00000000 00:00 0 
+7f894c7f9000-7f894c80f000 r-xp 00000000 08:01 25167119                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnet.so
+7f894c80f000-7f894ca0f000 ---p 00016000 08:01 25167119                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnet.so
+7f894ca0f000-7f894ca10000 rw-p 00016000 08:01 25167119                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnet.so
+7f894ca10000-7f894ca19000 r-xp 00000000 08:01 25167155                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libmanagement.so
+7f894ca19000-7f894cc18000 ---p 00009000 08:01 25167155                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libmanagement.so
+7f894cc18000-7f894cc19000 rw-p 00008000 08:01 25167155                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libmanagement.so
+7f894cc19000-7f894cc1b000 r--s 00007000 08:01 22024238                   /home/oem/Programas/apache-tomcat-8.5.6/lib/websocket-api.jar
+7f894cc1b000-7f894cc1e000 r--s 00020000 08:01 22024233                   /home/oem/Programas/apache-tomcat-8.5.6/lib/tomcat-jdbc.jar
+7f894cc1e000-7f894cc57000 r--s 004ca000 08:01 22024213                   /home/oem/Programas/apache-tomcat-8.5.6/lib/jt400-20110405.jar
+7f894cc57000-7f894cc5f000 r--s 00082000 08:01 22023350                   /home/oem/Programas/apache-tomcat-8.5.6/lib/jconn3.jar
+7f894cc5f000-7f894cc64000 r--s 0003d000 08:01 22024219                   /home/oem/Programas/apache-tomcat-8.5.6/lib/catalina-tribes.jar
+7f894cc64000-7f894cc66000 r--s 0001b000 08:01 22024217                   /home/oem/Programas/apache-tomcat-8.5.6/lib/catalina-ha.jar
+7f894cc66000-7f894cc6b000 r--s 0002e000 08:01 22024235                   /home/oem/Programas/apache-tomcat-8.5.6/lib/tomcat-util-scan.jar
+7f894cc6b000-7f894cc6f000 r--s 00038000 08:01 22024226                   /home/oem/Programas/apache-tomcat-8.5.6/lib/servlet-api.jar
+7f894cc6f000-7f894cc82000 r--s 00173000 08:01 22024239                   /home/oem/Programas/apache-tomcat-8.5.6/lib/catalina.jar
+7f894cc82000-7f894cc85000 r--s 0001d000 08:01 22024236                   /home/oem/Programas/apache-tomcat-8.5.6/lib/tomcat-util.jar
+7f894cc85000-7f894cc87000 r--s 00011000 08:01 22024218                   /home/oem/Programas/apache-tomcat-8.5.6/lib/catalina-storeconfig.jar
+7f894cc87000-7f894cc8a000 r--s 0000e000 08:01 22024230                   /home/oem/Programas/apache-tomcat-8.5.6/lib/tomcat-i18n-es.jar
+7f894cc8a000-7f894cc8c000 r--s 00003000 08:01 22024215                   /home/oem/Programas/apache-tomcat-8.5.6/lib/annotations-api.jar
+7f894cc8c000-7f894cc8f000 r--s 0001f000 08:01 22024212                   /home/oem/Programas/apache-tomcat-8.5.6/lib/HikariCP-2.5.1.jar
+7f894cc8f000-7f894cc91000 r--s 00012000 08:01 22024221                   /home/oem/Programas/apache-tomcat-8.5.6/lib/el-api.jar
+7f894cc91000-7f894cc94000 r--s 00025000 08:01 22024222                   /home/oem/Programas/apache-tomcat-8.5.6/lib/jasper-el.jar
+7f894cc94000-7f894cc99000 r--s 0002f000 08:01 22024237                   /home/oem/Programas/apache-tomcat-8.5.6/lib/tomcat-websocket.jar
+7f894cc99000-7f894cc9c000 r--s 0000d000 08:01 22024225                   /home/oem/Programas/apache-tomcat-8.5.6/lib/jsp-api.jar
+7f894cc9c000-7f894cca3000 r--s 00088000 08:01 22024223                   /home/oem/Programas/apache-tomcat-8.5.6/lib/jasper.jar
+7f894cca3000-7f894cca6000 ---p 00000000 00:00 0 
+7f894cca6000-7f894cda4000 rw-p 00000000 00:00 0 
+7f894cda4000-7f894cda5000 ---p 00000000 00:00 0 
+7f894cda5000-7f894cea5000 rw-p 00000000 00:00 0 
+7f894cea5000-7f894cea8000 ---p 00000000 00:00 0 
+7f894cea8000-7f894cfa6000 rw-p 00000000 00:00 0 
+7f894cfa6000-7f894cfa9000 ---p 00000000 00:00 0 
+7f894cfa9000-7f894d0a7000 rw-p 00000000 00:00 0 
+7f894d0a7000-7f894d0aa000 ---p 00000000 00:00 0 
+7f894d0aa000-7f894d1a8000 rw-p 00000000 00:00 0 
+7f894d1a8000-7f894d1ab000 ---p 00000000 00:00 0 
+7f894d1ab000-7f894d2a9000 rw-p 00000000 00:00 0 
+7f894d2a9000-7f894d2ac000 ---p 00000000 00:00 0 
+7f894d2ac000-7f894d3aa000 rw-p 00000000 00:00 0 
+7f894d3aa000-7f894d3ad000 ---p 00000000 00:00 0 
+7f894d3ad000-7f894d4ab000 rw-p 00000000 00:00 0 
+7f894d4ab000-7f894d4af000 r-xp 00000000 08:01 25167160                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libdt_socket.so
+7f894d4af000-7f894d6ae000 ---p 00004000 08:01 25167160                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libdt_socket.so
+7f894d6ae000-7f894d6af000 rw-p 00003000 08:01 25167160                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libdt_socket.so
+7f894d6af000-7f894d6b2000 ---p 00000000 00:00 0 
+7f894d6b2000-7f894d7b0000 rw-p 00000000 00:00 0 
+7f894d7b0000-7f894d7b3000 ---p 00000000 00:00 0 
+7f894d7b3000-7f894d8b1000 rw-p 00000000 00:00 0 
+7f894d8b1000-7f894d8b4000 ---p 00000000 00:00 0 
+7f894d8b4000-7f894d9b2000 rw-p 00000000 00:00 0 
+7f894d9b2000-7f894d9b3000 ---p 00000000 00:00 0 
+7f894d9b3000-7f894eab6000 rw-p 00000000 00:00 0 
+7f894eab6000-7f894ec8e000 r--s 03d2a000 08:01 24781434                   /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+7f894ec8e000-7f894fa5e000 rw-p 00000000 00:00 0 
+7f894fa5e000-7f894fa5f000 ---p 00000000 00:00 0 
+7f894fa5f000-7f894fb5f000 rw-p 00000000 00:00 0 
+7f894fb5f000-7f894fb60000 ---p 00000000 00:00 0 
+7f894fb60000-7f894fc60000 rw-p 00000000 00:00 0 
+7f894fc60000-7f894fc61000 ---p 00000000 00:00 0 
+7f894fc61000-7f894fd61000 rw-p 00000000 00:00 0 
+7f894fd61000-7f894fd62000 ---p 00000000 00:00 0 
+7f894fd62000-7f894fed8000 rw-p 00000000 00:00 0 
+7f894fed8000-7f8950242000 ---p 00000000 00:00 0 
+7f8950242000-7f89502b8000 rw-p 00000000 00:00 0 
+7f89502b8000-7f8950622000 ---p 00000000 00:00 0 
+7f8950622000-7f8950810000 rw-p 00000000 00:00 0 
+7f8950810000-7f8950812000 ---p 00000000 00:00 0 
+7f8950812000-7f8950882000 rw-p 00000000 00:00 0 
+7f8950882000-7f8950bd3000 ---p 00000000 00:00 0 
+7f8950bd3000-7f8952773000 rwxp 00000000 00:00 0 
+7f8952773000-7f895fbd3000 ---p 00000000 00:00 0 
+7f895fbd3000-7f895fbed000 r-xp 00000000 08:01 25167142                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libzip.so
+7f895fbed000-7f895fded000 ---p 0001a000 08:01 25167142                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libzip.so
+7f895fded000-7f895fdee000 rw-p 0001a000 08:01 25167142                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libzip.so
+7f895fdee000-7f895fdf9000 r-xp 00000000 08:01 7344909                    /lib/x86_64-linux-gnu/libnss_files-2.23.so
+7f895fdf9000-7f895fff8000 ---p 0000b000 08:01 7344909                    /lib/x86_64-linux-gnu/libnss_files-2.23.so
+7f895fff8000-7f895fff9000 r--p 0000a000 08:01 7344909                    /lib/x86_64-linux-gnu/libnss_files-2.23.so
+7f895fff9000-7f895fffa000 rw-p 0000b000 08:01 7344909                    /lib/x86_64-linux-gnu/libnss_files-2.23.so
+7f895fffa000-7f8960000000 rw-p 00000000 00:00 0 
+7f8960000000-7f8960507000 rw-p 00000000 00:00 0 
+7f8960507000-7f8964000000 ---p 00000000 00:00 0 
+7f8964000000-7f8964002000 r--s 00009000 08:01 22024232                   /home/oem/Programas/apache-tomcat-8.5.6/lib/tomcat-i18n-ja.jar
+7f8964002000-7f8964078000 rw-p 00000000 00:00 0 
+7f8964078000-7f8964083000 r-xp 00000000 08:01 7344912                    /lib/x86_64-linux-gnu/libnss_nis-2.23.so
+7f8964083000-7f8964282000 ---p 0000b000 08:01 7344912                    /lib/x86_64-linux-gnu/libnss_nis-2.23.so
+7f8964282000-7f8964283000 r--p 0000a000 08:01 7344912                    /lib/x86_64-linux-gnu/libnss_nis-2.23.so
+7f8964283000-7f8964284000 rw-p 0000b000 08:01 7344912                    /lib/x86_64-linux-gnu/libnss_nis-2.23.so
+7f8964284000-7f896429a000 r-xp 00000000 08:01 7344903                    /lib/x86_64-linux-gnu/libnsl-2.23.so
+7f896429a000-7f8964499000 ---p 00016000 08:01 7344903                    /lib/x86_64-linux-gnu/libnsl-2.23.so
+7f8964499000-7f896449a000 r--p 00015000 08:01 7344903                    /lib/x86_64-linux-gnu/libnsl-2.23.so
+7f896449a000-7f896449b000 rw-p 00016000 08:01 7344903                    /lib/x86_64-linux-gnu/libnsl-2.23.so
+7f896449b000-7f896449d000 rw-p 00000000 00:00 0 
+7f896449d000-7f89644a5000 r-xp 00000000 08:01 7344918                    /lib/x86_64-linux-gnu/libnss_compat-2.23.so
+7f89644a5000-7f89646a4000 ---p 00008000 08:01 7344918                    /lib/x86_64-linux-gnu/libnss_compat-2.23.so
+7f89646a4000-7f89646a5000 r--p 00007000 08:01 7344918                    /lib/x86_64-linux-gnu/libnss_compat-2.23.so
+7f89646a5000-7f89646a6000 rw-p 00008000 08:01 7344918                    /lib/x86_64-linux-gnu/libnss_compat-2.23.so
+7f89646a6000-7f8964aaf000 r--p 00000000 08:01 23206620                   /usr/lib/locale/locale-archive
+7f8964aaf000-7f8964ab1000 r-xp 00000000 08:01 25167150                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnpt.so
+7f8964ab1000-7f8964cb1000 ---p 00002000 08:01 25167150                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnpt.so
+7f8964cb1000-7f8964cb2000 rw-p 00002000 08:01 25167150                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnpt.so
+7f8964cb2000-7f8964ceb000 r-xp 00000000 08:01 25167116                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libjdwp.so
+7f8964ceb000-7f8964eea000 ---p 00039000 08:01 25167116                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libjdwp.so
+7f8964eea000-7f8964eec000 rw-p 00038000 08:01 25167116                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libjdwp.so
+7f8964eec000-7f8964f17000 r-xp 00000000 08:01 25167169                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libjava.so
+7f8964f17000-7f8965116000 ---p 0002b000 08:01 25167169                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libjava.so
+7f8965116000-7f8965118000 rw-p 0002a000 08:01 25167169                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libjava.so
+7f8965118000-7f8965125000 r-xp 00000000 08:01 25167120                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libverify.so
+7f8965125000-7f8965324000 ---p 0000d000 08:01 25167120                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libverify.so
+7f8965324000-7f8965326000 rw-p 0000c000 08:01 25167120                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libverify.so
+7f8965326000-7f896532d000 r-xp 00000000 08:01 7344914                    /lib/x86_64-linux-gnu/librt-2.23.so
+7f896532d000-7f896552c000 ---p 00007000 08:01 7344914                    /lib/x86_64-linux-gnu/librt-2.23.so
+7f896552c000-7f896552d000 r--p 00006000 08:01 7344914                    /lib/x86_64-linux-gnu/librt-2.23.so
+7f896552d000-7f896552e000 rw-p 00007000 08:01 7344914                    /lib/x86_64-linux-gnu/librt-2.23.so
+7f896552e000-7f8965636000 r-xp 00000000 08:01 7344923                    /lib/x86_64-linux-gnu/libm-2.23.so
+7f8965636000-7f8965835000 ---p 00108000 08:01 7344923                    /lib/x86_64-linux-gnu/libm-2.23.so
+7f8965835000-7f8965836000 r--p 00107000 08:01 7344923                    /lib/x86_64-linux-gnu/libm-2.23.so
+7f8965836000-7f8965837000 rw-p 00108000 08:01 7344923                    /lib/x86_64-linux-gnu/libm-2.23.so
+7f8965837000-7f8966504000 r-xp 00000000 08:01 25167173                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/server/libjvm.so
+7f8966504000-7f8966703000 ---p 00ccd000 08:01 25167173                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/server/libjvm.so
+7f8966703000-7f89667dc000 rw-p 00ccc000 08:01 25167173                   /usr/lib/jvm/java-8-oracle/jre/lib/amd64/server/libjvm.so
+7f89667dc000-7f8966827000 rw-p 00000000 00:00 0 
+7f8966827000-7f89669e7000 r-xp 00000000 08:01 7344961                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f89669e7000-7f8966be7000 ---p 001c0000 08:01 7344961                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f8966be7000-7f8966beb000 r--p 001c0000 08:01 7344961                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f8966beb000-7f8966bed000 rw-p 001c4000 08:01 7344961                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f8966bed000-7f8966bf1000 rw-p 00000000 00:00 0 
+7f8966bf1000-7f8966bf4000 r-xp 00000000 08:01 7344917                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f8966bf4000-7f8966df3000 ---p 00003000 08:01 7344917                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f8966df3000-7f8966df4000 r--p 00002000 08:01 7344917                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f8966df4000-7f8966df5000 rw-p 00003000 08:01 7344917                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f8966df5000-7f8966e0a000 r-xp 00000000 08:01 23991878                   /usr/lib/jvm/java-8-oracle/lib/amd64/jli/libjli.so
+7f8966e0a000-7f896700a000 ---p 00015000 08:01 23991878                   /usr/lib/jvm/java-8-oracle/lib/amd64/jli/libjli.so
+7f896700a000-7f896700b000 rw-p 00015000 08:01 23991878                   /usr/lib/jvm/java-8-oracle/lib/amd64/jli/libjli.so
+7f896700b000-7f8967023000 r-xp 00000000 08:01 7344911                    /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f8967023000-7f8967222000 ---p 00018000 08:01 7344911                    /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f8967222000-7f8967223000 r--p 00017000 08:01 7344911                    /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f8967223000-7f8967224000 rw-p 00018000 08:01 7344911                    /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f8967224000-7f8967228000 rw-p 00000000 00:00 0 
+7f8967228000-7f896724e000 r-xp 00000000 08:01 7344904                    /lib/x86_64-linux-gnu/ld-2.23.so
+7f896724e000-7f896724f000 r--s 00002000 08:01 22024227                   /home/oem/Programas/apache-tomcat-8.5.6/lib/tomcat-api.jar
+7f896724f000-7f896725a000 r--s 000ac000 08:01 22024228                   /home/oem/Programas/apache-tomcat-8.5.6/lib/tomcat-coyote.jar
+7f896725a000-7f896725c000 r--s 00005000 08:01 22024224                   /home/oem/Programas/apache-tomcat-8.5.6/lib/jaspic-api.jar
+7f896725c000-7f8967260000 r--s 0003a000 08:01 22024229                   /home/oem/Programas/apache-tomcat-8.5.6/lib/tomcat-dbcp.jar
+7f8967260000-7f896731e000 rw-p 00000000 00:00 0 
+7f896731e000-7f8967321000 ---p 00000000 00:00 0 
+7f8967321000-7f8967423000 rw-p 00000000 00:00 0 
+7f8967423000-7f8967424000 r--s 0000c000 08:01 22024216                   /home/oem/Programas/apache-tomcat-8.5.6/lib/catalina-ant.jar
+7f8967424000-7f8967426000 r--s 00007000 08:01 22024234                   /home/oem/Programas/apache-tomcat-8.5.6/lib/tomcat-jni.jar
+7f8967426000-7f8967428000 r--s 00009000 08:01 22024214                   /home/oem/Programas/apache-tomcat-8.5.6/lib/slf4j-api-1.7.21.jar
+7f8967428000-7f896743b000 r--s 00236000 08:01 22024220                   /home/oem/Programas/apache-tomcat-8.5.6/lib/ecj-4.5.1.jar
+7f896743b000-7f896743d000 r--s 00008000 08:01 22024231                   /home/oem/Programas/apache-tomcat-8.5.6/lib/tomcat-i18n-fr.jar
+7f896743d000-7f896743f000 r--s 00009000 08:01 21235259                   /home/oem/Programas/apache-tomcat-8.5.6/bin/tomcat-juli.jar
+7f896743f000-7f8967440000 r--s 00005000 08:01 21235247                   /home/oem/Programas/apache-tomcat-8.5.6/bin/commons-daemon.jar
+7f8967440000-7f8967441000 r--s 00007000 08:01 21235243                   /home/oem/Programas/apache-tomcat-8.5.6/bin/bootstrap.jar
+7f8967441000-7f8967449000 rw-s 00000000 08:01 9575009                    /tmp/hsperfdata_oem/10785
+7f8967449000-7f896744a000 rw-p 00000000 00:00 0 
+7f896744a000-7f896744b000 r--p 00000000 00:00 0 
+7f896744b000-7f896744d000 rw-p 00000000 00:00 0 
+7f896744d000-7f896744e000 r--p 00025000 08:01 7344904                    /lib/x86_64-linux-gnu/ld-2.23.so
+7f896744e000-7f896744f000 rw-p 00026000 08:01 7344904                    /lib/x86_64-linux-gnu/ld-2.23.so
+7f896744f000-7f8967450000 rw-p 00000000 00:00 0 
+7ffd85ed3000-7ffd85ef4000 rw-p 00000000 00:00 0                          [stack]
+7ffd85f1c000-7ffd85f1e000 r--p 00000000 00:00 0                          [vvar]
+7ffd85f1e000-7ffd85f20000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+VM Arguments:
+jvm_args: -Djava.util.logging.config.file=/home/oem/Programas/apache-tomcat-8.5.6/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dcom.sun.xml.internal.ws.transport.http.HttpAdapter.dumpTreshold=1000000 -agentlib:jdwp=transport=dt_socket,address=11550,server=y,suspend=n -Ddbfilename=fielcoDB.properties -DKETTLE_PLUGIN_BASE_FOLDERS=/opt/pentaho/plugins -Dcatalina.base=/home/oem/Programas/apache-tomcat-8.5.6 -Dcatalina.home=/home/oem/Programas/apache-tomcat-8.5.6 -Djava.io.tmpdir=/home/oem/Programas/apache-tomcat-8.5.6/temp 
+java_command: org.apache.catalina.startup.Bootstrap start
+java_class_path (initial): /home/oem/Programas/apache-tomcat-8.5.6/bin/bootstrap.jar:/home/oem/Programas/apache-tomcat-8.5.6/bin/tomcat-juli.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=/usr/lib/jvm/java-8-oracle
+JRE_HOME=/usr/lib/jvm/java-8-oracle
+PATH=/home/oem/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+USERNAME=oem
+LD_LIBRARY_PATH=/usr/lib/jvm/java-8-oracle/jre/lib/amd64:/usr/lib/jvm/java-8-oracle/jre/lib/i386:
+SHELL=/bin/bash
+DISPLAY=:0
+
+Signal Handlers:
+SIGSEGV: [libjvm.so+0xac64b0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGBUS: [libjvm.so+0xac64b0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGFPE: [libjvm.so+0x91f950], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGPIPE: [libjvm.so+0x91f950], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGXFSZ: [libjvm.so+0x91f950], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGILL: [libjvm.so+0x91f950], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGUSR1: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGUSR2: [libjvm.so+0x920f80], sa_mask[0]=00100000000000000000000000000000, sa_flags=SA_RESTART|SA_SIGINFO
+SIGHUP: [libjvm.so+0x922380], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGINT: SIG_IGN, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGTERM: [libjvm.so+0x922380], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGQUIT: [libjvm.so+0x922380], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+
+
+---------------  S Y S T E M  ---------------
+
+OS:DISTRIB_ID=LinuxMint
+DISTRIB_RELEASE=18
+DISTRIB_CODENAME=sarah
+DISTRIB_DESCRIPTION="Linux Mint 18 Sarah"
+
+uname:Linux 4.4.0-21-generic #37-Ubuntu SMP Mon Apr 18 18:33:37 UTC 2016 x86_64
+libc:glibc 2.23 NPTL 2.23 
+rlimit: STACK 8192k, CORE 0k, NPROC 47448, NOFILE 65536, AS infinity
+load average:4,06 2,45 1,38
+
+/proc/meminfo:
+MemTotal:       12188088 kB
+MemFree:         5130400 kB
+MemAvailable:    6332704 kB
+Buffers:           53368 kB
+Cached:          1316172 kB
+SwapCached:        33952 kB
+Active:          6073856 kB
+Inactive:         734948 kB
+Active(anon):    5266884 kB
+Inactive(anon):   388468 kB
+Active(file):     806972 kB
+Inactive(file):   346480 kB
+Unevictable:         176 kB
+Mlocked:             176 kB
+SwapTotal:       4075516 kB
+SwapFree:        3609012 kB
+Dirty:              1468 kB
+Writeback:             0 kB
+AnonPages:       5432612 kB
+Mapped:           240364 kB
+Shmem:            215808 kB
+Slab:             139764 kB
+SReclaimable:     100956 kB
+SUnreclaim:        38808 kB
+KernelStack:       12112 kB
+PageTables:        39052 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    10169560 kB
+Committed_AS:    8645924 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:   3110912 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      142176 kB
+DirectMap2M:    12324864 kB
+
+
+CPU:total 4 (4 cores per cpu, 1 threads per core) family 6 model 58 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, clmul, erms, tsc, tscinvbit, tscinv
+
+/proc/cpuinfo:
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 58
+model name	: Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+stepping	: 9
+microcode	: 0x1c
+cpu MHz		: 1606.500
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 6385.60
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 58
+model name	: Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+stepping	: 9
+microcode	: 0x1c
+cpu MHz		: 1670.000
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 4
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 6385.60
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 58
+model name	: Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+stepping	: 9
+microcode	: 0x1c
+cpu MHz		: 2248.875
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 4
+core id		: 2
+cpu cores	: 4
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 6385.60
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 58
+model name	: Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+stepping	: 9
+microcode	: 0x1c
+cpu MHz		: 1932.125
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 4
+core id		: 3
+cpu cores	: 4
+apicid		: 6
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 6385.60
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+
+
+Memory: 4k page, physical 12188088k(5130400k free), swap 4075516k(3609012k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.111-b14) for linux-amd64 JRE (1.8.0_111-b14), built on Sep 22 2016 16:14:03 by "java_re" with gcc 4.3.0 20080428 (Red Hat 4.3.0-8)
+
+time: Thu Nov  8 12:11:02 2018
+elapsed time: 78 seconds (0d 0h 1m 18s)
+

@@ -1,0 +1,486 @@
+30-Dec-2021 11:58:19.702 ADVERTENCIA [http-nio-8080-exec-42] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [miempresa-cuentas] appears to have started a thread named [AS400 Read Daemon [system:192.168.30.112;job:888808/QUSER/QZDASOINIT]] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+ java.net.SocketInputStream.read(SocketInputStream.java:171)
+ java.net.SocketInputStream.read(SocketInputStream.java:141)
+ com.ibm.as400.access.DataStream.readFromStream(DataStream.java:52)
+ com.ibm.as400.access.ClientAccessDataStream.construct(ClientAccessDataStream.java:52)
+ com.ibm.as400.access.AS400ThreadedServer.run(AS400ThreadedServer.java:357)
+ java.lang.Thread.run(Thread.java:748)
+30-Dec-2021 11:58:19.703 ADVERTENCIA [http-nio-8080-exec-42] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [miempresa-cuentas] appears to have started a thread named [Log4j2-TF-5-Scheduled-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+30-Dec-2021 11:58:19.705 ADVERTENCIA [http-nio-8080-exec-42] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [miempresa-cuentas] appears to have started a thread named [AsyncAppender-RollingFileAsync] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ org.apache.logging.log4j.core.appender.AsyncAppender$AsyncThread.run(AsyncAppender.java:394)
+30-Dec-2021 11:58:20.228 INFORMACIÓN [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto /miempresa-cuentas
+30-Dec-2021 11:58:26.866 ADVERTENCIA [http-nio-8080-exec-37] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [miempresa-auth] appears to have started a thread named [Log4j2-TF-5-Scheduled-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+30-Dec-2021 11:58:26.867 ADVERTENCIA [http-nio-8080-exec-37] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [miempresa-auth] appears to have started a thread named [AsyncAppender-RollingFileAsync] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ org.apache.logging.log4j.core.appender.AsyncAppender$AsyncThread.run(AsyncAppender.java:394)
+30-Dec-2021 11:58:26.868 GRAVE [http-nio-8080-exec-37] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [miempresa-auth] creó un ThreadLocal con clave del tipo [com.codahale.metrics.ThreadLocalRandom$1] (valor [com.codahale.metrics.ThreadLocalRandom$1@24c20950]) y un valor del tipo [com.codahale.metrics.ThreadLocalRandom] (valor [com.codahale.metrics.ThreadLocalRandom@6bd6de18]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+30-Dec-2021 11:58:26.868 GRAVE [http-nio-8080-exec-37] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [miempresa-auth] creó un ThreadLocal con clave del tipo [com.codahale.metrics.ThreadLocalRandom$1] (valor [com.codahale.metrics.ThreadLocalRandom$1@24c20950]) y un valor del tipo [com.codahale.metrics.ThreadLocalRandom] (valor [com.codahale.metrics.ThreadLocalRandom@74c5fbb0]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+30-Dec-2021 11:58:26.868 GRAVE [http-nio-8080-exec-37] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [miempresa-auth] creó un ThreadLocal con clave del tipo [com.codahale.metrics.ThreadLocalRandom$1] (valor [com.codahale.metrics.ThreadLocalRandom$1@24c20950]) y un valor del tipo [com.codahale.metrics.ThreadLocalRandom] (valor [com.codahale.metrics.ThreadLocalRandom@48e7aeda]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+30-Dec-2021 11:58:26.869 GRAVE [http-nio-8080-exec-37] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [miempresa-auth] creó un ThreadLocal con clave del tipo [com.codahale.metrics.ThreadLocalRandom$1] (valor [com.codahale.metrics.ThreadLocalRandom$1@24c20950]) y un valor del tipo [com.codahale.metrics.ThreadLocalRandom] (valor [com.codahale.metrics.ThreadLocalRandom@7c5ba61f]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+30-Dec-2021 11:58:27.607 INFORMACIÓN [http-nio-8080-exec-37] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto /miempresa-auth
+30-Dec-2021 11:58:30.120 ADVERTENCIA [http-nio-8080-exec-39] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [miempresa-acciones] appears to have started a thread named [Log4j2-TF-5-Scheduled-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+30-Dec-2021 11:58:30.121 ADVERTENCIA [http-nio-8080-exec-39] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [miempresa-acciones] appears to have started a thread named [AsyncAppender-RollingFileAsync] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ org.apache.logging.log4j.core.appender.AsyncAppender$AsyncThread.run(AsyncAppender.java:394)
+30-Dec-2021 11:58:30.682 INFORMACIÓN [http-nio-8080-exec-39] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto /miempresa-acciones
+30-Dec-2021 11:58:51.185 ADVERTENCIA [http-nio-8080-exec-38] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tarjetas-fielco] appears to have started a thread named [Log4j2-TF-4-Scheduled-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+30-Dec-2021 11:58:51.186 ADVERTENCIA [http-nio-8080-exec-38] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tarjetas-fielco] appears to have started a thread named [AsyncAppender-RollingFileAsync] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ org.apache.logging.log4j.core.appender.AsyncAppender$AsyncThread.run(AsyncAppender.java:394)
+30-Dec-2021 11:58:51.706 INFORMACIÓN [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto /tarjetas-fielco
+30-Dec-2021 11:58:54.301 INFORMACIÓN [http-nio-8080-exec-46] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto /fielcowebapp
+30-Dec-2021 11:58:57.392 ADVERTENCIA [http-nio-8080-exec-40] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [datos-generales-fielco] appears to have started a thread named [Log4j2-TF-4-Scheduled-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+30-Dec-2021 11:58:57.393 ADVERTENCIA [http-nio-8080-exec-40] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [datos-generales-fielco] appears to have started a thread named [AsyncAppender-RollingFileAsync] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ org.apache.logging.log4j.core.appender.AsyncAppender$AsyncThread.run(AsyncAppender.java:394)
+30-Dec-2021 11:58:57.393 GRAVE [http-nio-8080-exec-40] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [datos-generales-fielco] creó un ThreadLocal con clave del tipo [com.codahale.metrics.ThreadLocalRandom$1] (valor [com.codahale.metrics.ThreadLocalRandom$1@1393ff95]) y un valor del tipo [com.codahale.metrics.ThreadLocalRandom] (valor [com.codahale.metrics.ThreadLocalRandom@36f4299a]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+30-Dec-2021 11:58:57.393 GRAVE [http-nio-8080-exec-40] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [datos-generales-fielco] creó un ThreadLocal con clave del tipo [com.codahale.metrics.Striped64.ThreadHashCode] (valor [com.codahale.metrics.Striped64$ThreadHashCode@1e959f0b]) y un valor del tipo [com.codahale.metrics.Striped64.HashCode] (valor [com.codahale.metrics.Striped64$HashCode@3371352d]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+30-Dec-2021 11:58:57.393 GRAVE [http-nio-8080-exec-40] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [datos-generales-fielco] creó un ThreadLocal con clave del tipo [com.codahale.metrics.ThreadLocalRandom$1] (valor [com.codahale.metrics.ThreadLocalRandom$1@1393ff95]) y un valor del tipo [com.codahale.metrics.ThreadLocalRandom] (valor [com.codahale.metrics.ThreadLocalRandom@3f920b81]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+30-Dec-2021 11:58:57.394 GRAVE [http-nio-8080-exec-40] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [datos-generales-fielco] creó un ThreadLocal con clave del tipo [com.codahale.metrics.Striped64.ThreadHashCode] (valor [com.codahale.metrics.Striped64$ThreadHashCode@1e959f0b]) y un valor del tipo [com.codahale.metrics.Striped64.HashCode] (valor [com.codahale.metrics.Striped64$HashCode@28bd5d10]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+30-Dec-2021 11:58:57.586 GRAVE [http-nio-8080-exec-40] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [datos-generales-fielco] creó un ThreadLocal con clave del tipo [com.codahale.metrics.ThreadLocalRandom$1] (valor [com.codahale.metrics.ThreadLocalRandom$1@1393ff95]) y un valor del tipo [com.codahale.metrics.ThreadLocalRandom] (valor [com.codahale.metrics.ThreadLocalRandom@1ae2f2cb]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+30-Dec-2021 11:58:57.587 GRAVE [http-nio-8080-exec-40] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [datos-generales-fielco] creó un ThreadLocal con clave del tipo [com.codahale.metrics.Striped64.ThreadHashCode] (valor [com.codahale.metrics.Striped64$ThreadHashCode@1e959f0b]) y un valor del tipo [com.codahale.metrics.Striped64.HashCode] (valor [com.codahale.metrics.Striped64$HashCode@208074e7]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+30-Dec-2021 11:58:57.587 GRAVE [http-nio-8080-exec-40] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [datos-generales-fielco] creó un ThreadLocal con clave del tipo [com.codahale.metrics.ThreadLocalRandom$1] (valor [com.codahale.metrics.ThreadLocalRandom$1@1393ff95]) y un valor del tipo [com.codahale.metrics.ThreadLocalRandom] (valor [com.codahale.metrics.ThreadLocalRandom@f61ad75]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+30-Dec-2021 11:58:57.588 GRAVE [http-nio-8080-exec-40] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [datos-generales-fielco] creó un ThreadLocal con clave del tipo [com.codahale.metrics.Striped64.ThreadHashCode] (valor [com.codahale.metrics.Striped64$ThreadHashCode@1e959f0b]) y un valor del tipo [com.codahale.metrics.Striped64.HashCode] (valor [com.codahale.metrics.Striped64$HashCode@4df63454]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+30-Dec-2021 11:58:58.137 INFORMACIÓN [http-nio-8080-exec-40] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto /datos-generales-fielco
+30-Dec-2021 11:59:01.512 INFORMACIÓN [http-nio-8080-exec-49] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto /cuentas-fielco
+30-Dec-2021 11:59:03.729 ADVERTENCIA [http-nio-8080-exec-50] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [auth-fielco] appears to have started a thread named [Log4j2-TF-4-Scheduled-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+30-Dec-2021 11:59:03.729 ADVERTENCIA [http-nio-8080-exec-50] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [auth-fielco] appears to have started a thread named [AsyncAppender-RollingFileAsync] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ org.apache.logging.log4j.core.appender.AsyncAppender$AsyncThread.run(AsyncAppender.java:394)
+30-Dec-2021 11:59:03.730 GRAVE [http-nio-8080-exec-50] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [auth-fielco] creó un ThreadLocal con clave del tipo [com.codahale.metrics.ThreadLocalRandom$1] (valor [com.codahale.metrics.ThreadLocalRandom$1@49c1860a]) y un valor del tipo [com.codahale.metrics.ThreadLocalRandom] (valor [com.codahale.metrics.ThreadLocalRandom@28637244]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+30-Dec-2021 11:59:04.256 INFORMACIÓN [http-nio-8080-exec-50] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto /auth-fielco
+30-Dec-2021 11:59:07.313 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+30-Dec-2021 11:59:07.321 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Dec-2021 11:59:07.374 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+30-Dec-2021 11:59:07.436 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio Catalina
+30-Dec-2021 11:59:07.446 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Dec-2021 11:59:07.449 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+30-Dec-2021 11:59:07.451 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Dec-2021 11:59:07.454 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+30-Dec-2021 11:59:24.631 GRAVE [main] org.apache.catalina.startup.Catalina.initDirs No puedo hallar carpeta temporal especificada en C:\Users\User\Documents\Tomcat\apache-tomcat-WU\temp
+30-Dec-2021 11:59:25.070 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.0
+30-Dec-2021 11:59:25.070 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2016 20:15:31 UTC
+30-Dec-2021 11:59:25.070 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.0
+30-Dec-2021 11:59:25.070 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Dec-2021 11:59:25.070 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Dec-2021 11:59:25.070 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Dec-2021 11:59:25.071 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_221\jre
+30-Dec-2021 11:59:25.071 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_221-b11
+30-Dec-2021 11:59:25.071 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Dec-2021 11:59:25.071 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\Documents\Tomcat\apache-tomcat-WU
+30-Dec-2021 11:59:25.071 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\Documents\Tomcat\apache-tomcat-WU
+30-Dec-2021 11:59:25.072 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|CPU61-006161
+30-Dec-2021 11:59:25.072 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Dec-2021 11:59:25.072 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Dec-2021 11:59:25.072 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\Documents\Tomcat\apache-tomcat-WU\conf\logging.properties
+30-Dec-2021 11:59:25.072 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Dec-2021 11:59:25.074 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\Documents\Tomcat\apache-tomcat-WU
+30-Dec-2021 11:59:25.074 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\Documents\Tomcat\apache-tomcat-WU
+30-Dec-2021 11:59:25.074 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\Documents\Tomcat\apache-tomcat-WU\temp
+30-Dec-2021 11:59:25.074 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: C:\Program Files\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files\PuTTY\;C:\android-sdk\tools;C:\android-sdk\tools\bin;C:\android-sdk\platform-tools;C:\Instaladores\instantclient_19_11;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\flutter\bin;C:\Program Files\PowerShell\7\;C:\apache-maven-3.8.4\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\android-sdk\tools;C:\android-sdk\tools\bin;C:\android-sdk\platform-tools;C:\android-sdk;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Local\GitHubDesktop\bin;C:\Users\User\AppData\Roaming\npm;C:\Windows\System32;C:\src\flutter\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3\bin;;.
+30-Dec-2021 11:59:25.272 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Dec-2021 11:59:25.788 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Dec-2021 11:59:25.791 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+30-Dec-2021 11:59:25.793 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Dec-2021 11:59:25.793 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1163 ms
+30-Dec-2021 11:59:25.818 ADVERTENCIA [main] org.apache.tomcat.jdbc.pool.ConnectionPool.checkPoolConfiguration minIdle is larger than maxActive, setting minIdle to: 5
+30-Dec-2021 11:59:25.818 ADVERTENCIA [main] org.apache.tomcat.jdbc.pool.ConnectionPool.checkPoolConfiguration maxIdle is smaller than minIdle, setting maxIdle to: 5
+30-Dec-2021 11:59:25.834 ADVERTENCIA [main] org.apache.tomcat.jdbc.pool.ConnectionPool.checkPoolConfiguration maxIdle is smaller than minIdle, setting maxIdle to: 10
+30-Dec-2021 11:59:25.835 ADVERTENCIA [main] org.apache.tomcat.jdbc.pool.ConnectionPool.checkPoolConfiguration maxIdle is smaller than minIdle, setting maxIdle to: 10
+30-Dec-2021 11:59:25.838 INFORMACIÓN [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = shared-raa Ignoring unknown property: value of "1" for "minimumIdle" property
+30-Dec-2021 11:59:25.838 INFORMACIÓN [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = shared-raa Ignoring unknown property: value of "jdbc/shared-raa" for "global" property
+30-Dec-2021 11:59:25.838 INFORMACIÓN [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = shared-raa Ignoring unknown property: value of "1" for "maximumPoolSize" property
+30-Dec-2021 11:59:25.848 ADVERTENCIA [main] org.apache.tomcat.jdbc.pool.ConnectionPool.checkPoolConfiguration maxIdle is smaller than minIdle, setting maxIdle to: 10
+30-Dec-2021 11:59:25.849 ADVERTENCIA [main] org.apache.tomcat.jdbc.pool.ConnectionPool.checkPoolConfiguration maxIdle is smaller than minIdle, setting maxIdle to: 10
+30-Dec-2021 11:59:25.882 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio Catalina
+30-Dec-2021 11:59:25.883 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.0
+30-Dec-2021 11:59:25.895 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\User\Documents\Tomcat\apache-tomcat-WU\webapps\manager de la aplicación web
+30-Dec-2021 11:59:27.456 ADVERTENCIA [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = CNB-Sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "1" for "maxActive" property, which is being ignored.
+30-Dec-2021 11:59:27.456 INFORMACIÓN [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "minimumIdle" property
+30-Dec-2021 11:59:27.457 INFORMACIÓN [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "maximumPoolSize" property
+30-Dec-2021 11:59:27.457 ADVERTENCIA [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = pentaho-sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "5" for "maxActive" property, which is being ignored.
+30-Dec-2021 11:59:27.495 INFORMACIÓN [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+30-Dec-2021 11:59:27.549 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\User\Documents\Tomcat\apache-tomcat-WU\webapps\manager has finished in 1.652 ms
+30-Dec-2021 11:59:27.552 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+30-Dec-2021 11:59:27.561 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+30-Dec-2021 11:59:27.562 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 1769 ms
+30-Dec-2021 12:16:30.581 GRAVE [main] org.apache.catalina.startup.Catalina.initDirs No puedo hallar carpeta temporal especificada en C:\Users\User\Documents\Tomcat\apache-tomcat-WU\temp
+30-Dec-2021 12:16:31.027 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.0
+30-Dec-2021 12:16:31.027 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2016 20:15:31 UTC
+30-Dec-2021 12:16:31.027 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.0
+30-Dec-2021 12:16:31.028 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Dec-2021 12:16:31.028 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Dec-2021 12:16:31.028 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Dec-2021 12:16:31.028 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_221\jre
+30-Dec-2021 12:16:31.028 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_221-b11
+30-Dec-2021 12:16:31.028 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Dec-2021 12:16:31.028 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\Documents\Tomcat\apache-tomcat-WU
+30-Dec-2021 12:16:31.029 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\Documents\Tomcat\apache-tomcat-WU
+30-Dec-2021 12:16:31.029 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|CPU61-006161
+30-Dec-2021 12:16:31.029 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Dec-2021 12:16:31.029 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Dec-2021 12:16:31.029 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\Documents\Tomcat\apache-tomcat-WU\conf\logging.properties
+30-Dec-2021 12:16:31.029 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Dec-2021 12:16:31.030 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\Documents\Tomcat\apache-tomcat-WU
+30-Dec-2021 12:16:31.030 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\Documents\Tomcat\apache-tomcat-WU
+30-Dec-2021 12:16:31.030 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\Documents\Tomcat\apache-tomcat-WU\temp
+30-Dec-2021 12:16:31.030 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: C:\Program Files\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files\PuTTY\;C:\android-sdk\tools;C:\android-sdk\tools\bin;C:\android-sdk\platform-tools;C:\Instaladores\instantclient_19_11;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\flutter\bin;C:\Program Files\PowerShell\7\;C:\apache-maven-3.8.4\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\android-sdk\tools;C:\android-sdk\tools\bin;C:\android-sdk\platform-tools;C:\android-sdk;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Local\GitHubDesktop\bin;C:\Users\User\AppData\Roaming\npm;C:\Windows\System32;C:\src\flutter\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3\bin;;.
+30-Dec-2021 12:16:31.226 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Dec-2021 12:16:31.794 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Dec-2021 12:16:31.796 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+30-Dec-2021 12:16:31.799 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Dec-2021 12:16:31.799 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1219 ms
+30-Dec-2021 12:16:31.831 ADVERTENCIA [main] org.apache.tomcat.jdbc.pool.ConnectionPool.checkPoolConfiguration minIdle is larger than maxActive, setting minIdle to: 5
+30-Dec-2021 12:16:31.831 ADVERTENCIA [main] org.apache.tomcat.jdbc.pool.ConnectionPool.checkPoolConfiguration maxIdle is smaller than minIdle, setting maxIdle to: 5
+30-Dec-2021 12:16:31.847 ADVERTENCIA [main] org.apache.tomcat.jdbc.pool.ConnectionPool.checkPoolConfiguration maxIdle is smaller than minIdle, setting maxIdle to: 10
+30-Dec-2021 12:16:31.848 ADVERTENCIA [main] org.apache.tomcat.jdbc.pool.ConnectionPool.checkPoolConfiguration maxIdle is smaller than minIdle, setting maxIdle to: 10
+30-Dec-2021 12:16:31.851 INFORMACIÓN [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = shared-raa Ignoring unknown property: value of "1" for "minimumIdle" property
+30-Dec-2021 12:16:31.851 INFORMACIÓN [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = shared-raa Ignoring unknown property: value of "jdbc/shared-raa" for "global" property
+30-Dec-2021 12:16:31.851 INFORMACIÓN [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = shared-raa Ignoring unknown property: value of "1" for "maximumPoolSize" property
+30-Dec-2021 12:16:31.864 ADVERTENCIA [main] org.apache.tomcat.jdbc.pool.ConnectionPool.checkPoolConfiguration maxIdle is smaller than minIdle, setting maxIdle to: 10
+30-Dec-2021 12:16:31.866 ADVERTENCIA [main] org.apache.tomcat.jdbc.pool.ConnectionPool.checkPoolConfiguration maxIdle is smaller than minIdle, setting maxIdle to: 10
+30-Dec-2021 12:16:31.903 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio Catalina
+30-Dec-2021 12:16:31.903 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.0
+30-Dec-2021 12:16:31.921 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\User\Documents\Tomcat\apache-tomcat-WU\webapps\manager de la aplicación web
+30-Dec-2021 12:16:33.534 ADVERTENCIA [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = CNB-Sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "1" for "maxActive" property, which is being ignored.
+30-Dec-2021 12:16:33.534 INFORMACIÓN [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "minimumIdle" property
+30-Dec-2021 12:16:33.535 INFORMACIÓN [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "maximumPoolSize" property
+30-Dec-2021 12:16:33.535 ADVERTENCIA [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = pentaho-sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "5" for "maxActive" property, which is being ignored.
+30-Dec-2021 12:16:33.577 INFORMACIÓN [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+30-Dec-2021 12:16:33.641 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\User\Documents\Tomcat\apache-tomcat-WU\webapps\manager has finished in 1.725 ms
+30-Dec-2021 12:16:33.644 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+30-Dec-2021 12:16:33.653 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+30-Dec-2021 12:16:33.655 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 1855 ms
+30-Dec-2021 12:16:34.588 INFORMACIÓN [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\User\Documents\Tomcat\apache-tomcat-WU\conf\Catalina\localhost\auth-fielco.xml
+30-Dec-2021 12:16:38.061 ADVERTENCIA [http-nio-8080-exec-7] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = CNB-Sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "1" for "maxActive" property, which is being ignored.
+30-Dec-2021 12:16:38.062 INFORMACIÓN [http-nio-8080-exec-7] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "minimumIdle" property
+30-Dec-2021 12:16:38.062 INFORMACIÓN [http-nio-8080-exec-7] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "maximumPoolSize" property
+30-Dec-2021 12:16:38.062 ADVERTENCIA [http-nio-8080-exec-7] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = pentaho-sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "5" for "maxActive" property, which is being ignored.
+30-Dec-2021 12:16:38.188 INFORMACIÓN [http-nio-8080-exec-7] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+30-Dec-2021 12:16:46.436 INFORMACIÓN [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\User\Documents\Tomcat\apache-tomcat-WU\conf\Catalina\localhost\auth-fielco.xml has finished in 11.848 ms
+30-Dec-2021 12:16:46.442 INFORMACIÓN [http-nio-8080-exec-8] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/auth-fielco]] after start() had already been called. The second call will be ignored.
+30-Dec-2021 12:19:17.240 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\User\Documents\Tomcat\apache-tomcat-WU\conf\Catalina\localhost\datos-generales-fielco.xml
+30-Dec-2021 12:19:21.345 ADVERTENCIA [http-nio-8080-exec-9] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = CNB-Sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "1" for "maxActive" property, which is being ignored.
+30-Dec-2021 12:19:21.345 INFORMACIÓN [http-nio-8080-exec-9] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "minimumIdle" property
+30-Dec-2021 12:19:21.346 INFORMACIÓN [http-nio-8080-exec-9] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "maximumPoolSize" property
+30-Dec-2021 12:19:21.346 ADVERTENCIA [http-nio-8080-exec-9] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = pentaho-sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "5" for "maxActive" property, which is being ignored.
+30-Dec-2021 12:19:21.438 INFORMACIÓN [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+30-Dec-2021 12:19:30.171 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\User\Documents\Tomcat\apache-tomcat-WU\conf\Catalina\localhost\datos-generales-fielco.xml has finished in 12.931 ms
+30-Dec-2021 12:19:30.175 INFORMACIÓN [http-nio-8080-exec-8] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/datos-generales-fielco]] after start() had already been called. The second call will be ignored.
+30-Dec-2021 12:19:39.741 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\User\Documents\Tomcat\apache-tomcat-WU\conf\Catalina\localhost\cuentas-fielco.xml
+30-Dec-2021 12:19:42.739 ADVERTENCIA [http-nio-8080-exec-9] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = CNB-Sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "1" for "maxActive" property, which is being ignored.
+30-Dec-2021 12:19:42.740 INFORMACIÓN [http-nio-8080-exec-9] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "minimumIdle" property
+30-Dec-2021 12:19:42.740 INFORMACIÓN [http-nio-8080-exec-9] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "maximumPoolSize" property
+30-Dec-2021 12:19:42.740 ADVERTENCIA [http-nio-8080-exec-9] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = pentaho-sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "5" for "maxActive" property, which is being ignored.
+30-Dec-2021 12:19:42.792 INFORMACIÓN [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+30-Dec-2021 12:19:42.811 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\User\Documents\Tomcat\apache-tomcat-WU\conf\Catalina\localhost\cuentas-fielco.xml has finished in 3.069 ms
+30-Dec-2021 12:19:42.814 INFORMACIÓN [http-nio-8080-exec-7] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/cuentas-fielco]] after start() had already been called. The second call will be ignored.
+30-Dec-2021 12:21:12.193 INFORMACIÓN [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\User\Documents\Tomcat\apache-tomcat-WU\conf\Catalina\localhost\tarjetas-fielco.xml
+30-Dec-2021 12:21:17.167 ADVERTENCIA [http-nio-8080-exec-4] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = CNB-Sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "1" for "maxActive" property, which is being ignored.
+30-Dec-2021 12:21:17.168 INFORMACIÓN [http-nio-8080-exec-4] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "minimumIdle" property
+30-Dec-2021 12:21:17.168 INFORMACIÓN [http-nio-8080-exec-4] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "maximumPoolSize" property
+30-Dec-2021 12:21:17.168 ADVERTENCIA [http-nio-8080-exec-4] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = pentaho-sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "5" for "maxActive" property, which is being ignored.
+30-Dec-2021 12:21:17.282 INFORMACIÓN [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+30-Dec-2021 12:21:24.795 INFORMACIÓN [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\User\Documents\Tomcat\apache-tomcat-WU\conf\Catalina\localhost\tarjetas-fielco.xml has finished in 12.603 ms
+30-Dec-2021 12:21:24.808 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/tarjetas-fielco]] after start() had already been called. The second call will be ignored.
+30-Dec-2021 12:23:33.209 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\User\Documents\Tomcat\apache-tomcat-WU\conf\Catalina\localhost\fielcoauthapi.xml
+30-Dec-2021 12:23:34.802 ADVERTENCIA [http-nio-8080-exec-9] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = CNB-Sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "1" for "maxActive" property, which is being ignored.
+30-Dec-2021 12:23:34.803 INFORMACIÓN [http-nio-8080-exec-9] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "minimumIdle" property
+30-Dec-2021 12:23:34.803 INFORMACIÓN [http-nio-8080-exec-9] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "maximumPoolSize" property
+30-Dec-2021 12:23:34.804 ADVERTENCIA [http-nio-8080-exec-9] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = pentaho-sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "5" for "maxActive" property, which is being ignored.
+30-Dec-2021 12:23:34.828 INFORMACIÓN [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+30-Dec-2021 12:23:35.891 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\User\Documents\Tomcat\apache-tomcat-WU\conf\Catalina\localhost\fielcoauthapi.xml has finished in 2.682 ms
+30-Dec-2021 12:23:35.895 INFORMACIÓN [http-nio-8080-exec-4] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/fielcoauthapi]] after start() had already been called. The second call will be ignored.
+30-Dec-2021 15:45:00.811 INFORMACIÓN [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\User\Documents\Tomcat\apache-tomcat-WU\conf\Catalina\localhost\fielcowebapp.xml
+30-Dec-2021 15:45:03.505 ADVERTENCIA [http-nio-8080-exec-8] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = CNB-Sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "1" for "maxActive" property, which is being ignored.
+30-Dec-2021 15:45:03.506 INFORMACIÓN [http-nio-8080-exec-8] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "minimumIdle" property
+30-Dec-2021 15:45:03.507 INFORMACIÓN [http-nio-8080-exec-8] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "maximumPoolSize" property
+30-Dec-2021 15:45:03.507 ADVERTENCIA [http-nio-8080-exec-8] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = pentaho-sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "5" for "maxActive" property, which is being ignored.
+30-Dec-2021 15:45:03.581 INFORMACIÓN [http-nio-8080-exec-8] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+30-Dec-2021 15:45:07.088 INFORMACIÓN [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\User\Documents\Tomcat\apache-tomcat-WU\conf\Catalina\localhost\fielcowebapp.xml has finished in 6.277 ms
+30-Dec-2021 15:45:07.092 INFORMACIÓN [http-nio-8080-exec-2] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/fielcowebapp]] after start() had already been called. The second call will be ignored.
+30-Dec-2021 15:48:08.559 INFORMACIÓN [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\User\Documents\Tomcat\apache-tomcat-WU\conf\Catalina\localhost\miempresa-auth.xml
+30-Dec-2021 15:48:11.857 GRAVE [http-nio-8080-exec-3] org.apache.catalina.startup.ContextConfig.processAnnotationsJar No puedo procesar la entrada de Jar [module-info.class] desde el Jar [file:/C:/Users/User/Documents/Proyectos/miempresa-gateway/auth/target/miempresa-auth/WEB-INF/lib/lombok-1.18.10.jar] para las anotaciones
+ org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:54)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:174)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:83)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2053)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:2000)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1970)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1923)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1163)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5087)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:724)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:700)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:596)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:467)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1617)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1483)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:904)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:336)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:589)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:319)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:88)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+30-Dec-2021 15:48:12.909 ADVERTENCIA [http-nio-8080-exec-3] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = CNB-Sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "1" for "maxActive" property, which is being ignored.
+30-Dec-2021 15:48:12.909 INFORMACIÓN [http-nio-8080-exec-3] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "minimumIdle" property
+30-Dec-2021 15:48:12.909 INFORMACIÓN [http-nio-8080-exec-3] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "maximumPoolSize" property
+30-Dec-2021 15:48:12.910 ADVERTENCIA [http-nio-8080-exec-3] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = pentaho-sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "5" for "maxActive" property, which is being ignored.
+30-Dec-2021 15:48:12.979 INFORMACIÓN [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+30-Dec-2021 15:48:21.829 INFORMACIÓN [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\User\Documents\Tomcat\apache-tomcat-WU\conf\Catalina\localhost\miempresa-auth.xml has finished in 13.271 ms
+30-Dec-2021 15:48:21.832 INFORMACIÓN [http-nio-8080-exec-5] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/miempresa-auth]] after start() had already been called. The second call will be ignored.
+30-Dec-2021 15:49:00.859 INFORMACIÓN [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\User\Documents\Tomcat\apache-tomcat-WU\conf\Catalina\localhost\miempresa-cuentas.xml
+30-Dec-2021 15:49:03.325 GRAVE [http-nio-8080-exec-2] org.apache.catalina.startup.ContextConfig.processAnnotationsJar No puedo procesar la entrada de Jar [module-info.class] desde el Jar [file:/C:/Users/User/Documents/Proyectos/miempresa-gateway/cuentas/target/miempresa-cuentas%23%231.3.6/WEB-INF/lib/lombok-1.18.10.jar] para las anotaciones
+ org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:54)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:174)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:83)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2053)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:2000)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1970)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1923)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1163)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5087)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:724)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:700)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:596)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:467)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1617)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1483)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:904)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:336)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:589)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:319)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:88)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+30-Dec-2021 15:49:05.528 ADVERTENCIA [http-nio-8080-exec-2] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = CNB-Sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "1" for "maxActive" property, which is being ignored.
+30-Dec-2021 15:49:05.529 INFORMACIÓN [http-nio-8080-exec-2] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "minimumIdle" property
+30-Dec-2021 15:49:05.529 INFORMACIÓN [http-nio-8080-exec-2] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "maximumPoolSize" property
+30-Dec-2021 15:49:05.529 ADVERTENCIA [http-nio-8080-exec-2] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = pentaho-sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "5" for "maxActive" property, which is being ignored.
+30-Dec-2021 15:49:05.595 INFORMACIÓN [http-nio-8080-exec-2] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+30-Dec-2021 15:49:14.936 INFORMACIÓN [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\User\Documents\Tomcat\apache-tomcat-WU\conf\Catalina\localhost\miempresa-cuentas.xml has finished in 14.077 ms
+30-Dec-2021 15:49:14.940 INFORMACIÓN [http-nio-8080-exec-7] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/miempresa-cuentas]] after start() had already been called. The second call will be ignored.
+30-Dec-2021 15:50:07.283 INFORMACIÓN [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\User\Documents\Tomcat\apache-tomcat-WU\conf\Catalina\localhost\miempresa-empresas.xml
+30-Dec-2021 15:50:11.763 GRAVE [http-nio-8080-exec-3] org.apache.catalina.startup.ContextConfig.processAnnotationsJar No puedo procesar la entrada de Jar [module-info.class] desde el Jar [file:/C:/Users/User/Documents/Proyectos/miempresa-gateway/empresas/target/miempresa-empresas%23%231.3.6/WEB-INF/lib/lombok-1.18.10.jar] para las anotaciones
+ org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:54)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:174)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:83)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2053)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:2000)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1970)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1923)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1163)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5087)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:724)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:700)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:596)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:467)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1617)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1483)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:904)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:336)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:589)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:319)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:88)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+30-Dec-2021 15:50:13.710 ADVERTENCIA [http-nio-8080-exec-3] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = CNB-Sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "1" for "maxActive" property, which is being ignored.
+30-Dec-2021 15:50:13.710 INFORMACIÓN [http-nio-8080-exec-3] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "minimumIdle" property
+30-Dec-2021 15:50:13.710 INFORMACIÓN [http-nio-8080-exec-3] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = Solicitud Ignoring unknown property: value of "1" for "maximumPoolSize" property
+30-Dec-2021 15:50:13.710 ADVERTENCIA [http-nio-8080-exec-3] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = pentaho-sybase Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "5" for "maxActive" property, which is being ignored.
+30-Dec-2021 15:50:13.793 INFORMACIÓN [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+30-Dec-2021 15:50:21.628 INFORMACIÓN [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\User\Documents\Tomcat\apache-tomcat-WU\conf\Catalina\localhost\miempresa-empresas.xml has finished in 14.345 ms
+30-Dec-2021 15:50:21.631 INFORMACIÓN [http-nio-8080-exec-4] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/miempresa-empresas]] after start() had already been called. The second call will be ignored.
